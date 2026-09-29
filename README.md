@@ -5,12 +5,15 @@ checks out [BSData/wh40k-11e](https://github.com/BSData/wh40k-11e), copies its
 data files here, and applies `overlay/campaign.json` using `overlay/apply.py` (Python 3, standard library only).
 **Don't edit the root `.json` files by hand**, because the next sync overwrites them.
 
-## What the overlay adds (all 0 pts, no DP)
+## What the overlay adds (all 0 pts)
+
+A **Bork’an** detachment (0 DP) in the T'au Detachment list. Everything else
+only applies while it is selected:
 
 | Addition | Where it shows up in New Recruit |
 |---|---|
-| Sept Tenet: Superior Craftsmanship | Army rule on the force (next to For The Greater Good) |
-| Warlord Trait: Seeker of Perfection | Auto-selected under **Warlord** on whichever unit is your Warlord |
+| Sept Tenet: Superior Craftsmanship | Rule on the Bork’an detachment; +4" Range on every ranged weapon (annotated "Sept Tenet") |
+| Warlord Trait: Seeker of Perfection | Auto-selected under **Warlord** on whichever unit is your Warlord; AP improved by 1 on its ranged weapons |
 | Signature System: Overdrive Power Systems | Option on `Commander …` units. Max 1 per roster. Separate from the Enhancements slot |
 
 The game system shows up as **"Warhammer 40,000 11th Edition (Campaign)"**.
@@ -31,7 +34,7 @@ To test locally:
 python3 overlay/apply.py --upstream <path-to-wh40k-11e-checkout> --out <scratch-dir>
 ```
 
-If upstream changes the structure so a patch point disappears (the Warlord
-entry is gone, or no units are named `Commander …`), the workflow **fails instead of
+If upstream changes the structure so a patch point disappears (the Detachment
+group or Warlord entry is gone, or no units are named `Commander …`), the workflow **fails instead of
 publishing half-patched data**. GitHub emails you, and New Recruit keeps serving the
 last good version.

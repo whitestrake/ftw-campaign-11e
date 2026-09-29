@@ -75,10 +75,16 @@ def main():
     root = read_json(cat_path)
     cat = root.get("catalogue") or fail(f"{cfg['catalogueFile']} has no 'catalogue' root")
 
-    # 3a. Army-wide rules (shown on the force, like For The Greater Good).
-    cat["rules"] = replace_by_id(cat.get("rules", []), cfg["armyRules"])
+    # 3a. The Bork'an detachment (0 DP) that every campaign rule below is gated on.
+    det_group = next((g for g in cat.get("sharedSelectionEntryGroups", [])
+                      if g["id"] == cfg["detachmentGroupId"]), None)
+    if det_group is None:
+        fail(f"Detachment group {cfg['detachmentGroupId']} not found - upstream structure changed")
+    det_group["selectionEntries"] = replace_by_id(det_group.get("selectionEntries", []), [cfg["detachment"]])
+    print(f"Detachment '{cfg['detachment']['name']}' added to '{det_group['name']}'")
 
-    # 3a'. Sept Tenet stat changes: one modifier group on every root unit datasheet.
+    # 3a'. Sept Tenet stat changes: one modifier group on every root unit datasheet,
+    #      conditional on Bork'an being in the force.
     root_targets = {l["targetId"] for l in cat.get("entryLinks", [])}
     units = [e for e in cat.get("sharedSelectionEntries", []) if e["id"] in root_targets]
     if not units:
