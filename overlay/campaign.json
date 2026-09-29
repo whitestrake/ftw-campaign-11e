@@ -1,0 +1,66 @@
+{
+  "upstreamRepo": "BSData/wh40k-11e",
+  "gameSystemFile": "Warhammer 40,000.json",
+  "gameSystemNameSuffix": " (Campaign)",
+  "catalogueFile": "T'au Empire.json",
+
+  "warlordEntryId": "179c-d88a-d49b-48b9",
+  "commanderNamePattern": "^Commander ",
+
+  "armyRules": [
+    {
+      "name": "Sept Tenet: Superior Craftsmanship",
+      "id": "c4a1-5eed-0000-0001",
+      "hidden": false,
+      "description": "- Add 4\" to the Range characteristic of ranged weapons that models with this tenet are equipped with.\n- Each time a ranged attack is made with a weapon that has a Strength characteristic greater than the Toughness characteristic of a **VEHICLE** or **BATTLESUIT** unit with this tenet, subtract 2 from the Strength characteristic of that attack."
+    }
+  ],
+
+  "warlordTrait": {
+    "type": "upgrade",
+    "import": true,
+    "name": "Warlord Trait: Seeker of Perfection",
+    "id": "c4a1-5eed-0000-0010",
+    "hidden": false,
+    "constraints": [
+      { "id": "c4a1-5eed-0000-0011", "type": "max", "value": 1, "field": "selections", "scope": "roster", "shared": true, "includeChildSelections": true, "includeChildForces": true }
+    ],
+    "modifiers": [
+      {
+        "type": "set",
+        "field": "hidden",
+        "value": true,
+        "conditions": [
+          { "type": "lessThan", "value": 1, "field": "selections", "scope": "parent", "childId": "179c-d88a-d49b-48b9", "shared": true, "includeChildSelections": true }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "name": "Seeker of Perfection",
+        "id": "c4a1-5eed-0000-0012",
+        "hidden": false,
+        "description": "Each time this **WARLORD** makes a ranged attack:\n- Improve the Armour Penetration characteristic of that attack by 1.\n- An unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 3 mortal wounds per phase)."
+      }
+    ]
+  },
+
+  "signatureSystem": {
+    "type": "upgrade",
+    "import": true,
+    "name": "Signature System: Overdrive Power Systems",
+    "id": "c4a1-5eed-0000-0020",
+    "hidden": false,
+    "constraints": [
+      { "id": "c4a1-5eed-0000-0021", "type": "max", "value": 1, "field": "selections", "scope": "roster", "shared": true, "includeChildSelections": true, "includeChildForces": true }
+    ],
+    "rules": [
+      {
+        "name": "Overdrive Power Systems",
+        "id": "c4a1-5eed-0000-0022",
+        "hidden": false,
+        "description": "**COMMANDER** model only. Select up to two ranged weapons this model is equipped with. Each time the bearer makes a ranged attack with one of those weapons that targets a unit within half range, add 1 to that attack’s wound roll."
+      }
+    ]
+  }
+}

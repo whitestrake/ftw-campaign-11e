@@ -1,0 +1,45 @@
+name: Sync upstream + apply campaign overlay
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'   # every 4 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['overlay/**', '.github/workflows/sync.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout upstream BSData
+        uses: actions/checkout@v4
+        with:
+          repository: BSData/wh40k-11e
+          path: .upstream
+
+      - name: Apply overlay
+        run: python3 overlay/apply.py --upstream .upstream --out .
+
+      - name: Commit if changed
+        run: |
+          UP_SHA=$(git -C .upstream rev-parse --short HEAD)
+          rm -rf .upstream
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Sync BSData/wh40k-11e@${UP_SHA} + campaign overlay"
+            git push
+          fi
