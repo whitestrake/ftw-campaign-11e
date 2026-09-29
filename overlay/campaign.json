@@ -23,17 +23,8 @@
     "id": "c4a1-5eed-0000-0010",
     "hidden": false,
     "constraints": [
-      { "id": "c4a1-5eed-0000-0011", "type": "max", "value": 1, "field": "selections", "scope": "roster", "shared": true, "includeChildSelections": true, "includeChildForces": true }
-    ],
-    "modifiers": [
-      {
-        "type": "set",
-        "field": "hidden",
-        "value": true,
-        "conditions": [
-          { "type": "lessThan", "value": 1, "field": "selections", "scope": "parent", "childId": "179c-d88a-d49b-48b9", "shared": true, "includeChildSelections": true }
-        ]
-      }
+      { "id": "c4a1-5eed-0000-0011", "type": "min", "value": 1, "field": "selections", "scope": "parent", "shared": true },
+      { "id": "c4a1-5eed-0000-0013", "type": "max", "value": 1, "field": "selections", "scope": "parent", "shared": true }
     ],
     "rules": [
       {

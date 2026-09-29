@@ -25,18 +25,6 @@ def write_json(obj, path):
     Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def find_link_hosts(node, predicate):
-    """Yield every dict anywhere under node whose entryLinks contain a match."""
-    if isinstance(node, list):
-        for n in node:
-            yield from find_link_hosts(n, predicate)
-    elif isinstance(node, dict):
-        if any(predicate(link) for link in node.get("entryLinks", [])):
-            yield node
-        for v in node.values():
-            yield from find_link_hosts(v, predicate)
-
-
 def add_entry_link(host, target, link_id):
     links = [l for l in host.get("entryLinks", []) if l.get("targetId") != target["id"]]
     links.append({
@@ -94,15 +82,14 @@ def main():
     trait, sig = cfg["warlordTrait"], cfg["signatureSystem"]
     cat["sharedSelectionEntries"] = replace_by_id(cat.get("sharedSelectionEntries", []), [trait, sig])
 
-    # 3c. Warlord trait: link it beside every Warlord link, so "parent" in its visibility
-    #     condition is exactly the selection that holds the Warlord upgrade.
+    # 3c. Warlord trait: a required child of the Warlord upgrade itself, so ticking
+    #     Warlord on any unit auto-selects the trait.
     warlord_id = cfg["warlordEntryId"]
-    hosts = list(find_link_hosts(cat["sharedSelectionEntries"], lambda l: l.get("targetId") == warlord_id))
-    if not hosts:
-        fail(f"no Warlord links (targetId {warlord_id}) found - upstream structure changed")
-    for i, h in enumerate(hosts):
-        add_entry_link(h, trait, f"c4a1-5eed-1{i:03x}-0010")
-    print(f"Warlord trait linked on {len(hosts)} entries")
+    warlord = next((e for e in cat["sharedSelectionEntries"] if e["id"] == warlord_id), None)
+    if warlord is None:
+        fail(f"Warlord entry {warlord_id} not found - upstream structure changed")
+    add_entry_link(warlord, trait, "c4a1-5eed-1000-0010")
+    print(f"Warlord trait attached to '{warlord['name']}' ({warlord_id})")
 
     # 3d. Signature system: root-level Commander units only.
     root_targets = {l["targetId"] for l in cat.get("entryLinks", [])}
