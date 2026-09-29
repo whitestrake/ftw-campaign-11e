@@ -1649,6 +1649,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord Trait: Seeker of Perfection",
+            "id": "c4a1-5eed-1000-0010",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0010",
+            "type": "selectionEntry"
+          }
         ]
       },
       {
@@ -1950,14 +1960,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1000-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           },
           {
             "name": "Signature System: Overdrive Power Systems",
@@ -2653,14 +2655,6 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
-            "type": "selectionEntry"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1001-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
             "type": "selectionEntry"
           },
           {
@@ -3415,14 +3409,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1002-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           },
           {
             "name": "Signature System: Overdrive Power Systems",
@@ -4552,14 +4538,6 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1003-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
-          },
-          {
             "name": "Signature System: Overdrive Power Systems",
             "id": "c4a1-5eed-2003-0020",
             "hidden": false,
@@ -5596,14 +5574,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1004-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           },
           {
             "name": "Signature System: Overdrive Power Systems",
@@ -6669,14 +6639,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1005-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -7388,14 +7350,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1006-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -8129,14 +8083,6 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1007-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -8750,14 +8696,6 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1008-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -9215,14 +9153,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1009-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -9649,14 +9579,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100a-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoGroups": [
@@ -10581,14 +10503,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100b-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -11814,14 +11728,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100c-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -12783,14 +12689,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100d-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -14070,14 +13968,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100e-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -17052,14 +16942,6 @@
             "sortIndex": 3,
             "targetId": "fb59-21f2-a853-989e",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-100f-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -19615,14 +19497,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1010-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -20404,14 +20278,6 @@
             "sortIndex": 3,
             "targetId": "fb59-21f2-a853-989e",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1011-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -23515,14 +23381,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1012-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -25060,14 +24918,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1013-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -35795,14 +35645,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1014-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoGroups": [
@@ -50583,14 +50425,6 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1015-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -53075,14 +52909,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1016-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -54014,14 +53840,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1017-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -55143,14 +54961,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1018-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -56278,14 +56088,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1019-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -57084,14 +56886,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101a-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -57933,14 +57727,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101b-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -58725,14 +58511,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101c-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -63182,14 +62960,6 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101d-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -65248,14 +65018,6 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101e-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -66141,14 +65903,6 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-101f-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
-            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -66842,14 +66596,6 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
-            "type": "selectionEntry"
-          },
-          {
-            "name": "Warlord Trait: Seeker of Perfection",
-            "id": "c4a1-5eed-1020-0010",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0010",
             "type": "selectionEntry"
           }
         ],
@@ -67977,31 +67723,19 @@
         "constraints": [
           {
             "id": "c4a1-5eed-0000-0011",
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true
+          },
+          {
+            "id": "c4a1-5eed-0000-0013",
             "type": "max",
             "value": 1,
             "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": true
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "childId": "179c-d88a-d49b-48b9",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
+            "scope": "parent",
+            "shared": true
           }
         ],
         "rules": [
