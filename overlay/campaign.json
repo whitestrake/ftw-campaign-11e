@@ -45,12 +45,20 @@
         ]
       }
     ],
-    "rules": [
+    "profiles": [
       {
         "name": "Seeker of Perfection",
         "id": "c4a1-5eed-0000-0012",
         "hidden": false,
-        "description": "Each time this **WARLORD** makes a ranged attack:\n- Improve the Armour Penetration characteristic of that attack by 1.\n- An unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 3 mortal wounds per phase)."
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "Each time this **^^Warlord^^** makes a ranged attack:\n- Improve the Armour Penetration characteristic of that attack by 1.\n- An unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage (to a maximum of 3 mortal wounds per phase)."
+          }
+        ]
       }
     ]
   },
