@@ -2032,6 +2032,28 @@
                 "value": 6
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -2810,6 +2832,28 @@
                 "field": "9896-9419-16a1-92fc",
                 "type": "increment",
                 "value": 6
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -3757,6 +3801,28 @@
                 "field": "9896-9419-16a1-92fc",
                 "type": "increment",
                 "value": 6
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -4886,6 +4952,28 @@
                 "value": 6
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -5868,6 +5956,28 @@
                 "skipIfPresent": "Coldstar Commander",
                 "type": "append",
                 "value": "Coldstar Commander"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -6986,6 +7096,28 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -7683,6 +7815,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -8553,6 +8707,30 @@
               }
             ]
           }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -8755,6 +8933,28 @@
                 "field": "bef7-942a-1a23-59f8",
                 "type": "increment",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -9285,6 +9485,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "profiles": [
@@ -9739,6 +9961,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -10771,6 +11015,28 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -11998,6 +12264,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -13129,6 +13417,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -14346,6 +14656,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -15543,6 +15875,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -17252,6 +17606,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -18652,6 +19028,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -19706,6 +20104,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -20501,6 +20921,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -22628,6 +23070,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -23710,6 +24174,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -25303,6 +25789,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -25990,6 +26498,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -27211,6 +27741,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -28363,6 +28915,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -29536,6 +30110,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -30296,6 +30892,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -31192,6 +31810,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -32059,6 +32699,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -32762,6 +33424,30 @@
               }
             ]
           }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -33082,6 +33768,30 @@
               }
             ]
           }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -33385,6 +34095,30 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
+              }
+            ]
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -33882,6 +34616,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -35196,6 +35952,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -36060,6 +36838,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -37466,6 +38266,30 @@
               }
             ]
           }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -37936,6 +38760,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -38681,6 +39527,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -39536,6 +40404,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -40161,6 +41051,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -40928,6 +41840,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -42363,6 +43297,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -43484,6 +44440,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -44795,6 +45773,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -45632,6 +46632,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -46715,6 +47737,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -47342,6 +48386,28 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -48125,6 +49191,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -49122,6 +50210,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -49928,6 +51038,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -50600,6 +51732,28 @@
                 "field": "9896-9419-16a1-92fc",
                 "type": "increment",
                 "value": 6
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -51450,6 +52604,28 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -52180,6 +53356,30 @@
               }
             ]
           }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -52609,6 +53809,30 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -53258,6 +54482,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -54189,6 +55435,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -55310,6 +56578,28 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -56485,6 +57775,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -57288,6 +58600,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -58161,6 +59495,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -58777,6 +60133,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -59653,6 +61031,28 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "type": "set",
                 "value": "6+* / 5+*"
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -63263,6 +64663,28 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -65374,6 +66796,28 @@
                 "value": 6
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -66303,6 +67747,28 @@
                 "value": "6+* / 5+*"
               }
             ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -66696,6 +68162,28 @@
                 "field": "9896-9419-16a1-92fc",
                 "type": "increment",
                 "value": 6
+              }
+            ]
+          },
+          {
+            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Sept Tenet",
+                "type": "append",
+                "value": "Sept Tenet"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9896-9419-16a1-92fc",
+                "type": "increment",
+                "value": 4
               }
             ]
           }
@@ -67736,6 +69224,30 @@
             "field": "selections",
             "scope": "parent",
             "shared": true
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Seeker of Perfection: improve AP of the Warlord's ranged weapons by 1",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Seeker of Perfection",
+                "type": "append",
+                "value": "Seeker of Perfection"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "scope": "root-entry",
+                "field": "9ead-8a10-520-de15",
+                "type": "decrement",
+                "value": 1
+              }
+            ]
           }
         ],
         "rules": [
