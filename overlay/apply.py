@@ -83,18 +83,6 @@ def main():
     det_group["selectionEntries"] = replace_by_id(det_group.get("selectionEntries", []), [cfg["detachment"]])
     print(f"Detachment '{cfg['detachment']['name']}' added to '{det_group['name']}'")
 
-    # 3a'. Sept Tenet stat changes: one modifier group on every root unit datasheet,
-    #      conditional on Bork'an being in the force.
-    root_targets = {l["targetId"] for l in cat.get("entryLinks", [])}
-    units = [e for e in cat.get("sharedSelectionEntries", []) if e["id"] in root_targets]
-    if not units:
-        fail("no root unit entries found - upstream structure changed")
-    group = cfg["unitModifierGroup"]
-    for u in units:
-        u["modifierGroups"] = [g for g in u.get("modifierGroups", [])
-                               if g.get("comment") != group["comment"]] + [group]
-    print(f"Sept Tenet profile modifiers added to {len(units)} units")
-
     # 3b. Shared entries for the trait and signature system.
     trait, sig = cfg["warlordTrait"], cfg["signatureSystem"]
     cat["sharedSelectionEntries"] = replace_by_id(cat.get("sharedSelectionEntries", []), [trait, sig])
@@ -109,6 +97,7 @@ def main():
     print(f"Warlord trait attached to '{warlord['name']}' ({warlord_id})")
 
     # 3d. Signature system: root-level Commander units only.
+    root_targets = {l["targetId"] for l in cat.get("entryLinks", [])}
     pattern = re.compile(cfg["commanderNamePattern"])
     commanders = [e for e in cat["sharedSelectionEntries"]
                   if e["id"] in root_targets and pattern.search(e.get("name", ""))]

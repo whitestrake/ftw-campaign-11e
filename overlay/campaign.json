@@ -25,6 +25,15 @@
     ],
     "modifiers": [
       {
+        "comment": "Sept Tenet: +4\" Range on every ranged weapon in the army, applied once (same roster-wide pattern as Astra Militarum's Morale options)",
+        "affects": "self.entries.forces.recursive.profiles.Ranged Weapons", "scope": "roster",
+        "field": "annotation", "join": ", ", "skipIfPresent": "Sept Tenet", "type": "append", "value": "Sept Tenet"
+      },
+      {
+        "affects": "self.entries.forces.recursive.profiles.Ranged Weapons", "scope": "roster",
+        "field": "9896-9419-16a1-92fc", "type": "increment", "value": 4
+      },
+      {
         "comment": "Hidden in Boarding Actions, like the official detachments",
         "field": "hidden", "type": "set", "value": true,
         "conditions": [
@@ -39,18 +48,6 @@
         "hidden": false,
         "description": "*The cadres of Bork’an Sept epitomise the T’au application of technological supremacy as the solution to every challenge. The fearless progressives of their Earth Caste experiment and refine constantly to ensure that, when the armies of Bork’an march to war, they are armed and armoured with the highest specification wargear in the T’au Empire.*\n\n*From Bork’an Sept’s renowned applied science divisions come the most advanced and ingenious weapon prototypes, and the finest suits of combat armour, field tested by elite contingents of Fire Caste soldiers.*\n\n- Add 4\" to the Range characteristic of ranged weapons that models with this tenet are equipped with.\n- Each time a ranged attack is made with a weapon that has a Strength characteristic greater than the Toughness characteristic of a **VEHICLE** or **BATTLESUIT** unit with this tenet, subtract 2 from the Strength characteristic of that attack."
       }
-    ]
-  },
-
-  "unitModifierGroup": {
-    "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
-    "type": "and",
-    "conditions": [
-      { "childId": "c4a1-5eed-0000-0030", "field": "selections", "includeChildForces": true, "includeChildSelections": true, "scope": "force", "shared": true, "type": "greaterThan", "value": 0 }
-    ],
-    "modifiers": [
-      { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "annotation", "join": ", ", "skipIfPresent": "Sept Tenet", "type": "append", "value": "Sept Tenet" },
-      { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "9896-9419-16a1-92fc", "type": "increment", "value": 4 }
     ]
   },
 
@@ -82,11 +79,11 @@
     ],
     "modifierGroups": [
       {
-        "comment": "Seeker of Perfection: improve AP of the Warlord's ranged weapons by 1",
+        "comment": "Seeker of Perfection: improve AP of the Warlord model's own ranged weapons by 1. model-self keeps it off an attached bodyguard unit (same scope as Aeldari's Master Artisan)",
         "type": "and",
         "modifiers": [
-          { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "annotation", "join": ", ", "skipIfPresent": "Seeker of Perfection", "type": "append", "value": "Seeker of Perfection" },
-          { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "9ead-8a10-520-de15", "type": "decrement", "value": 1 }
+          { "affects": "self.entries.recursive.profiles.Ranged Weapons", "scope": "model-self", "field": "annotation", "join": ", ", "skipIfPresent": "Seeker of Perfection", "type": "append", "value": "Seeker of Perfection" },
+          { "affects": "self.entries.recursive.profiles.Ranged Weapons", "scope": "model-self", "field": "9ead-8a10-520-de15", "type": "decrement", "value": 1 }
         ]
       }
     ],
