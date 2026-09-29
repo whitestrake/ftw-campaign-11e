@@ -72,12 +72,20 @@
     "constraints": [
       { "id": "c4a1-5eed-0000-0021", "type": "max", "value": 1, "field": "selections", "scope": "roster", "shared": true, "includeChildSelections": true, "includeChildForces": true }
     ],
-    "rules": [
+    "profiles": [
       {
         "name": "Overdrive Power Systems",
         "id": "c4a1-5eed-0000-0022",
         "hidden": false,
-        "description": "**COMMANDER** model only. Select up to two ranged weapons this model is equipped with. Each time the bearer makes a ranged attack with one of those weapons that targets a unit within half range, add 1 to that attack’s wound roll."
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "**^^Commander^^** model only. Select up to two ranged weapons this model is equipped with. Each time the bearer makes a ranged attack with one of those weapons that targets a unit within half range, add 1 to that attack’s wound roll."
+          }
+        ]
       }
     ]
   }
