@@ -16,6 +16,15 @@
     }
   ],
 
+  "unitModifierGroup": {
+    "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+    "type": "and",
+    "modifiers": [
+      { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "annotation", "join": ", ", "skipIfPresent": "Sept Tenet", "type": "append", "value": "Sept Tenet" },
+      { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "9896-9419-16a1-92fc", "type": "increment", "value": 4 }
+    ]
+  },
+
   "warlordTrait": {
     "type": "upgrade",
     "import": true,
@@ -25,6 +34,16 @@
     "constraints": [
       { "id": "c4a1-5eed-0000-0011", "type": "min", "value": 1, "field": "selections", "scope": "parent", "shared": true },
       { "id": "c4a1-5eed-0000-0013", "type": "max", "value": 1, "field": "selections", "scope": "parent", "shared": true }
+    ],
+    "modifierGroups": [
+      {
+        "comment": "Seeker of Perfection: improve AP of the Warlord's ranged weapons by 1",
+        "type": "and",
+        "modifiers": [
+          { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "annotation", "join": ", ", "skipIfPresent": "Seeker of Perfection", "type": "append", "value": "Seeker of Perfection" },
+          { "affects": "self.entries.group.recursive.profiles.Ranged Weapons", "scope": "root-entry", "field": "9ead-8a10-520-de15", "type": "decrement", "value": 1 }
+        ]
+      }
     ],
     "rules": [
       {
