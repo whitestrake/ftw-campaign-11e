@@ -1343,12 +1343,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Sept Tenet: Superior Craftsmanship",
-        "id": "c4a1-5eed-0000-0001",
-        "hidden": false,
-        "description": "- Add 4\" to the Range characteristic of ranged weapons that models with this tenet are equipped with.\n- Each time a ranged attack is made with a weapon that has a Strength characteristic greater than the Toughness characteristic of a **VEHICLE** or **BATTLESUIT** unit with this tenet, subtract 2 from the Strength characteristic of that attack."
       }
     ],
     "sharedProfiles": [
@@ -2034,8 +2028,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -2836,8 +2842,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -3805,8 +3823,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -4954,8 +4984,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -5960,8 +6002,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -7098,8 +7152,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -7819,8 +7885,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -8710,8 +8788,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -8937,8 +9027,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -9487,8 +9589,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -9965,8 +10079,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -11019,8 +11145,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -12266,8 +12404,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -13421,8 +13571,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -14658,8 +14820,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -15879,8 +16053,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -17608,8 +17794,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -19030,8 +19228,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -20106,8 +20316,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -20925,8 +21147,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -23072,8 +23306,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -24178,8 +24424,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -25791,8 +26049,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -26502,8 +26772,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -27743,8 +28025,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -28919,8 +29213,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -30112,8 +30418,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -30896,8 +31214,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -31812,8 +32142,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -32701,8 +33043,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -33427,8 +33781,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -33771,8 +34137,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -34101,8 +34479,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -34620,8 +35010,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -35954,8 +36356,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -36842,8 +37256,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -38269,8 +38695,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -38764,8 +39202,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -39531,8 +39981,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -40406,8 +40868,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -41055,8 +41529,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -41844,8 +42330,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -43299,8 +43797,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -44444,8 +44954,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -45775,8 +46297,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -46636,8 +47170,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -47739,8 +48285,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -48390,8 +48948,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -49195,8 +49765,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -50212,8 +50794,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -51040,8 +51634,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -51736,8 +52342,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -52606,8 +53224,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -53359,8 +53989,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -53815,8 +54457,20 @@
         ],
         "modifierGroups": [
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -54486,8 +55140,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -55439,8 +56105,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -56582,8 +57260,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -57777,8 +58467,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -58604,8 +59306,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -59497,8 +60211,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -60137,8 +60863,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -61035,8 +61773,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -64665,8 +65415,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -66798,8 +67560,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -67749,8 +68523,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -68166,8 +68952,20 @@
             ]
           },
           {
-            "comment": "Campaign Sept Tenet: +4\" Range on all ranged weapons",
+            "comment": "Bork’an Sept Tenet: +4\" Range on all ranged weapons",
             "type": "and",
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -69212,7 +70010,7 @@
           {
             "id": "c4a1-5eed-0000-0011",
             "type": "min",
-            "value": 1,
+            "value": 0,
             "field": "selections",
             "scope": "parent",
             "shared": true
@@ -69224,6 +70022,44 @@
             "field": "selections",
             "scope": "parent",
             "shared": true
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Auto-select under Warlord when Bork’an is taken",
+            "field": "c4a1-5eed-0000-0011",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "comment": "Hidden without Bork’an",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -69283,6 +70119,26 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden without Bork’an",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -74869,6 +75725,63 @@
                 "id": "8502-1f5c-bb6f-412c",
                 "description": "In your Shooting phase, when a friendly **PATHFINDER TEAM/STEALTH BATTLESUITS** unit is **selected to shoot**, those ranged attacks do not prevent your unit from being **hidden**.",
                 "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Bork’an",
+            "id": "c4a1-5eed-0000-0030",
+            "import": true,
+            "type": "upgrade",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-0000-0031",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Hidden in Boarding Actions, like the official detachments",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Sept Tenet: Superior Craftsmanship",
+                "id": "c4a1-5eed-0000-0001",
+                "hidden": false,
+                "description": "*The cadres of Bork’an Sept epitomise the T’au application of technological supremacy as the solution to every challenge. The fearless progressives of their Earth Caste experiment and refine constantly to ensure that, when the armies of Bork’an march to war, they are armed and armoured with the highest specification wargear in the T’au Empire.*\n\n*From Bork’an Sept’s renowned applied science divisions come the most advanced and ingenious weapon prototypes, and the finest suits of combat armour, field tested by elite contingents of Fire Caste soldiers.*\n\n- Add 4\" to the Range characteristic of ranged weapons that models with this tenet are equipped with.\n- Each time a ranged attack is made with a weapon that has a Strength characteristic greater than the Toughness characteristic of a **VEHICLE** or **BATTLESUIT** unit with this tenet, subtract 2 from the Strength characteristic of that attack."
               }
             ]
           }
