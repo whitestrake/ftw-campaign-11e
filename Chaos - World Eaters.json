@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 12,
+    "revision": 14,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -5172,7 +5172,7 @@
         ],
         "modifiers": [
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -5485,7 +5485,7 @@
         ],
         "modifiers": [
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -5724,7 +5724,7 @@
         ],
         "modifiers": [
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -6189,7 +6189,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -6624,7 +6624,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -7086,7 +7086,7 @@
           },
           {"affects": "self.entries.recursive.associations.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "type": "set", "value": "10\""},
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -7550,7 +7550,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -8008,7 +8008,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -9098,7 +9098,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -11007,7 +11007,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -12262,7 +12262,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -12744,7 +12744,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -13186,7 +13186,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -13848,7 +13848,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -14512,7 +14512,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -15048,7 +15048,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -15770,7 +15770,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -16420,7 +16420,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -17385,7 +17385,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -18336,7 +18336,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -18718,7 +18718,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -19099,7 +19099,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -19581,10 +19581,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Purge the Foe", "id": "8c22-eff2-1e34-87f1", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"},
-                  {"name": "3DP Detachment", "id": "8b62-5073-0682-f151", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
-                ],
+                "categoryLinks": [{"name": "Purge the Foe", "id": "8c22-eff2-1e34-87f1", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
                 "constraints": [{"id": "008c-738d-aa2c-597e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [
                   {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -19593,7 +19590,8 @@
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
                   {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
                   {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 3}
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
                 ],
                 "rules": [{"name": "Relentless Rage", "id": "5fc9-9ee8-8657-65b6", "description": "Friendly WORLD EATERS units’ melee attacks have +1 A.", "hidden": false}]
               },
@@ -20226,7 +20224,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -20601,7 +20599,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -20985,7 +20983,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -21633,7 +21631,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -23011,27 +23009,6 @@
           }
         ],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
-        "modifiers": [
-          {
-            "affects": "self.entries.profiles.Melee Weapons",
-            "comment": "Relentless Rage",
-            "field": "2337-daa1-6682-b110",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "3490-ec82-70b3-c5cf",
-                "childName": "Berzerker Warband",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ],
         "profiles": [
           {
             "name": "Hellblade",
@@ -24238,7 +24215,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",
@@ -24663,7 +24640,7 @@
             ]
           },
           {
-            "affects": "self.entries.profiles.Melee Weapons",
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
             "comment": "Relentless Rage",
             "field": "2337-daa1-6682-b110",
             "type": "increment",

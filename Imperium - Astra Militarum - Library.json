@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 3,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -3577,7 +3577,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 30,
             "conditionGroups": [
               {
                 "type": "and",
@@ -3589,7 +3589,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "bf53-4ab3-ff75-9aa0", "childName": "Basilisk", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -4027,7 +4027,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 15,
+            "value": 30,
             "conditionGroups": [
               {
                 "type": "and",
@@ -4039,7 +4039,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "37ad-63e5-1786-87cf", "childName": "Bullgryn Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -9705,7 +9705,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 20,
             "conditionGroups": [
               {
                 "type": "and",
@@ -9717,7 +9717,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "e19f-b9b8-75d5-8520", "childName": "Deathstrike", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -10622,7 +10622,7 @@
                 "type": "model",
                 "constraints": [{"id": "2ac4-3fc4-08ca-c7e4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -10693,6 +10693,18 @@
                     "constraints": [
                       {"id": "efd2-c6ef-cd98-dc34", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "66d5-029e-858c-4a34", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                      {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                      {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                      {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                      {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                      {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                      {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                      {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+                      {"name": "Logistics Points", "typeId": "04b1-67f7-48cb-4f1f", "value": 0},
+                      {"name": "Commendation Points", "typeId": "e969-59de-fdb7-7c4e", "value": 0}
                     ],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "2ee0-3a31-3739-f57c", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -12395,11 +12407,16 @@
           {"id": "3469-a8f0-6bb6-d7db", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 125},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0}
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Logistics Points", "typeId": "04b1-67f7-48cb-4f1f", "value": 0},
+          {"name": "Commendation Points", "typeId": "e969-59de-fdb7-7c4e", "value": 0}
         ],
         "entryLinks": [
           {
@@ -16658,12 +16675,14 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 130},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
           {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
           {"name": "Logistics Points", "typeId": "04b1-67f7-48cb-4f1f", "value": 0},
           {"name": "Commendation Points", "typeId": "e969-59de-fdb7-7c4e", "value": 0}
         ],
@@ -17059,7 +17078,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 30,
             "conditionGroups": [
               {
                 "type": "and",
@@ -17071,7 +17090,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "41be-48c9-5476-f47a", "childName": "Manticore", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -27755,7 +27774,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 30,
             "conditionGroups": [
               {
                 "type": "and",
@@ -27767,7 +27786,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "d11b-c49d-41bf-1f36", "childName": "Wyvern", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -49311,8 +49330,7 @@
           {"name": "Squadron", "id": "f4b5-1a94-f019-18c1", "primary": false, "targetId": "4780-be29-8c52-1d20"},
           {"name": "Smoke", "id": "65fb-9af4-8bda-c04b", "primary": false, "targetId": "6df-937-16bc-8c1a"},
           {"name": "Sentinel Powerlifter", "id": "ae4-8d1d-5303-676b", "primary": false, "targetId": "e78-7bc6-3dc5-8e37"},
-          {"name": "Faction: Astra Militarum", "id": "7313-e41-6110-37a9", "primary": false, "targetId": "fa45-57e-930e-602b"},
-          {"name": "Frame", "id": "d380-b196-6b23-9430", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
+          {"name": "Faction: Astra Militarum", "id": "7313-e41-6110-37a9", "primary": false, "targetId": "fa45-57e-930e-602b"}
         ],
         "constraints": [
           {"id": "fba8-d23e-ba1a-6bee", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -56597,7 +56615,7 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 75},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 70},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -60708,7 +60726,7 @@
                 "type": "model",
                 "constraints": [{"id": "1e8a-ff7a-8904-ddfc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -60758,6 +60776,18 @@
                     "constraints": [
                       {"id": "8bcd-93a1-66a5-b352", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "df2c-6bde-a407-a41b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5},
+                      {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                      {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                      {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                      {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                      {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                      {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                      {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+                      {"name": "Logistics Points", "typeId": "04b1-67f7-48cb-4f1f", "value": 0},
+                      {"name": "Commendation Points", "typeId": "e969-59de-fdb7-7c4e", "value": 0}
                     ],
                     "infoLinks": [
                       {"name": "Ignores Cover", "id": "36f9-9c11-138e-2b44", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
@@ -64298,7 +64328,7 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 110},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -64626,7 +64656,8 @@
           {"name": "Vehicle", "id": "7356-b561-0546-625b", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
           {"name": "Squadron", "id": "5268-628a-8b7b-5f21", "hidden": false, "primary": false, "targetId": "4780-be29-8c52-1d20"},
           {"name": "Commissar Graves", "id": "9540-aec9-b62d-059f", "hidden": false, "primary": false, "targetId": "b207-2651-7723-66ef"},
-          {"name": "Character", "id": "2503-8bf3-68f4-4dcc", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"}
+          {"name": "Character", "id": "2503-8bf3-68f4-4dcc", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Frame", "id": "0a07-6e7c-b83e-881d", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {
@@ -65019,7 +65050,8 @@
           {"name": "Commissar Graves", "id": "5d14-facc-b022-dcfe", "hidden": false, "primary": false, "targetId": "b207-2651-7723-66ef"},
           {"name": "Character", "id": "7471-b8ef-dd84-6421", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "3872-6880-372b-1cd0", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Leader", "id": "70fa-94c1-79c1-e1ef", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "70fa-94c1-79c1-e1ef", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Officer", "id": "0c60-09b5-8b42-2c89", "hidden": false, "primary": false, "targetId": "e4d8-c6a1-7c23-ae25"}
         ],
         "constraints": [
           {
@@ -65279,7 +65311,8 @@
           {"name": "Vehicle", "id": "b7ef-7720-2cfa-03b9", "primary": true, "targetId": "dbd4-63-af05-998"},
           {"name": "Squadron", "id": "d277-ea7e-cb69-3e12", "primary": false, "targetId": "4780-be29-8c52-1d20"},
           {"name": "Smoke", "id": "3dd1-1397-a3f1-279c", "hidden": false, "primary": false, "targetId": "6df-937-16bc-8c1a"},
-          {"name": "Hippogriff AFV", "id": "0b66-6f0c-2a22-a111", "hidden": false, "primary": false, "targetId": "c849-8bc8-df52-bb5c"}
+          {"name": "Hippogriff AFV", "id": "0b66-6f0c-2a22-a111", "hidden": false, "primary": false, "targetId": "c849-8bc8-df52-bb5c"},
+          {"name": "Frame", "id": "1fa7-d5b5-1106-655b", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {"id": "e65f-af9a-3a6f-c37a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -65830,7 +65863,8 @@
           {"name": "Vehicle", "id": "877f-592f-6e59-6547", "primary": false, "targetId": "dbd4-63-af05-998"},
           {"name": "Centaur RSV", "id": "6999-e231-ced7-98f8", "hidden": false, "primary": false, "targetId": "182e-9752-56ae-cd7d"},
           {"name": "Dedicated Transport", "id": "63d9-f733-0ff3-fafc", "hidden": false, "primary": true, "targetId": "ba07-411c-2832-1f79"},
-          {"name": "Transport", "id": "e237-c203-f845-c1f6", "hidden": false, "primary": false, "targetId": "75e8-57c4-40e3-1817"}
+          {"name": "Transport", "id": "e237-c203-f845-c1f6", "hidden": false, "primary": false, "targetId": "75e8-57c4-40e3-1817"},
+          {"name": "Frame", "id": "8421-5049-dcb3-aa56", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
         ],
         "constraints": [
           {"id": "2496-29b2-80b7-6a84", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -67762,7 +67796,8 @@
             "categoryLinks": [
               {"name": "Abhuman", "id": "bc58-b9f3-783b-3c22", "hidden": false, "primary": false, "targetId": "7873-27c9-fb42-f020"},
               {"name": "Priority Assets", "id": "d729-3786-9b50-ac0e", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"},
-              {"name": "3DP Detachment", "id": "9250-7f0e-30d0-ff4e", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
+              {"name": "3DP Detachment", "id": "9250-7f0e-30d0-ff4e", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
+              {"name": "Purge the Foe", "id": "02bf-b418-2f71-34ab", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}
             ],
             "constraints": [{"id": "2a32-32ab-6104-6d56", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
