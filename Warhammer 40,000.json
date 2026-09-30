@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 14,
+    "revision": 15,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -2097,7 +2097,7 @@
         "name": "Army Roster",
         "id": "bb9d-299a-ed60-2d8a",
         "hidden": false,
-        "readme": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
+        "readme": "**DO NOT REPORT ANY ISSUES REGARDING MFM v1.5 UNTIL THIS SENTENCE IS REMOVED FROM THE README**\n\nWe _know_ things have changed; you don't need to tell us. We will get to the changes as soon as we can. Marines will definitely not be updated until their Codex changes are in the data.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
         "categoryLinks": [
           {
             "name": "Configuration",
@@ -3149,7 +3149,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "**DO NOT REPORT ANY ISSUES REGARDING MFM v1.5 UNTIL THIS SENTENCE IS REMOVED FROM THE README**\n\nWe _know_ things have changed; you don't need to tell us. We will get to the changes as soon as we can. Marines will definitely not be updated until their Codex changes are in the data.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -3166,7 +3166,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "**DO NOT REPORT ANY ISSUES REGARDING MFM v1.5 UNTIL THIS SENTENCE IS REMOVED FROM THE README**\n\nWe _know_ things have changed; you don't need to tell us. We will get to the changes as soon as we can. Marines will definitely not be updated until their Codex changes are in the data.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
