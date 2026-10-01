@@ -17,7 +17,7 @@ only applies while it is selected:
 | Sept Tenet: Superior Craftsmanship | Rule on the Bork’an detachment; +4" Range on every ranged weapon (annotated "Sept Tenet") |
 | Warlord Trait: Seeker of Perfection | Auto-selected under **Warlord** on whichever unit is your Warlord; AP improved by 1 on its ranged weapons |
 | Plasma Accelerator Rifle on Farsight (campaign ruling) | Farsight's High-intensity plasma rifle counts as a plasma rifle for the Experimental Prototype Cadre weapon upgrades, and those upgrades no longer exclude Epic Heroes, so they work from a Campaign Enhancement Slot. This one isn't gated on Bork’an |
-| Signature System: Overdrive Power Systems | Option on `Commander …` units. Max 1 per roster. Separate from the Enhancements slot |
+| Signature System: Overdrive Power Systems | Option on `Commander …` units. Max 1 per roster. Separate from the Enhancements slot. Under it, choose up to two equipped ranged weapons. Each choice adds **Overdrive** to that weapon's keywords, and the Overdrive rule appears in the model's rules. Two copies of the same weapon use both choices |
 
 ## Campaign purchases (every faction)
 

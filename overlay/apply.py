@@ -126,6 +126,75 @@ def relax_hidden_modifiers(element, slot_ids):
                 relax_conditions(m, "and", polarity(m), slot_ids)
 
 
+def add_overdrive_choices(cat, commanders, sig, od):
+    """'Overdrive: <weapon>' choices under the signature system, one per ranged weapon a
+    Commander can carry, each shown only while that weapon is equipped. Choosing one adds
+    the OVERDRIVE keyword to that weapon, via a modifier on the weapon entry itself."""
+    shared = {e["id"]: e for e in cat.get("sharedSelectionEntries", [])}
+
+    def ranged_weapons(node, acc):
+        for e in node.get("selectionEntries", []):
+            weapon(e, acc)
+        for l in node.get("entryLinks", []):
+            if l.get("type") == "selectionEntry" and l["targetId"] in shared:
+                weapon(shared[l["targetId"]], acc)
+        for g in node.get("selectionEntryGroups", []):
+            ranged_weapons(g, acc)
+        return acc
+
+    def weapon(e, acc):
+        if any(p.get("typeId") == od["rangedProfileTypeId"] for p in e.get("profiles", [])):
+            acc.setdefault(e["id"], e)
+        elif e.get("type") != "model":   # another model's weapons (e.g. drones) aren't the bearer's
+            ranged_weapons(e, acc)
+
+    weapons = {}
+    for c in commanders:
+        found = ranged_weapons(c, {})
+        if not found:
+            fail(f"no ranged weapons found on '{c['name']}' - upstream structure changed")
+        weapons.update(found)
+
+    choices = []
+    for wid, w in sorted(weapons.items(), key=lambda kv: kv[1]["name"]):
+        oid = derived_id("overdrive", wid)
+        min_id = derived_id(oid, "min")
+        carried = {"childId": wid, "field": "selections", "includeChildSelections": True,
+                   "scope": "root-entry", "shared": True}
+        choices.append({
+            "type": "upgrade", "import": True, "name": f"{od['keyword']}: {w['name']}", "id": oid, "hidden": False,
+            "constraints": [
+                {"id": derived_id(oid, "max"), "field": "selections", "scope": "parent", "shared": True,
+                 "type": "max", "value": od["maxWeapons"]},
+                {"id": min_id, "field": "selections", "scope": "parent", "shared": True, "type": "min", "value": 0,
+                 "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."},
+            ],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "modifiers": [
+                {"field": "hidden", "type": "set", "value": True,
+                 "conditions": [dict(carried, type="lessThan", value=1)]},
+                {"comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                 "field": min_id, "type": "increment", "value": 1,
+                 "repeats": [dict(carried, repeats=1, roundUp=False, value=1)],
+                 "conditions": [{"childId": oid, "field": "selections", "scope": "parent", "shared": True,
+                                 "type": "atLeast", "value": 1}]},
+            ],
+        })
+        w["modifiers"] = [m for m in w.get("modifiers", []) if m.get("value") != od["keyword"]] + [{
+            "affects": "profiles.Ranged Weapons", "field": od["keywordsCharacteristicId"], "join": ", ",
+            "type": "append", "value": od["keyword"],
+            "conditions": [{"childId": oid, "field": "selections", "includeChildSelections": True,
+                            "scope": "root-entry", "shared": True, "type": "atLeast", "value": 1}],
+        }]
+    sig["selectionEntryGroups"] = [{
+        "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0024", "hidden": False, "collapsible": False,
+        "constraints": [{"id": "c4a1-5eed-0000-0025", "field": "selections", "includeChildSelections": True,
+                         "scope": "self", "shared": True, "type": "max", "value": od["maxWeapons"]}],
+        "selectionEntries": choices,
+    }]
+    print("Overdrive choices: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
+
+
 def apply_campaign_purchases(out, gst_path, cp):
     """Hardened Wargear and the Bonus Enhancement Slot, on every faction's characters."""
     char_cat, enh_cost = cp["characterCategoryId"], cp["enhancementCostTypeId"]
@@ -343,6 +412,7 @@ def main():
     for i, c in enumerate(commanders):
         add_entry_link(c, sig, f"c4a1-5eed-2{i:03x}-0020")
     print("Signature system linked on: " + ", ".join(c["name"] for c in commanders))
+    add_overdrive_choices(cat, commanders, sig, cfg["overdrive"])
 
     # 3e. Experimental Prototype Cadre weapon upgrades on Farsight's rifle (campaign ruling).
     xp = cfg["experimentalPrototype"]

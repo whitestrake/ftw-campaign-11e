@@ -7,6 +7,13 @@
   "detachmentGroupId": "635f-4f21-95c7-35e7",
   "warlordEntryId": "179c-d88a-d49b-48b9",
   "commanderNamePattern": "^Commander ",
+  "overdrive": {
+    "_comment": "apply.py adds an 'Overdrive: <weapon>' choice under the signature system for every ranged weapon a Commander can carry. Choosing it adds OVERDRIVE to that weapon's keywords",
+    "keyword": "Overdrive",
+    "maxWeapons": 2,
+    "rangedProfileTypeId": "f77d-b953-8fa4-b762",
+    "keywordsCharacteristicId": "7f1b-8591-2fcf-d01c"
+  },
 
   "experimentalPrototype": {
     "_comment": "Campaign ruling: Plasma Accelerator Rifle may boost Farsight's High-intensity plasma rifle. Give that weapon the plasma rifle category and Weapon Upgrades hook, and drop the Epic Hero check from the prototype weapon upgrades (they already need the matching enhancement on the model, which an Epic Hero can only get via a Campaign Enhancement Slot)",
@@ -146,6 +153,14 @@
             "$text": "**^^Commander^^** model only. Select up to two ranged weapons this model is equipped with. Each time the bearer makes a ranged attack with one of those weapons that targets a unit within half range, add 1 to that attack’s wound roll."
           }
         ]
+      }
+    ],
+    "rules": [
+      {
+        "name": "Overdrive",
+        "id": "c4a1-5eed-0000-0023",
+        "hidden": false,
+        "description": "Each time the bearer makes a ranged attack with an **[OVERDRIVE]** weapon that targets a unit within half range, add 1 to that attack’s wound roll."
       }
     ]
   },
