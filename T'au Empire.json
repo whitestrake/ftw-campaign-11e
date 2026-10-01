@@ -1956,14 +1956,6 @@
             ]
           },
           {
-            "name": "Signature System: Overdrive Power Systems",
-            "id": "c4a1-5eed-2000-0020",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0020",
-            "type": "selectionEntry"
-          },
-          {
             "name": "Hardened Wargear: Toughness",
             "id": "c4a1-d8f0-7c92-f3f0",
             "hidden": false,
@@ -2733,14 +2725,6 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
-            "type": "selectionEntry"
-          },
-          {
-            "name": "Signature System: Overdrive Power Systems",
-            "id": "c4a1-5eed-2001-0020",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0020",
             "type": "selectionEntry"
           },
           {
@@ -3570,14 +3554,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Signature System: Overdrive Power Systems",
-            "id": "c4a1-5eed-2002-0020",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0020",
-            "type": "selectionEntry"
           },
           {
             "name": "Hardened Wargear: Toughness",
@@ -4723,14 +4699,6 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Signature System: Overdrive Power Systems",
-            "id": "c4a1-5eed-2003-0020",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0020",
-            "type": "selectionEntry"
-          },
-          {
             "name": "Hardened Wargear: Toughness",
             "id": "c4a1-97d5-63bb-e06b",
             "hidden": false,
@@ -5783,14 +5751,6 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Signature System: Overdrive Power Systems",
-            "id": "c4a1-5eed-2004-0020",
-            "hidden": false,
-            "import": true,
-            "targetId": "c4a1-5eed-0000-0020",
-            "type": "selectionEntry"
           },
           {
             "name": "Hardened Wargear: Toughness",
@@ -68638,6 +68598,18 @@
         "name": "Signature System: Overdrive Power Systems",
         "id": "c4a1-5eed-0000-0020",
         "hidden": false,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
         "constraints": [
           {
             "id": "c4a1-5eed-0000-0021",
@@ -68675,6 +68647,62 @@
                 "scope": "force",
                 "shared": true,
                 "type": "lessThan",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Commander models only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c01-280c-2446-228c",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              },
+              {
+                "childId": "a1ff-64a0-bc3d-177a",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              },
+              {
+                "childId": "8a84-2e6d-d906-9e66",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              },
+              {
+                "childId": "c043-d7fe-d0b2-6951",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              },
+              {
+                "childId": "56c8-e8e0-6ef6-f050",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              },
+              {
+                "childId": "c4a1-d0ca-7dcd-e9d6",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
                 "value": 1
               }
             ]
@@ -74323,6 +74351,56 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "_comment": "The signature system is a 0 pt Bork’an enhancement: it lives in the T'au Enhancements list, uses the bearer's Enhancement and counts towards the army limit",
+            "name": "Bork’an Enhancements",
+            "id": "c4a1-5eed-0000-0027",
+            "hidden": false,
+            "collapsible": false,
+            "flatten": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-0000-0028",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Hidden without Bork’an",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c4a1-5eed-0000-0030",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Signature System: Overdrive Power Systems",
+                "id": "c4a1-5eed-0000-0029",
+                "hidden": false,
+                "import": true,
+                "targetId": "c4a1-5eed-0000-0020",
+                "type": "selectionEntry"
               }
             ]
           }
