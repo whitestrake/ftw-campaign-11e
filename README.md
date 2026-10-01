@@ -16,7 +16,25 @@ only applies while it is selected:
 |---|---|
 | Sept Tenet: Superior Craftsmanship | Rule on the Bork’an detachment; +4" Range on every ranged weapon (annotated "Sept Tenet") |
 | Warlord Trait: Seeker of Perfection | Auto-selected under **Warlord** on whichever unit is your Warlord; AP improved by 1 on its ranged weapons |
+| Plasma Accelerator Rifle on Farsight (campaign ruling) | Farsight's High-intensity plasma rifle counts as a plasma rifle for the Experimental Prototype Cadre weapon upgrades, and those upgrades no longer exclude Epic Heroes, so they work from a Campaign Enhancement Slot. This one isn't gated on Bork’an |
 | Signature System: Overdrive Power Systems | Option on `Commander …` units. Max 1 per roster. Separate from the Enhancements slot |
+
+## Campaign purchases (every faction)
+
+Token purchases are recorded once per army under **Campaign Purchases** in the
+Configuration section. Ticking one makes the matching option appear on that
+faction's **CHARACTER** units:
+
+| Purchase | Character option |
+|---|---|
+| Hardened Wargear (Toughness), 3 tokens | **Hardened Wargear: Toughness** on any CHARACTER with Toughness 10 or less. +1 Toughness. Max 1 per army |
+| Hardened Wargear (Save), 3 tokens | **Hardened Wargear: Save** on the same characters. Save improved by 1. Max 1 per army. Can go on the same character as Toughness |
+| Bonus Enhancement Slot, 4 tokens | **Campaign Enhancement Slot** on any CHARACTER, Epic Heroes included. Holds one enhancement from the current detachment, paid for in points as normal. It doesn't count towards the army's Enhancement limit, and it ignores keyword, Epic Hero and one-per-character restrictions. Each enhancement is still limited to one per army |
+
+Hardened Wargear relies on New Recruit applying a Leader's modifiers to the unit
+it leads, so the bonus also shows on the attached unit. Agents of the Imperium
+and Unaligned characters get no enhancement slot, because those catalogues have
+no enhancements of their own.
 
 The game system shows up as **"Warhammer 40,000 11th Edition (Campaign)"**.
 
