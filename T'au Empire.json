@@ -1962,6 +1962,30 @@
             "import": true,
             "targetId": "c4a1-5eed-0000-0020",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-d8f0-7c92-f3f0",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-96aa-b16e-c988",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-24ce-ea89-4c5d",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -2658,6 +2682,30 @@
             "import": true,
             "targetId": "c4a1-5eed-0000-0020",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-b29f-07da-437d",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-88c4-ac1b-62c1",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-3519-7b83-b453",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -3006,6 +3054,25 @@
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Plasma Rifle Weapon",
+                "id": "c4a1-5eed-4000-0001",
+                "hidden": false,
+                "primary": false,
+                "targetId": "630e-f998-7bab-7116"
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Weapon Upgrades",
+                "id": "c4a1-5eed-4000-0002",
+                "hidden": false,
+                "import": true,
+                "targetId": "6dbd-1256-4b41-28e1",
+                "type": "selectionEntryGroup"
               }
             ]
           },
@@ -3410,6 +3477,30 @@
             "hidden": false,
             "import": true,
             "targetId": "c4a1-5eed-0000-0020",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-0009-9fdf-7338",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-1a1d-bfa3-9092",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-128a-98e0-79f5",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
             "type": "selectionEntry"
           }
         ],
@@ -4538,6 +4629,30 @@
             "import": true,
             "targetId": "c4a1-5eed-0000-0020",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-97d5-63bb-e06b",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-fc36-a64e-f5a1",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-8640-b6bf-0b59",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -5575,6 +5690,30 @@
             "hidden": false,
             "import": true,
             "targetId": "c4a1-5eed-0000-0020",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-7164-8110-a373",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-e958-a4b1-2c2d",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-a56b-1e71-d224",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
             "type": "selectionEntry"
           }
         ],
@@ -6633,6 +6772,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-bb51-3bd7-c20c",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-6265-dfa1-e07c",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-3ebe-b97b-ed5f",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -7344,6 +7507,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-03ae-ea2c-d718",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-428b-6bc2-851c",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-9263-3df5-7ab8",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -8690,6 +8877,30 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-a007-32fe-de56",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-99b2-9131-4bc3",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-24ab-cbcc-1b19",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -9147,6 +9358,30 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-4b8a-f903-9eb3",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-4719-33be-3cac",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-a493-c0c0-8141",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -9573,6 +9808,30 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-fa86-2ca0-832d",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-2860-7575-3888",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-93b0-b53b-492f",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoGroups": [
@@ -19501,6 +19760,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-44f9-f235-1eab",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-c359-e0ac-d56b",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-21c1-41f5-39d7",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -50481,6 +50764,30 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-ee8f-b381-d01e",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-8dbf-9896-a918",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-6fd4-9ebf-5cdb",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -56144,6 +56451,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-d1bc-c878-8751",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-15c6-14b3-8633",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-d483-dbab-9382",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -56942,6 +57273,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-b979-9bc1-a1df",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-badd-ea08-371b",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-c78a-f1cc-018a",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -57783,6 +58138,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-3a52-8631-422c",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-cda3-7306-92fe",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-0711-183e-f9d7",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -58567,6 +58946,30 @@
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-ea88-0181-ec1c",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-3a7f-2dcf-fabb",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-8fcd-dd95-d139",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -63016,6 +63419,30 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-12cf-fef6-cfce",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-a4ef-e3af-d2d6",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-db43-4561-9fc7",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -65074,6 +65501,30 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-9b0b-35a2-91ef",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-d6f1-56ac-89e1",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-c692-e4c6-ea49",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -65959,6 +66410,30 @@
             "sortIndex": 5,
             "targetId": "744d-74d3-2e22-d164",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-8498-ee44-edcd",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-13f7-e7bf-f3a8",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-2df2-197f-223e",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -66652,6 +67127,30 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-5be6-7e6f-8cfd",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-5687-e594-8da0",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-ca9a-c519-1922",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-d0ca-7dcd-e9d6",
             "type": "selectionEntry"
           }
         ],
@@ -67927,6 +68426,100 @@
             ]
           }
         ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Campaign Enhancement Slot",
+        "hidden": false,
+        "constraints": [
+          {
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1,
+            "id": "c4a1-a52f-977d-152b"
+          },
+          {
+            "field": "c4a1-5eed-3000-0040",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1,
+            "message": "Only one Campaign Enhancement Slot can be used in the army.",
+            "id": "c4a1-c9f3-611d-d6a8"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": -1
+          },
+          {
+            "name": "Campaign Enhancement Slots",
+            "typeId": "c4a1-5eed-3000-0040",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden until bought under Campaign Purchases",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-3000-0030",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Campaign Enhancement Slot",
+            "hidden": false,
+            "description": "A spare Enhancement slot bought with campaign tokens. The enhancement in it is paid for as normal, but it does not count towards the army’s Enhancement limit and ignores the usual restrictions on which **^^Character^^** can take it, including **^^Epic Heroes^^** and characters that already have an Enhancement. Each Enhancement is still limited to one per army.",
+            "id": "c4a1-02c5-f47e-3151"
+          }
+        ],
+        "id": "c4a1-d0ca-7dcd-e9d6",
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "c4a1-3c25-94d4-f428",
+            "hidden": false,
+            "import": true,
+            "targetId": "fae2-569a-6bec-9167",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "c4a1-5892-51f1-8252",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "self",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -68165,6 +68758,14 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
@@ -68185,6 +68786,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -68309,6 +68918,14 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d0ca-7dcd-e9d6",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           }
                         ]
                       }
@@ -68429,6 +69046,14 @@
                             "scope": "parent",
                             "shared": true,
                             "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d0ca-7dcd-e9d6",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
                             "value": 1
                           }
                         ]
@@ -68563,6 +69188,14 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
@@ -68583,6 +69216,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -68781,6 +69422,14 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
@@ -68801,6 +69450,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -68925,6 +69582,14 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d0ca-7dcd-e9d6",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           }
                         ]
                       }
@@ -69045,6 +69710,14 @@
                             "scope": "parent",
                             "shared": true,
                             "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d0ca-7dcd-e9d6",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
                             "value": 1
                           }
                         ]
@@ -69179,6 +69852,14 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
@@ -69199,6 +69880,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -69397,20 +70086,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -69549,20 +70258,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -69693,20 +70422,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -69829,20 +70578,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -70089,27 +70858,62 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
                           {
                             "type": "or",
-                            "conditions": [
+                            "conditions": [],
+                            "conditionGroups": [
                               {
-                                "childId": "79c5-9fc4-7b97-7c3f",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "79c5-9fc4-7b97-7c3f",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               },
                               {
-                                "childId": "2b-e589-40b4-d88",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "2b-e589-40b4-d88",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -70216,22 +71020,49 @@
                         "conditionGroups": [
                           {
                             "type": "or",
-                            "conditions": [
+                            "conditions": [],
+                            "conditionGroups": [
                               {
-                                "childId": "79c5-9fc4-7b97-7c3f",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "79c5-9fc4-7b97-7c3f",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               },
                               {
-                                "childId": "2c5e-7638-d746-1d27",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "2c5e-7638-d746-1d27",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               }
                             ]
                           },
@@ -70256,6 +71087,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -70418,22 +71257,49 @@
                         "conditionGroups": [
                           {
                             "type": "or",
-                            "conditions": [
+                            "conditions": [],
+                            "conditionGroups": [
                               {
-                                "childId": "79c5-9fc4-7b97-7c3f",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "79c5-9fc4-7b97-7c3f",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               },
                               {
-                                "childId": "f3d0-13af-62bd-1054",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "f3d0-13af-62bd-1054",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               }
                             ]
                           },
@@ -70458,6 +71324,14 @@
                                 "scope": "parent",
                                 "shared": true,
                                 "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
                                 "value": 1
                               }
                             ]
@@ -70610,20 +71484,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "79c5-9fc4-7b97-7c3f",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "79c5-9fc4-7b97-7c3f",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -70826,27 +71720,62 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           },
                           {
                             "type": "or",
-                            "conditions": [
+                            "conditions": [],
+                            "conditionGroups": [
                               {
-                                "childId": "79c5-9fc4-7b97-7c3f",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "79c5-9fc4-7b97-7c3f",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               },
                               {
-                                "childId": "39f9-dcd3-1e80-fa1f",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "39f9-dcd3-1e80-fa1f",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-d0ca-7dcd-e9d6",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -70973,20 +71902,40 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "79c5-9fc4-7b97-7c3f",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "79c5-9fc4-7b97-7c3f",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "instanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   }
@@ -71060,18 +72009,30 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "7288-48b3-c4df-66c6",
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d0ca-7dcd-e9d6",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          }
+                        ]
                       }
                     ],
-                    "conditions": [
-                      {
-                        "childId": "7288-48b3-c4df-66c6",
-                        "field": "selections",
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
+                    "conditions": []
                   }
                 ]
               },
@@ -71194,21 +72155,41 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "childName": "Battlesuit",
+                                "field": "selections",
+                                "scope": "root-entry",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "childName": "Battlesuit",
-                            "field": "selections",
-                            "scope": "root-entry",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   },
@@ -71363,21 +72344,41 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "childName": "Battlesuit",
+                                "field": "selections",
+                                "scope": "root-entry",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "childName": "Battlesuit",
-                            "field": "selections",
-                            "scope": "root-entry",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   },
@@ -71532,21 +72533,41 @@
                                 "shared": true,
                                 "type": "lessThan",
                                 "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "7288-48b3-c4df-66c6",
+                                "childName": "Battlesuit",
+                                "field": "selections",
+                                "scope": "root-entry",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-d0ca-7dcd-e9d6",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
                               }
                             ]
                           }
                         ],
-                        "conditions": [
-                          {
-                            "childId": "7288-48b3-c4df-66c6",
-                            "childName": "Battlesuit",
-                            "field": "selections",
-                            "scope": "root-entry",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          }
-                        ]
+                        "conditions": []
                       }
                     ]
                   },
@@ -80045,14 +81066,6 @@
                         "value": 1
                       },
                       {
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
                         "childId": "9cfd-1c32-585f-7d5c",
                         "field": "selections",
                         "scope": "ancestor",
@@ -80241,14 +81254,6 @@
                         "scope": "model-or-unit",
                         "shared": true,
                         "type": "lessThan",
-                        "value": 1
-                      },
-                      {
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "instanceOf",
                         "value": 1
                       },
                       {
@@ -80441,14 +81446,6 @@
                         "scope": "model-or-unit",
                         "shared": true,
                         "type": "lessThan",
-                        "value": 1
-                      },
-                      {
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "instanceOf",
                         "value": 1
                       },
                       {

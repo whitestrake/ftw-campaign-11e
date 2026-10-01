@@ -26,9 +26,25 @@
         "targetId": "1b6d-dc06-5db9-c7d1",
         "type": "catalogue"
       },
-      {"name": "Imperium - Agents of the Imperium", "id": "4e1e-d351-d01e-df32", "importRootEntries": true, "targetId": "b00-cd86-4b4c-97ba", "type": "catalogue"},
-      {"name": "Library - Titans", "id": "60ee-b4f-eafc-93d1", "targetId": "7481-280e-b55e-7867", "type": "catalogue"},
-      {"name": "Unaligned Forces", "id": "81c5-242b-44b9-7b1b", "targetId": "581a-46b9-5b86-44b7", "type": "catalogue"}
+      {
+        "name": "Imperium - Agents of the Imperium",
+        "id": "4e1e-d351-d01e-df32",
+        "importRootEntries": true,
+        "targetId": "b00-cd86-4b4c-97ba",
+        "type": "catalogue"
+      },
+      {
+        "name": "Library - Titans",
+        "id": "60ee-b4f-eafc-93d1",
+        "targetId": "7481-280e-b55e-7867",
+        "type": "catalogue"
+      },
+      {
+        "name": "Unaligned Forces",
+        "id": "81c5-242b-44b9-7b1b",
+        "targetId": "581a-46b9-5b86-44b7",
+        "type": "catalogue"
+      }
     ],
     "entryLinks": [
       {
@@ -51,7 +67,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -67,7 +93,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -83,7 +119,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -99,7 +145,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -115,7 +171,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -131,7 +197,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -147,14 +223,52 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Bullgryn Squad", "id": "3ec3-1ac7-2064-9783", "hidden": false, "import": true, "targetId": "37ad-63e5-1786-87cf", "type": "selectionEntry"},
-      {"name": "Cadian Castellan", "id": "c43b-26b5-4c4-521c", "hidden": false, "import": true, "targetId": "2b49-4d03-aaf5-3532", "type": "selectionEntry"},
-      {"name": "Cadian Command Squad", "id": "775d-c8f4-8d6a-e768", "hidden": false, "import": true, "targetId": "4d28-f2a7-67c1-eb2e", "type": "selectionEntry"},
-      {"name": "Cadian Shock Troops", "id": "7b5-9080-f871-aff9", "hidden": false, "import": true, "targetId": "a2aa-7688-dcb1-4132", "type": "selectionEntry"},
+      {
+        "name": "Bullgryn Squad",
+        "id": "3ec3-1ac7-2064-9783",
+        "hidden": false,
+        "import": true,
+        "targetId": "37ad-63e5-1786-87cf",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cadian Castellan",
+        "id": "c43b-26b5-4c4-521c",
+        "hidden": false,
+        "import": true,
+        "targetId": "2b49-4d03-aaf5-3532",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cadian Command Squad",
+        "id": "775d-c8f4-8d6a-e768",
+        "hidden": false,
+        "import": true,
+        "targetId": "4d28-f2a7-67c1-eb2e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cadian Shock Troops",
+        "id": "7b5-9080-f871-aff9",
+        "hidden": false,
+        "import": true,
+        "targetId": "a2aa-7688-dcb1-4132",
+        "type": "selectionEntry"
+      },
       {
         "name": "Chimera",
         "id": "9357-7f3f-56be-3129",
@@ -167,12 +281,36 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Commissar", "id": "f86e-edef-7ce6-6ded", "hidden": false, "import": true, "targetId": "a979-5b21-dc69-b949", "type": "selectionEntry"},
-      {"name": "Death Korps of Krieg", "id": "4fb3-5033-9135-e605", "hidden": false, "import": true, "targetId": "ade0-fa44-d4cf-4fc8", "type": "selectionEntry"},
+      {
+        "name": "Commissar",
+        "id": "f86e-edef-7ce6-6ded",
+        "hidden": false,
+        "import": true,
+        "targetId": "a979-5b21-dc69-b949",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Death Korps of Krieg",
+        "id": "4fb3-5033-9135-e605",
+        "hidden": false,
+        "import": true,
+        "targetId": "ade0-fa44-d4cf-4fc8",
+        "type": "selectionEntry"
+      },
       {
         "name": "Deathstrike",
         "id": "4425-da07-5180-9b30",
@@ -185,7 +323,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -201,7 +349,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -217,11 +375,28 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Gaunt’s Ghosts", "id": "ffd3-a6da-a79e-bb34", "hidden": false, "import": true, "targetId": "653d-80-d715-7d55", "type": "selectionEntry"},
+      {
+        "name": "Gaunt’s Ghosts",
+        "id": "ffd3-a6da-a79e-bb34",
+        "hidden": false,
+        "import": true,
+        "targetId": "653d-80-d715-7d55",
+        "type": "selectionEntry"
+      },
       {
         "name": "Cadian Heavy Weapons Squad",
         "id": "30f1-5a2a-9f88-d26c",
@@ -234,7 +409,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -250,7 +435,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -266,7 +461,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -282,11 +487,28 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Kasrkin", "id": "3628-3edf-659e-6405", "hidden": false, "import": true, "targetId": "abe4-ca71-d5a7-3883", "type": "selectionEntry"},
+      {
+        "name": "Kasrkin",
+        "id": "3628-3edf-659e-6405",
+        "hidden": false,
+        "import": true,
+        "targetId": "abe4-ca71-d5a7-3883",
+        "type": "selectionEntry"
+      },
       {
         "name": "Leman Russ Battle Tank",
         "id": "4071-d276-4b66-b186",
@@ -299,7 +521,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -315,7 +547,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -331,7 +573,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -347,7 +599,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -363,7 +625,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -379,7 +651,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -395,7 +677,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -411,7 +703,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -423,10 +725,38 @@
         "targetId": "497-36ad-8ecb-f7c7",
         "type": "selectionEntry"
       },
-      {"name": "Nork Deddog", "id": "3ea1-4365-6d97-1b59", "hidden": false, "import": true, "targetId": "bcda-f4bb-e726-9bfe", "type": "selectionEntry"},
-      {"name": "Ogryn Bodyguard", "id": "2265-a0d2-432c-ca41", "hidden": false, "import": true, "targetId": "a7c2-1534-93b0-c0eb", "type": "selectionEntry"},
-      {"name": "Ogryn Squad", "id": "ae81-eb8-844-95e7", "hidden": false, "import": true, "targetId": "c9eb-2007-af01-a853", "type": "selectionEntry"},
-      {"name": "Primaris Psyker", "id": "f1f4-72d3-d4f4-97de", "hidden": false, "import": true, "targetId": "4ad0-e988-a513-9530", "type": "selectionEntry"},
+      {
+        "name": "Nork Deddog",
+        "id": "3ea1-4365-6d97-1b59",
+        "hidden": false,
+        "import": true,
+        "targetId": "bcda-f4bb-e726-9bfe",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ogryn Bodyguard",
+        "id": "2265-a0d2-432c-ca41",
+        "hidden": false,
+        "import": true,
+        "targetId": "a7c2-1534-93b0-c0eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ogryn Squad",
+        "id": "ae81-eb8-844-95e7",
+        "hidden": false,
+        "import": true,
+        "targetId": "c9eb-2007-af01-a853",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Primaris Psyker",
+        "id": "f1f4-72d3-d4f4-97de",
+        "hidden": false,
+        "import": true,
+        "targetId": "4ad0-e988-a513-9530",
+        "type": "selectionEntry"
+      },
       {
         "name": "Provisionally Prepared [Legends]",
         "id": "55e9-8263-501f-4eda",
@@ -447,11 +777,28 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Tech-Priest Enginseer", "id": "77a1-a36b-5192-b450", "hidden": false, "import": true, "targetId": "f556-a33d-dc90-d6fc", "type": "selectionEntry"},
+      {
+        "name": "Tech-Priest Enginseer",
+        "id": "77a1-a36b-5192-b450",
+        "hidden": false,
+        "import": true,
+        "targetId": "f556-a33d-dc90-d6fc",
+        "type": "selectionEntry"
+      },
       {
         "name": "Rogal Dorn Battle Tank",
         "id": "c7e0-68a4-64af-88e4",
@@ -464,7 +811,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -480,11 +837,28 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Sergeant Harker [Legends]", "id": "a496-7c35-f648-d819", "hidden": false, "import": true, "targetId": "a8d5-81f9-96a0-fd12", "type": "selectionEntry"},
+      {
+        "name": "Sergeant Harker [Legends]",
+        "id": "a496-7c35-f648-d819",
+        "hidden": false,
+        "import": true,
+        "targetId": "a8d5-81f9-96a0-fd12",
+        "type": "selectionEntry"
+      },
       {
         "name": "Shadowsword",
         "id": "b5d3-ef49-da86-62ab",
@@ -497,11 +871,28 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Sly Marbo", "id": "8d22-6401-74fb-c577", "hidden": false, "import": true, "targetId": "4d50-e535-616a-259c", "type": "selectionEntry"},
+      {
+        "name": "Sly Marbo",
+        "id": "8d22-6401-74fb-c577",
+        "hidden": false,
+        "import": true,
+        "targetId": "4d50-e535-616a-259c",
+        "type": "selectionEntry"
+      },
       {
         "name": "Stormlord",
         "id": "8621-8c62-2041-9bb5",
@@ -514,7 +905,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -530,7 +931,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -546,7 +957,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -562,12 +983,36 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Tempestus Scions", "id": "fe4d-4c95-5b84-2670", "hidden": false, "import": true, "targetId": "679b-f37f-2388-748", "type": "selectionEntry"},
-      {"name": "Ursula Creed", "id": "b455-c6f1-b37e-c3b7", "hidden": false, "import": true, "targetId": "b6b2-9971-ec0c-349e", "type": "selectionEntry"},
+      {
+        "name": "Tempestus Scions",
+        "id": "fe4d-4c95-5b84-2670",
+        "hidden": false,
+        "import": true,
+        "targetId": "679b-f37f-2388-748",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ursula Creed",
+        "id": "b455-c6f1-b37e-c3b7",
+        "hidden": false,
+        "import": true,
+        "targetId": "b6b2-9971-ec0c-349e",
+        "type": "selectionEntry"
+      },
       {
         "name": "Valkyrie",
         "id": "792-4a0b-303c-bf6c",
@@ -580,7 +1025,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -596,12 +1051,36 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Detachment", "id": "cd5f-2fc8-7d6f-9dee", "hidden": false, "import": true, "targetId": "406d-8707-c597-abd6", "type": "selectionEntry"},
-      {"name": "Catachan Jungle Fighters", "id": "34a6-be21-d115-fe06", "hidden": false, "import": true, "targetId": "fe5a-764e-37ed-7cef", "type": "selectionEntry"},
+      {
+        "name": "Detachment",
+        "id": "cd5f-2fc8-7d6f-9dee",
+        "hidden": false,
+        "import": true,
+        "targetId": "406d-8707-c597-abd6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Catachan Jungle Fighters",
+        "id": "34a6-be21-d115-fe06",
+        "hidden": false,
+        "import": true,
+        "targetId": "fe5a-764e-37ed-7cef",
+        "type": "selectionEntry"
+      },
       {
         "name": "Munitorum Servitors [Legends]",
         "id": "312a-7de8-16f7-1b1",
@@ -614,7 +1093,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -630,7 +1119,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -646,7 +1145,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -662,7 +1171,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -678,7 +1197,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -694,7 +1223,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -710,7 +1249,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -726,7 +1275,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -742,7 +1301,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -758,7 +1327,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -774,7 +1353,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -790,7 +1379,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -806,7 +1405,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -822,7 +1431,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -838,7 +1457,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -854,7 +1483,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -870,7 +1509,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -886,7 +1535,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -902,7 +1561,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -918,7 +1587,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -934,7 +1613,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -950,7 +1639,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -966,7 +1665,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -982,7 +1691,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -998,7 +1717,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1014,7 +1743,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1030,7 +1769,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1046,7 +1795,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1062,7 +1821,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1078,7 +1847,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1094,7 +1873,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1110,7 +1899,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1122,9 +1921,30 @@
         "targetId": "e8ef-836a-a9d1-901d",
         "type": "selectionEntry",
         "entryLinks": [
-          {"name": "Show Imperial Knights", "id": "f8d5-8d30-ef1d-9fc3", "hidden": false, "import": true, "targetId": "e82c-6f8c-2b97-a287", "type": "selectionEntry"},
-          {"name": "Show Imperial Agents", "id": "7593-597b-26b7-2717", "hidden": false, "import": true, "targetId": "e08b-2448-5606-fefb", "type": "selectionEntry"},
-          {"name": "Show Titans", "id": "1494-4bb1-b7e6-d879", "hidden": false, "import": true, "targetId": "f26b-79db-80e0-3a3b", "type": "selectionEntry"}
+          {
+            "name": "Show Imperial Knights",
+            "id": "f8d5-8d30-ef1d-9fc3",
+            "hidden": false,
+            "import": true,
+            "targetId": "e82c-6f8c-2b97-a287",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Show Imperial Agents",
+            "id": "7593-597b-26b7-2717",
+            "hidden": false,
+            "import": true,
+            "targetId": "e08b-2448-5606-fefb",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Show Titans",
+            "id": "1494-4bb1-b7e6-d879",
+            "hidden": false,
+            "import": true,
+            "targetId": "f26b-79db-80e0-3a3b",
+            "type": "selectionEntry"
+          }
         ]
       },
       {
@@ -1139,7 +1959,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1155,7 +1985,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1171,7 +2011,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1187,7 +2037,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1203,7 +2063,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1219,7 +2089,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1235,7 +2115,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1251,7 +2141,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1267,7 +2167,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1283,7 +2193,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1299,7 +2219,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1315,7 +2245,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1331,7 +2271,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1347,7 +2297,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1363,7 +2323,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1379,7 +2349,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1395,7 +2375,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1411,7 +2401,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1427,7 +2427,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1443,7 +2453,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1459,7 +2479,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1475,7 +2505,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1491,7 +2531,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1507,7 +2557,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1523,7 +2583,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1539,7 +2609,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1555,7 +2635,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1571,7 +2661,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1587,7 +2687,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1603,7 +2713,17 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -1619,20 +2739,100 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [{"childId": "1d6e-2579-8e7f-1ed4", "field": "selections", "includeChildForces": true, "scope": "roster", "shared": true, "type": "atLeast", "value": 1}]
+            "conditions": [
+              {
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "field": "selections",
+                "includeChildForces": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ]
       },
-      {"name": "Tempestus Aquilons", "id": "8c31-ea58-28e3-d4dd", "hidden": false, "import": true, "targetId": "aa9f-f137-1638-0369", "type": "selectionEntry"},
-      {"name": "Ratlings", "id": "75d6-a5e8-b8f8-9091", "hidden": false, "import": true, "targetId": "8293-a070-2c87-de30", "type": "selectionEntry"},
-      {"name": "Lord Marshal Dreir", "id": "ee25-9289-f244-059b", "hidden": false, "import": true, "targetId": "9033-d07c-3e1c-f6f0", "type": "selectionEntry"},
-      {"name": "Krieg Command Squad", "id": "7109-8a5b-463b-43af", "hidden": false, "import": true, "targetId": "fbcd-274b-0196-b4f6", "type": "selectionEntry"},
-      {"name": "Catachan Command Squad", "id": "35fd-6169-2183-5edf", "hidden": false, "import": true, "targetId": "7d22-9fb6-a7e0-c21b", "type": "selectionEntry"},
-      {"name": "Artillery Team", "id": "c446-72c9-4147-8fcb", "hidden": false, "import": true, "targetId": "0595-6d6c-a783-12ab", "type": "selectionEntry"},
-      {"name": "Rogal Dorn Commander", "id": "c447-a6f6-2245-f7da", "hidden": false, "import": true, "targetId": "78b6-f280-bba9-0594", "type": "selectionEntry"},
-      {"name": "Ministorum Priest", "id": "1a39-2529-3722-60d3", "hidden": false, "import": true, "targetId": "ba72-7b05-33c9-a1c0", "type": "selectionEntry"},
-      {"name": "Krieg Combat Engineers", "id": "6fd0-a0ae-a673-1b14", "hidden": false, "import": true, "targetId": "3e90-9359-2aaa-205e", "type": "selectionEntry"},
-      {"name": "Krieg Heavy Weapons Squad", "id": "4bde-dc8a-4a53-6924", "hidden": false, "import": true, "targetId": "1669-d311-eff9-243b", "type": "selectionEntry"},
+      {
+        "name": "Tempestus Aquilons",
+        "id": "8c31-ea58-28e3-d4dd",
+        "hidden": false,
+        "import": true,
+        "targetId": "aa9f-f137-1638-0369",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ratlings",
+        "id": "75d6-a5e8-b8f8-9091",
+        "hidden": false,
+        "import": true,
+        "targetId": "8293-a070-2c87-de30",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Lord Marshal Dreir",
+        "id": "ee25-9289-f244-059b",
+        "hidden": false,
+        "import": true,
+        "targetId": "9033-d07c-3e1c-f6f0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Krieg Command Squad",
+        "id": "7109-8a5b-463b-43af",
+        "hidden": false,
+        "import": true,
+        "targetId": "fbcd-274b-0196-b4f6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Catachan Command Squad",
+        "id": "35fd-6169-2183-5edf",
+        "hidden": false,
+        "import": true,
+        "targetId": "7d22-9fb6-a7e0-c21b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Artillery Team",
+        "id": "c446-72c9-4147-8fcb",
+        "hidden": false,
+        "import": true,
+        "targetId": "0595-6d6c-a783-12ab",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Rogal Dorn Commander",
+        "id": "c447-a6f6-2245-f7da",
+        "hidden": false,
+        "import": true,
+        "targetId": "78b6-f280-bba9-0594",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ministorum Priest",
+        "id": "1a39-2529-3722-60d3",
+        "hidden": false,
+        "import": true,
+        "targetId": "ba72-7b05-33c9-a1c0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Krieg Combat Engineers",
+        "id": "6fd0-a0ae-a673-1b14",
+        "hidden": false,
+        "import": true,
+        "targetId": "3e90-9359-2aaa-205e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Krieg Heavy Weapons Squad",
+        "id": "4bde-dc8a-4a53-6924",
+        "hidden": false,
+        "import": true,
+        "targetId": "1669-d311-eff9-243b",
+        "type": "selectionEntry"
+      },
       {
         "name": "Catachan Heavy Weapons Squad",
         "id": "5727-4dd2-5ff4-abd0",
@@ -1658,8 +2858,22 @@
             "targetId": "b30e-426f-b315-62aa",
             "type": "selectionEntryGroup"
           },
-          {"name": "Shadow Operations", "id": "406a-d472-ffad-66e1", "hidden": false, "import": true, "targetId": "68a2-ada5-3cd4-c5a3", "type": "selectionEntryGroup"},
-          {"name": "Chivalric Quests", "id": "f6d2-44a6-7edf-6494", "hidden": false, "import": true, "targetId": "12f3-7f5b-747e-41ca", "type": "selectionEntryGroup"}
+          {
+            "name": "Shadow Operations",
+            "id": "406a-d472-ffad-66e1",
+            "hidden": false,
+            "import": true,
+            "targetId": "68a2-ada5-3cd4-c5a3",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Chivalric Quests",
+            "id": "f6d2-44a6-7edf-6494",
+            "hidden": false,
+            "import": true,
+            "targetId": "12f3-7f5b-747e-41ca",
+            "type": "selectionEntryGroup"
+          }
         ]
       },
       {
@@ -1686,13 +2900,62 @@
         "targetId": "7280-8daf-312a-b01d",
         "type": "selectionEntry"
       },
-      {"name": "Commissar Graves", "id": "29df-3b97-03bf-0275", "hidden": false, "import": true, "targetId": "50b8-1f13-9807-0069", "type": "selectionEntry"},
-      {"name": "Commissar Graves on Foot", "id": "b6f0-9fc2-ce6c-debb", "hidden": false, "import": true, "targetId": "d624-2be1-87a3-41ca", "type": "selectionEntry"},
-      {"name": "Commissar Yarrick", "id": "1f33-61d2-bb9b-86a7", "hidden": false, "import": true, "targetId": "3962-1fa9-7088-aedd", "type": "selectionEntry"},
-      {"name": "Hippogriff AFV", "id": "7a39-89ff-6e36-f03c", "hidden": false, "import": true, "targetId": "b566-8903-3a36-62f1", "type": "selectionEntry"},
-      {"name": "Centaur RSV", "id": "3a44-9eb0-d51d-6b46", "hidden": false, "import": true, "targetId": "c871-4769-71ed-c4b3", "type": "selectionEntry"},
-      {"name": "Cadian Recon Squad", "id": "39a7-1ea5-9552-d4ba", "hidden": false, "import": true, "targetId": "05de-5701-33a0-b23d", "type": "selectionEntry"},
-      {"name": "Ciaphas Cain [Legends]", "id": "ad2e-a4f4-6664-945e", "hidden": false, "import": true, "targetId": "4aa7-5845-84ad-2d7d", "type": "selectionEntry"}
+      {
+        "name": "Commissar Graves",
+        "id": "29df-3b97-03bf-0275",
+        "hidden": false,
+        "import": true,
+        "targetId": "50b8-1f13-9807-0069",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Commissar Graves on Foot",
+        "id": "b6f0-9fc2-ce6c-debb",
+        "hidden": false,
+        "import": true,
+        "targetId": "d624-2be1-87a3-41ca",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Commissar Yarrick",
+        "id": "1f33-61d2-bb9b-86a7",
+        "hidden": false,
+        "import": true,
+        "targetId": "3962-1fa9-7088-aedd",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Hippogriff AFV",
+        "id": "7a39-89ff-6e36-f03c",
+        "hidden": false,
+        "import": true,
+        "targetId": "b566-8903-3a36-62f1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Centaur RSV",
+        "id": "3a44-9eb0-d51d-6b46",
+        "hidden": false,
+        "import": true,
+        "targetId": "c871-4769-71ed-c4b3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Cadian Recon Squad",
+        "id": "39a7-1ea5-9552-d4ba",
+        "hidden": false,
+        "import": true,
+        "targetId": "05de-5701-33a0-b23d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ciaphas Cain [Legends]",
+        "id": "ad2e-a4f4-6664-945e",
+        "hidden": false,
+        "import": true,
+        "targetId": "4aa7-5845-84ad-2d7d",
+        "type": "selectionEntry"
+      }
     ]
   }
 }

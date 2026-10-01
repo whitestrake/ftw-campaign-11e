@@ -19,13 +19,42 @@
         "targetId": "1b6d-dc06-5db9-c7d1",
         "type": "catalogue"
       },
-      {"name": "Imperium - Agents of the Imperium", "id": "a9de-79c6-ff31-ace3", "importRootEntries": true, "targetId": "b00-cd86-4b4c-97ba", "type": "catalogue"},
-      {"name": "Library - Titans", "id": "993e-4de7-67f6-59d2", "importRootEntries": true, "targetId": "7481-280e-b55e-7867", "type": "catalogue"},
-      {"name": "Imperium - Adeptus Mechanicus", "id": "d4a9-0d7e-4b3f-4d7c", "targetId": "77b9-2f66-3f9b-5cf3", "type": "catalogue"},
-      {"name": "Unaligned Forces", "id": "9718-cb2e-cc4a-29a7", "targetId": "581a-46b9-5b86-44b7", "type": "catalogue"}
+      {
+        "name": "Imperium - Agents of the Imperium",
+        "id": "a9de-79c6-ff31-ace3",
+        "importRootEntries": true,
+        "targetId": "b00-cd86-4b4c-97ba",
+        "type": "catalogue"
+      },
+      {
+        "name": "Library - Titans",
+        "id": "993e-4de7-67f6-59d2",
+        "importRootEntries": true,
+        "targetId": "7481-280e-b55e-7867",
+        "type": "catalogue"
+      },
+      {
+        "name": "Imperium - Adeptus Mechanicus",
+        "id": "d4a9-0d7e-4b3f-4d7c",
+        "targetId": "77b9-2f66-3f9b-5cf3",
+        "type": "catalogue"
+      },
+      {
+        "name": "Unaligned Forces",
+        "id": "9718-cb2e-cc4a-29a7",
+        "targetId": "581a-46b9-5b86-44b7",
+        "type": "catalogue"
+      }
     ],
     "entryLinks": [
-      {"name": "Detachment", "id": "b9ee-35d4-2177-b643", "hidden": false, "import": true, "targetId": "5a84-ea91-b707-1656", "type": "selectionEntry"},
+      {
+        "name": "Detachment",
+        "id": "b9ee-35d4-2177-b643",
+        "hidden": false,
+        "import": true,
+        "targetId": "5a84-ea91-b707-1656",
+        "type": "selectionEntry"
+      },
       {
         "name": "Show/Hide Options",
         "id": "6997-af61-9230-8827",
@@ -33,10 +62,32 @@
         "import": true,
         "targetId": "e8ef-836a-a9d1-901d",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Configuration", "id": "ed42-e197-e4ce-e51d", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "categoryLinks": [
+          {
+            "name": "Configuration",
+            "id": "ed42-e197-e4ce-e51d",
+            "hidden": false,
+            "primary": true,
+            "targetId": "4ac9-fd30-1e3d-b249"
+          }
+        ],
         "entryLinks": [
-          {"name": "Show Imperial Agents", "id": "e203-a8c0-7f2a-a08f", "hidden": false, "import": true, "targetId": "e08b-2448-5606-fefb", "type": "selectionEntry"},
-          {"name": "Show Titans", "id": "80fd-aecc-dbf3-d20f", "hidden": false, "import": true, "targetId": "f26b-79db-80e0-3a3b", "type": "selectionEntry"}
+          {
+            "name": "Show Imperial Agents",
+            "id": "e203-a8c0-7f2a-a08f",
+            "hidden": false,
+            "import": true,
+            "targetId": "e08b-2448-5606-fefb",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Show Titans",
+            "id": "80fd-aecc-dbf3-d20f",
+            "hidden": false,
+            "import": true,
+            "targetId": "f26b-79db-80e0-3a3b",
+            "type": "selectionEntry"
+          }
         ]
       },
       {
@@ -257,8 +308,22 @@
         "targetId": "eda7-8b4b-3719-af36",
         "type": "selectionEntry",
         "entryLinks": [
-          {"name": "Shadow Operations", "id": "6907-7fd7-5458-facd", "hidden": false, "import": true, "targetId": "68a2-ada5-3cd4-c5a3", "type": "selectionEntryGroup"},
-          {"name": "Chivalric Quests", "id": "c20c-43d8-5888-d919", "hidden": false, "import": true, "targetId": "12f3-7f5b-747e-41ca", "type": "selectionEntryGroup"}
+          {
+            "name": "Shadow Operations",
+            "id": "6907-7fd7-5458-facd",
+            "hidden": false,
+            "import": true,
+            "targetId": "68a2-ada5-3cd4-c5a3",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Chivalric Quests",
+            "id": "c20c-43d8-5888-d919",
+            "hidden": false,
+            "import": true,
+            "targetId": "12f3-7f5b-747e-41ca",
+            "type": "selectionEntryGroup"
+          }
         ]
       }
     ]

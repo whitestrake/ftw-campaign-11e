@@ -10,13 +10,43 @@
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
-      {"name": "Chaos - Chaos Knights Library", "id": "2943-3e92-48e0-3479", "importRootEntries": true, "targetId": "8106-aad2-918a-9ac", "type": "catalogue"},
-      {"name": "Chaos - Daemons Library", "id": "6b29-4df1-605-f4f3", "importRootEntries": true, "targetId": "b45c-af22-788a-dfd6", "type": "catalogue"},
-      {"name": "Library - Titans", "id": "b871-5232-cb1e-3ba1", "importRootEntries": true, "targetId": "7481-280e-b55e-7867", "type": "catalogue"},
-      {"name": "Chaos - Chaos Space Marines", "id": "4206-10ff-d7e2-f521", "targetId": "c8da-e875-58f7-f6d6", "type": "catalogue"}
+      {
+        "name": "Chaos - Chaos Knights Library",
+        "id": "2943-3e92-48e0-3479",
+        "importRootEntries": true,
+        "targetId": "8106-aad2-918a-9ac",
+        "type": "catalogue"
+      },
+      {
+        "name": "Chaos - Daemons Library",
+        "id": "6b29-4df1-605-f4f3",
+        "importRootEntries": true,
+        "targetId": "b45c-af22-788a-dfd6",
+        "type": "catalogue"
+      },
+      {
+        "name": "Library - Titans",
+        "id": "b871-5232-cb1e-3ba1",
+        "importRootEntries": true,
+        "targetId": "7481-280e-b55e-7867",
+        "type": "catalogue"
+      },
+      {
+        "name": "Chaos - Chaos Space Marines",
+        "id": "4206-10ff-d7e2-f521",
+        "targetId": "c8da-e875-58f7-f6d6",
+        "type": "catalogue"
+      }
     ],
     "entryLinks": [
-      {"name": "Detachment", "id": "5f9d-d017-ce57-a011", "hidden": false, "import": true, "targetId": "6470-c44a-45f4-3313", "type": "selectionEntry"},
+      {
+        "name": "Detachment",
+        "id": "5f9d-d017-ce57-a011",
+        "hidden": false,
+        "import": true,
+        "targetId": "6470-c44a-45f4-3313",
+        "type": "selectionEntry"
+      },
       {
         "name": "Show/Hide Options",
         "id": "c33e-de90-ab0c-995f",
@@ -25,8 +55,22 @@
         "targetId": "e8ef-836a-a9d1-901d",
         "type": "selectionEntry",
         "entryLinks": [
-          {"name": "Show Chaos Knights", "id": "cbba-c94b-79f8-9cef", "hidden": false, "import": true, "targetId": "aeb4-96de-7401-eaa3", "type": "selectionEntry"},
-          {"name": "Show Titans", "id": "bcd3-dd3f-1e3-9617", "hidden": false, "import": true, "targetId": "f26b-79db-80e0-3a3b", "type": "selectionEntry"},
+          {
+            "name": "Show Chaos Knights",
+            "id": "cbba-c94b-79f8-9cef",
+            "hidden": false,
+            "import": true,
+            "targetId": "aeb4-96de-7401-eaa3",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Show Titans",
+            "id": "bcd3-dd3f-1e3-9617",
+            "hidden": false,
+            "import": true,
+            "targetId": "f26b-79db-80e0-3a3b",
+            "type": "selectionEntry"
+          },
           {
             "name": "Show Tzeentch Daemons",
             "id": "feae-5239-37a7-4241",
@@ -34,7 +78,15 @@
             "import": true,
             "targetId": "1248-8642-b42f-1dca",
             "type": "selectionEntry",
-            "categoryLinks": [{"name": "Configuration", "id": "10a2-35ab-591f-7c93", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}]
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "id": "10a2-35ab-591f-7c93",
+                "hidden": false,
+                "primary": true,
+                "targetId": "4ac9-fd30-1e3d-b249"
+              }
+            ]
           },
           {
             "name": "Show Slaanesh Daemons",
@@ -43,7 +95,15 @@
             "import": true,
             "targetId": "d3ff-16f0-dad2-c03c",
             "type": "selectionEntry",
-            "categoryLinks": [{"name": "Configuration", "id": "a5ed-27ac-6d94-cb9f", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}]
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "id": "a5ed-27ac-6d94-cb9f",
+                "hidden": false,
+                "primary": true,
+                "targetId": "4ac9-fd30-1e3d-b249"
+              }
+            ]
           },
           {
             "name": "Show Nurgle Daemons",
@@ -52,7 +112,15 @@
             "import": true,
             "targetId": "f486-5e38-994c-15ec",
             "type": "selectionEntry",
-            "categoryLinks": [{"name": "Configuration", "id": "c916-b2a5-221d-8093", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}]
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "id": "c916-b2a5-221d-8093",
+                "hidden": false,
+                "primary": true,
+                "targetId": "4ac9-fd30-1e3d-b249"
+              }
+            ]
           },
           {
             "name": "Show Khorne Daemons",
@@ -61,7 +129,15 @@
             "import": true,
             "targetId": "f5f9-1339-84bb-ae85",
             "type": "selectionEntry",
-            "categoryLinks": [{"name": "Configuration", "id": "2f8-5b49-2045-d735", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}]
+            "categoryLinks": [
+              {
+                "name": "Configuration",
+                "id": "2f8-5b49-2045-d735",
+                "hidden": false,
+                "primary": true,
+                "targetId": "4ac9-fd30-1e3d-b249"
+              }
+            ]
           }
         ]
       },
@@ -73,11 +149,40 @@
         "targetId": "e496-5a54-4cb2-4fc1",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "90de-0693-3bd8-fb4c", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "852d-e600-b791-71b8", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "90de-0693-3bd8-fb4c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "852d-e600-b791-71b8",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "5888-8259-1fed-abd1", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "a291-66ec-4fbe-ea92", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "5888-8259-1fed-abd1",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "a291-66ec-4fbe-ea92",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -111,7 +216,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -122,10 +231,30 @@
         "targetId": "6bf7-888c-7aa6-6831",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "7b67-11ea-636e-aac1", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "c7a6-6576-12a1-f30e", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "7b67-11ea-636e-aac1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "c7a6-6576-12a1-f30e",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "c3f9-f597-272a-8dc5", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "c3f9-f597-272a-8dc5",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -159,7 +288,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -170,11 +303,40 @@
         "targetId": "d880-9968-2ed9-5a21",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "cd61-d37a-0f4a-4762", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "1373-42eb-4406-7586", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "cd61-d37a-0f4a-4762",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "1373-42eb-4406-7586",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "3aad-12f8-a8fb-e4dc", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "92b5-dbac-be6b-6ceb", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "3aad-12f8-a8fb-e4dc",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "92b5-dbac-be6b-6ceb",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -208,7 +370,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -219,10 +385,30 @@
         "targetId": "203d-c50f-a438-4982",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "66fd-4000-2874-1f94", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "072f-aa62-f4d2-0934", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "66fd-4000-2874-1f94",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "072f-aa62-f4d2-0934",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "4226-1456-7dd8-8447", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "4226-1456-7dd8-8447",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -256,7 +442,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -267,10 +457,30 @@
         "targetId": "4e85-615b-5d49-dfa4",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "dfdf-e2aa-81c9-7c5c", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "a4e8-0758-dad0-7ab4", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "dfdf-e2aa-81c9-7c5c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "a4e8-0758-dad0-7ab4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "b95d-c678-7860-4774", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "b95d-c678-7860-4774",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -304,7 +514,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -315,12 +529,36 @@
         "targetId": "615-e6bf-cfd2-9384",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "c683-9647-ee67-b9e4", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "70a4-be6c-8438-ee42", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "c683-9647-ee67-b9e4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "70a4-be6c-8438-ee42",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "bd8e-0658-39cf-437e", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "bd8e-0658-39cf-437e",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -364,13 +602,46 @@
         "targetId": "d2b8-454a-d061-b592",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "0f9b-85f3-f54b-d5d4", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "3bb9-074c-791a-c090", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "0f9b-85f3-f54b-d5d4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "3bb9-074c-791a-c090",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "3e02-ff6e-9240-e66a", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "a2f6-2435-3ed8-7a39", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "3e02-ff6e-9240-e66a",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "a2f6-2435-3ed8-7a39",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -414,13 +685,46 @@
         "targetId": "1780-25b8-ce0b-898d",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "34cb-dbb7-0670-ff6d", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "407c-ee7b-2d31-d354", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "34cb-dbb7-0670-ff6d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "407c-ee7b-2d31-d354",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "a090-000f-51b0-57af", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "69f6-ac4a-ad72-fb57", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "a090-000f-51b0-57af",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "69f6-ac4a-ad72-fb57",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -464,10 +768,30 @@
         "targetId": "946c-d784-c8be-f21",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "46e6-8c0c-41ee-c7d3", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "ebf0-a150-6382-7c52", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "46e6-8c0c-41ee-c7d3",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "ebf0-a150-6382-7c52",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "5caa-d60c-1445-28b2", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "5caa-d60c-1445-28b2",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -501,7 +825,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -512,13 +840,46 @@
         "targetId": "287f-7d48-59cf-dc1e",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "3722-3c07-f8ad-b028", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "7ff4-383f-d0d4-3611", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "3722-3c07-f8ad-b028",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "7ff4-383f-d0d4-3611",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "a54c-5b02-cf5a-4373", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "d293-fe3c-0ba5-99b0", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "a54c-5b02-cf5a-4373",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "d293-fe3c-0ba5-99b0",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -562,10 +923,30 @@
         "targetId": "cb1-5bcf-9e36-8136",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "c6ad-e3cf-ca2c-f584", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "a057-c090-e8ed-dc1c", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "c6ad-e3cf-ca2c-f584",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "a057-c090-e8ed-dc1c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "b11f-345a-0b9d-d22b", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "b11f-345a-0b9d-d22b",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -599,7 +980,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -610,10 +995,30 @@
         "targetId": "acb5-dbf2-e3a6-ad94",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "4576-1edf-dcc3-c80b", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "c31f-903b-c660-e7a7", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "4576-1edf-dcc3-c80b",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "c31f-903b-c660-e7a7",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "6376-6c2a-ba48-182a", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "6376-6c2a-ba48-182a",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -647,7 +1052,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -658,11 +1067,40 @@
         "targetId": "980d-c80a-19b2-f641",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "74a2-ddca-5e37-b61c", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "687b-83b4-b8de-931d", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "74a2-ddca-5e37-b61c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "687b-83b4-b8de-931d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "a9d6-dfdd-fd84-7962", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "6899-684b-d15f-ec84", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "a9d6-dfdd-fd84-7962",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "6899-684b-d15f-ec84",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -696,7 +1134,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -707,11 +1149,40 @@
         "targetId": "683f-bfb2-f8d0-c39e",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "ba68-f117-e3e6-1740", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "2edc-53f6-bd23-ec77", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "ba68-f117-e3e6-1740",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "2edc-53f6-bd23-ec77",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "be1e-bf29-4ecb-87b6", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "82b4-abc4-4bb5-f3d2", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "be1e-bf29-4ecb-87b6",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "82b4-abc4-4bb5-f3d2",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -745,7 +1216,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -756,10 +1231,30 @@
         "targetId": "9f33-ff4a-d948-4636",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "879d-de90-f567-dd4b", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "36c2-58b3-36a4-c6dc", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "879d-de90-f567-dd4b",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "36c2-58b3-36a4-c6dc",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "3520-be80-9c38-bfb0", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "3520-be80-9c38-bfb0",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -793,7 +1288,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -804,12 +1303,36 @@
         "targetId": "8dc5-4dcb-d77f-7d23",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "e5d1-fc46-efff-31d4", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "c92b-98f3-ea8c-a96c", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "e5d1-fc46-efff-31d4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "c92b-98f3-ea8c-a96c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "62b8-831c-78c3-d24b", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "62b8-831c-78c3-d24b",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -853,10 +1376,30 @@
         "targetId": "1267-78f1-7774-859",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "5605-33dc-9211-5e6c", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "c45d-aa38-c639-a541", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "5605-33dc-9211-5e6c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "c45d-aa38-c639-a541",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "a6cd-3774-8839-b4ce", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "a6cd-3774-8839-b4ce",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -890,7 +1433,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -901,11 +1448,40 @@
         "targetId": "b206-250d-84aa-fc42",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "eb5d-b609-5f42-19a6", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "58b1-a92a-b8df-6121", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "eb5d-b609-5f42-19a6",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "58b1-a92a-b8df-6121",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "ac1d-1111-aef3-8ccd", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "61ed-b655-fbfd-bfde", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "ac1d-1111-aef3-8ccd",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "61ed-b655-fbfd-bfde",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -939,7 +1515,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -950,11 +1530,40 @@
         "targetId": "cb66-af7-2cca-1c85",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "42ee-fb7b-9e79-fded", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "204e-7796-a8f4-0cd1", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "42ee-fb7b-9e79-fded",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "204e-7796-a8f4-0cd1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "5ce3-80cc-5ce0-429b", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "aa6e-ba34-aff3-3c78", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "5ce3-80cc-5ce0-429b",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "aa6e-ba34-aff3-3c78",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -988,7 +1597,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -999,10 +1612,30 @@
         "targetId": "478-9d24-e5c8-c6f7",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "a6dc-9fec-4ec9-14b4", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "ead1-116c-d243-b647", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "a6dc-9fec-4ec9-14b4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "ead1-116c-d243-b647",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "a95d-4e9f-1407-a706", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "a95d-4e9f-1407-a706",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1036,7 +1669,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1047,13 +1684,46 @@
         "targetId": "c0f9-d16c-6caf-5b95",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "da6c-eda4-8919-678d", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "555a-7c7b-db47-8cb6", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "da6c-eda4-8919-678d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "555a-7c7b-db47-8cb6",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "091c-6d63-14b8-a9a1", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "398a-ac98-08eb-e76c", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "091c-6d63-14b8-a9a1",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "398a-ac98-08eb-e76c",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -1097,13 +1767,46 @@
         "targetId": "f69d-2171-5f95-9c88",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "8e91-ed2c-3ede-2392", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "56c9-1092-a9be-e0d1", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "8e91-ed2c-3ede-2392",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "56c9-1092-a9be-e0d1",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "f318-ab42-f221-b179", "hidden": false, "import": true, "targetId": "621d-b661-7461-4620", "type": "selectionEntryGroup"}],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "f191-486b-1a41-d3b1", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "f318-ab42-f221-b179",
+            "hidden": false,
+            "import": true,
+            "targetId": "621d-b661-7461-4620",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "f191-486b-1a41-d3b1",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"},
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          },
           {
             "comment": "Shadow Legion",
             "field": "hidden",
@@ -1147,10 +1850,30 @@
         "targetId": "e1c2-8417-403a-68",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "3943-f3e0-40bc-4011", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "8cc0-f694-02e6-1d78", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "3943-f3e0-40bc-4011",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "8cc0-f694-02e6-1d78",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "21aa-2f16-5fbd-aa3f", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "21aa-2f16-5fbd-aa3f",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1184,7 +1907,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1195,10 +1922,30 @@
         "targetId": "9238-473a-54ee-6b0e",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "8161-78e4-a834-80a3", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "870a-0ce8-86d6-4819", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "8161-78e4-a834-80a3",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "870a-0ce8-86d6-4819",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "9bde-684f-acd0-04f4", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "9bde-684f-acd0-04f4",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1232,7 +1979,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1243,10 +1994,30 @@
         "targetId": "9df-7c70-84d2-e095",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "8dda-05d4-dec2-d6b5", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "fff1-e75d-ab53-7c90", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "8dda-05d4-dec2-d6b5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "fff1-e75d-ab53-7c90",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "8b26-caec-2630-13ec", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "8b26-caec-2630-13ec",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1280,7 +2051,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1291,10 +2066,30 @@
         "targetId": "658e-a63f-bac7-6201",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "4572-a222-9713-3749", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "1c35-8d49-57e5-41ec", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "4572-a222-9713-3749",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "1c35-8d49-57e5-41ec",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "d742-07a7-376f-9b73", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "d742-07a7-376f-9b73",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1328,7 +2123,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1339,10 +2138,30 @@
         "targetId": "24c4-fa24-67ff-eef",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "9ee1-a272-3379-80fb", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "b127-8f54-3cb5-d425", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "9ee1-a272-3379-80fb",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "b127-8f54-3cb5-d425",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "b275-ccba-d977-919f", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "b275-ccba-d977-919f",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1376,7 +2195,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1387,10 +2210,30 @@
         "targetId": "a7bb-ec24-40e6-5b8c",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "ccfb-bdcf-fb03-46b3", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "2c66-e68a-9723-89f4", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "ccfb-bdcf-fb03-46b3",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "2c66-e68a-9723-89f4",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "e8cf-2781-5ec2-eb67", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "e8cf-2781-5ec2-eb67",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1424,7 +2267,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1435,10 +2282,30 @@
         "targetId": "5b66-39e6-aeb5-8011",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "942c-e77b-24ad-b7ee", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "b574-8fc3-5b63-ab62", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "942c-e77b-24ad-b7ee",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "b574-8fc3-5b63-ab62",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "b15f-526d-6032-0800", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "b15f-526d-6032-0800",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1472,7 +2339,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1483,10 +2354,30 @@
         "targetId": "afed-8173-a1e0-cbae",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "4a9f-9e16-d5f8-5b81", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "a340-b1b3-179f-7680", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "4a9f-9e16-d5f8-5b81",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "a340-b1b3-179f-7680",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "8a56-d33f-e4cd-66ae", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "8a56-d33f-e4cd-66ae",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -1520,7 +2411,11 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
       {
@@ -1531,10 +2426,30 @@
         "targetId": "23aa-b45a-6d5d-e92b",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Shadow Legion", "id": "e944-4063-1d27-34a6", "hidden": false, "primary": false, "targetId": "4df3-beae-010c-9087"},
-          {"name": "Undivided", "id": "aa90-c027-6f88-143a", "hidden": false, "primary": false, "targetId": "1299-7e3f-6272-c60f"}
+          {
+            "name": "Shadow Legion",
+            "id": "e944-4063-1d27-34a6",
+            "hidden": false,
+            "primary": false,
+            "targetId": "4df3-beae-010c-9087"
+          },
+          {
+            "name": "Undivided",
+            "id": "aa90-c027-6f88-143a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "1299-7e3f-6272-c60f"
+          }
         ],
-        "infoLinks": [{"name": "Disciples of Be'lakor", "id": "6e6a-06aa-e17e-d476", "hidden": false, "targetId": "d4db-ebd5-8c2f-3616", "type": "profile"}],
+        "infoLinks": [
+          {
+            "name": "Disciples of Be'lakor",
+            "id": "6e6a-06aa-e17e-d476",
+            "hidden": false,
+            "targetId": "d4db-ebd5-8c2f-3616",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "comment": "Shadow Legion",
@@ -1569,10 +2484,21 @@
               }
             ]
           },
-          {"field": "category", "type": "set-primary", "value": "92e6-f82e-0a48-2276"}
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "92e6-f82e-0a48-2276"
+          }
         ]
       },
-      {"name": "Order of Battle", "id": "7ca3-8931-ce58-03ae", "hidden": false, "import": true, "targetId": "eda7-8b4b-3719-af36", "type": "selectionEntry"}
+      {
+        "name": "Order of Battle",
+        "id": "7ca3-8931-ce58-03ae",
+        "hidden": false,
+        "import": true,
+        "targetId": "eda7-8b4b-3719-af36",
+        "type": "selectionEntry"
+      }
     ]
   }
 }

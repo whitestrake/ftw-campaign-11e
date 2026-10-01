@@ -2039,6 +2039,12 @@
         "id": "f759-1bc4-cb3a-f0d2",
         "defaultCostLimit": "",
         "hidden": true
+      },
+      {
+        "name": "Campaign Enhancement Slots",
+        "id": "c4a1-5eed-3000-0040",
+        "defaultCostLimit": "",
+        "hidden": true
       }
     ],
     "entryLinks": [
@@ -2089,6 +2095,14 @@
         "hidden": false,
         "import": true,
         "targetId": "2f69-9148-45b4-86a8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Campaign Purchases",
+        "id": "c4a1-5eed-3000-0002",
+        "hidden": false,
+        "import": true,
+        "targetId": "c4a1-5eed-3000-0000",
         "type": "selectionEntry"
       }
     ],
@@ -7089,6 +7103,312 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Campaign Purchases",
+        "id": "c4a1-5eed-3000-0000",
+        "hidden": false,
+        "collective": false,
+        "categoryLinks": [
+          {
+            "name": "Configuration",
+            "id": "c4a1-5eed-3000-0003",
+            "hidden": false,
+            "primary": true,
+            "targetId": "4ac9-fd30-1e3d-b249"
+          }
+        ],
+        "constraints": [
+          {
+            "id": "c4a1-5eed-3000-0001",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Hardened Wargear (Toughness)",
+            "id": "c4a1-5eed-3000-0010",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-3000-0011",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "rules": [
+              {
+                "name": "Hardened Wargear (Toughness)",
+                "id": "c4a1-5eed-3000-0012",
+                "hidden": false,
+                "description": "Bought for 3 campaign tokens."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Hardened Wargear (Save)",
+            "id": "c4a1-5eed-3000-0020",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-3000-0021",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "rules": [
+              {
+                "name": "Hardened Wargear (Save)",
+                "id": "c4a1-5eed-3000-0022",
+                "hidden": false,
+                "description": "Bought for 3 campaign tokens."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Bonus Enhancement Slot",
+            "id": "c4a1-5eed-3000-0030",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-3000-0031",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "rules": [
+              {
+                "name": "Bonus Enhancement Slot",
+                "id": "c4a1-5eed-3000-0032",
+                "hidden": false,
+                "description": "Bought for 4 campaign tokens."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Hardened Wargear: Toughness",
+        "id": "c4a1-5eed-3100-0000",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "c4a1-5eed-3100-0001",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden until bought under Campaign Purchases",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-3000-0010",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Toughness change on every model in the unit (same shape as the Crusade 'Extra Armour' battle trait). New Recruit carries a Leader's modifiers onto the unit it leads, which is what the rule asks for",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Hardened Wargear: Toughness",
+                "type": "append",
+                "value": "Hardened Wargear: Toughness"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "scope": "root-entry",
+                "field": "d29d-cf75-fc2d-34a4",
+                "type": "increment",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-5eed-3100-0002",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Add 1 to this **^^Character^^**’s Toughness characteristic. While this model is leading a unit, add 1 to the Toughness characteristic of models in that unit as well."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Hardened Wargear: Save",
+        "id": "c4a1-5eed-3200-0000",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "c4a1-5eed-3200-0001",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden until bought under Campaign Purchases",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-3000-0020",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Save change on every model in the unit (same shape as the Crusade 'Extra Armour' battle trait). New Recruit carries a Leader's modifiers onto the unit it leads, which is what the rule asks for",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "scope": "root-entry",
+                "field": "annotation",
+                "join": ", ",
+                "skipIfPresent": "Hardened Wargear: Save",
+                "type": "append",
+                "value": "Hardened Wargear: Save"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "scope": "root-entry",
+                "field": "450-a17e-9d5e-29da",
+                "type": "decrement",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-5eed-3200-0002",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Improve this **^^Character^^**’s Save characteristic by 1. While this model is leading a unit, improve the Save characteristic of models in that unit by 1 as well."
               }
             ]
           }
