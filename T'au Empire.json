@@ -2257,6 +2257,26 @@
                   }
                 ]
               }
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Overdrive",
+                "conditions": [
+                  {
+                    "childId": "c4a1-5bed-57bf-c3fe",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           },
           {
@@ -2337,6 +2357,26 @@
                   }
                 ]
               }
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Overdrive",
+                "conditions": [
+                  {
+                    "childId": "c4a1-fe1a-c2ca-25db",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           },
           {
@@ -2405,6 +2445,26 @@
                     "name": "Keywords",
                     "$text": "",
                     "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Overdrive",
+                "conditions": [
+                  {
+                    "childId": "c4a1-1b34-b7c3-00b3",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
@@ -3056,6 +3116,26 @@
                 ]
               }
             ],
+            "modifiers": [
+              {
+                "affects": "profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Overdrive",
+                "conditions": [
+                  {
+                    "childId": "c4a1-c53a-06ab-9927",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
             "categoryLinks": [
               {
                 "name": "Plasma Rifle Weapon",
@@ -3299,6 +3379,26 @@
                 "name": "Keywords",
                 "$text": "Ignores Cover, Torrent",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-ba52-d4de-f6f4",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -6597,6 +6697,26 @@
                             "name": "Keywords",
                             "$text": "",
                             "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "affects": "profiles.Ranged Weapons",
+                        "field": "7f1b-8591-2fcf-d01c",
+                        "join": ", ",
+                        "type": "append",
+                        "value": "Overdrive",
+                        "conditions": [
+                          {
+                            "childId": "c4a1-dc5c-79c6-c791",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "root-entry",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
                           }
                         ]
                       }
@@ -60515,6 +60635,26 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-becf-4b9f-e76b",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -60576,6 +60716,26 @@
                 "name": "Keywords",
                 "$text": "",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-adcd-5a1b-c851",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -60669,6 +60829,26 @@
                 "name": "Keywords",
                 "$text": "Blast, Indirect Fire",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-3278-e2e3-f81d",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -60878,6 +61058,26 @@
                 "name": "Keywords",
                 "$text": "Hazardous",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-ebad-cf6f-1b7d",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -61279,6 +61479,26 @@
                 "name": "Keywords",
                 "$text": "Melta 2",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-337e-b999-9c0f",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -61770,6 +61990,26 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-cf2a-b1f5-f924",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -62142,6 +62382,26 @@
                 "name": "Keywords",
                 "$text": "",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "type": "append",
+            "value": "Overdrive",
+            "conditions": [
+              {
+                "childId": "c4a1-5f5e-746b-9ff3",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -68422,6 +68682,1062 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "**^^Commander^^** model only. Select up to two ranged weapons this model is equipped with. Each time the bearer makes a ranged attack with one of those weapons that targets a unit within half range, add 1 to that attack’s wound roll."
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Overdrive",
+            "id": "c4a1-5eed-0000-0023",
+            "hidden": false,
+            "description": "Each time the bearer makes a ranged attack with an **[OVERDRIVE]** weapon that targets a unit within half range, add 1 to that attack’s wound roll."
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-5eed-0000-0024",
+            "hidden": false,
+            "collapsible": false,
+            "constraints": [
+              {
+                "id": "c4a1-5eed-0000-0025",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "self",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Airbursting fragmentation projector",
+                "id": "c4a1-3278-e2e3-f81d",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-3a45-8e12-e694",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-18b8-e8d9-7a07",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "437e-0e4a-5c90-dbef",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-18b8-e8d9-7a07",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "437e-0e4a-5c90-dbef",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-3278-e2e3-f81d",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Burst cannon",
+                "id": "c4a1-adcd-5a1b-c851",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-37c8-ee2c-93f6",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-d2eb-7758-a1fa",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "3a5c-c8e4-823f-c18c",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-d2eb-7758-a1fa",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "3a5c-c8e4-823f-c18c",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-adcd-5a1b-c851",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Cyclic ion blaster",
+                "id": "c4a1-ebad-cf6f-1b7d",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-762f-e29c-4ba3",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-acb4-23ac-1873",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "9e40-f25b-c5dd-6712",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-acb4-23ac-1873",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "9e40-f25b-c5dd-6712",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-ebad-cf6f-1b7d",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Flechette launcher",
+                "id": "c4a1-1b34-b7c3-00b3",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-3ef3-4c0c-3b6a",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-06bc-723a-e619",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "cc93-2b4c-bc20-79d2",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-06bc-723a-e619",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "cc93-2b4c-bc20-79d2",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-1b34-b7c3-00b3",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Fusion blaster",
+                "id": "c4a1-337e-b999-9c0f",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-adb3-6f49-cf4c",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-fd88-cb07-ff52",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a384-146f-1171-f49f",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-fd88-cb07-ff52",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a384-146f-1171-f49f",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-337e-b999-9c0f",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: High-energy fusion blaster",
+                "id": "c4a1-fe1a-c2ca-25db",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-793d-2a8a-ed62",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-c3d5-8a92-d336",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "891-9245-4641-6e5a",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-c3d5-8a92-d336",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "891-9245-4641-6e5a",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-fe1a-c2ca-25db",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: High-intensity plasma rifle",
+                "id": "c4a1-c53a-06ab-9927",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-3ab5-7b7f-04a3",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-af3a-9b3d-6d12",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "9ef3-4c11-53ae-2ebc",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-af3a-9b3d-6d12",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "9ef3-4c11-53ae-2ebc",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-c53a-06ab-9927",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: High-output burst cannon",
+                "id": "c4a1-dc5c-79c6-c791",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-dd97-36ff-38b1",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-440b-e54b-d871",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "9341-a5b8-1f4a-6c9f",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-440b-e54b-d871",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "9341-a5b8-1f4a-6c9f",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-dc5c-79c6-c791",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Light missile pod",
+                "id": "c4a1-5bed-57bf-c3fe",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-d70a-d26f-716f",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-396c-91de-d1b6",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "ee6f-f3d5-5c7c-ca39",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-396c-91de-d1b6",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "ee6f-f3d5-5c7c-ca39",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-5bed-57bf-c3fe",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Missile pod",
+                "id": "c4a1-becf-4b9f-e76b",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-1b11-4c2d-6f56",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-1a9d-c1a3-45fb",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "6132-7ca7-58c5-0f8e",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-1a9d-c1a3-45fb",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "6132-7ca7-58c5-0f8e",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-becf-4b9f-e76b",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Plasma rifle",
+                "id": "c4a1-5f5e-746b-9ff3",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-93f1-503a-2b48",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-dcf2-6e62-f393",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "e87a-3ab1-2834-bb10",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-dcf2-6e62-f393",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "e87a-3ab1-2834-bb10",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-5f5e-746b-9ff3",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: Pulse pistol",
+                "id": "c4a1-cf2a-b1f5-f924",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-55f8-fc04-97c0",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-de20-1e6e-d987",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "ba81-87dc-de58-d901",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-de20-1e6e-d987",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "ba81-87dc-de58-d901",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-cf2a-b1f5-f924",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overdrive: T'au flamer",
+                "id": "c4a1-ba52-d4de-f6f4",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-cc9a-b7d8-5cd1",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "c4a1-f49d-d5f8-8526",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0,
+                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "6e8-cf2e-cedd-9028",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
+                    "field": "c4a1-f49d-d5f8-8526",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "6e8-cf2e-cedd-9028",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "root-entry",
+                        "shared": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c4a1-ba52-d4de-f6f4",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
