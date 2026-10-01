@@ -406,16 +406,30 @@ def main():
     add_entry_link(warlord, trait, "c4a1-5eed-1000-0010")
     print(f"Warlord trait attached to '{warlord['name']}' ({warlord_id})")
 
-    # 3d. Signature system: root-level Commander units only.
+    # 3d. Signature system: a 0 pt Bork'an enhancement in the T'au Enhancements list, so it uses
+    #     the bearer's Enhancement (or a Campaign Enhancement Slot) and counts towards the army
+    #     limit. Commander models only: there's no shared COMMANDER keyword in the data, so it
+    #     checks each Commander's own name category.
     root_targets = {l["targetId"] for l in cat.get("entryLinks", [])}
     pattern = re.compile(cfg["commanderNamePattern"])
     commanders = [e for e in cat["sharedSelectionEntries"]
                   if e["id"] in root_targets and pattern.search(e.get("name", ""))]
-    if not commanders:
-        fail(f"no Commander units matched {cfg['commanderNamePattern']!r}")
-    for i, c in enumerate(commanders):
-        add_entry_link(c, sig, f"c4a1-5eed-2{i:03x}-0020")
-    print("Signature system linked on: " + ", ".join(c["name"] for c in commanders))
+    commander_cats = [c for c in cat.get("categoryEntries", []) if pattern.search(c.get("name", ""))]
+    if not commanders or not commander_cats:
+        fail(f"no Commander units/categories matched {cfg['commanderNamePattern']!r}")
+    sig.setdefault("modifiers", []).append({
+        "comment": "Commander models only",
+        "field": "hidden", "type": "set", "value": True,
+        "conditions": [{"childId": c["id"], "field": "selections", "scope": "ancestor", "shared": True,
+                        "type": "notInstanceOf", "value": 1} for c in commander_cats],
+    })
+    enh_group = next((g for g in cat.get("sharedSelectionEntryGroups", [])
+                      if g["id"] == cfg["enhancementGroupId"]), None)
+    if enh_group is None:
+        fail(f"Enhancements group {cfg['enhancementGroupId']} not found - upstream structure changed")
+    enh_group["selectionEntryGroups"] = replace_by_id(enh_group.get("selectionEntryGroups", []),
+                                                      [cfg["borkanEnhancements"]])
+    print(f"Signature system added to '{enh_group['name']}' for: " + ", ".join(c["name"] for c in commander_cats))
     add_overdrive_choices(cat, commanders, sig, cfg["overdrive"])
 
     # 3e. Experimental Prototype Cadre weapon upgrades on Farsight's rifle (campaign ruling).

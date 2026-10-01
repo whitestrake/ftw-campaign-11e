@@ -7,6 +7,30 @@
   "detachmentGroupId": "635f-4f21-95c7-35e7",
   "warlordEntryId": "179c-d88a-d49b-48b9",
   "commanderNamePattern": "^Commander ",
+  "enhancementGroupId": "fae2-569a-6bec-9167",
+  "borkanEnhancements": {
+    "_comment": "The signature system is a 0 pt Bork’an enhancement: it lives in the T'au Enhancements list, uses the bearer's Enhancement and counts towards the army limit",
+    "name": "Bork’an Enhancements",
+    "id": "c4a1-5eed-0000-0027",
+    "hidden": false,
+    "collapsible": false,
+    "flatten": false,
+    "constraints": [
+      { "id": "c4a1-5eed-0000-0028", "field": "selections", "includeChildForces": false, "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1 }
+    ],
+    "modifiers": [
+      {
+        "comment": "Hidden without Bork’an",
+        "field": "hidden", "type": "set", "value": true,
+        "conditions": [
+          { "childId": "c4a1-5eed-0000-0030", "field": "selections", "includeChildForces": true, "includeChildSelections": true, "scope": "force", "shared": true, "type": "lessThan", "value": 1 }
+        ]
+      }
+    ],
+    "entryLinks": [
+      { "name": "Signature System: Overdrive Power Systems", "id": "c4a1-5eed-0000-0029", "hidden": false, "import": true, "targetId": "c4a1-5eed-0000-0020", "type": "selectionEntry" }
+    ]
+  },
   "overdrive": {
     "_comment": "apply.py adds an 'Overdrive: <weapon>' choice under the signature system for every ranged weapon a Commander can carry. Choosing it adds OVERDRIVE to that weapon's keywords",
     "keyword": "Overdrive",
@@ -128,6 +152,10 @@
     "name": "Signature System: Overdrive Power Systems",
     "id": "c4a1-5eed-0000-0020",
     "hidden": false,
+    "costs": [
+      { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 },
+      { "name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1 }
+    ],
     "constraints": [
       { "id": "c4a1-5eed-0000-0021", "type": "max", "value": 1, "field": "selections", "scope": "roster", "shared": true, "includeChildSelections": true, "includeChildForces": true }
     ],
