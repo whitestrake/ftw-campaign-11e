@@ -233,7 +233,7 @@
             { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }
           ],
           "rules": [
-            { "name": "Hardened Wargear (Toughness)", "id": "c4a1-5eed-3000-0012", "hidden": false, "description": "Bought for 3 campaign tokens." }
+            { "name": "Hardened Wargear (Toughness)", "id": "c4a1-5eed-3000-0012", "hidden": false, "description": "3 Tokens – Hardened wargear. Any character with a toughness of 10 or below may add 1 to their toughness or save. This bonus is added to any unit they are attached to. This can only be purchased twice but you can only choose toughness or save once each, these can be stacked on the same unit." }
           ]
         },
         {
@@ -249,7 +249,7 @@
             { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }
           ],
           "rules": [
-            { "name": "Hardened Wargear (Save)", "id": "c4a1-5eed-3000-0022", "hidden": false, "description": "Bought for 3 campaign tokens." }
+            { "name": "Hardened Wargear (Save)", "id": "c4a1-5eed-3000-0022", "hidden": false, "description": "3 Tokens – Hardened wargear. Any character with a toughness of 10 or below may add 1 to their toughness or save. This bonus is added to any unit they are attached to. This can only be purchased twice but you can only choose toughness or save once each, these can be stacked on the same unit." }
           ]
         },
         {
@@ -265,7 +265,7 @@
             { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }
           ],
           "rules": [
-            { "name": "Bonus Enhancement Slot", "id": "c4a1-5eed-3000-0032", "hidden": false, "description": "Bought for 4 campaign tokens." }
+            { "name": "Bonus Enhancement Slot", "id": "c4a1-5eed-3000-0032", "hidden": false, "description": "4 Tokens – One character may purchase an enhancement, this can be an epic hero and can be above the usual enhancement limit." }
           ]
         }
       ]
