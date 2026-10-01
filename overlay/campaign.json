@@ -12,7 +12,8 @@
     "keyword": "Overdrive",
     "maxWeapons": 2,
     "rangedProfileTypeId": "f77d-b953-8fa4-b762",
-    "keywordsCharacteristicId": "7f1b-8591-2fcf-d01c"
+    "keywordsCharacteristicId": "7f1b-8591-2fcf-d01c",
+    "costType": { "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0026", "defaultCostLimit": "", "hidden": true }
   },
 
   "experimentalPrototype": {
@@ -184,7 +185,8 @@
         { "name": "Configuration", "id": "c4a1-5eed-3000-0003", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249" }
       ],
       "constraints": [
-        { "id": "c4a1-5eed-3000-0001", "field": "selections", "includeChildForces": true, "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1 }
+        { "id": "c4a1-5eed-3000-0001", "field": "selections", "includeChildForces": true, "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1 },
+        { "id": "c4a1-5eed-3000-0004", "field": "selections", "includeChildForces": true, "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 1 }
       ],
       "costs": [
         { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }

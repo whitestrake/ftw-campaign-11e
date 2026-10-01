@@ -155,29 +155,28 @@ def add_overdrive_choices(cat, commanders, sig, od):
             fail(f"no ranged weapons found on '{c['name']}' - upstream structure changed")
         weapons.update(found)
 
+    # Each choice covers every copy of its weapon, so it costs one hidden "Overdrive Weapons"
+    # per copy carried and the signature system caps that tally (the same shape as the Orks'
+    # per-unit Enhancements cap). Counting selections instead would need a min = max
+    # constraint, which New Recruit treats as a fixed entry and removes from the options.
+    cost = od["costType"]
     choices = []
     for wid, w in sorted(weapons.items(), key=lambda kv: kv[1]["name"]):
         oid = derived_id("overdrive", wid)
-        min_id = derived_id(oid, "min")
         carried = {"childId": wid, "field": "selections", "includeChildSelections": True,
                    "scope": "root-entry", "shared": True}
         choices.append({
             "type": "upgrade", "import": True, "name": f"{od['keyword']}: {w['name']}", "id": oid, "hidden": False,
-            "constraints": [
-                {"id": derived_id(oid, "max"), "field": "selections", "scope": "parent", "shared": True,
-                 "type": "max", "value": od["maxWeapons"]},
-                {"id": min_id, "field": "selections", "scope": "parent", "shared": True, "type": "min", "value": 0,
-                 "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."},
-            ],
-            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "constraints": [{"id": derived_id(oid, "max"), "field": "selections", "scope": "parent",
+                             "shared": True, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                      {"name": cost["name"], "typeId": cost["id"], "value": 0}],
             "modifiers": [
                 {"field": "hidden", "type": "set", "value": True,
                  "conditions": [dict(carried, type="lessThan", value=1)]},
-                {"comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                 "field": min_id, "type": "increment", "value": 1,
-                 "repeats": [dict(carried, repeats=1, roundUp=False, value=1)],
-                 "conditions": [{"childId": oid, "field": "selections", "scope": "parent", "shared": True,
-                                 "type": "atLeast", "value": 1}]},
+                {"comment": "One Overdrive Weapon per copy of this weapon carried",
+                 "field": cost["id"], "type": "increment", "value": 1,
+                 "repeats": [dict(carried, repeats=1, roundUp=False, value=1)]},
             ],
         })
         w["modifiers"] = [m for m in w.get("modifiers", []) if m.get("value") != od["keyword"]] + [{
@@ -188,10 +187,13 @@ def add_overdrive_choices(cat, commanders, sig, od):
         }]
     sig["selectionEntryGroups"] = [{
         "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0024", "hidden": False, "collapsible": False,
-        "constraints": [{"id": "c4a1-5eed-0000-0025", "field": "selections", "includeChildSelections": True,
-                         "scope": "self", "shared": True, "type": "max", "value": od["maxWeapons"]}],
         "selectionEntries": choices,
     }]
+    sig["constraints"] = replace_by_id(sig.get("constraints", []), [{
+        "id": "c4a1-5eed-0000-0025", "field": cost["id"], "includeChildSelections": True, "scope": "self",
+        "shared": True, "type": "max", "value": od["maxWeapons"],
+        "message": f"Overdrive covers at most {od['maxWeapons']} weapons, and every copy of a chosen weapon counts.",
+    }])
     print("Overdrive choices: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
 
 
@@ -374,6 +376,8 @@ def main():
     suffix = cfg.get("gameSystemNameSuffix")
     if suffix and not gst["gameSystem"]["name"].endswith(suffix):
         gst["gameSystem"]["name"] += suffix
+    gst["gameSystem"]["costTypes"] = replace_by_id(gst["gameSystem"].get("costTypes", []),
+                                                   [cfg["overdrive"]["costType"]])
     write_json(gst, gst_path)
 
     # 3. Patch the faction catalogue.
