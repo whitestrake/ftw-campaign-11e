@@ -68648,6 +68648,16 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "c4a1-5eed-0000-0025",
+            "field": "c4a1-5eed-0000-0026",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 2,
+            "message": "Overdrive covers at most 2 weapons, and every copy of a chosen weapon counts."
           }
         ],
         "modifiers": [
@@ -68700,17 +68710,6 @@
             "id": "c4a1-5eed-0000-0024",
             "hidden": false,
             "collapsible": false,
-            "constraints": [
-              {
-                "id": "c4a1-5eed-0000-0025",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "self",
-                "shared": true,
-                "type": "max",
-                "value": 2
-              }
-            ],
             "selectionEntries": [
               {
                 "type": "upgrade",
@@ -68725,22 +68724,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-18b8-e8d9-7a07",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -68762,8 +68757,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-18b8-e8d9-7a07",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -68775,16 +68770,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-3278-e2e3-f81d",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -68804,22 +68789,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-d2eb-7758-a1fa",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -68841,8 +68822,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-d2eb-7758-a1fa",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -68854,16 +68835,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-adcd-5a1b-c851",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -68883,22 +68854,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-acb4-23ac-1873",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -68920,8 +68887,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-acb4-23ac-1873",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -68933,16 +68900,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-ebad-cf6f-1b7d",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -68962,22 +68919,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-06bc-723a-e619",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -68999,8 +68952,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-06bc-723a-e619",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69012,16 +68965,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-1b34-b7c3-00b3",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69041,22 +68984,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-fd88-cb07-ff52",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69078,8 +69017,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-fd88-cb07-ff52",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69091,16 +69030,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-337e-b999-9c0f",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69120,22 +69049,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-c3d5-8a92-d336",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69157,8 +69082,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-c3d5-8a92-d336",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69170,16 +69095,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-fe1a-c2ca-25db",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69199,22 +69114,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-af3a-9b3d-6d12",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69236,8 +69147,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-af3a-9b3d-6d12",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69249,16 +69160,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-c53a-06ab-9927",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69278,22 +69179,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-440b-e54b-d871",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69315,8 +69212,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-440b-e54b-d871",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69328,16 +69225,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-dc5c-79c6-c791",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69357,22 +69244,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-396c-91de-d1b6",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69394,8 +69277,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-396c-91de-d1b6",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69407,16 +69290,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-5bed-57bf-c3fe",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69436,22 +69309,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-1a9d-c1a3-45fb",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69473,8 +69342,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-1a9d-c1a3-45fb",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69486,16 +69355,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-becf-4b9f-e76b",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69515,22 +69374,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-dcf2-6e62-f393",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69552,8 +69407,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-dcf2-6e62-f393",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69565,16 +69420,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-5f5e-746b-9ff3",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69594,22 +69439,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-de20-1e6e-d987",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69631,8 +69472,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-de20-1e6e-d987",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69644,16 +69485,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-cf2a-b1f5-f924",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -69673,22 +69504,18 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "c4a1-f49d-d5f8-8526",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 0,
-                    "message": "Overdrive applies to every copy of this weapon, so select it once per copy carried."
+                    "value": 1
                   }
                 ],
                 "costs": [
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Overdrive Weapons",
+                    "typeId": "c4a1-5eed-0000-0026",
                     "value": 0
                   }
                 ],
@@ -69710,8 +69537,8 @@
                     ]
                   },
                   {
-                    "comment": "Once chosen, it must be chosen once per copy carried, so two of the same weapon use both picks",
-                    "field": "c4a1-f49d-d5f8-8526",
+                    "comment": "One Overdrive Weapon per copy of this weapon carried",
+                    "field": "c4a1-5eed-0000-0026",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -69723,16 +69550,6 @@
                         "shared": true,
                         "repeats": 1,
                         "roundUp": false,
-                        "value": 1
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "c4a1-ba52-d4de-f6f4",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
                         "value": 1
                       }
                     ]
