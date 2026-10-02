@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 21,
+    "revision": 22,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -22101,12 +22101,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -22220,12 +22220,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -38658,7 +38658,7 @@
         "name": "Combi-weapon",
         "id": "cc61-d9ed-f24-e511",
         "collective": true,
-        "comment": "Collective",
+        "comment": "S5",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -41615,7 +41615,7 @@
                     "collective": false,
                     "hidden": false,
                     "import": true,
-                    "targetId": "cc61-d9ed-f24-e511",
+                    "targetId": "6b41-7111-db91-e346",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -41919,7 +41919,7 @@
                     "collective": false,
                     "hidden": false,
                     "import": true,
-                    "targetId": "cc61-d9ed-f24-e511",
+                    "targetId": "6b41-7111-db91-e346",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -42459,7 +42459,7 @@
                                     "collective": false,
                                     "hidden": false,
                                     "import": true,
-                                    "targetId": "cc61-d9ed-f24-e511",
+                                    "targetId": "6b41-7111-db91-e346",
                                     "type": "selectionEntry",
                                     "entryLinks": [
                                       {
@@ -44188,7 +44188,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "5",
+                    "$text": "6",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -45409,7 +45409,7 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
-                        "targetId": "31fc-c03a-7a50-f8f2",
+                        "targetId": "6b41-7111-db91-e346",
                         "type": "selectionEntry",
                         "constraints": [
                           {
@@ -111844,12 +111844,12 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
                 "name": "AP",
-                "$text": "0",
+                "$text": "-1",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -117655,12 +117655,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
+                        "$text": "-1",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -118039,6 +118039,15 @@
             "shared": true,
             "type": "max",
             "value": 1
+          },
+          {
+            "id": "1218-ab18-a7ee-601d",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "4e85-615b-5d49-dfa4",
+            "shared": true,
+            "type": "max",
+            "value": 2
           }
         ],
         "costs": [

@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -152351,13 +152351,6 @@
                 "hidden": false,
                 "primary": false,
                 "targetId": "b4a7-5083-fe94-4d24"
-              },
-              {
-                "name": "3DP Detachment",
-                "id": "669e-c64b-e330-5a87",
-                "hidden": false,
-                "primary": false,
-                "targetId": "7d80-2de5-816e-9d2b"
               }
             ],
             "constraints": [
@@ -152405,7 +152398,7 @@
               {
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
-                "value": 3
+                "value": 2
               },
               {
                 "name": "Enhancements",
