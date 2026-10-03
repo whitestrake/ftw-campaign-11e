@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 6,
+    "revision": 7,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -48726,7 +48726,7 @@
               {
                 "field": "name",
                 "type": "append",
-                "value": 20
+                "value": "11"
               }
             ]
           },
@@ -48750,6 +48750,27 @@
             "hidden": false,
             "targetId": "37c-6ef9-277-9091",
             "type": "rule"
+          },
+          {
+            "name": "Super-Heavy Walker",
+            "id": "278e-0a86-aff5-601f",
+            "hidden": false,
+            "targetId": "5e13-1624-d280-418d",
+            "type": "rule"
+          },
+          {
+            "name": "Damaged",
+            "id": "2912-fdca-63ce-fa0f",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "append",
+                "value": "10"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -49074,20 +49095,6 @@
             ]
           },
           {
-            "name": "Gargantuan",
-            "id": "3299-bec9-9729-5206",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
             "name": "Walking Bastion",
             "id": "323f-f6d9-36e5-e4c1",
             "hidden": false,
@@ -49096,21 +49103,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Damaged: 1-10 Wounds Remaining",
-            "id": "1073-965e-53c5-5faa",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+                "$text": "This unit's attacks can ignore modifiers to:\n- BS/WS\n- Hit rolls",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -49124,7 +49117,7 @@
             "characteristics": [
               {
                 "name": "Capacity",
-                "$text": "This model has a transport capacity of 20 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. GHAZGHKULL THRAKA takes up the space of 18 models. If this model is equipped with a supa-kannon, it has a transport capacity of 15 ORKS INFANTRY models.",
+                "$text": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR, JUMP PACK model takes up the space of 2 models. Each GHAZGHKULL THRAKA model takes up the space of 4 models.",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ]
@@ -49173,16 +49166,16 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Lance",
+                    "name": "Cleave",
                     "id": "517-9e7-3eb0-b6e",
                     "hidden": false,
-                    "targetId": "2ebc-abdf-8129-6c57",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule"
                   }
                 ],
                 "profiles": [
                   {
-                    "name": "➤ Huge tusks - strike",
+                    "name": "Huge tusks",
                     "id": "22fa-5ab5-c07-2e6c",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -49220,51 +49213,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Lance",
-                        "typeId": "893f-9000-ccf7-648e"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "➤ Huge tusks - sweep",
-                    "id": "260f-5f80-8aee-2b61",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "Melee",
-                        "typeId": "914c-b413-91e3-a132"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "18",
-                        "typeId": "2337-daa1-6682-b110"
-                      },
-                      {
-                        "name": "WS",
-                        "$text": "3+",
-                        "typeId": "95d1-95f-45b4-11d6"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "9",
-                        "typeId": "ab33-d393-96ce-ccba"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-2",
-                        "typeId": "41a0-1301-112a-e2f2"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "3",
-                        "typeId": "3254-9fe6-d824-513e"
-                      },
-                      {
-                        "name": "Keywords",
-                        "$text": "",
+                        "$text": "Cleave 2",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]
@@ -49276,6 +49225,7 @@
               {
                 "name": "Wargear Options",
                 "id": "c125-6ace-cee2-1f54",
+                "defaultSelectionEntryId": "95b4-4fb1-62e8-ed4a",
                 "hidden": false,
                 "constraints": [
                   {
@@ -49284,6 +49234,15 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "bf40-fff2-cdac-f408",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
                     "value": 1
                   }
                 ],
@@ -49295,6 +49254,16 @@
                     "import": true,
                     "targetId": "b770-d969-e667-3e1a",
                     "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "62ea-61e1-dcee-6b4c",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 2
+                      }
+                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -49321,6 +49290,16 @@
                         "hidden": false,
                         "primary": false,
                         "targetId": "e993-e086-6de1-12af"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "abe9-a2fd-4c5c-c044",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 2
                       }
                     ],
                     "entryLinks": [
@@ -49357,7 +49336,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "2D6",
+                            "$text": "8",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -49382,7 +49361,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Blast",
+                            "$text": "Blast 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -54237,7 +54216,7 @@
       {
         "name": "Kannon",
         "id": "b770-d969-e667-3e1a",
-        "comment": "AD6",
+        "comment": "A6",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -54247,6 +54226,13 @@
             "id": "35bd-7f9e-3516-24c6",
             "hidden": false,
             "targetId": "6c1f-1cf7-ff25-c99e",
+            "type": "rule"
+          },
+          {
+            "name": "Rapid Fire",
+            "id": "4324-1135-8dae-f6cf",
+            "hidden": false,
+            "targetId": "c5c8-8b58-b8b6-7786",
             "type": "rule"
           }
         ],
@@ -54265,7 +54251,7 @@
               },
               {
                 "name": "A",
-                "$text": "1",
+                "$text": "2",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -54275,7 +54261,7 @@
               },
               {
                 "name": "S",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
@@ -54285,32 +54271,13 @@
               },
               {
                 "name": "D",
-                "$text": "D6",
+                "$text": "D6+1",
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
                 "name": "Keywords",
-                "$text": "",
+                "$text": "Rapid Fire 2",
                 "typeId": "7f1b-8591-2fcf-d01c"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "a354-c1c8-a745-f9e3",
-                "join": "",
-                "type": "append",
-                "value": "+0",
-                "conditions": [
-                  {
-                    "childId": "584b-5fa7-a3c3-942e",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           },
@@ -54328,7 +54295,7 @@
               },
               {
                 "name": "A",
-                "$text": "D6",
+                "$text": "6",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -54353,27 +54320,8 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Blast",
+                "$text": "Blast 1, Rapid Fire 6",
                 "typeId": "7f1b-8591-2fcf-d01c"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "3bb-c35f-f54-fb08",
-                "join": "",
-                "type": "append",
-                "value": "+0",
-                "conditions": [
-                  {
-                    "childId": "2801-9f1c-645d-cb3d",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -55037,15 +54985,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "7cda-6900-0c59-98a0",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
-                  }
-                ],
                 "constraints": [
                   {
                     "id": "88f4-b596-97d3-cd75",
@@ -55196,6 +55135,88 @@
                       {
                         "name": "Keywords",
                         "$text": "CLEAVE 2, EXTRA ATTACKS",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Crushin' Bulk",
+                "id": "7117-b6c8-f7b3-5cde",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "d918-91ed-0979-f75a-min",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "d918-91ed-0979-f75a-max",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Cleave",
+                    "id": "3284-d2f7-9843-7c2d",
+                    "hidden": false,
+                    "targetId": "bf16-5d16-4725-f912",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Crushin' Bulk",
+                    "id": "3850-7fff-e180-d13c",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "Melee",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "6",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "name": "WS",
+                        "$text": "3+",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "8",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Cleave 1",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]

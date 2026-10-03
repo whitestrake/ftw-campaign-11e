@@ -26312,15 +26312,15 @@
         "type": "model",
         "associations": [
           {
-            "name": "Leading",
+            "name": "Supporting",
             "id": "4a40-4d15-c8f3-7cc1",
             "action": "group",
             "childId": "unit",
             "childName": "unit",
             "includeChildSelections": true,
-            "label": "Leader",
+            "label": "Supported by",
             "max": 1,
-            "min": 0,
+            "min": 1,
             "scope": "force",
             "conditionGroups": [
               {

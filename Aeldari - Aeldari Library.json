@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -153139,13 +153139,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Acrobatic",
-                "id": "7d8f-c8c6-0eeb-5fa5",
-                "hidden": false,
-                "primary": false,
-                "targetId": "cf1d-4f12-4376-abcf"
-              },
-              {
                 "name": "Disruption",
                 "id": "e722-2024-90b9-6c0e",
                 "hidden": false,
@@ -153590,13 +153583,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Covens",
-                "id": "cee8-5cbb-d214-7d64",
-                "hidden": false,
-                "primary": false,
-                "targetId": "521c-d2f5-c741-8b85"
-              },
-              {
                 "name": "Take and Hold",
                 "id": "3de9-bb94-bdfa-a941",
                 "hidden": false,
@@ -153705,13 +153691,6 @@
                 "hidden": false,
                 "primary": false,
                 "targetId": "ecf8-cf72-7d5b-1b5b"
-              },
-              {
-                "name": "Kabal",
-                "id": "6137-ef5b-c2c3-3f16",
-                "hidden": false,
-                "primary": false,
-                "targetId": "c763-27e6-ad18-7bfd"
               }
             ],
             "constraints": [
@@ -153809,13 +153788,6 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {
-                "name": "Wych Cult",
-                "id": "e573-4546-fa68-c6ec",
-                "hidden": false,
-                "primary": false,
-                "targetId": "470c-4bee-f2f5-5e66"
-              },
               {
                 "name": "Purge the Foe",
                 "id": "6216-db64-41ce-26af",
@@ -153919,13 +153891,6 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {
-                "name": "Acrobatic",
-                "id": "c874-ae7f-57f6-df94",
-                "hidden": false,
-                "primary": false,
-                "targetId": "cf1d-4f12-4376-abcf"
-              },
               {
                 "name": "Purge the Foe",
                 "id": "bbd4-e847-e624-e41d",
@@ -154227,13 +154192,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Acrobatic",
-                "id": "a2c2-fe3c-b635-dccb",
-                "hidden": false,
-                "primary": false,
-                "targetId": "cf1d-4f12-4376-abcf"
-              },
-              {
                 "name": "Disruption",
                 "id": "5e4c-1eab-60d2-6cf9",
                 "hidden": false,
@@ -154422,13 +154380,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Acrobatic",
-                "id": "0b11-50d7-976b-d782",
-                "hidden": false,
-                "primary": false,
-                "targetId": "cf1d-4f12-4376-abcf"
-              },
-              {
                 "name": "Take and Hold",
                 "id": "780f-3be8-b831-41d5",
                 "hidden": false,
@@ -154531,13 +154482,6 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {
-                "name": "Wych Cult",
-                "id": "e44f-a7e1-018d-4599",
-                "hidden": false,
-                "primary": false,
-                "targetId": "470c-4bee-f2f5-5e66"
-              },
               {
                 "name": "Reconnaissance",
                 "id": "6112-96cb-deca-3df3",
@@ -154642,13 +154586,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Kabal",
-                "id": "bb3c-e270-e309-a97b",
-                "hidden": false,
-                "primary": false,
-                "targetId": "c763-27e6-ad18-7bfd"
-              },
-              {
                 "name": "Disruption",
                 "id": "25b4-704e-7ca4-0c62",
                 "hidden": false,
@@ -154751,13 +154688,6 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {
-                "name": "Covens",
-                "id": "98af-2c06-4557-73c1",
-                "hidden": false,
-                "primary": false,
-                "targetId": "521c-d2f5-c741-8b85"
-              },
               {
                 "name": "Take and Hold",
                 "id": "c3c7-2a3d-cdc8-6dff",

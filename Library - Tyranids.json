@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 77,
     "library": true,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -32677,13 +32677,6 @@
             "type": "upgrade",
             "categoryLinks": [
               {
-                "name": "Purestrain",
-                "id": "4bf1-c5d2-9fb1-bc85",
-                "hidden": false,
-                "primary": false,
-                "targetId": "a552-36b4-181a-b833"
-              },
-              {
                 "name": "Take and Hold",
                 "id": "b8c7-3a79-436f-706e",
                 "hidden": false,
@@ -33308,13 +33301,6 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {
-                "name": "Purestrain",
-                "id": "871e-63d8-6f0e-b979",
-                "hidden": false,
-                "primary": false,
-                "targetId": "a552-36b4-181a-b833"
-              },
               {
                 "name": "Priority Assets",
                 "id": "cb56-67ed-9933-6a80",
