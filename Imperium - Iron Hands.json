@@ -591,15 +591,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "a47e-6bc4-b3f6-1fb9",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "e15a-fcf9-4c43-e139",

@@ -85491,15 +85491,6 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
-                        "categoryLinks": [
-                          {
-                            "name": "Extra Attacks Weapon",
-                            "id": "c84d-ff6a-2717-0693",
-                            "hidden": false,
-                            "primary": false,
-                            "targetId": "84c4-6d1e-e724-bd6e"
-                          }
-                        ],
                         "entryLinks": [
                           {
                             "name": "Weapon Modifications",
@@ -115222,15 +115213,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "9e36-9efa-44d1-50df",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
-                  }
-                ],
                 "constraints": [
                   {
                     "id": "cf02-72bc-e602-288b",

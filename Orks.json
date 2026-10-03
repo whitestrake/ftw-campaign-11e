@@ -20875,15 +20875,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "89f1-a199-9b22-df3a",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          }
-        ],
         "profiles": [
           {
             "name": "Butcha Boyz",
@@ -20937,15 +20928,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "768d-578d-0305-98e8",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          }
-        ],
         "profiles": [
           {
             "name": "Savage Horns and Hooves",
@@ -34654,13 +34636,6 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
-                  },
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "f691-63ce-8b66-fad2",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
                   }
                 ],
                 "constraints": [
@@ -52280,13 +52255,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "ccdd-3987-11ed-90cd"
-          },
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "3ed7-69a8-bf25-f70f",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
           }
         ],
         "profiles": [
@@ -55059,13 +55027,6 @@
                 "import": true,
                 "type": "upgrade",
                 "categoryLinks": [
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "a9d8-e1a4-48c9-6ecc",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
-                  },
                   {
                     "name": "Damage Dx Weapon",
                     "id": "0d12-d7f9-727f-535c",
@@ -57857,14 +57818,6 @@
                     "scope": "model-or-unit",
                     "shared": true,
                     "type": "lessThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "84c4-6d1e-e724-bd6e",
-                    "field": "selections",
-                    "scope": "upgrade",
-                    "shared": true,
-                    "type": "instanceOf",
                     "value": 1
                   },
                   {
@@ -63103,13 +63056,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "ccdd-3987-11ed-90cd"
-          },
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "2e0f-8841-c7f7-4c1d",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
           }
         ],
         "infoLinks": [
@@ -63176,13 +63122,6 @@
         "import": true,
         "type": "upgrade",
         "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "ade1-f1ba-1327-3c09",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          },
           {
             "name": "Melee Weapon",
             "id": "0317-8c81-2f11-acbe",
@@ -72346,15 +72285,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "b029-e3c9-4d8e-2216",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          }
-        ],
         "profiles": [
           {
             "name": "Grabbin' Klaw",
@@ -72409,13 +72339,6 @@
         "import": true,
         "type": "upgrade",
         "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "eb05-d9c8-843a-b4d1",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          },
           {
             "name": "Damage Dx Weapon",
             "id": "bdf5-0207-f987-fec8",
@@ -85048,13 +84971,6 @@
                 "import": true,
                 "type": "upgrade",
                 "categoryLinks": [
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "dd1b-1cb9-47f7-1db3",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
-                  },
                   {
                     "name": "Melee Weapon",
                     "id": "0ae6-b0a9-f415-e6d3",

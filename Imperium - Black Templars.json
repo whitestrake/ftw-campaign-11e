@@ -16040,13 +16040,6 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
-                  },
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "0c2c-a459-5b2c-9f25",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
                   }
                 ],
                 "constraints": [

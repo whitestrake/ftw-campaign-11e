@@ -34426,15 +34426,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "3931-5dc4-807e-2f65",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "695b-5541-1075-71c5",
@@ -43176,13 +43167,6 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
-                  },
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "560e-4a0a-6576-0349",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
                   }
                 ],
                 "constraints": [
@@ -61093,15 +61077,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "9a12-8c4f-7944-df92",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          }
-        ],
         "infoLinks": [
           {
             "name": "Extra Attacks",
@@ -98383,13 +98358,6 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
-                  },
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "3abf-32e9-e133-0619",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
                   }
                 ],
                 "constraints": [
@@ -107210,15 +107178,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "d017-a422-16fe-692a",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
-          }
-        ],
         "infoLinks": [
           {
             "name": "Extra Attacks",
@@ -113646,15 +113605,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "5e4a-6d4b-fa07-132e",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "cd48-62fc-f17b-201c",
@@ -130550,15 +130500,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "a72d-1139-ced7-5172",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "e29b-f958-6923-1dac",
@@ -130639,15 +130580,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "f0fa-1b14-c5bb-497e",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "ea38-e307-d936-ff2e",

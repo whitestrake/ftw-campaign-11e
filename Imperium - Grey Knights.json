@@ -7561,7 +7561,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Brotherhood Terminator",
+                    "name": "Terminator",
                     "id": "eb62-5762-228e-3d7b",
                     "hidden": false,
                     "targetId": "28af-6e37-2f1f-93d2",
@@ -34629,13 +34629,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "ccdd-3987-11ed-90cd"
-          },
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "780a-39d6-6ab2-3611",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
           }
         ],
         "infoLinks": [

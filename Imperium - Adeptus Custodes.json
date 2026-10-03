@@ -39290,15 +39290,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "1544-64d7-2263-fe7d",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
-                  }
-                ],
                 "constraints": [
                   {
                     "id": "2635-9268-d534-e12f",

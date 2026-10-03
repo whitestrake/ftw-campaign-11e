@@ -1611,15 +1611,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "a4e0-2170-980a-613c",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "9b6d-444e-dac5-3634-min",
@@ -2022,15 +2013,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "195f-333a-6fb5-1a0c",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "88b7-a61e-aff1-81d4",
@@ -5618,15 +5600,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {
-                "name": "Extra Attacks Weapon",
-                "id": "7b3a-ac4a-de93-f79e",
-                "hidden": false,
-                "primary": false,
-                "targetId": "84c4-6d1e-e724-bd6e"
-              }
-            ],
             "constraints": [
               {
                 "id": "a1f6-cc3a-6906-ae73",
@@ -5735,13 +5708,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "ccdd-3987-11ed-90cd"
-          },
-          {
-            "name": "Extra Attacks Weapon",
-            "id": "0b10-7682-59b1-117a",
-            "hidden": false,
-            "primary": false,
-            "targetId": "84c4-6d1e-e724-bd6e"
           }
         ],
         "constraints": [
@@ -35666,13 +35632,6 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
-                  },
-                  {
-                    "name": "Extra Attacks Weapon",
-                    "id": "ce26-0cea-4834-5288",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "84c4-6d1e-e724-bd6e"
                   }
                 ],
                 "constraints": [

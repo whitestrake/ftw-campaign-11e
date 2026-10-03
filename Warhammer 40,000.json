@@ -1360,11 +1360,6 @@
         "hidden": true
       },
       {
-        "name": "Extra Attacks Weapon",
-        "id": "84c4-6d1e-e724-bd6e",
-        "hidden": true
-      },
-      {
         "name": "Torrent Weapon",
         "id": "064a-0470-60eb-e3ef",
         "hidden": true
@@ -8329,24 +8324,6 @@
                     "scope": "upgrade",
                     "type": "add",
                     "value": "6337-b83b-0d1e-5770"
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "84c4-6d1e-e724-bd6e",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "upgrade",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
                   }
                 ]
               }
