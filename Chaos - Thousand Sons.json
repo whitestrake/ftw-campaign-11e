@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 16,
+    "revision": 17,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -15635,7 +15635,7 @@
             ]
           },
           {
-            "name": "Arcane Shield (Psychic)",
+            "name": "Illusions of Tzeentch (Psychic)",
             "id": "b7bd-2ab0-8ca3-2791",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
