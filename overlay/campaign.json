@@ -269,7 +269,7 @@
           ]
         },
         {
-          "_comment": "apply.py fills selectionEntries with one choice per detachment-gated enhancement, each shown only to the armies that can field it",
+          "_comment": "apply.py fills selectionEntryGroups with one group per detachment (max 1 each, so unlocks come from different detachments) holding its detachment-gated enhancements, each group shown only to the armies that can take it",
           "type": "upgrade",
           "import": true,
           "name": "Enhancement Unlocks",
@@ -283,7 +283,7 @@
             { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }
           ],
           "rules": [
-            { "name": "Enhancement Unlock", "id": "c4a1-5eed-3000-0052", "hidden": false, "description": "Token purchase – Unlock a specific enhancement from any detachment of your faction, so it can be bought in any other list. This can be purchased twice." }
+            { "name": "Enhancement Unlock", "id": "c4a1-5eed-3000-0052", "hidden": false, "description": "3 Tokens – One enhancement may be unlocked to be used in any detachment. This can be purchased twice but must be from different detachments." }
           ]
         }
       ]

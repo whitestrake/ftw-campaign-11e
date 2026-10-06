@@ -370,35 +370,47 @@ def apply_enhancement_unlocks(cats, gst, groups, entries, is_enhancement, cat_gr
         if i["own"]:
             open_for(i["el"], [eid])
 
-    # The choices under Campaign Purchases, one per unlockable enhancement, shown only to its armies.
+    # The choices under Campaign Purchases: one group per detachment, holding one choice per
+    # unlockable enhancement. Max 1 per group, because the unlocks must come from different
+    # detachments. Each group is shown only to the armies that can take its detachment.
     cost = cp["unlockCostType"]
     gst["costTypes"] = replace_by_id(gst.get("costTypes", []), [cost])
-    choices = []
-    for eid, i in sorted(info.items(), key=lambda kv: (det[kv[1]["dets"][0]], kv[1]["el"]["name"])):
-        u = uid[eid]
-        choices.append({
-            "type": "upgrade", "import": True, "name": f"{det[i['dets'][0]]}: {i['el']['name']}", "id": u,
-            "hidden": False,
-            "constraints": [{"id": derived_id(u, "max"), "field": "selections", "scope": "parent",
-                             "shared": True, "type": "max", "value": 1}],
-            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
-                      {"name": cost["name"], "typeId": cost["id"], "value": 1}],
-            "modifiers": [{"comment": "Only for armies that can field this enhancement",
+    by_det = {}
+    for eid, i in info.items():
+        by_det.setdefault(i["dets"][0], []).append(eid)
+    det_groups = []
+    for d, eids in sorted(by_det.items(), key=lambda kv: (det[kv[0]], kv[0])):
+        gid = derived_id("unlock-detachment", d)
+        armies = sorted(set().union(*(info[e]["cats"] for e in eids)))
+        det_groups.append({
+            "name": det[d], "id": gid, "hidden": False, "collapsible": True, "flatten": False,
+            "constraints": [{"id": derived_id(gid, "max"), "field": "selections", "scope": "parent",
+                             "shared": True, "type": "max", "value": 1,
+                             "message": "Unlocked enhancements must come from different detachments."}],
+            "modifiers": [{"comment": "Only for armies that can take this detachment",
                            "field": "hidden", "type": "set", "value": True,
                            "conditions": [{"childId": c, "field": "selections", "scope": "primary-catalogue",
                                            "shared": True, "type": "notInstanceOf", "value": 1}
-                                          for c in sorted(i["cats"])]}],
+                                          for c in armies]}],
+            "selectionEntries": [{
+                "type": "upgrade", "import": True, "name": info[e]["el"]["name"], "id": uid[e], "hidden": False,
+                "constraints": [{"id": derived_id(uid[e], "max"), "field": "selections", "scope": "parent",
+                                 "shared": True, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                          {"name": cost["name"], "typeId": cost["id"], "value": 1}],
+            } for e in sorted(eids, key=lambda e: info[e]["el"]["name"])],
         })
     unlock = next((e for e in cp["purchases"]["selectionEntries"] if e["id"] == cp["unlockEntryId"]), None)
     if unlock is None:
         fail(f"Enhancement Unlock purchase {cp['unlockEntryId']} missing from campaign.json")
-    unlock["selectionEntries"] = choices
+    unlock["selectionEntryGroups"] = det_groups
+    choices = [c for g in det_groups for c in g["selectionEntries"]]
 
     per_army = {}
     for i in info.values():
         for c in i["cats"]:
             per_army[c] = per_army.get(c, 0) + 1
-    print(f"Enhancement unlocks: {len(choices)} enhancements ({len(gated)} detachment groups opened, "
+    print(f"Enhancement unlocks: {len(choices)} enhancements in {len(det_groups)} detachments ({len(gated)} detachment groups opened, "
           f"{n_siblings} sibling checks added, {len(orphans)} with no army's detachment skipped)")
     print("  per army: " + ", ".join(f"{names[c]} {n}" for c, n in sorted(per_army.items(), key=lambda kv: names[kv[0]])))
     print("  detachments borrowed: " + ", ".join(borrowed))
