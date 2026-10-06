@@ -69,20 +69,17 @@ def walk_nodes(obj):
 ARMY_SCOPES = {"roster", "force"}
 
 
-def relax_conditions(node, node_type, polarity, slot_ids):
-    """Rewrite a condition tree so unit-level conditions only count outside a slot.
+def bypass_conditions(node, node_type, polarity, is_target, not_in, in_any):
+    """Rewrite a condition tree so the conditions picked by is_target can be bypassed.
 
-    polarity "hide": such a condition becomes (C and not in a slot), i.e. false in a slot.
-    polarity "show": it becomes (C or in a slot), i.e. true in a slot.
+    not_in: conditions (all true) meaning "not bypassed"; in_any: conditions (any true)
+    meaning "bypassed".
+    polarity "hide": a target condition C becomes (C and not bypassed), i.e. false when bypassed.
+    polarity "show": it becomes (C or bypassed), i.e. true when bypassed.
     """
-    not_in = [{"childId": s, "field": "selections", "scope": "ancestor", "shared": True,
-               "type": "notInstanceOf", "value": 1} for s in slot_ids]
-    in_any = [{"childId": s, "field": "selections", "scope": "ancestor", "shared": True,
-               "type": "instanceOf", "value": 1} for s in slot_ids]
     for g in node.get("conditionGroups", []):
-        relax_conditions(g, g.get("type", "and"), polarity, slot_ids)
-    local = [c for c in node.get("conditions", []) if c.get("scope") not in ARMY_SCOPES
-             and c.get("childId") not in slot_ids]
+        bypass_conditions(g, g.get("type", "and"), polarity, is_target, not_in, in_any)
+    local = [c for c in node.get("conditions", []) if is_target(c)]
     if not local:
         return
     if polarity == "hide" and node_type == "and":
@@ -99,18 +96,30 @@ def relax_conditions(node, node_type, polarity, slot_ids):
         for c in local)
 
 
+def relax_conditions(node, node_type, polarity, slot_ids):
+    """Rewrite a condition tree so unit-level conditions only count outside a slot."""
+    not_in = [{"childId": s, "field": "selections", "scope": "ancestor", "shared": True,
+               "type": "notInstanceOf", "value": 1} for s in slot_ids]
+    in_any = [{"childId": s, "field": "selections", "scope": "ancestor", "shared": True,
+               "type": "instanceOf", "value": 1} for s in slot_ids]
+    bypass_conditions(node, node_type, polarity,
+                      lambda c: c.get("scope") not in ARMY_SCOPES and c.get("childId") not in slot_ids,
+                      not_in, in_any)
+
+
 def polarity(modifier):
     return "hide" if modifier.get("value") in (True, "true") else "show"
 
 
-def relax_hidden_modifiers(element, slot_ids):
-    """Apply relax_conditions to every conditional hidden toggle on an enhancement or its groups."""
+def hidden_toggles(element):
+    """(condition holder, polarity) for every conditional hidden toggle on an element."""
     def conditional(m):
         return m.get("conditions") or m.get("conditionGroups")
 
+    found = []
     for m in element.get("modifiers", []):
         if m.get("field") == "hidden" and conditional(m):
-            relax_conditions(m, "and", polarity(m), slot_ids)
+            found.append((m, polarity(m)))
     for mg in element.get("modifierGroups", []):
         hidden = [m for m in mg.get("modifiers", []) if m.get("field") == "hidden"]
         if not hidden:
@@ -120,10 +129,21 @@ def relax_hidden_modifiers(element, slot_ids):
             if len(kinds) > 1:
                 print(f"  WARNING: mixed hide/show modifier group on {element.get('name')} left as is")
             else:
-                relax_conditions(mg, "and", kinds.pop(), slot_ids)
-        for m in hidden:
-            if conditional(m):
-                relax_conditions(m, "and", polarity(m), slot_ids)
+                found.append((mg, kinds.pop()))
+        found += [(m, polarity(m)) for m in hidden if conditional(m)]
+    return found
+
+
+def all_conditions(node):
+    yield from node.get("conditions", [])
+    for g in node.get("conditionGroups", []):
+        yield from all_conditions(g)
+
+
+def relax_hidden_modifiers(element, slot_ids):
+    """Apply relax_conditions to every conditional hidden toggle on an enhancement or its groups."""
+    for holder, pol in hidden_toggles(element):
+        relax_conditions(holder, "and", pol, slot_ids)
 
 
 def add_overdrive_choices(cat, commanders, sig, od):
@@ -195,6 +215,193 @@ def add_overdrive_choices(cat, commanders, sig, od):
         "message": f"Overdrive covers at most {od['maxWeapons']} weapons, and every copy of a chosen weapon counts.",
     }])
     print("Overdrive choices: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
+
+
+def apply_enhancement_unlocks(cats, gst, groups, entries, is_enhancement, cat_groups, cp):
+    """Enhancement Unlocks: under Campaign Purchases the player ticks specific enhancements from
+    their faction. Each ticked one stays available when its own detachment isn't taken.
+
+    Enhancements are hidden by "detachment not taken" checks on the enhancement or on its
+    detachment's group. Each such check is bypassed while a matching unlock is ticked. A group
+    opened that way would show its other enhancements too, so each of those gets its own copy
+    of the group's check, bypassed only by its own unlock."""
+    det = {}   # detachment entry id -> name
+    for doc in list(cats.values()) + [gst]:
+        for n in walk_nodes(doc):
+            for g in n.get("sharedSelectionEntryGroups", []) + n.get("selectionEntryGroups", []):
+                if g.get("name") in cp["detachmentGroupNames"]:
+                    det.update({e["id"]: e["name"] for e in g.get("selectionEntries", [])})
+                    det.update({l["targetId"]: l["name"] for l in g.get("entryLinks", [])})
+    if not det:
+        fail("no detachments found - upstream structure changed")
+
+    def absent(c):    # "this detachment is not taken"
+        t, v = c.get("type"), c.get("value", 0)
+        return c.get("childId") in det and (t == "notInstanceOf" or (t == "lessThan" and v <= 1)
+                                            or (t == "equalTo" and v == 0))
+
+    def present(c):   # "this detachment is taken"
+        t, v = c.get("type"), c.get("value", 0)
+        return c.get("childId") in det and (t in ("instanceOf", "atLeast", "greaterThan")
+                                            or (t == "equalTo" and v >= 1))
+
+    target = {"hide": absent, "show": present}
+
+    def gates(el):
+        """(holder, polarity) toggles on el that depend on a detachment being taken."""
+        return [(h, p) for h, p in hidden_toggles(el) if any(target[p](c) for c in all_conditions(h))]
+
+    def det_ids(el):
+        return [c["childId"] for h, p in gates(el) for c in all_conditions(h) if target[p](c)]
+
+    info = {}        # enhancement id -> {"el", "dets", "own", "cats"}
+    gated = {}       # group id -> (group, enhancement ids under it)
+
+    def record(e, gate_chain):
+        own = det_ids(e)
+        dets = own + [d for _, ds in gate_chain for d in ds]
+        if not dets:
+            return   # available in every detachment already
+        i = info.setdefault(e["id"], {"el": e, "dets": [], "own": bool(own), "cats": set()})
+        i["dets"] += [d for d in dets if d not in i["dets"]]
+        for g, _ in gate_chain:
+            gated.setdefault(g["id"], (g, set()))[1].add(e["id"])
+
+    def visit(gid, gate_chain, seen):
+        if gid in seen or gid not in groups:
+            return
+        seen = seen | {gid}
+        g = groups[gid]
+        ds = det_ids(g)
+        chain = gate_chain + ([(g, ds)] if ds else [])
+        for e in g.get("selectionEntries", []):
+            if is_enhancement(e):
+                record(e, chain)
+        for sub in g.get("selectionEntryGroups", []):
+            visit(sub["id"], chain, seen)
+        for l in g.get("entryLinks", []):
+            if l.get("type") == "selectionEntryGroup":
+                visit(l["targetId"], chain, seen)
+            elif is_enhancement(entries.get(l["targetId"], {})):
+                record(entries[l["targetId"]], chain)
+
+    # Every linked group, not just the characters' Enhancements: some detachments put their
+    # enhancements on other units (T'au Advanced Acquisition Cadre on Stealth Battlesuits).
+    linked = {l["targetId"] for doc in list(cats.values()) + [gst] for n in walk_nodes(doc)
+              for l in n.get("entryLinks", []) if l.get("type") == "selectionEntryGroup"}
+    for gid in sorted(linked | set().union(*cat_groups.values())):
+        visit(gid, [], frozenset())
+    if not info:
+        fail("no detachment-gated enhancements found - upstream structure changed")
+
+    # An army can unlock an enhancement when the enhancement's detachment is one of the army's
+    # own Detachment choices. Those come from its own root entries. An army without its own
+    # Detachment entry (a chapter, Chaos Daemons) borrows the one from the catalogue it imports
+    # that offers the most detachments, so allies' detachments (Agents of the Imperium) stay out.
+    by_id = {c["id"]: c for c in cats.values()}
+
+    def detachments_of(cat):
+        found, seen, stack = set(), set(), [l["targetId"] for l in cat.get("entryLinks", [])]
+        while stack:
+            nid = stack.pop()
+            if nid in seen:
+                continue
+            seen.add(nid)
+            node = entries.get(nid) or groups.get(nid)
+            if node is None:
+                continue
+            if node.get("name") in cp["detachmentGroupNames"] and nid in groups:
+                found |= {e["id"] for e in node.get("selectionEntries", [])}
+                found |= {l["targetId"] for l in node.get("entryLinks", [])}
+            stack += [s["id"] for s in node.get("selectionEntries", []) + node.get("selectionEntryGroups", [])]
+            stack += [l["targetId"] for l in node.get("entryLinks", [])]
+        return found
+
+    names = {c["id"]: n[:-5] for n, c in cats.items()}
+    borrowed = []
+    for c in cats.values():
+        if c.get("library"):
+            continue
+        reach = detachments_of(c)
+        if not reach:
+            offers = [(detachments_of(by_id[l["targetId"]]), l["targetId"]) for l in c.get("catalogueLinks", [])
+                      if l.get("importRootEntries") and l["targetId"] in by_id]
+            reach, src = max(offers, key=lambda o: len(o[0]), default=(set(), None))
+            if reach:
+                borrowed.append(f"{names[c['id']]} <- {names[src]}")
+        for i in info.values():
+            if reach & set(i["dets"]):
+                i["cats"].add(c["id"])
+    orphans = [eid for eid, i in info.items() if not i["cats"]]
+    for eid in orphans:
+        del info[eid]
+    for g, eids in gated.values():
+        eids -= set(orphans)
+
+    uid = {eid: derived_id("unlock", eid) for eid in info}
+
+    def not_unlocked(eids):
+        return [{"childId": uid[e], "field": "selections", "includeChildForces": True, "includeChildSelections": True,
+                 "scope": "roster", "shared": True, "type": "lessThan", "value": 1} for e in sorted(eids)]
+
+    def unlocked(eids):
+        return [dict(c, type="atLeast") for c in not_unlocked(eids)]
+
+    def open_for(el, eids):
+        for h, p in gates(el):
+            bypass_conditions(h, "and", p, target[p], not_unlocked(eids), unlocked(eids))
+
+    # Groups first: keep a copy of each "hide unless detachment" check for the enhancements inside.
+    n_siblings = 0
+    for g, eids in gated.values():
+        hide_checks = [copy.deepcopy({k: h[k] for k in ("conditions", "conditionGroups") if k in h})
+                       for h, p in gates(g) if p == "hide"]
+        if len(hide_checks) < len(gates(g)):
+            print(f"  WARNING: '{g.get('name')}' shows by detachment; its other enhancements may show with an unlock")
+        open_for(g, eids)
+        for eid in eids:
+            for check in hide_checks:
+                m = dict(copy.deepcopy(check), field="hidden", type="set", value=True,
+                         comment=f"Only an unlocked enhancement shows outside its detachment ({g.get('name')})")
+                bypass_conditions(m, "and", "hide", absent, not_unlocked([eid]), unlocked([eid]))
+                info[eid]["el"].setdefault("modifiers", []).append(m)
+                n_siblings += 1
+    for eid, i in info.items():
+        if i["own"]:
+            open_for(i["el"], [eid])
+
+    # The choices under Campaign Purchases, one per unlockable enhancement, shown only to its armies.
+    cost = cp["unlockCostType"]
+    gst["costTypes"] = replace_by_id(gst.get("costTypes", []), [cost])
+    choices = []
+    for eid, i in sorted(info.items(), key=lambda kv: (det[kv[1]["dets"][0]], kv[1]["el"]["name"])):
+        u = uid[eid]
+        choices.append({
+            "type": "upgrade", "import": True, "name": f"{det[i['dets'][0]]}: {i['el']['name']}", "id": u,
+            "hidden": False,
+            "constraints": [{"id": derived_id(u, "max"), "field": "selections", "scope": "parent",
+                             "shared": True, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                      {"name": cost["name"], "typeId": cost["id"], "value": 1}],
+            "modifiers": [{"comment": "Only for armies that can field this enhancement",
+                           "field": "hidden", "type": "set", "value": True,
+                           "conditions": [{"childId": c, "field": "selections", "scope": "primary-catalogue",
+                                           "shared": True, "type": "notInstanceOf", "value": 1}
+                                          for c in sorted(i["cats"])]}],
+        })
+    unlock = next((e for e in cp["purchases"]["selectionEntries"] if e["id"] == cp["unlockEntryId"]), None)
+    if unlock is None:
+        fail(f"Enhancement Unlock purchase {cp['unlockEntryId']} missing from campaign.json")
+    unlock["selectionEntries"] = choices
+
+    per_army = {}
+    for i in info.values():
+        for c in i["cats"]:
+            per_army[c] = per_army.get(c, 0) + 1
+    print(f"Enhancement unlocks: {len(choices)} enhancements ({len(gated)} detachment groups opened, "
+          f"{n_siblings} sibling checks added, {len(orphans)} with no army's detachment skipped)")
+    print("  per army: " + ", ".join(f"{names[c]} {n}" for c, n in sorted(per_army.items(), key=lambda kv: names[kv[0]])))
+    print("  detachments borrowed: " + ", ".join(borrowed))
 
 
 def apply_campaign_purchases(out, gst_path, cp):
@@ -278,6 +485,7 @@ def apply_campaign_purchases(out, gst_path, cp):
 
     slot_tpl = cp["slot"]
     slots_by_group = {}       # group id -> slot ids that link it
+    cat_groups = {}           # catalogue id -> enhancement groups its characters use
     n_hardened = n_slotted = 0
     unslotted = []
     for name, chars in characters.items():
@@ -295,6 +503,7 @@ def apply_campaign_purchases(out, gst_path, cp):
             if not gids:
                 unslotted.append(c["name"])
                 continue
+            cat_groups.setdefault(cat["id"], set()).update(gids)
             for gid in gids:
                 sid = derived_id(name, gid, "slot")
                 if sid not in new_slots:
@@ -341,6 +550,8 @@ def apply_campaign_purchases(out, gst_path, cp):
                     and not n.get("includeChildSelections")):
                 n["includeChildSelections"] = True
                 deepened += 1
+
+    apply_enhancement_unlocks(cats, gst, groups, entries, is_enhancement, cat_groups, cp)
 
     for name, root in files.items():
         write_json(root, out / name)

@@ -29,6 +29,7 @@ faction's **CHARACTER** units:
 |---|---|
 | Hardened Wargear (Toughness), 3 tokens | **Hardened Wargear: Toughness** on any CHARACTER with Toughness 10 or less. +1 Toughness. Max 1 per army |
 | Hardened Wargear (Save), 3 tokens | **Hardened Wargear: Save** on the same characters. Save improved by 1. Max 1 per army. Can go on the same character as Toughness |
+| Enhancement Unlocks, up to 2 | No character option: tick the specific enhancements you unlocked under **Enhancement Unlocks** (listed as `Detachment: Enhancement`, only your army's own). Each one becomes available in the normal Enhancements list whatever detachment you take, and is taken as normal: points, the bearer's Enhancement, the army limit and keyword restrictions all still apply. It can also go in a Campaign Enhancement Slot. Its detachment's other enhancements stay hidden |
 | Bonus Enhancement Slot, 4 tokens | **Campaign Enhancement Slot** on any CHARACTER, Epic Heroes included. Holds one enhancement from the current detachment, paid for in points as normal. It doesn't count towards the army's Enhancement limit, and it ignores keyword, Epic Hero and one-per-character restrictions. Each enhancement is still limited to one per army |
 
 Hardened Wargear relies on New Recruit applying a Leader's modifiers to the unit

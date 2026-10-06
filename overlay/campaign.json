@@ -267,9 +267,30 @@
           "rules": [
             { "name": "Bonus Enhancement Slot", "id": "c4a1-5eed-3000-0032", "hidden": false, "description": "4 Tokens – One character may purchase an enhancement, this can be an epic hero and can be above the usual enhancement limit." }
           ]
+        },
+        {
+          "_comment": "apply.py fills selectionEntries with one choice per detachment-gated enhancement, each shown only to the armies that can field it",
+          "type": "upgrade",
+          "import": true,
+          "name": "Enhancement Unlocks",
+          "id": "c4a1-5eed-3000-0050",
+          "hidden": false,
+          "constraints": [
+            { "id": "c4a1-5eed-3000-0051", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1 },
+            { "id": "c4a1-5eed-3000-0053", "field": "c4a1-5eed-3000-0060", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 2, "message": "Enhancement Unlock can only be purchased twice." }
+          ],
+          "costs": [
+            { "name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0 }
+          ],
+          "rules": [
+            { "name": "Enhancement Unlock", "id": "c4a1-5eed-3000-0052", "hidden": false, "description": "Token purchase – Unlock a specific enhancement from any detachment of your faction, so it can be bought in any other list. This can be purchased twice." }
+          ]
         }
       ]
     },
+    "unlockEntryId": "c4a1-5eed-3000-0050",
+    "unlockCostType": { "name": "Enhancement Unlocks", "id": "c4a1-5eed-3000-0060", "defaultCostLimit": "", "hidden": true },
+    "detachmentGroupNames": ["Detachment", "Detachments"],
     "purchasesRootLinkId": "c4a1-5eed-3000-0002",
     "hardenedToughness": {
       "type": "upgrade",
