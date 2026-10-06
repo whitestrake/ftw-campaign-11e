@@ -1956,6 +1956,14 @@
             ]
           },
           {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-5b6b-e749-96c7",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0024",
+            "type": "selectionEntryGroup"
+          },
+          {
             "name": "Hardened Wargear: Toughness",
             "id": "c4a1-d8f0-7c92-f3f0",
             "hidden": false,
@@ -2726,6 +2734,14 @@
             "sortIndex": 2,
             "targetId": "179c-d88a-d49b-48b9",
             "type": "selectionEntry"
+          },
+          {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-3247-ba0c-f015",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0024",
+            "type": "selectionEntryGroup"
           },
           {
             "name": "Hardened Wargear: Toughness",
@@ -3553,6 +3569,14 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-f5bf-b940-84a7",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0024",
             "type": "selectionEntryGroup"
           },
           {
@@ -4699,6 +4723,14 @@
             "type": "selectionEntryGroup"
           },
           {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-df0e-f07a-eeaa",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0024",
+            "type": "selectionEntryGroup"
+          },
+          {
             "name": "Hardened Wargear: Toughness",
             "id": "c4a1-97d5-63bb-e06b",
             "hidden": false,
@@ -5750,6 +5782,14 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "bc88-2f42-15bd-1714",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Overdrive Weapons",
+            "id": "c4a1-bfe0-84f5-3a09",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-0000-0024",
             "type": "selectionEntryGroup"
           },
           {
@@ -68579,16 +68619,6 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
-          },
-          {
-            "id": "c4a1-5eed-0000-0025",
-            "field": "c4a1-5eed-0000-0026",
-            "includeChildSelections": true,
-            "scope": "self",
-            "shared": true,
-            "type": "max",
-            "value": 2,
-            "message": "Overdrive covers at most 2 weapons, and every copy of a chosen weapon counts."
           }
         ],
         "modifiers": [
@@ -68727,861 +68757,6 @@
             "id": "c4a1-5eed-0000-0023",
             "hidden": false,
             "description": "Each time the bearer makes a ranged attack with an **[OVERDRIVE]** weapon that targets a unit within half range, add 1 to that attack’s wound roll."
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "Overdrive Weapons",
-            "id": "c4a1-5eed-0000-0024",
-            "hidden": false,
-            "collapsible": false,
-            "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Airbursting fragmentation projector",
-                "id": "c4a1-3278-e2e3-f81d",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-3a45-8e12-e694",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "437e-0e4a-5c90-dbef",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "437e-0e4a-5c90-dbef",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Burst cannon",
-                "id": "c4a1-adcd-5a1b-c851",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-37c8-ee2c-93f6",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "3a5c-c8e4-823f-c18c",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "3a5c-c8e4-823f-c18c",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Cyclic ion blaster",
-                "id": "c4a1-ebad-cf6f-1b7d",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-762f-e29c-4ba3",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "9e40-f25b-c5dd-6712",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "9e40-f25b-c5dd-6712",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Flechette launcher",
-                "id": "c4a1-1b34-b7c3-00b3",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-3ef3-4c0c-3b6a",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "cc93-2b4c-bc20-79d2",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "cc93-2b4c-bc20-79d2",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Fusion blaster",
-                "id": "c4a1-337e-b999-9c0f",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-adb3-6f49-cf4c",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "a384-146f-1171-f49f",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "a384-146f-1171-f49f",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: High-energy fusion blaster",
-                "id": "c4a1-fe1a-c2ca-25db",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-793d-2a8a-ed62",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "891-9245-4641-6e5a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "891-9245-4641-6e5a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: High-intensity plasma rifle",
-                "id": "c4a1-c53a-06ab-9927",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-3ab5-7b7f-04a3",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "9ef3-4c11-53ae-2ebc",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "9ef3-4c11-53ae-2ebc",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: High-output burst cannon",
-                "id": "c4a1-dc5c-79c6-c791",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-dd97-36ff-38b1",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "9341-a5b8-1f4a-6c9f",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "9341-a5b8-1f4a-6c9f",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Light missile pod",
-                "id": "c4a1-5bed-57bf-c3fe",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-d70a-d26f-716f",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "ee6f-f3d5-5c7c-ca39",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "ee6f-f3d5-5c7c-ca39",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Missile pod",
-                "id": "c4a1-becf-4b9f-e76b",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-1b11-4c2d-6f56",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "6132-7ca7-58c5-0f8e",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "6132-7ca7-58c5-0f8e",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Plasma rifle",
-                "id": "c4a1-5f5e-746b-9ff3",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-93f1-503a-2b48",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "e87a-3ab1-2834-bb10",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "e87a-3ab1-2834-bb10",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: Pulse pistol",
-                "id": "c4a1-cf2a-b1f5-f924",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-55f8-fc04-97c0",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "ba81-87dc-de58-d901",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "ba81-87dc-de58-d901",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Overdrive: T'au flamer",
-                "id": "c4a1-ba52-d4de-f6f4",
-                "hidden": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-cc9a-b7d8-5cd1",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  },
-                  {
-                    "name": "Overdrive Weapons",
-                    "typeId": "c4a1-5eed-0000-0026",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "6e8-cf2e-cedd-9028",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "One Overdrive Weapon per copy of this weapon carried",
-                    "field": "c4a1-5eed-0000-0026",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "6e8-cf2e-cedd-9028",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "root-entry",
-                        "shared": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -91122,6 +90297,824 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Overdrive Weapons",
+        "id": "c4a1-5eed-0000-0024",
+        "hidden": false,
+        "collapsible": false,
+        "constraints": [
+          {
+            "id": "c4a1-5eed-0000-0025",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2,
+            "message": "Overdrive Power Systems covers at most 2 weapons."
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Shown while the signature system is taken",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4a1-5eed-0000-0020",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "root-entry",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Airbursting fragmentation projector",
+            "id": "c4a1-3278-e2e3-f81d",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-3a45-8e12-e694",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "437e-0e4a-5c90-dbef",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-3a45-8e12-e694",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "437e-0e4a-5c90-dbef",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Burst cannon",
+            "id": "c4a1-adcd-5a1b-c851",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-37c8-ee2c-93f6",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3a5c-c8e4-823f-c18c",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-37c8-ee2c-93f6",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "3a5c-c8e4-823f-c18c",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Cyclic ion blaster",
+            "id": "c4a1-ebad-cf6f-1b7d",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-762f-e29c-4ba3",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9e40-f25b-c5dd-6712",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-762f-e29c-4ba3",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "9e40-f25b-c5dd-6712",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Flechette launcher",
+            "id": "c4a1-1b34-b7c3-00b3",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-3ef3-4c0c-3b6a",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "cc93-2b4c-bc20-79d2",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-3ef3-4c0c-3b6a",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "cc93-2b4c-bc20-79d2",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Fusion blaster",
+            "id": "c4a1-337e-b999-9c0f",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-adb3-6f49-cf4c",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a384-146f-1171-f49f",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-adb3-6f49-cf4c",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "a384-146f-1171-f49f",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: High-energy fusion blaster",
+            "id": "c4a1-fe1a-c2ca-25db",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-793d-2a8a-ed62",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "891-9245-4641-6e5a",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-793d-2a8a-ed62",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "891-9245-4641-6e5a",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: High-intensity plasma rifle",
+            "id": "c4a1-c53a-06ab-9927",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-3ab5-7b7f-04a3",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9ef3-4c11-53ae-2ebc",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-3ab5-7b7f-04a3",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "9ef3-4c11-53ae-2ebc",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: High-output burst cannon",
+            "id": "c4a1-dc5c-79c6-c791",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-dd97-36ff-38b1",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9341-a5b8-1f4a-6c9f",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-dd97-36ff-38b1",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "9341-a5b8-1f4a-6c9f",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Light missile pod",
+            "id": "c4a1-5bed-57bf-c3fe",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-d70a-d26f-716f",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ee6f-f3d5-5c7c-ca39",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-d70a-d26f-716f",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "ee6f-f3d5-5c7c-ca39",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Missile pod",
+            "id": "c4a1-becf-4b9f-e76b",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-1b11-4c2d-6f56",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6132-7ca7-58c5-0f8e",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-1b11-4c2d-6f56",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "6132-7ca7-58c5-0f8e",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Plasma rifle",
+            "id": "c4a1-5f5e-746b-9ff3",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-93f1-503a-2b48",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "e87a-3ab1-2834-bb10",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-93f1-503a-2b48",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "e87a-3ab1-2834-bb10",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: Pulse pistol",
+            "id": "c4a1-cf2a-b1f5-f924",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-55f8-fc04-97c0",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ba81-87dc-de58-d901",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-55f8-fc04-97c0",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "ba81-87dc-de58-d901",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Overdrive: T'au flamer",
+            "id": "c4a1-ba52-d4de-f6f4",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c4a1-cc9a-b7d8-5cd1",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6e8-cf2e-cedd-9028",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "One per copy of this weapon carried",
+                "field": "c4a1-cc9a-b7d8-5cd1",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "6e8-cf2e-cedd-9028",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "root-entry",
+                    "shared": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "value": 1
                   }
                 ]
               }

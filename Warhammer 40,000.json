@@ -2074,12 +2074,6 @@
         "hidden": true
       },
       {
-        "name": "Overdrive Weapons",
-        "id": "c4a1-5eed-0000-0026",
-        "defaultCostLimit": "",
-        "hidden": true
-      },
-      {
         "name": "Campaign Enhancement Slots",
         "id": "c4a1-5eed-3000-0040",
         "defaultCostLimit": "",
