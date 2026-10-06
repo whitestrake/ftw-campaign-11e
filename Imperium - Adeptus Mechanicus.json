@@ -44758,6 +44758,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f6b9-9bb0-5c52",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -44891,6 +44901,16 @@
                           {
                             "id": "9a26-f3e5-a50-510f",
                             "childId": "48bd-eeae-171d-a10a",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2198-5615-d5da",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -45038,6 +45058,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-af49-c39b-25f8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -45171,6 +45201,16 @@
                           {
                             "id": "1f2-8711-d3a2-a386",
                             "childId": "48bd-eeae-171d-a10a",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-7048-5e87-5f0f",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -45318,6 +45358,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-cd3a-fcbd-ac70",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -45451,6 +45501,16 @@
                           {
                             "id": "5e7e-35a8-129c-c693",
                             "childId": "7aa5-4c0c-40c3-e2a",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-07de-9cdd-4da9",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -45598,6 +45658,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4faf-982b-5978",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -45731,6 +45801,16 @@
                           {
                             "id": "1e1b-8c92-5290-a919",
                             "childId": "7aa5-4c0c-40c3-e2a",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-ee8a-ac7e-6549",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -45878,6 +45958,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-cb47-c5d0-0556",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -46011,6 +46101,16 @@
                           {
                             "id": "4745-6b0b-d3f8-b3d3",
                             "childId": "e01f-8783-4769-2eb6",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-716c-9710-9388",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -46158,6 +46258,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-fb26-ec6e-23b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -46291,6 +46401,16 @@
                           {
                             "id": "233d-105f-fea-1d13",
                             "childId": "e01f-8783-4769-2eb6",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-a510-377c-a153",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -46460,6 +46580,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-7265-be8f-824c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -46593,6 +46723,16 @@
                           {
                             "id": "eab3-a522-9073-19",
                             "childId": "e282-2b49-bd6a-679c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-a11f-afd6-3c54",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -46740,6 +46880,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-21f4-a35e-77e7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -46873,6 +47023,16 @@
                           {
                             "id": "9a1b-d365-315f-c6e3",
                             "childId": "e282-2b49-bd6a-679c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-091b-f022-822e",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -47027,6 +47187,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-cae7-4303-a95f",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -47160,6 +47330,16 @@
                           {
                             "id": "475c-e339-d305-7f1c",
                             "childId": "f67d-6f59-21b8-e1f9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-333d-2630-7508",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -47307,6 +47487,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c070-e6a7-db90",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -47440,6 +47630,16 @@
                           {
                             "id": "facb-314b-3e50-ebc4",
                             "childId": "f67d-6f59-21b8-e1f9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-0657-9c5a-f1d4",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -47587,6 +47787,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d9f9-e577-0d3d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -47720,6 +47930,16 @@
                           {
                             "id": "cd6c-81bb-eb5c-a876",
                             "childId": "ce65-6b89-4a0e-4f3b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8b51-bfeb-e091",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -47881,6 +48101,16 @@
                           {
                             "id": "fae8-24d2-86b4-f99e",
                             "childId": "ce65-6b89-4a0e-4f3b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8f53-75f6-66e6",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -48161,6 +48391,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-a23e-15fa-7ab1",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       }
@@ -48273,6 +48513,16 @@
                             "id": "81b0-1369-8db0-4a43",
                             "childId": "02e5-7fe0-d054-0209",
                             "childName": "Cohort Acquisitus",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f343-9275-7deb",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -48422,6 +48672,16 @@
                             "id": "f152-db99-4e89-ddea",
                             "childId": "24e2-b690-37b5-de9e",
                             "childName": "Lords of the Forge",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5963-ec64-2de9",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -48603,6 +48863,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d1b4-5985-9c9c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -48775,6 +49045,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4755-1280-3cf0",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -48924,6 +49204,16 @@
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "c4a1-62a0-c5d9-5bf8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       },
@@ -49000,6 +49290,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-17cc-1429-f945",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c544-f8a5-95db",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5bbd-e274-44cf",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-abd7-0051-b5fd",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -49150,6 +49480,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "6d06-9e26-0d3c-5317",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-abd7-0051-b5fd",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Eradication Cohort Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -49313,6 +49686,49 @@
                     "scope": "root-entry",
                     "type": "add",
                     "value": "2a4e-9018-d675-74f1"
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "6d06-9e26-0d3c-5317",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5bbd-e274-44cf",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Eradication Cohort Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -49500,6 +49916,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "6d06-9e26-0d3c-5317",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c544-f8a5-95db",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Eradication Cohort Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -49697,6 +50156,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "6d06-9e26-0d3c-5317",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-17cc-1429-f945",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Eradication Cohort Enhancements)"
                   }
                 ],
                 "profiles": [

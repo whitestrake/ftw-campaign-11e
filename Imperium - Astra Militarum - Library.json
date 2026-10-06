@@ -137621,6 +137621,46 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f662-52e6-159e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-4533-ef1e-057b",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-3766-4396-14f2",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c4ca-4ae0-a726",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -137729,6 +137769,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "67ce-ebd5-b428-e4f7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c4ca-4ae0-a726",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Combined Arms Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -137849,6 +137932,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "67ce-ebd5-b428-e4f7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f662-52e6-159e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Combined Arms Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -137969,6 +138095,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "67ce-ebd5-b428-e4f7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4533-ef1e-057b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Combined Arms Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138089,6 +138258,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "67ce-ebd5-b428-e4f7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-3766-4396-14f2",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Combined Arms Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138145,6 +138357,26 @@
                       },
                       {
                         "childId": "7afb-a0f6-b95d-e791",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-d694-a9f9-fe44",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-02fe-e624-677d",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -138292,6 +138524,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "7afb-a0f6-b95d-e791",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d694-a9f9-fe44",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Bridgehead Strike Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138444,6 +138719,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "7afb-a0f6-b95d-e791",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-02fe-e624-677d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Bridgehead Strike Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138501,6 +138819,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6e08-557d-eb64",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5de4-e42e-a1ac",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-fd51-aedb-8a7b",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8ee4-7301-d6c4",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -138664,6 +139022,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "87b5-6072-b2c5-0cdc",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6e08-557d-eb64",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Siege Regiment Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138816,6 +139217,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "87b5-6072-b2c5-0cdc",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5de4-e42e-a1ac",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Siege Regiment Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -138936,6 +139380,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "87b5-6072-b2c5-0cdc",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8ee4-7301-d6c4",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Siege Regiment Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139151,6 +139638,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "87b5-6072-b2c5-0cdc",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-fd51-aedb-8a7b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Siege Regiment Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139208,6 +139738,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-021a-2459-d5ef",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f252-511b-5227",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2dfb-44d7-2b81",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-e617-b619-561f",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -139354,6 +139924,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "05ed-772d-bd3a-a790",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-021a-2459-d5ef",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Mechanised Assault Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139474,6 +140087,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "05ed-772d-bd3a-a790",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f252-511b-5227",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Mechanised Assault Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139628,6 +140284,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "05ed-772d-bd3a-a790",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-e617-b619-561f",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Mechanised Assault Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139789,6 +140488,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "05ed-772d-bd3a-a790",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2dfb-44d7-2b81",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Mechanised Assault Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -139846,6 +140588,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-a1d5-edfd-7361",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-7b8d-87e3-10f0",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6fb7-5d89-8732",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-db1d-9baa-7d85",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -140008,6 +140790,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "97fc-2d9c-9008-f363",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6fb7-5d89-8732",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Hammer of the Emperor Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140160,6 +140985,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "97fc-2d9c-9008-f363",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-7b8d-87e3-10f0",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Hammer of the Emperor Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140312,6 +141180,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "97fc-2d9c-9008-f363",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-a1d5-edfd-7361",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Hammer of the Emperor Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140487,6 +141398,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "97fc-2d9c-9008-f363",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-db1d-9baa-7d85",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Hammer of the Emperor Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140544,6 +141498,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-241c-45a0-4a76",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5867-a291-1ac3",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6165-64c9-6b10",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-a241-17cc-2f71",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -140690,6 +141684,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "3d9f-5d9a-4a18-21aa",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5867-a291-1ac3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Recon Elements Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140842,6 +141879,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "3d9f-5d9a-4a18-21aa",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6165-64c9-6b10",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Recon Elements Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -140994,6 +142074,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "3d9f-5d9a-4a18-21aa",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-a241-17cc-2f71",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Recon Elements Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -141163,6 +142286,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "3d9f-5d9a-4a18-21aa",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-241c-45a0-4a76",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Recon Elements Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -141220,6 +142386,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-05b7-ac6a-36b3",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-0a1e-298d-d450",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f436-e415-a783",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2439-1d42-c95c",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -141334,6 +142540,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cc4e-a30b-f987-c984",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2439-1d42-c95c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Grizzled Company Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -141486,6 +142735,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cc4e-a30b-f987-c984",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f436-e415-a783",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Grizzled Company Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -141638,6 +142930,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cc4e-a30b-f987-c984",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-0a1e-298d-d450",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Grizzled Company Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -141820,6 +143155,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cc4e-a30b-f987-c984",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-05b7-ac6a-36b3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Grizzled Company Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -142424,6 +143802,46 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-582c-a19e-7029",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c9dc-9106-a8df",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5066-7a11-268c",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-e93a-1c2a-726f",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -142594,6 +144012,50 @@
                     "scope": "root-entry",
                     "type": "add",
                     "value": "e4d8-c6a1-7c23-ae25"
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "419a-c366-aa63-ebb5",
+                            "childName": "Steel Hammer",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c9dc-9106-a8df",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Steel Hammer Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -142770,6 +144232,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "419a-c366-aa63-ebb5",
+                            "childName": "Steel Hammer",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5066-7a11-268c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Steel Hammer Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -142968,6 +144474,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "419a-c366-aa63-ebb5",
+                            "childName": "Steel Hammer",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-e93a-1c2a-726f",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Steel Hammer Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -143122,6 +144672,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "419a-c366-aa63-ebb5",
+                            "childName": "Steel Hammer",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-582c-a19e-7029",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Steel Hammer Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -143180,6 +144774,46 @@
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-dffa-a390-7be6",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-53bd-cc8f-612d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-7f28-1329-f558",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-4802-1b68-e9d0",
+                        "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
                         "scope": "roster",
@@ -143337,6 +144971,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d071-6e6b-dde6-dcf4",
+                            "childName": "Armoured Infantry",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-7f28-1329-f558",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Armoured Infantry Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -143459,6 +145137,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d071-6e6b-dde6-dcf4",
+                            "childName": "Armoured Infantry",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-53bd-cc8f-612d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Armoured Infantry Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -143614,6 +145336,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d071-6e6b-dde6-dcf4",
+                            "childName": "Armoured Infantry",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-dffa-a390-7be6",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Armoured Infantry Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -143769,6 +145535,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d071-6e6b-dde6-dcf4",
+                            "childName": "Armoured Infantry",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4802-1b68-e9d0",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Armoured Infantry Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -154530,6 +156340,26 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8a62-eac1-8c51",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6094-67a7-07df",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -154680,6 +156510,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "7611-2b44-750d-e2ed",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9ec5-3af5-ed1e-e249",
+                            "childId": "57a9-88a1-84c1-e421",
+                            "childName": "Abhuman Auxiliaries",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8a62-eac1-8c51",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Abhuman Auxiliaries Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -154859,6 +156733,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "7611-2b44-750d-e2ed",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9ec5-3af5-ed1e-e249",
+                            "childId": "57a9-88a1-84c1-e421",
+                            "childName": "Abhuman Auxiliaries",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6094-67a7-07df",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Abhuman Auxiliaries Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -154935,6 +156853,26 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8410-1713-e97d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f3ce-af4f-dfc1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -155143,6 +157081,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "409b-9267-9292-8b80",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "600e-bbb6-1bb2-aa32",
+                            "childId": "1aca-af79-006f-bf56",
+                            "childName": "Designation Force",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8410-1713-e97d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Designation Force Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -155314,6 +157296,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "409b-9267-9292-8b80",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "600e-bbb6-1bb2-aa32",
+                            "childId": "1aca-af79-006f-bf56",
+                            "childName": "Designation Force",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f3ce-af4f-dfc1",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Designation Force Enhancements)"
                   }
                 ],
                 "profiles": [

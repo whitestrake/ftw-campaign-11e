@@ -73735,6 +73735,46 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5ef7-6d03-028e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1e68-f5ac-1914",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-aecd-cf03-5a88",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-d6a4-21f6-d42c",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -73842,6 +73882,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "496c-ddb9-3e71-e0b3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1e68-f5ac-1914",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (War Horde Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -73961,6 +74044,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "496c-ddb9-3e71-e0b3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5ef7-6d03-028e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (War Horde Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74080,6 +74206,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "496c-ddb9-3e71-e0b3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-aecd-cf03-5a88",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (War Horde Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74224,6 +74393,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "496c-ddb9-3e71-e0b3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d6a4-21f6-d42c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (War Horde Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74282,6 +74494,26 @@
                       },
                       {
                         "childId": "80e6-2190-9767-a7ed",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-254b-1d74-aa84",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6ed9-ad23-5bf4",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -74449,6 +74681,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "80e6-2190-9767-a7ed",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-254b-1d74-aa84",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Da Big Hunt Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74596,6 +74871,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "80e6-2190-9767-a7ed",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6ed9-ad23-5bf4",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Da Big Hunt Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74654,6 +74972,26 @@
                       },
                       {
                         "childId": "807c-9732-5465-5ca5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-d9f4-1a90-1636",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-65df-5f81-5030",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -74828,6 +75166,49 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "807c-9732-5465-5ca5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-65df-5f81-5030",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Dread Mob Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -74975,6 +75356,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "807c-9732-5465-5ca5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-d9f4-1a90-1636",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Dread Mob Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -75033,6 +75457,16 @@
                       },
                       {
                         "childId": "795f-b961-9504-bd08",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6838-bc3d-7ee1",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -75221,6 +75655,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "795f-b961-9504-bd08",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6838-bc3d-7ee1",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Green Tide Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -75279,6 +75756,16 @@
                       },
                       {
                         "childId": "4b17-a73a-7a0a-a265",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-bd37-a2ca-16f3",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -75439,6 +75926,49 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "4b17-a73a-7a0a-a265",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-bd37-a2ca-16f3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Bully Boyz Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -75497,6 +76027,16 @@
                       },
                       {
                         "childId": "b404-44f-e9b4-7fe2",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-229b-1b68-3465",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -75639,6 +76179,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "b404-44f-e9b4-7fe2",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-229b-1b68-3465",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Kult of Speed Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -75697,6 +76280,16 @@
                       },
                       {
                         "childId": "fdd5-9868-a9ee-e9f1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1903-08fd-827c",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -75918,6 +76511,49 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "fdd5-9868-a9ee-e9f1",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1903-08fd-827c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Taktikal Brigade Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -75961,15 +76597,42 @@
                         "shared": true,
                         "type": "notInstanceOf",
                         "value": 1
-                      },
+                      }
+                    ],
+                    "conditionGroups": [
                       {
-                        "childId": "09d3-a08a-0671-fe86",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "09d3-a08a-0671-fe86",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b41b-de00-faeb",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4270-8398-7db7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   }
@@ -76096,6 +76759,54 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "1d6e-2579-8e7f-1ed4",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          }
+                        ],
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "09d3-a08a-0671-fe86",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-b41b-de00-faeb",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Ramship Raiders Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -76251,6 +76962,54 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "1d6e-2579-8e7f-1ed4",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          }
+                        ],
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "09d3-a08a-0671-fe86",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-4270-8398-7db7",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Ramship Raiders Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -76587,6 +77346,26 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-99c7-26bc-80ef",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-b423-536f-09aa",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -76788,6 +77567,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "fca1-ecdf-4e4a-df41",
+                            "childName": "Shoota Boyz",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-99c7-26bc-80ef",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Shoota Boyz Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -76999,6 +77822,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "fca1-ecdf-4e4a-df41",
+                            "childName": "Shoota Boyz",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b423-536f-09aa",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Shoota Boyz Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77058,6 +77925,16 @@
                       {
                         "childId": "f782-e3f1-c132-fe52",
                         "childName": "Wreckas",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-7694-417e-96d7",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -77231,6 +78108,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f782-e3f1-c132-fe52",
+                            "childName": "Wreckas",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-7694-417e-96d7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Wreckas Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77290,6 +78211,16 @@
                       {
                         "childId": "9ae4-56d1-1fd8-adcf",
                         "childName": "Madcap Meks",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-686b-28ea-abf7",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -77432,6 +78363,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "9ae4-56d1-1fd8-adcf",
+                            "childName": "Madcap Meks",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-686b-28ea-abf7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Madcap Meks Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77494,6 +78469,66 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5516-d7a7-60f2",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9eab-76bf-6405",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9b90-0abc-37f7",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5c2a-3cd9-260d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6f20-fe4d-5835",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-3ecc-065a-7266",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -77613,6 +78648,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9eab-76bf-6405",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77748,6 +78827,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6f20-fe4d-5835",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77850,6 +78973,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5516-d7a7-60f2",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -77982,6 +79149,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5c2a-3cd9-260d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -78084,6 +79295,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9b90-0abc-37f7",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -78186,6 +79441,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "284f-75d8-d116-28e6",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "9338-0475-e797-5a95",
+                            "childId": "09b2-b286-7608-d613",
+                            "childName": "Brute Bosses",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-3ecc-065a-7266",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Brute Bosses Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -78245,6 +79544,36 @@
                       {
                         "childId": "1b34-af6b-8900-61b5",
                         "childName": "Wurrband",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-4e52-5b35-2e83",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-345f-dfa5-0365",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-200f-e915-1124",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -78413,6 +79742,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "1b34-af6b-8900-61b5",
+                            "childName": "Wurrband",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-345f-dfa5-0365",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Wurrband Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -78570,6 +79943,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "1b34-af6b-8900-61b5",
+                            "childName": "Wurrband",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-200f-e915-1124",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Wurrband Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -78757,6 +80174,50 @@
                         "conditions": []
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "1b34-af6b-8900-61b5",
+                            "childName": "Wurrband",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-4e52-5b35-2e83",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Wurrband Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -88188,6 +89649,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9759-300f-361d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -88328,6 +89799,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "10d4-31d1-92e1-3bb4",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "fbcc-82b9-12ce-f4ea",
+                            "childId": "4b17-a73a-7a0a-a265",
+                            "childName": "Bully Boyz",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9759-300f-361d",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Bully Boyz Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -88390,6 +89905,16 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6767-d4aa-bd80",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -88556,6 +90081,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "0951-9478-2623-b346",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "d0f5-bd38-b2b5-11ea",
+                            "childId": "795f-b961-9504-bd08",
+                            "childName": "Green Tide",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-6767-d4aa-bd80",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Green Tide Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -88618,6 +90187,26 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-74e6-3dd7-4467",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f6d6-227b-705c",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -88761,6 +90350,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "15d6-3f5d-428e-ebe8",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "4471-46a6-eb2f-b40a",
+                            "childId": "7b06-be3a-9754-1bd4",
+                            "childName": "Runt Swarm",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-74e6-3dd7-4467",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Runt Swarm Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -88913,6 +90546,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "15d6-3f5d-428e-ebe8",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "4471-46a6-eb2f-b40a",
+                            "childId": "7b06-be3a-9754-1bd4",
+                            "childName": "Runt Swarm",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f6d6-227b-705c",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Runt Swarm Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -88975,6 +90652,16 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-62b6-f580-d7e5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -89155,6 +90842,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "7b41-e113-0520-b15b",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "ded9-46e2-82fe-64ed",
+                            "childId": "fdd5-9868-a9ee-e9f1",
+                            "childName": "Taktikal Brigade",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-62b6-f580-d7e5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Taktikal Brigade Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -89217,6 +90948,16 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-e8c0-ee53-1380",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -89383,6 +91124,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "172b-c355-6df5-8f02",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "3ee0-410e-6910-d886",
+                            "childId": "f782-e3f1-c132-fe52",
+                            "childName": "Wreckas",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-e8c0-ee53-1380",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Wreckas Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -89445,6 +91230,26 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5dd9-db17-66e1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8926-5595-425f",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -89588,6 +91393,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "fe04-fd47-f03d-8271",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "a552-9587-4cb8-acf9",
+                            "childId": "9ae4-56d1-1fd8-adcf",
+                            "childName": "Madcap Meks",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5dd9-db17-66e1",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Madcap Meks Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -89740,6 +91589,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "fe04-fd47-f03d-8271",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "a552-9587-4cb8-acf9",
+                            "childId": "9ae4-56d1-1fd8-adcf",
+                            "childName": "Madcap Meks",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8926-5595-425f",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Madcap Meks Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -89802,6 +91695,26 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-958d-cc5a-1ea3",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-3660-0a55-32f4",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -89945,6 +91858,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "8fc5-25a7-7fcc-c830",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "e71e-be85-8008-cded",
+                            "childId": "63cc-721f-b263-9d4a",
+                            "childName": "Blitz Brigade",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-958d-cc5a-1ea3",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Blitz Brigade Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -90097,6 +92054,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "8fc5-25a7-7fcc-c830",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "e71e-be85-8008-cded",
+                            "childId": "63cc-721f-b263-9d4a",
+                            "childName": "Blitz Brigade",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-3660-0a55-32f4",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Blitz Brigade Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -90159,6 +92160,16 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-824d-552d-572b",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -90335,6 +92346,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "258f-f041-ce96-243c",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "7c30-c52d-2961-a3b2",
+                            "childId": "b404-44f-e9b4-7fe2",
+                            "childName": "Kult of Speed",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-824d-552d-572b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Kult of Speed Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -90397,6 +92452,26 @@
                         "field": "selections",
                         "includeChildSelections": true,
                         "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1829-6813-43fe",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9adb-0761-7153",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
@@ -90540,6 +92615,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "88f6-09a5-c41a-3287",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "eb5a-37cf-7add-1f44",
+                            "childId": "7c3c-fb9c-8689-8c7a",
+                            "childName": "Flyboyz",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9adb-0761-7153",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Flyboyz Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -90703,6 +92822,50 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "id": "88f6-09a5-c41a-3287",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "id": "eb5a-37cf-7add-1f44",
+                            "childId": "7c3c-fb9c-8689-8c7a",
+                            "childName": "Flyboyz",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1829-6813-43fe",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Flyboyz Enhancements)"
                   }
                 ],
                 "profiles": [

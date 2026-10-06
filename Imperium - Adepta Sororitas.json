@@ -43984,6 +43984,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c294-487f-6fe4",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -44009,6 +44019,16 @@
                       },
                       {
                         "childId": "6f81-1a3e-c84e-0954",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c294-487f-6fe4",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -44130,6 +44150,16 @@
                       },
                       {
                         "childId": "6f81-1a3e-c84e-0954",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6aca-fa16-04b1",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -44298,6 +44328,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-a47d-413f-799b",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -44411,6 +44451,16 @@
                       },
                       {
                         "childId": "6f81-1a3e-c84e-0954",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-a651-0c9b-d6dc",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -44532,6 +44582,16 @@
                       },
                       {
                         "childId": "575d-76f6-2edb-22c1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-0a5f-f188-530f",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -44700,6 +44760,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8eae-e7ce-2872",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -44814,6 +44884,16 @@
                       },
                       {
                         "childId": "575d-76f6-2edb-22c1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-d0cf-db1b-4939",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -44941,6 +45021,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-68a5-cdca-ca7d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -45047,6 +45137,16 @@
                       },
                       {
                         "childId": "5c81-a47b-d3a0-31e8",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-44f6-5547-b57f",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -45231,6 +45331,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-60ba-50c8-3d0d",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -45337,6 +45447,16 @@
                       },
                       {
                         "childId": "5c81-a47b-d3a0-31e8",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-79c1-ed7d-5943",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -45457,6 +45577,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-d8a0-7546-3cd6",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -45566,6 +45696,16 @@
                           {
                             "childId": "3ee6-23e1-8bc0-90f7",
                             "childName": "Chorus of Condemnation",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b460-df22-e61c",
                             "field": "selections",
                             "includeChildForces": true,
                             "includeChildSelections": true,
@@ -45712,6 +45852,16 @@
                       },
                       {
                         "childId": "8e26-78e2-10bd-6982",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-aaaf-64e3-427c",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -45880,6 +46030,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8cc3-f108-b8e7",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -45994,6 +46154,16 @@
                       },
                       {
                         "childId": "8e26-78e2-10bd-6982",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-b69c-2adb-2809",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -46236,6 +46406,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5746-aabc-7bea",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -46410,6 +46590,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2eb1-cb7a-a718",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -46523,6 +46713,16 @@
                       },
                       {
                         "childId": "a2f5-a466-96b6-d389",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-4491-99cc-858f",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -46676,6 +46876,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-20a5-bf9d-c0c8",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -46822,6 +47032,16 @@
                         "shared": true,
                         "type": "lessThan",
                         "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1ed3-f05e-5a81",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
                       }
                     ]
                   }
@@ -46929,6 +47149,16 @@
                       {
                         "childId": "0017-3a94-11f8-7fca",
                         "childName": "Sacred Champions",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-6061-b23f-a893",
                         "field": "selections",
                         "includeChildForces": true,
                         "includeChildSelections": true,
