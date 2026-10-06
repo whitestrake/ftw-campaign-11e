@@ -6391,72 +6391,6 @@
                 ]
               }
             ]
-          },
-          {
-            "comment": "Boarding Actions modifiers",
-            "type": "and",
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "childId": "1d6e-2579-8e7f-1ed4",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "be7f-de0b-6659-198a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "c53a-2ac5-c542-4bcd",
-                "type": "set",
-                "value": 2,
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "childId": "1d6e-2579-8e7f-1ed4",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "be7f-de0b-6659-198a",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "modifiers": [
@@ -6531,6 +6465,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -9780,6 +9751,43 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -12150,6 +12158,43 @@
                         "value": 1
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
                   }
                 ]
               }
@@ -18570,6 +18615,43 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -23272,6 +23354,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -28471,6 +28590,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -33702,6 +33858,43 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Crusade content",
+            "field": "error",
+            "type": "add",
+            "value": "Can only have 1 CHARACTER attached due to In The Shadow Of Your Betters Battle Scar",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b425-2b44-54ef-7bc9",
+                    "childName": "In The Shadow Of Your Betters",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "associations",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": false,
+                    "type": "greaterThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }

@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 23,
+    "revision": 24,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -38651,6 +38651,15 @@
             "shared": true,
             "type": "max",
             "value": 1
+          },
+          {
+            "id": "97a4-7dee-d723-dde8",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "4e85-615b-5d49-dfa4",
+            "shared": true,
+            "type": "max",
+            "value": 2
           }
         ],
         "costs": [
@@ -38681,6 +38690,24 @@
             "hidden": false,
             "targetId": "be1e-ac8e-1e2c-3528",
             "type": "rule"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "97a4-7dee-d723-dde8",
+            "type": "set",
+            "value": 4,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "4e85-615b-5d49-dfa4",
+                "shared": true,
+                "type": "atLeast",
+                "value": 10
+              }
+            ]
           }
         ],
         "profiles": [
@@ -41566,7 +41593,7 @@
                     "collective": false,
                     "hidden": false,
                     "import": true,
-                    "targetId": "6b41-7111-db91-e346",
+                    "targetId": "cc61-d9ed-f24-e511",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -41870,7 +41897,7 @@
                     "collective": false,
                     "hidden": false,
                     "import": true,
-                    "targetId": "6b41-7111-db91-e346",
+                    "targetId": "cc61-d9ed-f24-e511",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -42410,7 +42437,7 @@
                                     "collective": false,
                                     "hidden": false,
                                     "import": true,
-                                    "targetId": "6b41-7111-db91-e346",
+                                    "targetId": "cc61-d9ed-f24-e511",
                                     "type": "selectionEntry",
                                     "entryLinks": [
                                       {
@@ -98430,24 +98457,6 @@
                 ]
               },
               {
-                "name": "Combi-bolter",
-                "id": "76f-c4-792-a8dc",
-                "hidden": false,
-                "import": true,
-                "targetId": "c627-5d3-1420-c7f1",
-                "type": "selectionEntry",
-                "entryLinks": [
-                  {
-                    "name": "Weapon Modifications",
-                    "id": "9727-cfd7-1a41-9310",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f9da-852a-d7f0-92e9",
-                    "type": "selectionEntryGroup"
-                  }
-                ]
-              },
-              {
                 "name": "Hunter-killer missile",
                 "id": "5477-254b-8aca-139c",
                 "hidden": false,
@@ -98472,6 +98481,91 @@
                     "import": true,
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Combi-bolter",
+                "id": "d9d3-2c8e-7638-b79a",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "d21e-d94e-e5f1-ad8e",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "b6cf-b9f5-92e7-81c1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Rapid Fire",
+                    "id": "e080-c0a6-9d72-16a2",
+                    "hidden": false,
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Combi-bolter",
+                    "id": "e0a5-a188-884f-3b6b",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "24\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "2",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "4",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "0",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Rapid Fire 2",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
                   }
                 ]
               }
