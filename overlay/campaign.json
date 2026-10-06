@@ -32,12 +32,11 @@
     ]
   },
   "overdrive": {
-    "_comment": "apply.py adds an 'Overdrive: <weapon>' choice under the signature system for every ranged weapon a Commander can carry. Choosing it adds OVERDRIVE to that weapon's keywords",
+    "_comment": "apply.py adds an 'Overdrive Weapons' group to each Commander, shown while the signature system is taken, with an 'Overdrive: <weapon>' choice per ranged weapon it can carry (up to one per copy carried, maxWeapons in total). Choosing one adds OVERDRIVE to that weapon's keywords",
     "keyword": "Overdrive",
     "maxWeapons": 2,
     "rangedProfileTypeId": "f77d-b953-8fa4-b762",
-    "keywordsCharacteristicId": "7f1b-8591-2fcf-d01c",
-    "costType": { "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0026", "defaultCostLimit": "", "hidden": true }
+    "keywordsCharacteristicId": "7f1b-8591-2fcf-d01c"
   },
 
   "experimentalPrototype": {

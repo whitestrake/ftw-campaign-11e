@@ -175,27 +175,26 @@ def add_overdrive_choices(cat, commanders, sig, od):
             fail(f"no ranged weapons found on '{c['name']}' - upstream structure changed")
         weapons.update(found)
 
-    # Each choice covers every copy of its weapon, so it costs one hidden "Overdrive Weapons"
-    # per copy carried and the signature system caps that tally (the same shape as the Orks'
-    # per-unit Enhancements cap). Counting selections instead would need a min = max
-    # constraint, which New Recruit treats as a fixed entry and removes from the options.
-    cost = od["costType"]
+    # One choice per weapon, taken once per copy it covers: up to as many as are carried (four
+    # fusion blasters allow up to 2 of "Overdrive: Fusion blaster" within the overall cap).
+    # Only a max, raised per copy carried; a min = max constraint would make New Recruit treat
+    # it as a fixed entry and drop it from the options.
     choices = []
     for wid, w in sorted(weapons.items(), key=lambda kv: kv[1]["name"]):
         oid = derived_id("overdrive", wid)
+        max_id = derived_id(oid, "max")
         carried = {"childId": wid, "field": "selections", "includeChildSelections": True,
                    "scope": "root-entry", "shared": True}
         choices.append({
             "type": "upgrade", "import": True, "name": f"{od['keyword']}: {w['name']}", "id": oid, "hidden": False,
-            "constraints": [{"id": derived_id(oid, "max"), "field": "selections", "scope": "parent",
-                             "shared": True, "type": "max", "value": 1}],
-            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
-                      {"name": cost["name"], "typeId": cost["id"], "value": 0}],
+            "constraints": [{"id": max_id, "field": "selections", "scope": "parent",
+                             "shared": True, "type": "max", "value": 0}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
             "modifiers": [
                 {"field": "hidden", "type": "set", "value": True,
                  "conditions": [dict(carried, type="lessThan", value=1)]},
-                {"comment": "One Overdrive Weapon per copy of this weapon carried",
-                 "field": cost["id"], "type": "increment", "value": 1,
+                {"comment": "One per copy of this weapon carried",
+                 "field": max_id, "type": "increment", "value": 1,
                  "repeats": [dict(carried, repeats=1, roundUp=False, value=1)]},
             ],
         })
@@ -205,15 +204,24 @@ def add_overdrive_choices(cat, commanders, sig, od):
             "conditions": [{"childId": oid, "field": "selections", "includeChildSelections": True,
                             "scope": "root-entry", "shared": True, "type": "atLeast", "value": 1}],
         }]
-    sig["selectionEntryGroups"] = [{
+    # The choices sit on the Commander beside its Enhancements, not under the signature system:
+    # the Enhancements list allows one selection per model counting everything nested in it.
+    group = {
         "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0024", "hidden": False, "collapsible": False,
+        "constraints": [{"id": "c4a1-5eed-0000-0025", "field": "selections", "scope": "parent", "shared": True,
+                         "type": "max", "value": od["maxWeapons"],
+                         "message": f"Overdrive Power Systems covers at most {od['maxWeapons']} weapons."}],
+        "modifiers": [{"comment": "Shown while the signature system is taken",
+                       "field": "hidden", "type": "set", "value": True,
+                       "conditions": [{"childId": sig["id"], "field": "selections", "includeChildSelections": True,
+                                       "scope": "root-entry", "shared": True, "type": "lessThan", "value": 1}]}],
         "selectionEntries": choices,
-    }]
-    sig["constraints"] = replace_by_id(sig.get("constraints", []), [{
-        "id": "c4a1-5eed-0000-0025", "field": cost["id"], "includeChildSelections": True, "scope": "self",
-        "shared": True, "type": "max", "value": od["maxWeapons"],
-        "message": f"Overdrive covers at most {od['maxWeapons']} weapons, and every copy of a chosen weapon counts.",
-    }])
+    }
+    cat["sharedSelectionEntryGroups"] = replace_by_id(cat.get("sharedSelectionEntryGroups", []), [group])
+    for c in commanders:
+        c["entryLinks"] = replace_by_id(c.get("entryLinks", []), [{
+            "name": group["name"], "id": derived_id(c["id"], group["id"]), "hidden": False, "import": True,
+            "targetId": group["id"], "type": "selectionEntryGroup"}])
     print("Overdrive choices: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
 
 
@@ -599,8 +607,6 @@ def main():
     suffix = cfg.get("gameSystemNameSuffix")
     if suffix and not gst["gameSystem"]["name"].endswith(suffix):
         gst["gameSystem"]["name"] += suffix
-    gst["gameSystem"]["costTypes"] = replace_by_id(gst["gameSystem"].get("costTypes", []),
-                                                   [cfg["overdrive"]["costType"]])
     write_json(gst, gst_path)
 
     # 3. Patch the faction catalogue.
