@@ -48941,28 +48941,6 @@
                 ]
               }
             ]
-          },
-          {
-            "comment": "Boarding Actions modifiers",
-            "type": "and",
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "1d6e-2579-8e7f-1ed4",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "modifiers": [
@@ -49198,9 +49176,9 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "Wargear Options",
+                "name": "Kannon",
                 "id": "c125-6ace-cee2-1f54",
-                "defaultSelectionEntryId": "95b4-4fb1-62e8-ed4a",
+                "defaultSelectionEntryId": "b770-d969-e667-3e1a",
                 "hidden": false,
                 "constraints": [
                   {
@@ -49208,47 +49186,16 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "type": "max",
-                    "value": 2
-                  },
-                  {
-                    "id": "bf40-fff2-cdac-f408",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
                     "type": "min",
                     "value": 1
-                  }
-                ],
-                "entryLinks": [
+                  },
                   {
-                    "name": "Kannon",
-                    "id": "95b4-4fb1-62e8-ed4a",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "b770-d969-e667-3e1a",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "62ea-61e1-dcee-6b4c",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 2
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "name": "Weapon Modifications",
-                        "id": "9793-8889-bb58-1061",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "f9da-852a-d7f0-92e9",
-                        "type": "selectionEntryGroup"
-                      }
-                    ]
+                    "id": "82b2-5222-e231-34ca",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
                   }
                 ],
                 "selectionEntries": [
@@ -49269,7 +49216,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "abe9-a2fd-4c5c-c044",
+                        "id": "dc85-87b9-5874-08c0",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -49285,15 +49232,6 @@
                         "import": true,
                         "targetId": "f9da-852a-d7f0-92e9",
                         "type": "selectionEntryGroup"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Blast",
-                        "id": "2745-c21c-e312-9dde",
-                        "hidden": false,
-                        "targetId": "6c1f-1cf7-ff25-c99e",
-                        "type": "rule"
                       }
                     ],
                     "profiles": [
@@ -49337,6 +49275,123 @@
                           {
                             "name": "Keywords",
                             "$text": "Blast 1",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Kannon",
+                    "id": "b770-d969-e667-3e1a",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "e15c-fb98-aa7e-7db1",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 2
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Weapon Modifications",
+                        "id": "9793-8889-bb58-1061",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "f9da-852a-d7f0-92e9",
+                        "type": "selectionEntryGroup"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Kannon - shell",
+                        "id": "4bbe-d027-4cc3-45b",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "5+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "10",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "D6+1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Rapid Fire 2",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Kannon - frag",
+                        "id": "ad9-ed17-a724-9191",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "5+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "5",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "0",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast 1, Rapid Fire 6",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -54176,120 +54231,6 @@
                 "name": "Keywords",
                 "$text": "",
                 "typeId": "893f-9000-ccf7-648e"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Kannon",
-        "id": "b770-d969-e667-3e1a",
-        "comment": "A6",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "infoLinks": [
-          {
-            "name": "Blast",
-            "id": "35bd-7f9e-3516-24c6",
-            "hidden": false,
-            "targetId": "6c1f-1cf7-ff25-c99e",
-            "type": "rule"
-          },
-          {
-            "name": "Rapid Fire",
-            "id": "4324-1135-8dae-f6cf",
-            "hidden": false,
-            "targetId": "c5c8-8b58-b8b6-7786",
-            "type": "rule"
-          }
-        ],
-        "profiles": [
-          {
-            "name": "➤ Kannon - shell",
-            "id": "4bbe-d027-4cc3-45b",
-            "hidden": false,
-            "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons",
-            "characteristics": [
-              {
-                "name": "Range",
-                "$text": "36\"",
-                "typeId": "9896-9419-16a1-92fc"
-              },
-              {
-                "name": "A",
-                "$text": "2",
-                "typeId": "3bb-c35f-f54-fb08"
-              },
-              {
-                "name": "BS",
-                "$text": "5+",
-                "typeId": "94d-8a98-cf90-183e"
-              },
-              {
-                "name": "S",
-                "$text": "10",
-                "typeId": "2229-f494-25db-c5d3"
-              },
-              {
-                "name": "AP",
-                "$text": "-2",
-                "typeId": "9ead-8a10-520-de15"
-              },
-              {
-                "name": "D",
-                "$text": "D6+1",
-                "typeId": "a354-c1c8-a745-f9e3"
-              },
-              {
-                "name": "Keywords",
-                "$text": "Rapid Fire 2",
-                "typeId": "7f1b-8591-2fcf-d01c"
-              }
-            ]
-          },
-          {
-            "name": "➤ Kannon - frag",
-            "id": "ad9-ed17-a724-9191",
-            "hidden": false,
-            "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons",
-            "characteristics": [
-              {
-                "name": "Range",
-                "$text": "36\"",
-                "typeId": "9896-9419-16a1-92fc"
-              },
-              {
-                "name": "A",
-                "$text": "6",
-                "typeId": "3bb-c35f-f54-fb08"
-              },
-              {
-                "name": "BS",
-                "$text": "5+",
-                "typeId": "94d-8a98-cf90-183e"
-              },
-              {
-                "name": "S",
-                "$text": "5",
-                "typeId": "2229-f494-25db-c5d3"
-              },
-              {
-                "name": "AP",
-                "$text": "0",
-                "typeId": "9ead-8a10-520-de15"
-              },
-              {
-                "name": "D",
-                "$text": "1",
-                "typeId": "a354-c1c8-a745-f9e3"
-              },
-              {
-                "name": "Keywords",
-                "$text": "Blast 1, Rapid Fire 6",
-                "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
           }
