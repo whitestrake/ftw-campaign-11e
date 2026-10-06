@@ -147,9 +147,8 @@ def relax_hidden_modifiers(element, slot_ids):
 
 
 def add_overdrive_choices(cat, commanders, sig, od):
-    """'Overdrive: <weapon>' choices under the signature system, one per ranged weapon a
-    Commander can carry, each shown only while that weapon is equipped. Choosing one adds
-    the OVERDRIVE keyword to that weapon, via a modifier on the weapon entry itself."""
+    """An 'Overdrive' option on every ranged weapon a Commander can carry, shown while the
+    signature system is taken. Ticking it on a weapon adds OVERDRIVE to that copy's keywords."""
     shared = {e["id"]: e for e in cat.get("sharedSelectionEntries", [])}
 
     def ranged_weapons(node, acc):
@@ -175,54 +174,35 @@ def add_overdrive_choices(cat, commanders, sig, od):
             fail(f"no ranged weapons found on '{c['name']}' - upstream structure changed")
         weapons.update(found)
 
-    # One choice per weapon, taken once per copy it covers: up to as many as are carried (four
-    # fusion blasters allow up to 2 of "Overdrive: Fusion blaster" within the overall cap).
-    # Only a max, raised per copy carried; a min = max constraint would make New Recruit treat
-    # it as a fixed entry and drop it from the options.
-    choices = []
-    for wid, w in sorted(weapons.items(), key=lambda kv: kv[1]["name"]):
-        oid = derived_id("overdrive", wid)
-        max_id = derived_id(oid, "max")
-        carried = {"childId": wid, "field": "selections", "includeChildSelections": True,
-                   "scope": "root-entry", "shared": True}
-        choices.append({
-            "type": "upgrade", "import": True, "name": f"{od['keyword']}: {w['name']}", "id": oid, "hidden": False,
-            "constraints": [{"id": max_id, "field": "selections", "scope": "parent",
-                             "shared": True, "type": "max", "value": 0}],
-            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
-            "modifiers": [
-                {"field": "hidden", "type": "set", "value": True,
-                 "conditions": [dict(carried, type="lessThan", value=1)]},
-                {"comment": "One per copy of this weapon carried",
-                 "field": max_id, "type": "increment", "value": 1,
-                 "repeats": [dict(carried, repeats=1, roundUp=False, value=1)]},
-            ],
-        })
-        w["modifiers"] = [m for m in w.get("modifiers", []) if m.get("value") != od["keyword"]] + [{
-            "affects": "profiles.Ranged Weapons", "field": od["keywordsCharacteristicId"], "join": ", ",
-            "type": "append", "value": od["keyword"],
-            "conditions": [{"childId": oid, "field": "selections", "includeChildSelections": True,
-                            "scope": "root-entry", "shared": True, "type": "atLeast", "value": 1}],
-        }]
-    # The choices sit on the Commander beside its Enhancements, not under the signature system:
-    # the Enhancements list allows one selection per model counting everything nested in it.
-    group = {
-        "name": "Overdrive Weapons", "id": "c4a1-5eed-0000-0024", "hidden": False, "collapsible": False,
-        "constraints": [{"id": "c4a1-5eed-0000-0025", "field": "selections", "scope": "parent", "shared": True,
-                         "type": "max", "value": od["maxWeapons"],
-                         "message": f"Overdrive Power Systems covers at most {od['maxWeapons']} weapons."}],
+    # An "Overdrive" option on each of those weapons, the way the Experimental Prototype Cadre
+    # weapon upgrades sit on a weapon: ticking it on one copy splits that copy off, and its
+    # modifier (scope "upgrade", like theirs) changes only that copy's profile. Shown while the
+    # model's unit has the signature system; one per copy, two in the army (the signature
+    # system is one per army, so a roster cap is the bearer's cap).
+    option = {
+        "type": "upgrade", "import": True, "name": od["keyword"], "id": od["optionId"], "hidden": False,
+        "constraints": [
+            {"id": derived_id(od["optionId"], "per-weapon"), "field": "selections", "scope": "parent",
+             "shared": True, "type": "max", "value": 1},
+            {"id": derived_id(od["optionId"], "total"), "field": "selections", "includeChildSelections": True,
+             "includeChildForces": True, "scope": "roster", "shared": True, "type": "max",
+             "value": od["maxWeapons"],
+             "message": f"Overdrive Power Systems covers at most {od['maxWeapons']} weapons."},
+        ],
+        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
         "modifiers": [{"comment": "Shown while the signature system is taken",
                        "field": "hidden", "type": "set", "value": True,
                        "conditions": [{"childId": sig["id"], "field": "selections", "includeChildSelections": True,
                                        "scope": "root-entry", "shared": True, "type": "lessThan", "value": 1}]}],
-        "selectionEntries": choices,
+        "modifierGroups": [{"type": "and", "modifiers": [
+            {"affects": "self.entries.profiles.Ranged Weapons", "field": od["keywordsCharacteristicId"],
+             "join": ", ", "scope": "upgrade", "type": "append", "value": od["keyword"]},
+        ]}],
     }
-    cat["sharedSelectionEntryGroups"] = replace_by_id(cat.get("sharedSelectionEntryGroups", []), [group])
-    for c in commanders:
-        c["entryLinks"] = replace_by_id(c.get("entryLinks", []), [{
-            "name": group["name"], "id": derived_id(c["id"], group["id"]), "hidden": False, "import": True,
-            "targetId": group["id"], "type": "selectionEntryGroup"}])
-    print("Overdrive choices: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
+    cat["sharedSelectionEntries"] = replace_by_id(cat.get("sharedSelectionEntries", []), [option])
+    for wid, w in weapons.items():
+        add_entry_link(w, option, derived_id(wid, "overdrive-option"))
+    print("Overdrive option on: " + ", ".join(w["name"] for w in sorted(weapons.values(), key=lambda w: w["name"])))
 
 
 def apply_enhancement_unlocks(cats, gst, groups, entries, is_enhancement, cat_groups, cp):
