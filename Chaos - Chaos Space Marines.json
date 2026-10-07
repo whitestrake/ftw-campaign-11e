@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 24,
+    "revision": 25,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -35389,7 +35389,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -38659,7 +38659,7 @@
             "scope": "4e85-615b-5d49-dfa4",
             "shared": true,
             "type": "max",
-            "value": 2
+            "value": 4
           }
         ],
         "costs": [
@@ -38694,18 +38694,33 @@
         ],
         "modifiers": [
           {
-            "field": "97a4-7dee-d723-dde8",
-            "type": "set",
-            "value": 4,
-            "conditions": [
+            "field": "error",
+            "type": "add",
+            "value": "Max 2 {this} per 5 models",
+            "conditionGroups": [
               {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "4e85-615b-5d49-dfa4",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "4e85-615b-5d49-dfa4",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 10
+                  },
+                  {
+                    "childId": "cc61-d9ed-f24-e511",
+                    "childName": "Combi-weapon",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "4e85-615b-5d49-dfa4",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 2
+                  }
+                ]
               }
             ]
           }
@@ -101995,7 +102010,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the end of your Command phase, if this unit is within range of an objective marker  you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -118040,15 +118055,6 @@
             "shared": true,
             "type": "max",
             "value": 1
-          },
-          {
-            "id": "1218-ab18-a7ee-601d",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "4e85-615b-5d49-dfa4",
-            "shared": true,
-            "type": "max",
-            "value": 2
           }
         ],
         "costs": [
@@ -118079,24 +118085,6 @@
             "hidden": false,
             "targetId": "be1e-ac8e-1e2c-3528",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "1218-ab18-a7ee-601d",
-            "type": "set",
-            "value": 4,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "4e85-615b-5d49-dfa4",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
           }
         ],
         "profiles": [

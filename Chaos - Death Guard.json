@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 17,
+    "revision": 18,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -18839,7 +18839,7 @@
                   {
                     "name": "Enhancements",
                     "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 0
+                    "value": 1
                   }
                 ],
                 "modifierGroups": [

@@ -9,7 +9,7 @@
     "gameSystemRevision": 1,
     "library": false,
     "readme": "",
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -15056,6 +15056,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "06f3-c7f0-3763-211c"
+          },
+          {
+            "name": "Support",
+            "id": "9211-5d5c-5757-6bb2",
+            "hidden": false,
+            "primary": false,
+            "targetId": "7dcd-7f61-69a7-0294"
           }
         ],
         "constraints": [
