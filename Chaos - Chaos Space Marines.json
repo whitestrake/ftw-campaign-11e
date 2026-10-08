@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 25,
+    "revision": 26,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -21010,7 +21010,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -21025,6 +21025,7 @@
                           },
                           {
                             "name": "Keywords",
+                            "$text": "",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ]
