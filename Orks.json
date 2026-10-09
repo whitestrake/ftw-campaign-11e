@@ -36341,7 +36341,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "ANTI-MONSTER/VEHICLE 4+, CLEAVE 2+",
+                            "$text": "ANTI-MONSTER/VEHICLE 4+, CLEAVE 2",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ]
