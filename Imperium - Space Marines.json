@@ -18374,24 +18374,6 @@
             ]
           },
           {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "8425-f97a-408-9f8a",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -19338,38 +19320,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "id": "8f90-a55b-77c6-ee15",
-                    "childId": "1e84-b3ff-decc-2f0e",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "a10b-fbfe-b1fa-6f0c",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 6
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -20308,25 +20258,6 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "childName": "1. Incursion (1000 Point limit)",
                 "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "ccae-25d8-84c1-913f",
-                "childName": "Iron Father Ferrios",
-                "field": "selections",
-                "includeChildForces": true,
                 "includeChildSelections": true,
                 "scope": "force",
                 "shared": true,
@@ -21579,15 +21510,6 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Feel No Pain",
-                "id": "4a20-f135-d608-e28",
-                "hidden": false,
-                "targetId": "9bf4-280f-bbe2-6fbb",
-                "type": "rule"
               }
             ],
             "profiles": [
@@ -29817,13 +29739,6 @@
             "targetId": "c619-2086-bbcf-69c9"
           },
           {
-            "name": "Vanguard Veteran Squad",
-            "id": "5ce2-f67b-a337-b353",
-            "hidden": false,
-            "primary": false,
-            "targetId": "c7d2-a98d-4ad2-c426"
-          },
-          {
             "name": "Explosives",
             "id": "c318-8aa3-2203-2588",
             "hidden": false,
@@ -30287,54 +30202,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditions": [
-              {
-                "childId": "4ef9-15ce-e3e6-36de",
-                "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "id": "ec23-b747-adf5-2c25",
-                    "childId": "8a7f-b578-d274-9769",
-                    "field": "selections",
-                    "scope": "9e9c-bf4d-2d40-be82",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 6
-                  }
-                ]
               }
             ]
           },
@@ -30928,6 +30795,15 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "be78-5aab-d1ef-0bcb",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
                         "value": 1
                       }
                     ]
@@ -32652,7 +32528,27 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "18b0-8c2-173f-5",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "bc01-512e-40e2-f3f8",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "4feb-4069-45f2-c6bc",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
                     "name": "Artificer Firearm",
@@ -32786,6 +32682,26 @@
                     "import": true,
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "763e-f580-dbc4-0cbd",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "48b5-69a8-94ac-a78c",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -33032,7 +32948,27 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "18b0-8c2-173f-5",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "a23b-6450-e308-430a",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "f77f-cb98-8d5d-f1ae",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
                     "name": "Ceramite Fists",
@@ -33996,7 +33932,7 @@
                         "characteristics": [
                           {
                             "name": "Range",
-                            "$text": "24\"",
+                            "$text": "18\"",
                             "typeId": "9896-9419-16a1-92fc"
                           },
                           {
@@ -42859,7 +42795,7 @@
                 "id": "b61e-64ab-9a2b-689b",
                 "hidden": false,
                 "import": true,
-                "targetId": "7b46-de5b-2c60-4597",
+                "targetId": "5610-e793-4bdc-84a4",
                 "type": "selectionEntry",
                 "constraints": [
                   {
@@ -47539,7 +47475,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Blast",
+                        "$text": "Blast 2",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ],
@@ -52061,6 +51997,23 @@
                 "childName": "Darkflight Pursuit",
                 "field": "selections",
                 "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "75db-f15d-00c7-d770",
+            "type": "set",
+            "value": 6,
+            "conditions": [
+              {
+                "childId": "64a6-9332-de28-21a9",
+                "childName": "Darkflight Pursuit",
+                "field": "selections",
                 "includeChildSelections": true,
                 "scope": "roster",
                 "shared": true,
@@ -78362,6 +78315,20 @@
                 "typeId": "55a7-5b54-c60d-11dc"
               }
             ]
+          },
+          {
+            "name": "Wrath of the Machine Spirit",
+            "id": "4f70-a79d-6d4b-e437",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This unit’s ranged attacks that target a unit within 12\" of this unit have [Devastating Wounds: non-Monster/vehicle]",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -82450,7 +82417,7 @@
                     "childId": "7685-1ab3-8d12-fac7",
                     "childName": "Shield Dome",
                     "field": "selections",
-                    "includeChildSelections": false,
+                    "includeChildSelections": true,
                     "scope": "parent",
                     "shared": true,
                     "type": "atLeast",
@@ -88972,48 +88939,12 @@
             ],
             "selectionEntries": [
               {
-                "name": "Neo-volkite pistol & Master-crafted Power Sword",
+                "name": "Neo-volkite pistol & Master-crafted Power Weapon",
                 "id": "a1f2-12d9-5a4c-a524",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
                 "entryLinks": [
-                  {
-                    "name": "Master-crafted power weapon",
-                    "id": "f08e-ff00-e54a-3efb",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "ebda-08ed-994a-b579",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "9eb5-84d6-adab-bc1",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "a7ad-b285-f4bf-c238",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "name": "Weapon Upgrades",
-                        "id": "94a8-58c4-8280-0ff8",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "8cf2-a48c-58d2-cb4e",
-                        "type": "selectionEntryGroup"
-                      }
-                    ]
-                  },
                   {
                     "name": "Neo-volkite Pistol",
                     "id": "b746-e5eb-f9ba-8f2b",
@@ -89082,6 +89013,89 @@
                             "name": "Description",
                             "$text": "The bearer has a 4+ invulnerable save",
                             "typeId": "9b8f-694b-e5e-b573"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Master-crafted Power Weapon",
+                    "id": "9ce9-2ccf-a76f-2f3a",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "7bdb-f5af-b675-a51a",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "912d-cdcc-73d0-2f56",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Weapon Upgrades",
+                        "id": "94a8-58c4-8280-0ff8",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "8cf2-a48c-58d2-cb4e",
+                        "type": "selectionEntryGroup"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Master-crafted Power Weapon",
+                        "id": "2c9b-cca9-50e2-8045",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "Melee",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "5",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "name": "WS",
+                            "$text": "2+",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "",
+                            "typeId": "893f-9000-ccf7-648e"
                           }
                         ]
                       }
@@ -89405,22 +89419,59 @@
                             "type": "selectionEntryGroup"
                           }
                         ]
-                      },
+                      }
+                    ],
+                    "selectionEntries": [
                       {
-                        "name": "Master-crafted bolter",
-                        "id": "f18d-3f66-30f4-2056",
+                        "name": "Master-crafted Bolter",
+                        "id": "4666-e7ad-cd04-971d",
                         "hidden": false,
                         "import": true,
-                        "targetId": "c3bc-26b4-6fa0-bd39",
-                        "type": "selectionEntry",
-                        "entryLinks": [
+                        "type": "upgrade",
+                        "profiles": [
                           {
-                            "name": "Weapon Upgrades",
-                            "id": "38e1-3a65-efbc-7368",
+                            "name": "Master-crafted bolter",
+                            "id": "6223-a1c5-a217-fdde",
                             "hidden": false,
-                            "import": true,
-                            "targetId": "8cf2-a48c-58d2-cb4e",
-                            "type": "selectionEntryGroup"
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "$text": "24\"",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "2",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "name": "BS",
+                                "$text": "2+",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "5",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "-1",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "2",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "name": "Keywords",
+                                "$text": "\n",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -91917,46 +91968,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "78eb-9334-f5c0-6095",
-                        "childName": "Librarian",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -93118,7 +93129,7 @@
             "characteristics": [
               {
                 "name": "M",
-                "$text": "6\"",
+                "$text": "8\"",
                 "typeId": "e703-ecb6-5ce7-aec1"
               },
               {
@@ -131686,7 +131697,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Attacks that this unit have -1 to wound rolls",
+                "$text": "Attacks that target this unit have -1 to wound rolls",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -143560,7 +143571,7 @@
                 "scope": "3bc7-8328-a080-3958",
                 "shared": true,
                 "type": "atLeast",
-                "value": 6
+                "value": 4
               }
             ]
           },
@@ -146796,24 +146807,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "id": "d054-655b-73c1-f57a",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              }
-            ]
-          },
           {
             "field": "category",
             "type": "add",
@@ -152345,7 +152338,7 @@
               {
                 "name": "Devastator Mastery",
                 "id": "1b96-58ca-1b00-369e",
-                "description": "You can select the devastator doctrine on additional time per battle. ",
+                "description": "You can select the devastator doctrine one additional time per battle. ",
                 "hidden": false
               }
             ]
@@ -153306,6 +153299,15 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "id": "1535-e6dc-eadf-2ab6",
+                "hidden": false,
+                "primary": false,
+                "targetId": "6fe0-3dbe-f7e0-10bb"
+              }
+            ],
             "constraints": [
               {
                 "id": "0ac5-4f5a-ad00-5d0b",
@@ -153462,12 +153464,12 @@
               {
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
+                "value": 2
               },
               {
                 "name": "Enhancements",
                 "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 2
+                "value": 0
               },
               {
                 "name": "Honour Points",
@@ -153504,6 +153506,31 @@
                 "id": "fbce-3eac-c3a9-b353",
                 "description": "Each time a friendly ADEPTUS ASTARTES unit is selected to shoot or selected to fight apply one of the following when resolving those attacks:\n\n\n▪ If that unit is within 6\" of a friendly Cannok Var/Iron Father Feirros unit you can:\n  ▪ Re-roll one hit roll.\n  ▪ Re-roll one wound roll.\n  ▪ Re-roll one damage roll.\n▪ Otherwise you can:\n  ▪ Re-roll one hit roll.\n  ▪ Or: Re-roll one wound roll.\n  ▪ Or: Re-roll one damage roll.",
                 "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Deathwatch Support (ITS NOT READY)",
+            "id": "5eb6-4ed2-6aca-c7f1",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9316-626c-3822-dc13",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "error",
+                "type": "add",
+                "value": "This detachment is not ready yet. It requires a lot of extra work and is in progress. Please do not report it missing as a bug report. "
               }
             ]
           }
@@ -156005,7 +156032,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 25
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -156060,227 +156087,120 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
-                        "conditions": [],
-                        "conditionGroups": [
+                        "type": "and",
+                        "conditions": [
                           {
-                            "type": "and",
-                            "conditions": [
-                              {
-                                "childId": "6e-71bd-2538-d468",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-1fb1-015a-b02f",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2a11-c917-f621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2bed-c0f4-7351",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-34ee-3e09-dec1",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-5755-e319-387b",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-8303-99e0-4eca",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-873a-91a3-09db",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-9fcc-2114-81a4",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-b34e-74ec-e85a",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-bc34-0648-b621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c53c-f4de-d70e",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c606-1b0c-5197",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              }
-                            ]
+                            "childId": "6e-71bd-2538-d468",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           },
                           {
-                            "type": "and",
-                            "conditions": [
-                              {
-                                "childId": "2d7f-1892-2fd0-e29c",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-1fb1-015a-b02f",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2a11-c917-f621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2bed-c0f4-7351",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-34ee-3e09-dec1",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-5755-e319-387b",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-8303-99e0-4eca",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-873a-91a3-09db",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-9fcc-2114-81a4",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-b34e-74ec-e85a",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-bc34-0648-b621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c53c-f4de-d70e",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c606-1b0c-5197",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              }
-                            ]
+                            "childId": "2d7f-1892-2fd0-e29c",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1fb1-015a-b02f",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2a11-c917-f621",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2bed-c0f4-7351",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-34ee-3e09-dec1",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5755-e319-387b",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8303-99e0-4eca",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-873a-91a3-09db",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9fcc-2114-81a4",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b34e-74ec-e85a",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-bc34-0648-b621",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c53c-f4de-d70e",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c606-1b0c-5197",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           }
                         ]
                       }
@@ -156813,7 +156733,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 30
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -157118,7 +157038,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Supercharged Engines",
+                "name": "Supercharged Engines (Upgrade)",
                 "id": "7491-28d9-80bd-9c26",
                 "hidden": false,
                 "import": true,
@@ -157404,7 +157324,7 @@
                 ]
               },
               {
-                "name": "Auspex Triangulation Shrines",
+                "name": "Auspex Triangulation Shrines (Upgrade)",
                 "id": "d20d-ff22-a3e1-e78",
                 "hidden": false,
                 "import": true,
@@ -157762,7 +157682,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Gunnery Honours",
+                "name": "Gunnery Honours (Upgrade)",
                 "id": "64bf-bc5c-2a45-54f0",
                 "hidden": false,
                 "import": true,
@@ -158390,7 +158310,7 @@
                 ]
               },
               {
-                "name": "Redoubtable Machine Spirit",
+                "name": "Redoubtable Machine Spirit (Upgrade)",
                 "id": "fe18-a419-ace5-df4a",
                 "hidden": false,
                 "import": true,
@@ -166610,6 +166530,119 @@
                     ]
                   }
                 ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-1fb1-015a-b02f",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-2a11-c917-f621",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-2bed-c0f4-7351",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-34ee-3e09-dec1",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-5755-e319-387b",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-8303-99e0-4eca",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-873a-91a3-09db",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-9fcc-2114-81a4",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-b34e-74ec-e85a",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-bc34-0648-b621",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-c53c-f4de-d70e",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-c606-1b0c-5197",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "selectionEntries": [
@@ -167296,7 +167329,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 25
+                    "value": 20
                   },
                   {
                     "name": "Crusade Points",
@@ -167344,94 +167377,25 @@
                     "value": 0
                   }
                 ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "ab33-d393-96ce-ccba",
-                        "scope": "model",
-                        "type": "increment",
-                        "value": 2
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "41a0-1301-112a-e2f2",
-                        "scope": "model",
-                        "type": "decrement",
-                        "value": 1
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "annotation",
-                        "join": ", ",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "Ancient Weapons"
-                      },
-                      {
-                        "affects": "self.entries.recursive.4986-bf86-beb4-13ac.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "+0"
-                      },
-                      {
-                        "affects": "self.entries.recursive.982b-de77-dd2d-d9bd.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "scope": "model",
-                        "type": "replace"
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "3254-9fe6-d824-513e",
-                        "position": -1,
-                        "scope": "model",
-                        "type": "increment",
-                        "value": 1
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "scope": "model",
-                        "type": "replace"
-                      },
-                      {
-                        "affects": "self.entries.recursive.4986-bf86-beb4-13ac",
-                        "arg": "+0",
-                        "field": "category",
-                        "join": "",
-                        "scope": "model",
-                        "type": "add",
-                        "value": "982b-de77-dd2d-d9bd"
-                      }
-                    ]
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Ancient Weapons",
-                    "id": "f3b0-5247-4e07-6793",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "^^**Adeptus Astartes**^^ model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ],
                 "modifiers": [
+                  {
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "field": "ab33-d393-96ce-ccba",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                    "type": "increment",
+                    "value": 2
+                  },
+                  {
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "field": "41a0-1301-112a-e2f2",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                    "type": "decrement",
+                    "value": 1
+                  },
                   {
                     "conditionGroups": [
                       {
@@ -167473,6 +167437,22 @@
                     "type": "set",
                     "value": true,
                     "comment": "Only an unlocked enhancement shows outside its detachment (Wrath of the Rock Enhancements)"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ancient Weapons",
+                    "id": "f3b0-5247-4e07-6793",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "^^**Adeptus Astartes**^^ model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ]
               }
@@ -175586,7 +175566,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 25
                   },
                   {
                     "name": "Crusade Points",
@@ -175841,7 +175821,7 @@
                 ]
               },
               {
-                "name": "Chogorian Huntmaster",
+                "name": "Chogorian Huntmaster (Upgrade)",
                 "id": "b21a-b914-964c-d984",
                 "hidden": false,
                 "import": true,
@@ -186118,7 +186098,7 @@
                 ]
               },
               {
-                "name": "Furious Assault",
+                "name": "Furious Assault (Upgrade)",
                 "id": "b681-8092-2465-7ba0",
                 "hidden": false,
                 "import": true,
@@ -187230,7 +187210,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -190800,7 +190780,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Immovable Conquerors",
+                "name": "Immovable Conquerors (Upgrade)",
                 "id": "cb48-34f1-d400-4ff9",
                 "hidden": false,
                 "import": true,
@@ -191368,7 +191348,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Artificer Sarcophagus",
+                "name": "Artificer Sarcophagus (Upgrade)",
                 "id": "1631-0f81-ec12-a95b",
                 "hidden": false,
                 "import": true,
@@ -191639,7 +191619,7 @@
                 ]
               },
               {
-                "name": "Venerable Champion (Aura)",
+                "name": "Venerable Champion (Aura) (Upgrade)",
                 "id": "1d72-b644-b4b5-3f98",
                 "hidden": false,
                 "import": true,
@@ -192844,7 +192824,7 @@
                 ]
               },
               {
-                "name": "Righteous Fervour",
+                "name": "Righteous Fervour (Upgrade)",
                 "id": "dfda-ba20-b061-b907",
                 "hidden": false,
                 "import": true,
@@ -193285,7 +193265,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Fervent Exemplars",
+                "name": "Fervent Exemplars (Upgrade)",
                 "id": "9a7f-fcfb-5ea1-bfe6",
                 "hidden": false,
                 "import": true,
@@ -193442,7 +193422,7 @@
                 ]
               },
               {
-                "name": "Inheritors of Sigismund",
+                "name": "Inheritors of Sigismund (Upgrade)",
                 "id": "1363-5e93-bfd4-3646",
                 "hidden": false,
                 "import": true,
@@ -193873,230 +193853,123 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
-                        "conditions": [],
-                        "conditionGroups": [
+                        "type": "and",
+                        "conditions": [
                           {
-                            "type": "and",
-                            "conditions": [
-                              {
-                                "childId": "1fb1-3603-a4bd-485",
-                                "childName": "Chaplain",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-1fb1-015a-b02f",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2a11-c917-f621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2bed-c0f4-7351",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-34ee-3e09-dec1",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-5755-e319-387b",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-8303-99e0-4eca",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-873a-91a3-09db",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-9fcc-2114-81a4",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-b34e-74ec-e85a",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-bc34-0648-b621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c53c-f4de-d70e",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c606-1b0c-5197",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              }
-                            ]
+                            "childId": "1fb1-3603-a4bd-485",
+                            "childName": "Chaplain",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           },
                           {
-                            "type": "and",
-                            "conditions": [
-                              {
-                                "childId": "258c-ef74-d5f1-3a61",
-                                "childName": "Judiciar",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-1fb1-015a-b02f",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2a11-c917-f621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-2bed-c0f4-7351",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-34ee-3e09-dec1",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-5755-e319-387b",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-8303-99e0-4eca",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-873a-91a3-09db",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-9fcc-2114-81a4",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-b34e-74ec-e85a",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-bc34-0648-b621",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c53c-f4de-d70e",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              },
-                              {
-                                "childId": "c4a1-c606-1b0c-5197",
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "shared": true,
-                                "type": "notInstanceOf",
-                                "value": 1
-                              }
-                            ]
+                            "childId": "258c-ef74-d5f1-3a61",
+                            "childName": "Judiciar",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1fb1-015a-b02f",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2a11-c917-f621",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2bed-c0f4-7351",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-34ee-3e09-dec1",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5755-e319-387b",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8303-99e0-4eca",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-873a-91a3-09db",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9fcc-2114-81a4",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b34e-74ec-e85a",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-bc34-0648-b621",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c53c-f4de-d70e",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c606-1b0c-5197",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
                           }
                         ]
                       }
@@ -194575,7 +194448,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Thundercowl Turbines",
+                "name": "Thundercowl Turbines (Upgrade)",
                 "id": "bc1d-8912-2b9c-7f32",
                 "hidden": false,
                 "import": true,
@@ -194876,7 +194749,7 @@
                 ]
               },
               {
-                "name": "Nightforged Battery",
+                "name": "Nightforged Battery (Upgrade)",
                 "id": "d395-b051-384b-57d6",
                 "hidden": false,
                 "import": true,

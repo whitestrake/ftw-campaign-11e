@@ -1290,6 +1290,13 @@
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
             "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "5f23-7721-a8c5-94e0",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
           }
         ],
         "modifierGroups": [
@@ -6126,6 +6133,34 @@
                     "type": "selectionEntryGroup"
                   }
                 ]
+              },
+              {
+                "name": "Defensive Array",
+                "id": "05a6-726b-0c58-ecf6",
+                "hidden": false,
+                "import": true,
+                "targetId": "12c2-d0b7-ca22-3da0",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "4285-5477-4211-666f",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "e7e4-9437-540e-a5ee",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "selectionEntries": [
@@ -6213,98 +6248,6 @@
                       {
                         "name": "Keywords",
                         "$text": "Heavy",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Array",
-                "id": "c95f-71df-6d90-f1dc",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {
-                    "id": "e021-422e-37a9-8f1a-min",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 1
-                  },
-                  {
-                    "id": "e021-422e-37a9-8f1a-max",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "name": "Weapon Modifications",
-                    "id": "4cbe-eea2-f8c3-8334",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f9da-852a-d7f0-92e9",
-                    "type": "selectionEntryGroup"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Rapid Fire",
-                    "id": "8cc3-cedb-21c5-83a7",
-                    "hidden": false,
-                    "targetId": "c5c8-8b58-b8b6-7786",
-                    "type": "rule"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Defensive Array",
-                    "id": "b0cf-2f95-d398-cd8d",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "24\"",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "6",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "5",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-1",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "1",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "name": "Keywords",
-                        "$text": "Rapid Fire 6",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -7562,6 +7505,23 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "warning",
+            "type": "add",
+            "value": "The points are not incorrect for this, the MFM says per Multi-melta. this tank comes with 2 by default. Each one costs 10 points. Do not report this as an error, it will not be fixed. Check the box to remove this error and confirm you have read this. ",
+            "conditions": [
+              {
+                "childId": "664e-e178-ab57-901c",
+                "childName": "Clear Warning",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "parent",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -7620,6 +7580,26 @@
                 "name": "Description",
                 "$text": "This unit’s ranged attacks that target a unit within 12\" of this unit have +1 S.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Clear Warning",
+            "id": "664e-e178-ab57-901c",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e2f6-559c-d143-2d91",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ]
           }

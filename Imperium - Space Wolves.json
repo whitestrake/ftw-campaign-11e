@@ -1313,7 +1313,7 @@
         "characteristics": [
           {
             "name": "M",
-            "$text": "7\"",
+            "$text": "8\"",
             "typeId": "e703-ecb6-5ce7-aec1"
           },
           {
@@ -40293,18 +40293,11 @@
             "type": "rule"
           },
           {
-            "name": "Scouts",
+            "name": "Scouts 8\"",
             "id": "451a-cd9b-8c4c-4530",
             "hidden": false,
-            "targetId": "ada6-bac1-ffe0-d6f7",
-            "type": "rule",
-            "modifiers": [
-              {
-                "field": "name",
-                "type": "append",
-                "value": "7\""
-              }
-            ]
+            "targetId": "a5f4-4af8-4735-7384",
+            "type": "rule"
           },
           {
             "name": "Combat Doctrines",

@@ -1065,6 +1065,15 @@
                     "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
+                  },
+                  {
+                    "childId": "6179-3533-ba6-9593",
+                    "childName": "Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }

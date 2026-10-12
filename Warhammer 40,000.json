@@ -8813,7 +8813,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Furious Assault",
+                    "name": "Furious Assault (Upgrade)",
                     "id": "c4a1-683a-af03-02a8",
                     "hidden": false,
                     "constraints": [
@@ -15998,7 +15998,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Nightforged Battery",
+                    "name": "Nightforged Battery (Upgrade)",
                     "id": "c4a1-7227-a97b-cd66",
                     "hidden": false,
                     "constraints": [
@@ -16027,7 +16027,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Thundercowl Turbines",
+                    "name": "Thundercowl Turbines (Upgrade)",
                     "id": "c4a1-5af0-0d65-2b09",
                     "hidden": false,
                     "constraints": [
@@ -19169,7 +19169,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Righteous Fervour",
+                    "name": "Righteous Fervour (Upgrade)",
                     "id": "c4a1-f7ad-3ea0-1790",
                     "hidden": false,
                     "constraints": [
@@ -21146,7 +21146,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Immovable Conquerors",
+                    "name": "Immovable Conquerors (Upgrade)",
                     "id": "c4a1-31d3-f64e-82cc",
                     "hidden": false,
                     "constraints": [
@@ -24466,7 +24466,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Artificer Sarcophagus",
+                    "name": "Artificer Sarcophagus (Upgrade)",
                     "id": "c4a1-0fd0-0f59-c5a9",
                     "hidden": false,
                     "constraints": [
@@ -24495,7 +24495,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Venerable Champion (Aura)",
+                    "name": "Venerable Champion (Aura) (Upgrade)",
                     "id": "c4a1-6d3d-3896-871c",
                     "hidden": false,
                     "constraints": [
@@ -24650,7 +24650,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Gunnery Honours",
+                    "name": "Gunnery Honours (Upgrade)",
                     "id": "c4a1-0b1e-a56a-5ca9",
                     "hidden": false,
                     "constraints": [
@@ -24679,7 +24679,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Redoubtable Machine Spirit",
+                    "name": "Redoubtable Machine Spirit (Upgrade)",
                     "id": "c4a1-2095-e979-f492",
                     "hidden": false,
                     "constraints": [
@@ -26578,7 +26578,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Fervent Exemplars",
+                    "name": "Fervent Exemplars (Upgrade)",
                     "id": "c4a1-6f1f-0d69-3c08",
                     "hidden": false,
                     "constraints": [
@@ -26607,7 +26607,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Inheritors of Sigismund",
+                    "name": "Inheritors of Sigismund (Upgrade)",
                     "id": "c4a1-dfc0-8464-1cee",
                     "hidden": false,
                     "constraints": [
@@ -35596,7 +35596,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Chogorian Huntmaster",
+                    "name": "Chogorian Huntmaster (Upgrade)",
                     "id": "c4a1-3f25-d252-1579",
                     "hidden": false,
                     "constraints": [
@@ -36470,7 +36470,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Auspex Triangulation Shrines",
+                    "name": "Auspex Triangulation Shrines (Upgrade)",
                     "id": "c4a1-cb8d-bd0d-6ce7",
                     "hidden": false,
                     "constraints": [
@@ -36499,7 +36499,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Supercharged Engines",
+                    "name": "Supercharged Engines (Upgrade)",
                     "id": "c4a1-53aa-ac48-3f3b",
                     "hidden": false,
                     "constraints": [
