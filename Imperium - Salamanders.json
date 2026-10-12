@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -110,26 +110,6 @@
                     "value": 1
                   },
                   {
-                    "childId": "d81a-37b7-7183-9d4",
-                    "childName": "Command Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 4,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "ebce-cb56-76a4-afe1",
-                    "childName": "Assault Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 2,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
                     "childId": "5fe6-20de-df8d-8e92",
                     "childName": "Infernus Squad",
                     "field": "selections",
@@ -156,16 +136,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 8,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "2740-ec68-77ee-2830",
-                    "childName": "Tactical Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 9,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -245,6 +215,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "1556-9b56-fba6-4370"
+          },
+          {
+            "name": "Explosives",
+            "id": "1930-b1ee-67e8-cce2",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
           }
         ],
         "constraints": [
@@ -261,7 +238,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -345,7 +322,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "d0eb-256-1ed9-837f",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -356,6 +333,13 @@
             "id": "12c-329b-42bb-2cef",
             "hidden": false,
             "targetId": "b4dd-3e1f-41cb-218f",
+            "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "f78a-4b7c-59d9-edb4",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
             "type": "rule"
           }
         ],
@@ -374,7 +358,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -413,7 +397,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll.",
+                "$text": "This unit’s melee attacks can:\n\n\n- Re-roll wound rolls of 1.\n- Or: If the assault doctrine is active for this unit, re-roll wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -427,7 +411,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit",
+                "$text": "While an enemy unit is engaged with this unit, that enemy unit has -1 OC.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -441,7 +425,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
+                "$text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -454,6 +438,15 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [
+              {
+                "name": "Torrent Weapon",
+                "id": "40cb-00e8-4050-b79b",
+                "hidden": false,
+                "primary": false,
+                "targetId": "064a-0470-60eb-e3ef"
+              }
+            ],
             "constraints": [
               {
                 "id": "b450-fdc-b293-1dc3",
@@ -474,10 +467,10 @@
             ],
             "infoLinks": [
               {
-                "name": "Ignores Cover",
+                "name": "Close-quarters",
                 "id": "a796-62f8-d409-b383",
                 "hidden": false,
-                "targetId": "4640-43e7-30b-215a",
+                "targetId": "5238-5ad4-52f7-6eb4",
                 "type": "rule"
               },
               {
@@ -485,13 +478,6 @@
                 "id": "b23d-de3c-4855-89a8",
                 "hidden": false,
                 "targetId": "5edf-d619-23e0-9b56",
-                "type": "rule"
-              },
-              {
-                "name": "Pistol",
-                "id": "29cf-7bf3-972c-40f0",
-                "hidden": false,
-                "targetId": "8bf7-8812-923d-29e4",
                 "type": "rule"
               }
             ],
@@ -515,12 +501,12 @@
                   },
                   {
                     "name": "BS",
-                    "$text": "N/A",
+                    "$text": "-",
                     "typeId": "94d-8a98-cf90-183e"
                   },
                   {
                     "name": "S",
-                    "$text": "4",
+                    "$text": "5",
                     "typeId": "2229-f494-25db-c5d3"
                   },
                   {
@@ -535,7 +521,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Ignores Cover, Pistol, Torrent",
+                    "$text": "Close-quarters, Torrent",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
@@ -564,6 +550,15 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Devastating Wounds",
+                "id": "4f06-ee84-8b75-1f2e",
+                "hidden": false,
+                "targetId": "be1e-ac8e-1e2c-3528",
+                "type": "rule"
               }
             ],
             "profiles": [
@@ -606,6 +601,7 @@
                   },
                   {
                     "name": "Keywords",
+                    "$text": "Devastating Wounds",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ]
@@ -670,17 +666,17 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 4,
+                    "sortIndex": 3,
                     "type": "instanceOf",
                     "value": 1
                   },
                   {
-                    "childId": "d81a-37b7-7183-9d4",
-                    "childName": "Command Squad",
+                    "childId": "68e3-e195-e8f-f56c",
+                    "childName": "Eradicator Squad with Melta Rifles",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 3,
+                    "sortIndex": 4,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -695,8 +691,8 @@
                     "value": 1
                   },
                   {
-                    "childId": "2740-ec68-77ee-2830",
-                    "childName": "Tactical Squad",
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -705,18 +701,8 @@
                     "value": 1
                   },
                   {
-                    "childId": "c7d2-a98d-4ad2-c426",
-                    "childName": "Vanguard Veteran Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 7,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "ebce-cb56-76a4-afe1",
-                    "childName": "Assault Squad",
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -812,7 +798,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -929,25 +915,25 @@
             "type": "rule"
           },
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "8d4b-f29e-31ec-3b3f",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
             "type": "rule"
           },
           {
-            "name": "Feel No Pain",
+            "name": "Feel No Pain 6+",
             "id": "a1db-d524-ec90-a522",
             "hidden": false,
-            "targetId": "9bf4-280f-bbe2-6fbb",
-            "type": "rule",
-            "modifiers": [
-              {
-                "field": "name",
-                "type": "append",
-                "value": "6+"
-              }
-            ]
+            "targetId": "676c-ecb5-d24d-3540",
+            "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "f16a-045d-9984-6c40",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
           }
         ],
         "profiles": [
@@ -965,7 +951,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -1004,7 +990,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll",
+                "$text": "In your Shooting phase, select one visible enemy unit within 24\" of this model. Friendly ^^**Adeptus Astartes**^^ units’ [Melta]/[Torrent] attacks that target that enemy unit have +2 S.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1018,7 +1004,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability.",
+                "$text": "The first time this model is set up on the battlefield, select one objective on the battlefield. While this model is within range of that objective, this model has:\n\n\n- 10 OC.\n- 5+ Ld.\n- Feel No Pain 4+.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1032,21 +1018,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ TACTICAL SQUAD",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Inspiring Commander",
-            "id": "e0e5-8c3a-3455-4d30",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked.",
+                "$text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, ERADICATOR SQUAD WITH MELTA RIFLES, INFERNUS SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1059,6 +1031,15 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [
+              {
+                "name": "Gauntlet of the Forge",
+                "id": "72fd-c394-f25a-6ee7",
+                "hidden": false,
+                "primary": false,
+                "targetId": "283b-b6a4-9cae-6609"
+              }
+            ],
             "constraints": [
               {
                 "id": "4f8a-9686-99fb-d433",
@@ -1079,10 +1060,10 @@
             ],
             "infoLinks": [
               {
-                "name": "Ignores Cover",
+                "name": "Close-quarters",
                 "id": "fb12-a5c8-5040-4ebf",
                 "hidden": false,
-                "targetId": "4640-43e7-30b-215a",
+                "targetId": "5238-5ad4-52f7-6eb4",
                 "type": "rule"
               },
               {
@@ -1090,13 +1071,6 @@
                 "id": "9bca-1939-59b-4827",
                 "hidden": false,
                 "targetId": "5edf-d619-23e0-9b56",
-                "type": "rule"
-              },
-              {
-                "name": "Pistol",
-                "id": "22ec-f5db-175c-d4ec",
-                "hidden": false,
-                "targetId": "8bf7-8812-923d-29e4",
                 "type": "rule"
               }
             ],
@@ -1120,7 +1094,7 @@
                   },
                   {
                     "name": "BS",
-                    "$text": "N/A",
+                    "$text": "-",
                     "typeId": "94d-8a98-cf90-183e"
                   },
                   {
@@ -1140,7 +1114,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Ignores Cover, Pistol, Torrent",
+                    "$text": "Close-quarters, Torrent",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
@@ -1205,7 +1179,7 @@
                   },
                   {
                     "name": "S",
-                    "$text": "6",
+                    "$text": "7",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
                   {

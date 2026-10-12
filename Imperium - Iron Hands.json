@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -79,6 +79,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -88,6 +89,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 3,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -97,6 +99,17 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7827-d81d-4360-441d",
+                    "childName": "Eradicator Squad with Heavy Bolters",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -292,35 +305,30 @@
             "type": "rule"
           },
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "b8e3-a8f0-5fea-aaa2",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
+          },
           {
-            "affects": "self.entries.group.rules",
-            "field": "add-info",
-            "type": "add",
-            "value": "5e10-6d62-2624-80a8",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": true,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
+            "name": "Feel No Pain 5+",
+            "id": "bcdd-150a-086d-04c0",
+            "hidden": false,
+            "targetId": "5e10-6d62-2624-80a8",
+            "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "431e-80cb-efd3-f5ab",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
           }
         ],
         "profiles": [
           {
-            "name": "Iron Father Ferrios",
+            "name": "Iron Father Feirros",
             "id": "2c1e-850c-46cc-a167",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -372,7 +380,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability",
+                "$text": "Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -386,7 +394,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability.",
+                "$text": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this model has Lone Operative.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -400,7 +408,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa.",
+                "$text": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model:\n\n\n- That Vehicle model heals 3 wounds.\n- That Vehicle model’s attacks can ignore modifiers to the following until the start of your next Movement phase:\n- BS.\n- Hit rolls and wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -414,21 +422,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Inspiring Commander",
-            "id": "1d65-986b-9266-a544",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked.",
+                "$text": "This model can be attached to the following units:\nAGGRESSOR SQUAD, ERADICATOR SQUAD WITH HEAVY BOLTERS, ERADICATOR SQUAD WITH MELTA RIFLES, HEAVY INTERCESSOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -493,7 +487,7 @@
                   },
                   {
                     "name": "S",
-                    "$text": "5",
+                    "$text": "6",
                     "typeId": "2229-f494-25db-c5d3"
                   },
                   {
@@ -508,7 +502,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Sustained Hits 2",
+                    "$text": "Rapid Fire 2, Sustained Hits 2",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
@@ -643,7 +637,7 @@
                   },
                   {
                     "name": "S",
-                    "$text": "8",
+                    "$text": "10",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
                   {
@@ -719,15 +713,6 @@
                   {
                     "childId": "6179-3533-ba6-9593",
                     "childName": "Terminator Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "25f4-2bec-a254-82a7",
-                    "childName": "Relic Terminator Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -815,7 +800,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -927,18 +912,11 @@
         ],
         "infoLinks": [
           {
-            "name": "Feel No Pain",
+            "name": "Feel No Pain 5+",
             "id": "b1ba-55d2-a75b-6666",
             "hidden": false,
-            "targetId": "9bf4-280f-bbe2-6fbb",
-            "type": "rule",
-            "modifiers": [
-              {
-                "field": "name",
-                "type": "append",
-                "value": "5+"
-              }
-            ]
+            "targetId": "5e10-6d62-2624-80a8",
+            "type": "rule"
           },
           {
             "name": "Deep Strike",
@@ -955,10 +933,17 @@
             "type": "rule"
           },
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "aa68-1335-eef5-6e78",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
+            "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "7843-7024-1948-d8b5",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
             "type": "rule"
           }
         ],
@@ -977,7 +962,7 @@
               },
               {
                 "name": "T",
-                "$text": "5",
+                "$text": "6",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -1016,7 +1001,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability.",
+                "$text": "In your Shooting phase or the Fight phase, when this unit is selected to attack, you can select one of the following for this unit’s attacks to have:\n\n\n- [Lethal Hits: Monster/Vehicle].\n- Or: [Sustained Hits 1: non-[Monster/Vehicle]\n- Or: If the tactical doctrine is active for this unit, [Lethal Hits: Monster/Vehicle] and [Sustained Hits 1: non-Monster/Vehicle]",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1030,7 +1015,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "■ At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n■ After both players have deployed their armies, you can select one Adeptus Astartes unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+                "$text": "In the Declare Battle Formations step, you can select one friendly ^^**Adeptus Astartes Infantry**^^ unit. That unit has Scouts 6\".",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1044,7 +1029,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: \n\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: \nTERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]

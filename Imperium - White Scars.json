@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -126,33 +126,6 @@
                     "value": 1
                   },
                   {
-                    "childId": "2740-ec68-77ee-2830",
-                    "childName": "Tactical Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "ebce-cb56-76a4-afe1",
-                    "childName": "Assault Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "d81a-37b7-7183-9d4",
-                    "childName": "Command Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
                     "childId": "c7d2-a98d-4ad2-c426",
                     "childName": "Vanguard Veteran Squad",
                     "field": "selections",
@@ -226,6 +199,13 @@
             "id": "7b4d-d3ad-ab7d-bbb0",
             "primary": false,
             "targetId": "1556-9b56-fba6-4370"
+          },
+          {
+            "name": "Explosives",
+            "id": "49b2-dcb8-6f7a-4a42",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
           }
         ],
         "constraints": [
@@ -242,7 +222,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -366,7 +346,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "68a0-61b2-c158-4c4a",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -378,21 +358,19 @@
             "hidden": false,
             "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "b353-cc5e-7caa-ff69",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
           }
         ],
         "modifierGroups": [
           {
+            "comment": "For the Khan!",
             "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -440,7 +418,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -479,7 +457,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability.",
+                "$text": "- This unit’s ranged attacks have [ASSAULT]\n- This unit’s melee attacks have [LANCE].",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -493,7 +471,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time this model destroys an enemy Character model, you gain 1CP",
+                "$text": "This unit’s attacks that target a Character unit can:\n\n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -507,21 +485,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Inspiring Commander",
-            "id": "8ecf-92ea-ef03-4b0b",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked.",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -566,6 +530,13 @@
                 "hidden": false,
                 "targetId": "9143-31ae-e0a6-6007",
                 "type": "rule"
+              },
+              {
+                "name": "Anti",
+                "id": "e44f-9bf6-cbaa-69e1",
+                "hidden": false,
+                "targetId": "4111-82e3-9444-e942",
+                "type": "rule"
               }
             ],
             "profiles": [
@@ -593,12 +564,12 @@
                   },
                   {
                     "name": "S",
-                    "$text": "5",
+                    "$text": "6",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
                   {
                     "name": "AP",
-                    "$text": "-2",
+                    "$text": "-3",
                     "typeId": "41a0-1301-112a-e2f2"
                   },
                   {
@@ -608,8 +579,104 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Devastating Wounds, Precision",
+                    "$text": "Anti-Character 5+, Devastating Wounds, Precision",
                     "typeId": "893f-9000-ccf7-648e"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Anzuq",
+            "id": "89c2-03c5-5245-59cb",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c1f2-5f29-74a2-9dd2-min",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c1f2-5f29-74a2-9dd2-max",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Devastating Wounds",
+                "id": "8996-020a-0103-cfa8",
+                "hidden": false,
+                "targetId": "be1e-ac8e-1e2c-3528",
+                "type": "rule"
+              },
+              {
+                "name": "Close-quarters",
+                "id": "84f1-146e-c444-c24a",
+                "hidden": false,
+                "targetId": "5238-5ad4-52f7-6eb4",
+                "type": "rule"
+              },
+              {
+                "name": "Anti",
+                "id": "311e-6642-47ca-1f2e",
+                "hidden": false,
+                "targetId": "4111-82e3-9444-e942",
+                "type": "rule"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Anzuq",
+                "id": "4f5f-4d11-33d3-dbca",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "18\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "2",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "3+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-1",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "2",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Anti-Infantry 4+, Close-quarters, Devastating Wounds: Infantry",
+                    "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
               }
@@ -765,7 +832,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -863,7 +930,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Oath of Moment",
+            "name": "Combat Doctrines",
             "id": "ae4a-ac42-268f-beb8",
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
@@ -875,6 +942,35 @@
             "hidden": false,
             "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "dca5-b03c-cb12-9885",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
+          }
+        ],
+        "modifiers": [
+          {
+            "affects": "group",
+            "field": "category",
+            "type": "add",
+            "value": "355c-0ee6-3cde-6c71"
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "skipIfPresent": "Assault",
+            "type": "append",
+            "value": "Assault"
+          },
+          {
+            "affects": "group",
+            "field": "add-info",
+            "type": "add",
+            "value": "fc8a-8c24-bae9-cc1c"
           }
         ],
         "profiles": [
@@ -931,7 +1027,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead.",
+                "$text": "- This unit’s ranged attacks have [Assault].\n- When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n- If the assault doctrine is active for this unit, this unit has +1 to advance rolls and charge rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -945,7 +1041,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time a model in this model’s unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features.",
+                "$text": "This unit has Mobile.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -959,7 +1055,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "$text": "This model can be attached to the following units: OUTRIDER SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -1166,12 +1262,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "6",
+                        "$text": "7",
                         "typeId": "ab33-d393-96ce-ccba"
                       },
                       {
                         "name": "AP",
-                        "$text": "-2",
+                        "$text": "-3",
                         "typeId": "41a0-1301-112a-e2f2"
                       },
                       {
@@ -1181,7 +1277,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Lance, Anti-monster 4+, Anti-vehicle 4+",
+                        "$text": "Lance, Anti-Monster/Vehicle 4+",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]
@@ -1214,6 +1310,22 @@
                     "value": 1
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "name": "Extra Attacks",
+                    "id": "fa4a-7052-63ea-0703",
+                    "hidden": false,
+                    "targetId": "115b-79dc-f723-d761",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Sustained Hits",
+                    "id": "26e8-c2e1-9630-22f0",
+                    "hidden": false,
+                    "targetId": "1897-c22c-9597-12b1",
+                    "type": "rule"
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Power Sword",
@@ -1229,7 +1341,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "8",
+                        "$text": "3",
                         "typeId": "2337-daa1-6682-b110"
                       },
                       {
@@ -1254,6 +1366,7 @@
                       },
                       {
                         "name": "Keywords",
+                        "$text": "Extra Attacks, Sustained Hits 1: Non-MONSTER/VEHICLE",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]
