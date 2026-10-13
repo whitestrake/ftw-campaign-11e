@@ -952,6 +952,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -1501,6 +1506,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "130mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -2539,6 +2549,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -4427,6 +4442,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -5387,6 +5407,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -6353,6 +6378,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -7207,6 +7237,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -7777,6 +7812,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -9185,6 +9225,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -10027,6 +10072,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -10992,6 +11042,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -11075,6 +11130,7 @@
                     "name": "Accursed weapon and combi-bolter",
                     "id": "a2e4-069e-0531-d6fb",
                     "collective": false,
+                    "comment": "[export-name:Chaos Terminator]",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
@@ -11611,6 +11667,7 @@
                 "name": "Accursed weapon and combi-bolter",
                 "id": "4a52-6694-b18b-54aa",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -11696,6 +11753,7 @@
                 "name": "Accursed weapon and combi-weapon",
                 "id": "dcc8-aa7a-d2d8-3439",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -11770,6 +11828,7 @@
                 "name": "Power fist and combi-weapon",
                 "id": "b6be-5ffd-225e-84f0",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -11844,6 +11903,7 @@
                 "name": "Chainfist and combi-bolter",
                 "id": "956e-421b-159a-4a41",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -11918,6 +11978,7 @@
                 "name": "Heavy weapon",
                 "id": "a6f3-e4f2-481d-7cf5",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -12222,6 +12283,7 @@
                 "name": "Power fist and combi-bolter",
                 "id": "0008-11d1-562a-f3cb",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -12296,6 +12358,7 @@
                 "name": "Chainfist and combi-weapon",
                 "id": "a832-2d33-d1ee-ff41",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -12369,6 +12432,7 @@
               {
                 "name": "Paired accursed weapons",
                 "id": "5c7c-732c-3962-b336",
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "type": "model",
@@ -13527,6 +13591,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -14161,6 +14230,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -15244,6 +15318,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "40mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -15654,6 +15733,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "40mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -15752,6 +15836,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "40mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -16443,6 +16532,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -17239,6 +17333,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -18076,6 +18175,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -19435,6 +19539,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "100mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -20297,6 +20406,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "100mm",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -21111,6 +21225,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "25mm",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -21786,6 +21905,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "75x42mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -21956,6 +22080,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "75x42mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -22360,6 +22489,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "60x35.5mm",
+                    "typeId": "nr-base-size"
                   }
                 ],
                 "modifiers": [
@@ -22739,6 +22873,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "60x35.5mm",
+                    "typeId": "nr-base-size"
                   }
                 ],
                 "modifiers": [
@@ -24955,6 +25094,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -25663,6 +25807,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26358,6 +26507,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26886,6 +27040,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "160mm",
+                "typeId": "nr-base-size"
               }
             ]
           },

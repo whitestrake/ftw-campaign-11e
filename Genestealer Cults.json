@@ -5725,6 +5725,11 @@
             "name": "InSv",
             "$text": "",
             "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "Base",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
           }
         ]
       },
@@ -5769,6 +5774,11 @@
             "name": "InSv",
             "$text": "",
             "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "Base",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
           }
         ]
       }
@@ -6685,6 +6695,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -6794,6 +6809,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -7545,6 +7565,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -8380,6 +8405,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "120x92mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -11350,6 +11380,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -12494,6 +12529,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -12715,6 +12755,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -12953,6 +12998,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -13220,6 +13270,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "60x35.5mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -13467,6 +13522,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "60mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -14611,6 +14671,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "25mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -15565,6 +15630,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -16263,6 +16333,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -17492,6 +17567,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -19012,6 +19092,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -19859,6 +19944,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60x35.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -20774,6 +20864,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -21721,6 +21816,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -22615,6 +22715,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -23661,6 +23766,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -23804,6 +23914,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24016,6 +24131,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24458,6 +24578,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24676,6 +24801,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "25mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -26093,6 +26223,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26893,6 +27028,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -27784,6 +27924,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -28796,6 +28941,11 @@
                         "name": "InSv",
                         "$text": "5+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -29429,6 +29579,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -30426,6 +30581,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -32101,6 +32261,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -33084,6 +33249,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -35369,6 +35539,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -36190,6 +36365,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -37019,6 +37199,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "~50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },

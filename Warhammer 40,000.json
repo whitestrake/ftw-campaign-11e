@@ -3280,6 +3280,10 @@
                 "type": "regex"
               }
             ]
+          },
+          {
+            "name": "Base",
+            "id": "nr-base-size"
           }
         ]
       },
@@ -5902,6 +5906,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "100mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -6275,6 +6284,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "32mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -6510,6 +6524,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "50mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -6752,6 +6771,11 @@
                     "name": "InSv",
                     "$text": "5+",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "75x42mm",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -36566,7 +36590,7 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Synaptic Synergy",
+                    "name": "Synaptic Strategy",
                     "id": "c4a1-a2e2-93e3-7e9a",
                     "hidden": false,
                     "constraints": [

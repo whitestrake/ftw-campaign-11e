@@ -11215,6 +11215,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -13179,6 +13184,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -14098,6 +14108,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -15416,6 +15431,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -16886,6 +16906,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -17327,6 +17352,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -17543,6 +17573,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -18789,6 +18824,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -18978,6 +19018,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -19625,6 +19670,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -19930,6 +19980,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -20615,6 +20670,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -20858,6 +20918,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -21120,6 +21185,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -21708,7 +21778,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "In your Command phase, this unit heals D3 wounds",
+                    "$text": "In your Command phase, this unit heals D3 wounds.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -21863,6 +21933,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -22108,6 +22183,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -22845,6 +22925,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -23134,6 +23219,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -23880,6 +23970,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24025,6 +24120,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24520,6 +24620,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -24696,6 +24801,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -27060,6 +27170,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -27177,6 +27292,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -27460,6 +27580,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -27596,6 +27721,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -27785,6 +27915,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -28525,6 +28660,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -28668,6 +28808,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -28901,6 +29046,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -29562,6 +29712,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -29679,6 +29834,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -30554,6 +30714,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -30636,6 +30801,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ],
                     "modifiers": [
@@ -31051,6 +31221,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -31173,6 +31348,11 @@
                         "name": "InSv",
                         "$text": "5+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -31680,6 +31860,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -31945,6 +32130,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -32783,6 +32973,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -32902,6 +33097,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -33195,6 +33395,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -33844,6 +34049,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -34256,6 +34466,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -34811,6 +35026,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -35238,6 +35458,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -36221,6 +36446,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -36515,6 +36745,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -36681,6 +36916,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ],
                     "modifierGroups": [
@@ -37664,6 +37904,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -37863,6 +38108,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -37980,6 +38230,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -38061,6 +38316,11 @@
                         "name": "InSv",
                         "$text": "4+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -38957,6 +39217,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -39455,6 +39720,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -39536,6 +39806,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -39643,6 +39918,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -39750,6 +40030,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -39831,6 +40116,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -40554,6 +40844,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -40767,6 +41062,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -41606,6 +41906,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -41818,6 +42123,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -42848,6 +43158,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -43715,6 +44030,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -44930,6 +45250,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -46149,6 +46474,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -47287,6 +47617,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -48192,6 +48527,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -49306,6 +49646,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -49806,6 +50151,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -49913,6 +50263,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -50134,6 +50489,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -50701,6 +51061,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -51205,6 +51570,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -51312,6 +51682,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -51534,6 +51909,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -52339,6 +52719,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -52465,6 +52850,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -52904,6 +53294,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -53486,6 +53881,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -54167,6 +54567,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -54401,6 +54806,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -54788,6 +55198,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -54933,6 +55348,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -55050,6 +55470,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -55681,6 +56106,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -55780,6 +56210,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -55970,6 +56405,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -56868,6 +57308,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -56993,6 +57438,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -57720,6 +58170,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -58143,6 +58598,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -58871,6 +59331,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -59573,6 +60038,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -60400,6 +60870,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -61161,6 +61636,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -61756,6 +62236,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -62736,6 +63221,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -62934,6 +63424,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -63716,6 +64211,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -64013,6 +64513,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -64852,6 +65357,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -64995,6 +65505,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -65131,6 +65646,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -65851,6 +66371,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -65968,6 +66493,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -66132,6 +66662,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -67120,6 +67655,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -67493,6 +68033,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -68234,6 +68779,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -68625,6 +69175,11 @@
                     "name": "InSv",
                     "$text": "",
                     "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "",
+                    "typeId": "nr-base-size"
                   }
                 ]
               }
@@ -69263,6 +69818,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -69964,6 +70524,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -70665,6 +71230,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -71383,6 +71953,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -72102,6 +72677,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -72895,6 +73475,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -73717,6 +74302,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -74481,6 +75071,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -75259,6 +75854,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -75972,6 +76572,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -76745,6 +77350,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -77598,6 +78208,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -78460,6 +79075,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -79365,6 +79985,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -80314,6 +80939,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -81186,6 +81816,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -81845,6 +82480,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -82552,6 +83192,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -83477,6 +84122,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -83959,6 +84609,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -84583,6 +85238,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -85391,6 +86051,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -86145,6 +86810,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -86834,6 +87504,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -87707,6 +88382,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -88931,17 +89611,6 @@
           },
           {
             "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -89021,6 +89690,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -90125,17 +90799,6 @@
           },
           {
             "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -90215,6 +90878,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -91022,17 +91690,6 @@
           },
           {
             "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
             "modifiers": [
               {
                 "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
@@ -91112,6 +91769,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -92202,6 +92864,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -93394,6 +94061,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -94235,6 +94907,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -94979,6 +95656,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -95974,6 +96656,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -96854,6 +97541,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -97617,6 +98309,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -98416,6 +99113,11 @@
                 "name": "InSv",
                 "$text": "4+\n",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -99156,6 +99858,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -100015,6 +100722,11 @@
                         "name": "InSv",
                         "$text": "6+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -100171,6 +100883,11 @@
                         "name": "InSv",
                         "$text": "6+",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -100831,6 +101548,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -101722,6 +102444,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -102559,7 +103286,7 @@
         ],
         "profiles": [
           {
-            "name": "Primaris Apothecary",
+            "name": "Apothecary",
             "id": "3e73-5871-b359-b78",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -102599,6 +103326,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -103403,6 +104135,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -104132,7 +104869,7 @@
             ]
           },
           {
-            "affects": "group.recursive.profiles.Unit",
+            "affects": "self.entries.group.recursive.profiles.Unit",
             "field": "bef7-942a-1a23-59f8",
             "type": "increment",
             "value": 1
@@ -104180,6 +104917,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -104912,6 +105654,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -105667,6 +106414,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -106270,6 +107022,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -106519,6 +107276,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -106768,6 +107530,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -107118,6 +107885,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -108379,6 +109151,11 @@
                 "name": "InSv",
                 "$text": "4+*",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -109468,6 +110245,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ],
             "modifiers": [
@@ -110618,6 +111400,11 @@
                 "name": "InSv",
                 "$text": "5+*",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -111724,6 +112511,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -112935,6 +113727,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -113649,6 +114446,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -114696,6 +115498,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -115824,6 +116631,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -116815,6 +117627,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -117450,6 +118267,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -118014,6 +118836,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -118848,6 +119675,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -119524,6 +120356,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -120544,6 +121381,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -121300,6 +122142,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -122116,6 +122963,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -122877,6 +123729,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -123616,6 +124473,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -124361,6 +125223,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -124703,6 +125570,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -125561,6 +126433,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -126336,6 +127213,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -127206,6 +128088,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -127949,6 +128836,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -129349,6 +130241,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -130013,6 +130910,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -130684,6 +131586,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -131530,6 +132437,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -131856,6 +132768,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -132008,6 +132925,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -132690,6 +133612,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -132816,6 +133743,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -133100,6 +134032,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -133253,6 +134190,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -138125,6 +139067,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -139586,6 +140533,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -141085,6 +142037,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -141894,6 +142851,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -144590,6 +145552,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -144827,6 +145794,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   }
@@ -145065,6 +146037,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -146066,6 +147043,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -146910,6 +147892,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -147748,6 +148735,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -149713,6 +150705,11 @@
                         "name": "InSv",
                         "$text": "",
                         "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "",
+                        "typeId": "nr-base-size"
                       }
                     ]
                   },
@@ -182327,7 +183324,7 @@
                 ],
                 "modifiers": [
                   {
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
                     "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "parent",

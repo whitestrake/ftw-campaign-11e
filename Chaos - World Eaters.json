@@ -9023,6 +9023,11 @@
             "name": "InSv",
             "$text": "",
             "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "Base",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
           }
         ]
       }
@@ -9301,6 +9306,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "100mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -9877,6 +9887,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -10352,6 +10367,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "90x52.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -11194,6 +11214,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -12016,6 +12041,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -12885,6 +12915,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "90x52.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -13704,6 +13739,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -16236,6 +16276,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -17009,6 +17054,7 @@
                 "name": "Combi-bolter, accursed weapon",
                 "id": "cfd2-df58-3637-0a6c",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 1,
@@ -17106,6 +17152,7 @@
                 "name": "Combi-bolter, chainfist",
                 "id": "b0b9-9511-44c1-b272",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 2,
@@ -17203,6 +17250,7 @@
                 "name": "Combi-bolter, power fist",
                 "id": "782f-6bfe-7238-960a",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 3,
@@ -17300,6 +17348,7 @@
                 "name": "Combi-weapon, accursed weapon",
                 "id": "6f2b-96ea-9352-c5f4",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 4,
@@ -17397,6 +17446,7 @@
                 "name": "Combi-weapon, chainfist",
                 "id": "d372-f3e8-a5a0-a8b1",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 5,
@@ -17494,6 +17544,7 @@
                 "name": "Combi-weapon, power fist",
                 "id": "a2f9-42e2-efbf-fe40",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 6,
@@ -17591,6 +17642,7 @@
                 "name": "Paired accursed weapons",
                 "id": "10f6-ffca-ae38-250e",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 7,
@@ -17655,6 +17707,7 @@
                 "name": "Heavy weapon",
                 "id": "5f1f-f3bb-d6dd-6714",
                 "collective": false,
+                "comment": "[export-name:Chaos Terminator]",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 8,
@@ -18727,6 +18780,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "28.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -19505,6 +19563,27 @@
                     "value": 0
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "name": "Jakhal",
+                    "id": "nr-base-440a-eb98-5c6d-e8b1",
+                    "hidden": false,
+                    "targetId": "f75d-6910-e063-7e96",
+                    "type": "profile",
+                    "modifiers": [
+                      {
+                        "field": "nr-base-size",
+                        "type": "set",
+                        "value": "40mm"
+                      },
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Dishonoured w/ skullsmasher and mangler"
+                      }
+                    ]
+                  }
+                ],
                 "selectionEntries": [
                   {
                     "name": "Skullsmasher and mangler",
@@ -19617,6 +19696,27 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Jakhal",
+                    "id": "nr-base-307d-0ce0-fcf0-9100",
+                    "hidden": false,
+                    "targetId": "f75d-6910-e063-7e96",
+                    "type": "profile",
+                    "modifiers": [
+                      {
+                        "field": "nr-base-size",
+                        "type": "set",
+                        "value": "40mm"
+                      },
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Dishonoured w/ paired manglers"
+                      }
+                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -20687,6 +20787,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -21489,6 +21594,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -22226,6 +22336,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -23428,6 +23543,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -24537,6 +24657,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -25417,6 +25542,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "160mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -26927,6 +27057,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -28014,6 +28149,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -29967,6 +30107,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -30749,6 +30894,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -31663,6 +31813,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -32289,6 +32444,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -32955,6 +33115,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -35220,6 +35385,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -35894,6 +36064,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -36625,6 +36800,11 @@
                 "name": "InSv",
                 "$text": "",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -37852,6 +38032,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "50mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -38608,6 +38793,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "100mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -39241,6 +39431,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "120x92mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -40057,6 +40252,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -40675,6 +40875,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "90x52.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           }
@@ -40809,6 +41014,15 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "categoryLinks": [
+          {
+            "name": "Not Extra Attacks",
+            "id": "8f18-26c4-8f97-c663",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e811-5ddb-e54f-52da"
+          }
+        ],
         "constraints": [
           {
             "id": "3b51-8660-a3b1-059a",
@@ -41130,6 +41344,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60x35.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -42266,6 +42485,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "40mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -42969,6 +43193,11 @@
                 "name": "InSv",
                 "$text": "4+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "90x52.5mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -43742,6 +43971,11 @@
                 "name": "InSv",
                 "$text": "5+",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "32mm",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -44344,19 +44578,11 @@
                     "type": "replace"
                   },
                   {
-                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "affects": "self.entries.recursive.e811-5ddb-e54f-52da.profiles.Melee Weapons",
                     "field": "2337-daa1-6682-b110",
                     "position": -1,
                     "scope": "model",
                     "type": "increment",
-                    "value": 1
-                  },
-                  {
-                    "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
-                    "field": "2337-daa1-6682-b110",
-                    "position": -1,
-                    "scope": "model",
-                    "type": "decrement",
                     "value": 1
                   },
                   {
@@ -44397,14 +44623,6 @@
                     "position": -1,
                     "scope": "model",
                     "type": "increment",
-                    "value": 1
-                  },
-                  {
-                    "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
-                    "field": "3254-9fe6-d824-513e",
-                    "position": -1,
-                    "scope": "model",
-                    "type": "decrement",
                     "value": 1
                   },
                   {

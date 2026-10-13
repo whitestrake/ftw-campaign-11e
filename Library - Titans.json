@@ -1196,6 +1196,11 @@
                 "name": "InSv",
                 "$text": "5+ (Ranged)",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -2165,6 +2170,11 @@
                 "name": "InSv",
                 "$text": "5+ (Ranged)",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -3281,6 +3291,11 @@
                 "name": "InSv",
                 "$text": "5+ (Ranged)",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
@@ -4573,6 +4588,11 @@
                 "name": "InSv",
                 "$text": "5+ (Ranged)",
                 "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "Hull",
+                "typeId": "nr-base-size"
               }
             ]
           },
