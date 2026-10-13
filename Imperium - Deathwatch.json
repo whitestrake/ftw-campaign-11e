@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 10,
+    "revision": 11,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1833,7 +1833,7 @@
               },
               {
                 "name": "BS",
-                "$text": "4+",
+                "$text": "3+",
                 "typeId": "94d-8a98-cf90-183e"
               },
               {
@@ -8923,18 +8923,8 @@
               {
                 "name": "Kill Team Heavy Intercessors w/ melta weapons",
                 "id": "3c68-34fc-53e0-334f",
+                "defaultSelectionEntryId": "d171-7d41-4be1-3382",
                 "hidden": false,
-                "constraints": [
-                  {
-                    "id": "587d-d902-4556-c97a",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 3
-                  }
-                ],
                 "selectionEntries": [
                   {
                     "name": "Kill Team Heavy Intercessor w/ melta rifle",
@@ -8944,7 +8934,17 @@
                     "type": "model",
                     "constraints": [
                       {
-                        "id": "bbff-354d-d423-9014",
+                        "id": "bbff-354d-d423-9014-min",
+                        "automatic": true,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 3
+                      },
+                      {
+                        "id": "bbff-354d-d423-9014-max",
+                        "automatic": true,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -9077,6 +9077,44 @@
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
                         "type": "profile"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bbff-354d-d423-9014-min",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "a666-891-4187-a82",
+                            "childName": "Kill Team Heavy Intercessor w/ multi-melta",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "field": "bbff-354d-d423-9014-max",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "a666-891-4187-a82",
+                            "childName": "Kill Team Heavy Intercessor w/ multi-melta",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   },
@@ -9260,22 +9298,22 @@
                               },
                               {
                                 "name": "BS",
-                                "$text": "4+",
+                                "$text": "3+",
                                 "typeId": "94d-8a98-cf90-183e"
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -9286,7 +9324,7 @@
                             ]
                           },
                           {
-                            "name": "➤ Melta Rifle HUNTER:Monster/Vehicle",
+                            "name": "➤Multi-melta (HUNTER:Monster/Vehicle)",
                             "id": "4dd2-b514-f2e7-5f10",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
@@ -9338,24 +9376,15 @@
               {
                 "name": "Kill Team Heavy Intercessors w/ twin power fists",
                 "id": "5fc8-18a9-cf52-c762",
+                "defaultSelectionEntryId": "0d9b-e508-49a1-0b5f",
                 "hidden": false,
-                "constraints": [
-                  {
-                    "id": "0d4c-bbc3-e669-c48f",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 3
-                  }
-                ],
                 "selectionEntries": [
                   {
                     "name": "Kill Team Heavy Intercessor w/ power fists & auto boltstorm gauntlets",
                     "id": "31bd-dd30-6128-356e",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 2,
                     "type": "model",
                     "constraints": [
                       {
@@ -9467,6 +9496,13 @@
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
                             "type": "rule"
+                          },
+                          {
+                            "name": "Close-quarters",
+                            "id": "41fd-4623-4bdb-9c36",
+                            "hidden": false,
+                            "targetId": "5238-5ad4-52f7-6eb4",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -9494,12 +9530,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -9509,7 +9545,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Twin-linked",
+                                "$text": "Close-quarters, Twin-linked",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9617,10 +9653,21 @@
                     "id": "0d9b-e508-49a1-0b5f",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 1,
                     "type": "model",
                     "constraints": [
                       {
-                        "id": "4044-2aa9-5bdf-cda1",
+                        "id": "4044-2aa9-5bdf-cda1-min",
+                        "automatic": true,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 3
+                      },
+                      {
+                        "id": "4044-2aa9-5bdf-cda1-max",
+                        "automatic": true,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -9645,6 +9692,44 @@
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
                         "type": "profile"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "4044-2aa9-5bdf-cda1-min",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "31bd-dd30-6128-356e",
+                            "childName": "Kill Team Heavy Intercessor w/ power fists & auto boltstorm gauntlets",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "field": "4044-2aa9-5bdf-cda1-max",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "31bd-dd30-6128-356e",
+                            "childName": "Kill Team Heavy Intercessor w/ power fists & auto boltstorm gauntlets",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -9686,10 +9771,10 @@
                         ],
                         "infoLinks": [
                           {
-                            "name": "Ignores Cover",
+                            "name": "Blast",
                             "id": "1e0d-a5ed-0e5f-6d88",
                             "hidden": false,
-                            "targetId": "4640-43e7-30b-215a",
+                            "targetId": "6c1f-1cf7-ff25-c99e",
                             "type": "rule"
                           },
                           {
@@ -9705,11 +9790,18 @@
                             "hidden": false,
                             "targetId": "cf93-ad4d-2f08-a79d",
                             "type": "rule"
+                          },
+                          {
+                            "name": "Close-quarters",
+                            "id": "11cf-903b-2f97-cc90",
+                            "hidden": false,
+                            "targetId": "5238-5ad4-52f7-6eb4",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
                           {
-                            "name": "Flamestorm gauntlets",
+                            "name": "➤ Flamestorm gauntlets (Ranged)",
                             "id": "567f-9ebe-d264-bbc5",
                             "hidden": false,
                             "page": 25,
@@ -9724,12 +9816,12 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6+1",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
                                 "name": "BS",
-                                "$text": "N/A",
+                                "$text": "-",
                                 "typeId": "94d-8a98-cf90-183e"
                               },
                               {
@@ -9739,7 +9831,7 @@
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -9749,7 +9841,53 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Ignores Cover, Torrent, Twin-linked",
+                                "$text": "Blast 2, Torrent, Twin-linked",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "➤ Flamestorm gauntlets (Close-quarters)",
+                            "id": "1648-8655-64eb-2930",
+                            "hidden": false,
+                            "page": 25,
+                            "publicationId": "4115-3627-e608-39f6",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "$text": "12\"",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "3",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "name": "BS",
+                                "$text": "-",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "4",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "-1",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "1",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "name": "Keywords",
+                                "$text": "Close-quarters, Torrent, Twin-linked",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9859,26 +9997,6 @@
                 "id": "0d29-7325-4b94-4e87",
                 "defaultSelectionEntryId": "84f7-2150-fe04-4f8b",
                 "hidden": false,
-                "constraints": [
-                  {
-                    "id": "ec46-9a21-e4f2-097f",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 10
-                  },
-                  {
-                    "id": "8c96-71ea-b8ee-ad16",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 3
-                  }
-                ],
                 "selectionEntries": [
                   {
                     "name": "Kill Team Heavy Intercessor",
@@ -9889,21 +10007,22 @@
                     "type": "model",
                     "constraints": [
                       {
-                        "id": "407d-89e4-5567-180c",
+                        "id": "407d-89e4-5567-180c-min",
+                        "automatic": true,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 4
+                      },
+                      {
+                        "id": "407d-89e4-5567-180c-max",
+                        "automatic": true,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 10
-                      },
-                      {
-                        "id": "79f4-d4b9-bc82-d9bf",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 2
+                        "value": 4
                       }
                     ],
                     "entryLinks": [
@@ -9995,6 +10114,44 @@
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
                         "type": "profile"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "407d-89e4-5567-180c-min",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "83ce-4339-bfd5-7635",
+                            "childName": "Kill Team Heavy Intercessor w/ heavy bolter",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "field": "407d-89e4-5567-180c-max",
+                        "type": "decrement",
+                        "value": 1,
+                        "repeats": [
+                          {
+                            "childId": "83ce-4339-bfd5-7635",
+                            "childName": "Kill Team Heavy Intercessor w/ heavy bolter",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "repeats": 1,
+                            "roundUp": false,
+                            "scope": "unit",
+                            "shared": true,
+                            "value": 1
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -10119,7 +10276,7 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 2
                       }
                     ],
                     "entryLinks": [
@@ -10211,24 +10368,6 @@
                         "hidden": false,
                         "targetId": "0c56-a376-2f28-4266",
                         "type": "profile"
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "e50b-84f7-c7a7-f71b",
-                        "type": "set",
-                        "value": 2,
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "includeChildSelections": true,
-                            "scope": "6cb-912c-c43-210b",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 10
-                          }
-                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -18065,7 +18204,7 @@
             "id": "48a1-fc8d-05b2-106f",
             "hidden": false,
             "import": true,
-            "targetId": "d177-4e7a-6b6b-19e5",
+            "targetId": "18b0-8c2-173f-5",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -18282,7 +18421,7 @@
             "id": "48cf-b425-da09-cdb5",
             "hidden": false,
             "import": true,
-            "targetId": "d177-4e7a-6b6b-19e5",
+            "targetId": "18b0-8c2-173f-5",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -18932,7 +19071,7 @@
             "id": "627f-c831-6ef3-6dfa",
             "hidden": false,
             "import": true,
-            "targetId": "d177-4e7a-6b6b-19e5",
+            "targetId": "18b0-8c2-173f-5",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -19240,81 +19379,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Bolt pistol",
-        "id": "d177-4e7a-6b6b-19e5",
-        "collective": true,
-        "comment": "Decimus Kill Team",
-        "hidden": false,
-        "import": true,
-        "page": 29,
-        "publicationId": "4115-3627-e608-39f6",
-        "type": "upgrade",
-        "infoLinks": [
-          {
-            "name": "Pistol",
-            "id": "241a-c605-7272-29b4",
-            "hidden": false,
-            "targetId": "8bf7-8812-923d-29e4",
-            "type": "rule"
-          },
-          {
-            "name": "Lethal Hits",
-            "id": "2740-6645-58f8-0a90",
-            "hidden": false,
-            "targetId": "d1d1-611e-5191-1095",
-            "type": "rule"
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Bolt pistol",
-            "id": "c61a-1024-ae80-dd9a",
-            "hidden": false,
-            "page": 29,
-            "publicationId": "4115-3627-e608-39f6",
-            "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons",
-            "characteristics": [
-              {
-                "name": "Range",
-                "$text": "12\"",
-                "typeId": "9896-9419-16a1-92fc"
-              },
-              {
-                "name": "A",
-                "$text": "1",
-                "typeId": "3bb-c35f-f54-fb08"
-              },
-              {
-                "name": "BS",
-                "$text": "3+",
-                "typeId": "94d-8a98-cf90-183e"
-              },
-              {
-                "name": "S",
-                "$text": "4",
-                "typeId": "2229-f494-25db-c5d3"
-              },
-              {
-                "name": "AP",
-                "$text": "0",
-                "typeId": "9ead-8a10-520-de15"
-              },
-              {
-                "name": "D",
-                "$text": "1",
-                "typeId": "a354-c1c8-a745-f9e3"
-              },
-              {
-                "name": "Keywords",
-                "$text": "Pistol, Lethal Hits",
-                "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
           }
@@ -19699,7 +19763,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "Assault Cannon & Power fist",
+            "name": "Assault Cannon",
             "id": "8259-a28d-949-b4fa",
             "hidden": false,
             "import": true,
@@ -19748,6 +19812,7 @@
               {
                 "name": "Melee",
                 "id": "5367-d6d2-731f-938a",
+                "defaultSelectionEntryId": "9f13-78a2-64de-99c1",
                 "hidden": false,
                 "constraints": [
                   {
@@ -19775,37 +19840,18 @@
                     "id": "9f13-78a2-64de-99c1",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 1,
                     "targetId": "f8d8-7e77-4b71-faac",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "551e-ebf3-8888-71eb",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ]
+                    "type": "selectionEntry"
                   },
                   {
                     "name": "Chainfist",
                     "id": "4966-f02c-dfc6-fc02",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 2,
                     "targetId": "5a2-c6a5-9b4b-605f",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "4468-906e-1867-17ea",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -19822,28 +19868,9 @@
                     "id": "a953-7c53-ac6e-d67b",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 3,
                     "targetId": "e1b5-a74f-b2ec-c7ed",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "6591-3449-c2b0-5554",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "efb9-3dbc-97b9-63b5",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -19907,6 +19934,7 @@
               {
                 "name": "Melee",
                 "id": "08c3-afa5-b88c-f9e9",
+                "defaultSelectionEntryId": "6781-f4c9-dddf-f65b",
                 "hidden": false,
                 "constraints": [
                   {
@@ -19934,37 +19962,18 @@
                     "id": "6781-f4c9-dddf-f65b",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 1,
                     "targetId": "f8d8-7e77-4b71-faac",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "cc32-defc-3a18-e3fc",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ]
+                    "type": "selectionEntry"
                   },
                   {
                     "name": "Chainfist",
                     "id": "d4b0-c45c-e55e-e5ab",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 2,
                     "targetId": "5a2-c6a5-9b4b-605f",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "5a5a-05d9-8d11-64cf",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -19981,28 +19990,9 @@
                     "id": "7c98-3f8a-25a2-1563",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 3,
                     "targetId": "e1b5-a74f-b2ec-c7ed",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "f0bf-0b39-2dae-bbc8",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "dfd3-04dc-1369-c099",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -20034,30 +20024,155 @@
                 "value": 1
               }
             ],
-            "entryLinks": [
+            "selectionEntries": [
               {
                 "name": "Plasma cannon",
-                "id": "c8e8-e62f-1e5c-5832",
+                "id": "7efe-d1b8-35d1-f9c1",
+                "collective": false,
+                "comment": "BS3+",
                 "hidden": false,
                 "import": true,
-                "targetId": "fdd7-3066-57cc-ce52",
-                "type": "selectionEntry",
+                "type": "upgrade",
+                "categoryLinks": [
+                  {
+                    "name": "Attacks Dx Weapon",
+                    "id": "1efc-c147-bfec-1718",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "e993-e086-6de1-12af"
+                  },
+                  {
+                    "name": "Plasma",
+                    "id": "1f0a-41db-87cd-dd1b",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "cb29-f4bb-ff15-6b11"
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "e8b2-8dd7-c5a4-c30c",
+                    "id": "6d31-0a47-e73f-fd82-min",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
                     "value": 1
                   },
                   {
-                    "id": "38a0-b614-f655-a690",
+                    "id": "6d31-0a47-e73f-fd82-max",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
                     "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Hazardous",
+                    "id": "9c9a-32bd-c077-254c",
+                    "hidden": false,
+                    "targetId": "8367-374c-f87-c627",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Blast",
+                    "id": "a3b9-334e-dfd3-9799",
+                    "hidden": false,
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "➤ Plasma cannon - standard",
+                    "id": "8184-16b0-2aed-3ac9",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "3",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "9",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Blast 1",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Plasma cannon - supercharge",
+                    "id": "7b46-473b-f810-b925",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "3",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "10",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-3",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Blast 1, Hazardous",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
                   }
                 ]
               }
@@ -20066,6 +20181,7 @@
               {
                 "name": "Melee",
                 "id": "f41d-0f75-ccf3-976a",
+                "defaultSelectionEntryId": "2317-08cc-fb2b-ddf4",
                 "hidden": false,
                 "constraints": [
                   {
@@ -20093,37 +20209,18 @@
                     "id": "2317-08cc-fb2b-ddf4",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 1,
                     "targetId": "f8d8-7e77-4b71-faac",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "2d05-8464-4f40-6eca",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ]
+                    "type": "selectionEntry"
                   },
                   {
                     "name": "Chainfist",
                     "id": "c722-c299-13db-42a0",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 2,
                     "targetId": "5a2-c6a5-9b4b-605f",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "c437-b153-0933-6d40",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
@@ -20140,28 +20237,9 @@
                     "id": "110e-403f-f832-4afc",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 3,
                     "targetId": "e1b5-a74f-b2ec-c7ed",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "d6ce-7878-5651-2e8e",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "7f94-22df-d745-5f6d",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",

@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 7,
+    "revision": 8,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -4325,7 +4325,7 @@
                   },
                   {
                     "name": "A",
-                    "$text": "16",
+                    "$text": "12",
                     "typeId": "2337-daa1-6682-b110"
                   },
                   {
@@ -4753,7 +4753,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+                "$text": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4768,7 +4768,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
+                "$text": "This unit has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -11719,7 +11719,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll.\nIn addition, each time a model in this unit makes an attack that targets your Oath of Moment target (see Codex: Space Marines), add 1 to the Hit roll.",
+                "$text": "This unit's attacks can ignore modifiers to:\n- BS and WS.\n- **Hit rolls**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -11727,7 +11727,7 @@
           {
             "name": "Teleport Homer",
             "id": "f474-41aa-a575-50e8",
-            "hidden": false,
+            "hidden": true,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "characteristics": [
