@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 12,
+    "revision": 13,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -11788,7 +11788,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -12585,7 +12585,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -12876,7 +12876,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]

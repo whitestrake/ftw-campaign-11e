@@ -29423,6 +29423,11 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "warning",
+            "type": "add",
+            "value": "Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released."
           }
         ],
         "selectionEntryGroups": [

@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -121395,14 +121395,7 @@
                     "id": "360b-3087-961d-77bd",
                     "hidden": false,
                     "targetId": "a171-5382-6258-473b",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60mm"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ]
               },
@@ -121544,14 +121537,7 @@
                     "id": "9fed-5a14-93e1-12e9",
                     "hidden": false,
                     "targetId": "a171-5382-6258-473b",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60mm"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ]
               },
@@ -121693,14 +121679,7 @@
                     "id": "e6ea-05ec-e92c-d272",
                     "hidden": false,
                     "targetId": "a171-5382-6258-473b",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60mm"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ]
               },
@@ -121842,14 +121821,7 @@
                     "id": "7329-756c-594f-18dc",
                     "hidden": false,
                     "targetId": "a171-5382-6258-473b",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60mm"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ]
               },
@@ -121991,14 +121963,7 @@
                     "id": "802d-08fc-18a3-92b8",
                     "hidden": false,
                     "targetId": "a171-5382-6258-473b",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60mm"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ]
               }

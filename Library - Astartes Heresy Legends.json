@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -1694,7 +1694,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -3939,7 +3939,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -4881,7 +4881,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -6465,7 +6465,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -7716,7 +7716,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -8348,7 +8348,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -8766,7 +8766,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -9312,7 +9312,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -10162,7 +10162,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -10701,7 +10701,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -11237,7 +11237,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -11764,7 +11764,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -12303,7 +12303,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -12860,7 +12860,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -13605,7 +13605,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -14027,7 +14027,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -14400,7 +14400,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -14576,7 +14576,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -15188,7 +15188,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -15637,7 +15637,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -16519,7 +16519,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -17154,7 +17154,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -17662,7 +17662,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -18194,7 +18194,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -18778,7 +18778,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -19746,7 +19746,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -20462,7 +20462,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -21311,7 +21311,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -21756,7 +21756,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -22007,7 +22007,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -22954,7 +22954,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -23396,7 +23396,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -23653,7 +23653,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -24162,7 +24162,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -24798,7 +24798,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "170x109mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -25203,7 +25203,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -25736,7 +25736,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]

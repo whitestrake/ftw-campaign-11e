@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 6,
+    "revision": 7,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -9175,7 +9175,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -9492,7 +9492,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -10905,7 +10905,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -11041,7 +11041,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -11177,7 +11177,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -11263,7 +11263,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -11544,7 +11544,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -12071,7 +12071,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "-",
                 "typeId": "nr-base-size"
               }
             ]

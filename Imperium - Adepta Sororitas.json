@@ -9,7 +9,7 @@
     "gameSystemRevision": 1,
     "library": false,
     "readme": "",
-    "revision": 21,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -272,6 +272,11 @@
         "name": "Celestian",
         "id": "6de4-e8d4-1ad9-ce52",
         "hidden": false
+      },
+      {
+        "name": "Torrent weapon",
+        "id": "4d71-a8ae-cbde-b5ec",
+        "hidden": true
       }
     ],
     "entryLinks": [
@@ -1508,7 +1513,7 @@
       {
         "name": "Desperate for Redemption",
         "id": "909a-664e-ff1a-1985",
-        "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.\n\n\nThe Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army.\n\n\nAbsolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\n\nDeath Before Disgrace: Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+        "description": "At the start of your Command phase, you can select one of the following Vows of Atonement to be active for your army until the start of the your next Command phase. You can only select each Vow of Atonement once per battle.\n\n\nThe Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army.\n\n\nAbsolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\n\nDeath Before Disgrace: Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
         "hidden": false
       },
       {
@@ -5041,6 +5046,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e993-e086-6de1-12af"
+          },
+          {
+            "name": "Torrent Weapon",
+            "id": "e66b-1274-713c-1834",
+            "hidden": false,
+            "primary": false,
+            "targetId": "064a-0470-60eb-e3ef"
           }
         ],
         "infoLinks": [
@@ -5377,6 +5389,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e993-e086-6de1-12af"
+          },
+          {
+            "name": "Torrent Weapon",
+            "id": "2a59-621e-8150-e3b5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "064a-0470-60eb-e3ef"
           }
         ],
         "infoLinks": [
@@ -5455,6 +5474,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e993-e086-6de1-12af"
+          },
+          {
+            "name": "Torrent Weapon",
+            "id": "fcd6-8093-6ea8-aca0",
+            "hidden": false,
+            "primary": false,
+            "targetId": "064a-0470-60eb-e3ef"
           }
         ],
         "infoLinks": [
@@ -6344,6 +6370,13 @@
                         "hidden": false,
                         "primary": false,
                         "targetId": "e993-e086-6de1-12af"
+                      },
+                      {
+                        "name": "Torrent Weapon",
+                        "id": "33dc-b01f-0e66-7aa4",
+                        "hidden": false,
+                        "primary": false,
+                        "targetId": "064a-0470-60eb-e3ef"
                       }
                     ],
                     "constraints": [
@@ -13060,6 +13093,13 @@
                             "hidden": false,
                             "primary": false,
                             "targetId": "e993-e086-6de1-12af"
+                          },
+                          {
+                            "name": "Torrent Weapon",
+                            "id": "c4de-db53-8748-8354",
+                            "hidden": false,
+                            "primary": false,
+                            "targetId": "064a-0470-60eb-e3ef"
                           }
                         ],
                         "constraints": [
@@ -13252,7 +13292,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 175
           },
           {
             "name": "Crusade Points",
@@ -24437,6 +24477,13 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "ccdd-3987-11ed-90cd"
+                  },
+                  {
+                    "name": "Torrent Weapon",
+                    "id": "246a-16e8-a811-4d60",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "064a-0470-60eb-e3ef"
                   }
                 ],
                 "constraints": [
@@ -30703,7 +30750,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’",
+                "$text": "Each time you gain 1 Miracle dice at the start of your turn, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -36989,6 +37036,13 @@
                         "hidden": false,
                         "primary": false,
                         "targetId": "e993-e086-6de1-12af"
+                      },
+                      {
+                        "name": "Torrent Weapon",
+                        "id": "72a8-c1d0-64ce-c8be",
+                        "hidden": false,
+                        "primary": false,
+                        "targetId": "064a-0470-60eb-e3ef"
                       }
                     ],
                     "constraints": [
@@ -37528,6 +37582,13 @@
                         "hidden": false,
                         "primary": false,
                         "targetId": "e993-e086-6de1-12af"
+                      },
+                      {
+                        "name": "Torrent Weapon",
+                        "id": "a70e-2f47-151a-9632",
+                        "hidden": false,
+                        "primary": false,
+                        "targetId": "064a-0470-60eb-e3ef"
                       }
                     ],
                     "constraints": [
@@ -44816,6 +44877,50 @@
                 "name": "Enhancements",
                 "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 1
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "field": "3bb-c35f-f54-fb08",
+                    "position": -1,
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "position": -1,
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "append",
+                    "value": "Sustained Hits 1"
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "arg": "Sustained Hits 1",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "position": -1,
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "replace",
+                    "value": ""
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "field": "3bb-c35f-f54-fb08",
+                    "join": "",
+                    "scope": "parent",
+                    "type": "append",
+                    "value": "+0"
+                  }
+                ]
               }
             ],
             "modifiers": [

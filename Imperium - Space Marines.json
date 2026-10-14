@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 18,
+    "revision": 19,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -11218,7 +11218,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -13187,7 +13187,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -14111,7 +14111,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "50mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -15434,7 +15434,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -16909,7 +16909,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -17355,7 +17355,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -17576,7 +17576,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -18827,7 +18827,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -19021,7 +19021,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -19673,7 +19673,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -19983,7 +19983,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -20673,7 +20673,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -20921,7 +20921,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -21188,7 +21188,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -21936,7 +21936,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -22186,7 +22186,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -22928,7 +22928,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -23222,7 +23222,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -23973,7 +23973,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -24123,7 +24123,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -24623,7 +24623,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -24804,7 +24804,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -27173,7 +27173,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "28.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -27295,7 +27295,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "28.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -27583,7 +27583,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "28.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -27724,7 +27724,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "28.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -27918,7 +27918,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "28.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -28663,7 +28663,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "25mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -28811,7 +28811,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "25mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -29049,7 +29049,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "25mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -29715,7 +29715,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -29837,7 +29837,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -30717,7 +30717,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -30804,7 +30804,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ],
@@ -31224,7 +31224,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -31351,7 +31351,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -31863,7 +31863,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -32133,7 +32133,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -32976,7 +32976,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -33100,7 +33100,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -33398,7 +33398,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -34085,7 +34085,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -34502,7 +34502,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -35062,7 +35062,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -35503,7 +35503,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -36500,7 +36500,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -36799,7 +36799,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -36970,7 +36970,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ],
@@ -37958,7 +37958,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -38162,7 +38162,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -38284,7 +38284,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -38370,7 +38370,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -39271,7 +39271,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -39774,7 +39774,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -39860,7 +39860,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -39972,7 +39972,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -40084,7 +40084,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -40170,7 +40170,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -40898,7 +40898,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "50mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -41116,7 +41116,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "50mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -41960,7 +41960,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "50mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -42177,7 +42177,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "50mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -43212,7 +43212,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -44084,7 +44084,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -45304,7 +45304,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -46528,7 +46528,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -47671,7 +47671,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -48581,7 +48581,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -49700,7 +49700,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -50205,7 +50205,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -50317,7 +50317,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -50543,7 +50543,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -51115,7 +51115,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -51624,7 +51624,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -51736,7 +51736,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -51963,7 +51963,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -52773,7 +52773,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "90x52.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -52904,7 +52904,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "90x52.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -53348,7 +53348,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "90x52.5mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -53935,7 +53935,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "90x52.5mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -54621,7 +54621,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "75x42mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -54860,7 +54860,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -55252,7 +55252,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -55402,7 +55402,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -55524,7 +55524,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -56160,7 +56160,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -56264,7 +56264,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -56459,7 +56459,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -57362,7 +57362,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -57492,7 +57492,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -58224,7 +58224,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -58652,7 +58652,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -59385,7 +59385,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -60101,7 +60101,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -60933,7 +60933,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -61699,7 +61699,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -62299,7 +62299,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -63284,7 +63284,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -63487,7 +63487,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -64274,7 +64274,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -64576,7 +64576,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -65420,7 +65420,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -65568,7 +65568,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -65709,7 +65709,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -66434,7 +66434,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -66556,7 +66556,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -66725,7 +66725,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -67718,7 +67718,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -68096,7 +68096,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -68842,7 +68842,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "40mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -69238,7 +69238,7 @@
                   },
                   {
                     "name": "Base",
-                    "$text": "",
+                    "$text": "60mm",
                     "typeId": "nr-base-size"
                   }
                 ]
@@ -69881,7 +69881,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "80mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -70587,7 +70587,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -71293,7 +71293,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -72016,7 +72016,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -72740,7 +72740,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -73538,7 +73538,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -74365,7 +74365,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -75134,7 +75134,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -75917,7 +75917,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -76635,7 +76635,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -77413,7 +77413,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -78271,7 +78271,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -79138,7 +79138,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -80048,7 +80048,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -81002,7 +81002,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -81879,7 +81879,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -82543,7 +82543,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -83255,7 +83255,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "100mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -84185,7 +84185,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -84672,7 +84672,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -85301,7 +85301,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -86114,7 +86114,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -86873,7 +86873,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "120x92mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -87567,7 +87567,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -88445,7 +88445,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "75x42mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -89753,7 +89753,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -90941,7 +90941,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -91832,7 +91832,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -92927,7 +92927,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -94124,7 +94124,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -94970,7 +94970,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -95719,7 +95719,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -96697,7 +96697,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -97582,7 +97582,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -98350,7 +98350,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90x52.5mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -99132,7 +99132,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "32mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -99877,7 +99877,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -100741,7 +100741,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~25mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -100902,7 +100902,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "~25mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -101567,7 +101567,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -102463,7 +102463,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -103345,7 +103345,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -104154,7 +104154,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -104936,7 +104936,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -105673,7 +105673,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -106433,7 +106433,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -107041,7 +107041,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -107295,7 +107295,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -107549,7 +107549,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -107904,7 +107904,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -109170,7 +109170,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -110264,7 +110264,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ],
@@ -111419,7 +111419,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -112530,7 +112530,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Unique",
                 "typeId": "nr-base-size"
               }
             ]
@@ -113746,7 +113746,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -114465,7 +114465,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -115517,7 +115517,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -116650,7 +116650,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -117646,7 +117646,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -118286,7 +118286,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "80mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -118855,7 +118855,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -119694,7 +119694,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -120375,7 +120375,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -121400,7 +121400,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -122161,7 +122161,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -122982,7 +122982,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "32mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -123748,7 +123748,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -124492,7 +124492,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -125242,7 +125242,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -125589,7 +125589,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "75x42mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -126452,7 +126452,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "75x42mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -127232,7 +127232,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90x52.5mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -128107,7 +128107,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -128855,7 +128855,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -130260,7 +130260,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -130929,7 +130929,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -131605,7 +131605,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "Hull",
                 "typeId": "nr-base-size"
               }
             ]
@@ -132456,7 +132456,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -132787,7 +132787,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -132944,7 +132944,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "32mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -133631,7 +133631,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -133762,7 +133762,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -134051,7 +134051,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -134209,7 +134209,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -139086,7 +139086,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -140552,7 +140552,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -142056,7 +142056,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -142870,7 +142870,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "90mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -145571,7 +145571,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -145813,7 +145813,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]
@@ -146056,7 +146056,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "105x70mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -147062,7 +147062,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -147911,7 +147911,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "~40mm",
                 "typeId": "nr-base-size"
               }
             ]
@@ -148754,7 +148754,7 @@
               },
               {
                 "name": "Base",
-                "$text": "",
+                "$text": "-",
                 "typeId": "nr-base-size"
               }
             ]
@@ -150724,7 +150724,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "",
+                        "$text": "Hull",
                         "typeId": "nr-base-size"
                       }
                     ]

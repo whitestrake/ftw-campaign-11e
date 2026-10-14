@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -37584,23 +37584,11 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Farstalkers & Kill-broker",
+                    "name": "Kroot Kill-broker",
                     "id": "nr-base-a89d-6ef9-4600-bf5d",
                     "hidden": false,
                     "targetId": "1e7b-dbbd-43ca-62d0",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "32mm"
-                      },
-                      {
-                        "field": "name",
-                        "type": "set",
-                        "value": "Kroot Kill-broker"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ],
                 "selectionEntries": [

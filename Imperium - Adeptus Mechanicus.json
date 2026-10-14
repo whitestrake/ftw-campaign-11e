@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -19091,23 +19091,11 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Skitarii Rangers",
+                    "name": "Skitarii Ranger w/ transuranic arquebus",
                     "id": "nr-base-22b3-9c84-0982-8627",
                     "hidden": false,
                     "targetId": "013b-d05a-1fbc-40a5",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60x35.5mm"
-                      },
-                      {
-                        "field": "name",
-                        "type": "set",
-                        "value": "Skitarii Ranger w/ transuranic arquebus"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ],
                 "selectionEntries": [
@@ -20848,23 +20836,11 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Skitarii Vanguard",
+                    "name": "Skitarii Vanguard w/ transuranic arquebus",
                     "id": "nr-base-54ca-f341-b75a-6c29",
                     "hidden": false,
                     "targetId": "7df2-9dbf-5bcb-3e9a",
-                    "type": "profile",
-                    "modifiers": [
-                      {
-                        "field": "nr-base-size",
-                        "type": "set",
-                        "value": "60x35.5mm"
-                      },
-                      {
-                        "field": "name",
-                        "type": "set",
-                        "value": "Skitarii Vanguard w/ transuranic arquebus"
-                      }
-                    ]
+                    "type": "profile"
                   }
                 ],
                 "selectionEntries": [

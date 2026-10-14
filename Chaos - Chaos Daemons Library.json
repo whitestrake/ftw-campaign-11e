@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -73471,36 +73471,51 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "357d-d51b-f001-a33d",
-                "childName": "Warptide",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              },
-              {
-                "childId": "c4a1-3237-ba48-e484",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              },
-              {
-                "childId": "c4a1-84b7-7583-03f6",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "357d-d51b-f001-a33d",
+                    "childName": "Warptide",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-3237-ba48-e484",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c4a1-84b7-7583-03f6",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -73624,26 +73639,41 @@
                 "value": 1
               },
               {
-                "conditions": [
+                "conditionGroups": [
                   {
-                    "childId": "357d-d51b-f001-a33d",
-                    "childName": "Warptide",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "c4a1-3237-ba48-e484",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "357d-d51b-f001-a33d",
+                        "childName": "Warptide",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-3237-ba48-e484",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ],
                 "field": "hidden",
@@ -73789,26 +73819,41 @@
             ],
             "modifiers": [
               {
-                "conditions": [
+                "conditionGroups": [
                   {
-                    "childId": "357d-d51b-f001-a33d",
-                    "childName": "Warptide",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "c4a1-84b7-7583-03f6",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "357d-d51b-f001-a33d",
+                        "childName": "Warptide",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-84b7-7583-03f6",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ],
                 "field": "hidden",

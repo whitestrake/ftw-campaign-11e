@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 16,
+    "revision": 17,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -2150,7 +2150,7 @@
         "name": "Army Roster",
         "id": "bb9d-299a-ed60-2d8a",
         "hidden": false,
-        "readme": "# MFM and Faction Pack updates are now done for all Factions\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
+        "readme": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
         "categoryLinks": [
           {
             "name": "Configuration",
@@ -3202,7 +3202,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "# MFM and Faction Pack updates are now done for all Factions _except_ Adeptus Astartes variants.\n\n#Those Factions will be updated when the data is updated for the release of the Space Marines Codex some time _after_ Saturday 3rd.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -3219,7 +3219,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "# MFM and Faction Pack updates are now done for all Factions _except_ Adeptus Astartes variants.\n\n#Those Factions will be updated when the data is updated for the release of the Space Marines Codex some time _after_ Saturday 3rd.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -3268,18 +3268,7 @@
           },
           {
             "name": "InSv",
-            "id": "55a7-5b54-c60d-11dc",
-            "formatRules": [
-              {
-                "name": "New Format Rule",
-                "id": "11c5-ee61-344f-d1a1",
-                "comment": "Empty → -",
-                "hidden": false,
-                "match": "^$",
-                "replace": "-",
-                "type": "regex"
-              }
-            ]
+            "id": "55a7-5b54-c60d-11dc"
           },
           {
             "name": "Base",

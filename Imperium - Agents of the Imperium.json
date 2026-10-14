@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 17,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -4406,7 +4406,7 @@
           },
           {
             "name": "T",
-            "$text": "4",
+            "$text": "5",
             "typeId": "d29d-cf75-fc2d-34a4"
           },
           {
@@ -6794,17 +6794,17 @@
                 "type": "rule"
               },
               {
-                "name": "Precision",
-                "id": "a9e1-a271-57e-e33b",
-                "hidden": false,
-                "targetId": "9143-31ae-e0a6-6007",
-                "type": "rule"
-              },
-              {
                 "name": "Torrent",
                 "id": "6170-8db-b58a-3f1c",
                 "hidden": false,
                 "targetId": "5edf-d619-23e0-9b56",
+                "type": "rule"
+              },
+              {
+                "name": "Blast",
+                "id": "b2f3-b08d-7799-482b",
+                "hidden": false,
+                "targetId": "6c1f-1cf7-ff25-c99e",
                 "type": "rule"
               }
             ],
@@ -6848,7 +6848,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Anti-INFANTRY 2+, Precision, Torrent",
+                    "$text": "Anti-INFANTRY 2+, Blast 2, Torrent",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
@@ -14383,19 +14383,7 @@
             "id": "nr-base-14b8-cce5-ed01-5699",
             "hidden": false,
             "targetId": "2155-a47e-1f04-eec2",
-            "type": "profile",
-            "modifiers": [
-              {
-                "field": "nr-base-size",
-                "type": "set",
-                "value": "25mm"
-              },
-              {
-                "field": "name",
-                "type": "set",
-                "value": "Cyber-mastiff"
-              }
-            ]
+            "type": "profile"
           }
         ],
         "selectionEntries": [
@@ -16766,7 +16754,8 @@
           {
             "affects": "self.entries.recursive.associations.profiles.Unit",
             "field": "55a7-5b54-c60d-11dc",
-            "type": "set",
+            "join": ", ",
+            "type": "append",
             "value": "6+*"
           },
           {
@@ -39763,6 +39752,7 @@
                 "import": true,
                 "page": 13,
                 "publicationId": "4115-3627-e608-39f6",
+                "sortIndex": 1,
                 "type": "model",
                 "constraints": [
                   {
@@ -39842,7 +39832,7 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "Deathwatch thunder hammer",
+                    "name": "Heavy thunder hammer",
                     "id": "26b6-5549-ce5e-83e1",
                     "hidden": false,
                     "import": true,
@@ -39909,7 +39899,7 @@
                 ]
               },
               {
-                "name": "Veteran w/ frag cannon and CCW",
+                "name": "Veteran w/ frag cannon",
                 "id": "0e2e-ef12-74f0-938f",
                 "hidden": false,
                 "import": true,
@@ -39928,11 +39918,11 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "Close combat weapon",
+                    "name": "Knives and Fists",
                     "id": "1053-b5c9-6ce7-316a",
                     "hidden": false,
                     "import": true,
-                    "targetId": "d831-660c-e45b-6b30",
+                    "targetId": "4e5d-ae6d-316c-3465",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -39985,13 +39975,6 @@
                 "infoLinks": [
                   {
                     "name": "Deathwatch Veteran",
-                    "id": "7b8d-636f-c56b-d9b1",
-                    "hidden": false,
-                    "targetId": "ec36-4160-f23b-de52",
-                    "type": "profile"
-                  },
-                  {
-                    "name": "Deathwatch Veteran",
                     "id": "4e42-ec63-afcd-9dff",
                     "hidden": false,
                     "targetId": "ec36-4160-f23b-de52",
@@ -40030,7 +40013,7 @@
                 ]
               },
               {
-                "name": "Veteran w/ infernus heavy bolter and CCW",
+                "name": "Veteran w/ infernus heavy bolter",
                 "id": "db4d-9666-5340-0ba2",
                 "hidden": false,
                 "import": true,
@@ -40049,11 +40032,11 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "Close combat weapon",
+                    "name": "Knives and Fists",
                     "id": "ba94-7310-1f7d-19c5",
                     "hidden": false,
                     "import": true,
-                    "targetId": "d831-660c-e45b-6b30",
+                    "targetId": "4e5d-ae6d-316c-3465",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -40143,230 +40126,7 @@
                 ]
               },
               {
-                "name": "Veteran w/ Astartes shield and boltgun",
-                "id": "8c00-6699-048c-83ef",
-                "hidden": false,
-                "import": true,
-                "page": 13,
-                "publicationId": "4115-3627-e608-39f6",
-                "type": "model",
-                "constraints": [
-                  {
-                    "id": "9e6e-787b-2009-1490",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 4
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "name": "Boltgun",
-                    "id": "fdfa-107d-aee6-f404",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "4e7f-360f-88a6-5f62",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "b62e-80ae-2ff9-ea62",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Astartes shield",
-                    "id": "f1f5-e510-6d37-86c6",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "3f24-dcf8-4468-1702",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "165c-9fb0-c879-444e",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "4017-6c5c-da01-d0cc",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "d64d-61f8-18a5-f606",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Deathwatch Veteran",
-                    "id": "5dba-3dc3-1425-ae57",
-                    "hidden": false,
-                    "targetId": "ec36-4160-f23b-de52",
-                    "type": "profile"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "error",
-                    "type": "add",
-                    "value": "Max 2 {this} per 5 models",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "scope": "0744-61ce-619d-ffe1",
-                            "shared": true,
-                            "type": "lessThan",
-                            "value": 10
-                          },
-                          {
-                            "childId": "8c00-6699-048c-83ef",
-                            "field": "selections",
-                            "scope": "0744-61ce-619d-ffe1",
-                            "shared": true,
-                            "type": "greaterThan",
-                            "value": 2
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Veteran w/ Astartes shield and power weapon",
-                "id": "cc02-b24f-51d3-0823",
-                "hidden": false,
-                "import": true,
-                "page": 13,
-                "publicationId": "4115-3627-e608-39f6",
-                "type": "model",
-                "constraints": [
-                  {
-                    "id": "0b48-52f6-0f7e-3bbe",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 4
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "name": "Power weapon",
-                    "id": "4939-0ca2-ef40-ee7c",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f6ff-c78a-a5b6-1811",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "904e-d12d-f8ff-bdfb",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Astartes shield",
-                    "id": "7a55-67ba-28b3-4c52",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "3f24-dcf8-4468-1702",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "1bd2-5763-ca1a-ba74",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "177c-1748-b4e3-93fe",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Deathwatch Veteran",
-                    "id": "1a5b-4092-da1c-078d",
-                    "hidden": false,
-                    "targetId": "ec36-4160-f23b-de52",
-                    "type": "profile"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "error",
-                    "type": "add",
-                    "value": "Max 2 {this} per 5 models",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "scope": "0744-61ce-619d-ffe1",
-                            "shared": true,
-                            "type": "lessThan",
-                            "value": 10
-                          },
-                          {
-                            "childId": "cc02-b24f-51d3-0823",
-                            "field": "selections",
-                            "scope": "0744-61ce-619d-ffe1",
-                            "shared": true,
-                            "type": "greaterThan",
-                            "value": 2
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Veteran w/ stalker-pattern boltgun and CCW",
+                "name": "Veteran w/ stalker-pattern boltgun",
                 "id": "17e9-9a8c-abb9-0e38",
                 "hidden": false,
                 "import": true,
@@ -40385,11 +40145,11 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "Close combat weapon",
+                    "name": "Knives and Fists",
                     "id": "1718-0057-8338-2e0a",
                     "hidden": false,
                     "import": true,
-                    "targetId": "d831-660c-e45b-6b30",
+                    "targetId": "4e5d-ae6d-316c-3465",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -40480,7 +40240,7 @@
                 ]
               },
               {
-                "name": "Veteran w/ Deathwatch shotgun and CCW",
+                "name": "Veteran w/ Deathwatch shotgun",
                 "id": "befc-ec92-0d66-cf22",
                 "hidden": false,
                 "import": true,
@@ -40499,11 +40259,11 @@
                 ],
                 "entryLinks": [
                   {
-                    "name": "Close combat weapon",
+                    "name": "Knives and Fists",
                     "id": "ad60-0e48-fe8d-c5cf",
                     "hidden": false,
                     "import": true,
-                    "targetId": "d831-660c-e45b-6b30",
+                    "targetId": "4e5d-ae6d-316c-3465",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -40651,6 +40411,220 @@
                   }
                 ]
               }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Storm Shield models",
+                "id": "6869-f8e4-ccc7-04c7",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "id": "fd9b-30fa-d779-3530",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "error",
+                    "type": "add",
+                    "value": "Max 2 {this} per 5 models",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "model",
+                            "field": "selections",
+                            "scope": "0744-61ce-619d-ffe1",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 10
+                          },
+                          {
+                            "childId": "6869-f8e4-ccc7-04c7",
+                            "childName": "Storm Shield models",
+                            "field": "selections",
+                            "scope": "0744-61ce-619d-ffe1",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Veteran w/ Storm shield and boltgun",
+                    "id": "8c00-6699-048c-83ef",
+                    "hidden": false,
+                    "import": true,
+                    "page": 13,
+                    "publicationId": "4115-3627-e608-39f6",
+                    "type": "model",
+                    "constraints": [
+                      {
+                        "id": "9e6e-787b-2009-1490",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 4
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Boltgun",
+                        "id": "fdfa-107d-aee6-f404",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4e7f-360f-88a6-5f62",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {
+                            "id": "b62e-80ae-2ff9-ea62",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Storm Shield",
+                        "id": "f1f5-e510-6d37-86c6",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "3f24-dcf8-4468-1702",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {
+                            "id": "165c-9fb0-c879-444e",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "4017-6c5c-da01-d0cc",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "d64d-61f8-18a5-f606",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Deathwatch Veteran",
+                        "id": "5dba-3dc3-1425-ae57",
+                        "hidden": false,
+                        "targetId": "ec36-4160-f23b-de52",
+                        "type": "profile"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Veteran w/ Storm shield and power weapon",
+                    "id": "cc02-b24f-51d3-0823",
+                    "hidden": false,
+                    "import": true,
+                    "page": 13,
+                    "publicationId": "4115-3627-e608-39f6",
+                    "type": "model",
+                    "constraints": [
+                      {
+                        "id": "0b48-52f6-0f7e-3bbe",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 4
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Power weapon",
+                        "id": "4939-0ca2-ef40-ee7c",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "f6ff-c78a-a5b6-1811",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {
+                            "id": "904e-d12d-f8ff-bdfb",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Storm Shield",
+                        "id": "7a55-67ba-28b3-4c52",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "3f24-dcf8-4468-1702",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {
+                            "id": "1bd2-5763-ca1a-ba74",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "177c-1748-b4e3-93fe",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Deathwatch Veteran",
+                        "id": "1a5b-4092-da1c-078d",
+                        "hidden": false,
+                        "targetId": "ec36-4160-f23b-de52",
+                        "type": "profile"
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -40667,7 +40641,7 @@
                 "type": "model",
                 "constraints": [
                   {
-                    "id": "50df-a4b5-829b-5a2f",
+                    "id": "120a-155e-af80-e55e-min",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -40676,7 +40650,7 @@
                     "value": 1
                   },
                   {
-                    "id": "e7c1-88f6-1ec1-dd15",
+                    "id": "120a-155e-af80-e55e-max",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -40700,37 +40674,24 @@
                     "id": "4c9f-c0f3-4112-2adf",
                     "defaultSelectionEntryId": "a55a-63c0-e252-524e",
                     "hidden": false,
-                    "constraints": [
+                    "selectionEntryGroups": [
                       {
-                        "id": "ffb1-4a91-fd92-062b",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      },
-                      {
-                        "id": "ee60-55c1-0800-f14d",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "name": "Black Shield blades",
-                        "id": "1275-1573-26db-0967",
+                        "name": "Boltgun",
+                        "id": "9038-94d5-0d25-9c6c",
+                        "defaultSelectionEntryId": "87c4-3785-d874-3aa0",
                         "hidden": false,
-                        "import": true,
-                        "targetId": "1fe3-6ce2-0b55-838b",
-                        "type": "selectionEntry",
                         "constraints": [
                           {
-                            "id": "5bd8-d30a-80d5-0de3",
+                            "id": "e144-b3a6-1678-73b6",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "7359-1f07-87a1-751f",
                             "field": "selections",
                             "includeChildSelections": false,
                             "scope": "parent",
@@ -40740,70 +40701,37 @@
                           }
                         ],
                         "entryLinks": [
-                          {
-                            "name": "Weapon Modifications",
-                            "id": "bd91-0aa2-bf29-6f08",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "f9da-852a-d7f0-92e9",
-                            "type": "selectionEntryGroup"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Deathwatch thunder hammer",
-                        "id": "ae30-1c49-2042-29c2",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "e4fa-9381-662f-49f4",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {
-                            "id": "76b4-1158-29d0-a3a5",
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "max",
-                            "value": 1
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "name": "Weapon Modifications",
-                            "id": "f8e0-b1ad-dd5a-52fd",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "f9da-852a-d7f0-92e9",
-                            "type": "selectionEntryGroup"
-                          }
-                        ]
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Boltgun and power weapon",
-                        "id": "a55a-63c0-e252-524e",
-                        "hidden": false,
-                        "import": true,
-                        "type": "upgrade",
-                        "selectionEntryGroups": [
                           {
                             "name": "Boltgun",
-                            "id": "9038-94d5-0d25-9c6c",
-                            "defaultSelectionEntryId": "87c4-3785-d874-3aa0",
+                            "id": "87c4-3785-d874-3aa0",
                             "hidden": false,
+                            "import": true,
+                            "targetId": "4e7f-360f-88a6-5f62",
+                            "type": "selectionEntry",
+                            "entryLinks": [
+                              {
+                                "name": "Weapon Modifications",
+                                "id": "e2f3-25cf-fcb3-c6cb",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "f9da-852a-d7f0-92e9",
+                                "type": "selectionEntryGroup"
+                              }
+                            ]
+                          }
+                        ],
+                        "selectionEntries": [
+                          {
+                            "name": "Combi-weapon",
+                            "id": "b493-f8bb-848f-64fe",
+                            "hidden": false,
+                            "import": true,
+                            "page": 29,
+                            "publicationId": "4115-3627-e608-39f6",
+                            "type": "upgrade",
                             "constraints": [
                               {
-                                "id": "e144-b3a6-1678-73b6",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "7359-1f07-87a1-751f",
+                                "id": "e970-a0c7-3eca-958b",
                                 "field": "selections",
                                 "includeChildSelections": false,
                                 "scope": "parent",
@@ -40814,164 +40742,237 @@
                             ],
                             "entryLinks": [
                               {
-                                "name": "Boltgun",
-                                "id": "87c4-3785-d874-3aa0",
+                                "name": "Weapon Modifications",
+                                "id": "418c-613d-0100-733b",
                                 "hidden": false,
                                 "import": true,
-                                "targetId": "4e7f-360f-88a6-5f62",
-                                "type": "selectionEntry",
-                                "entryLinks": [
-                                  {
-                                    "name": "Weapon Modifications",
-                                    "id": "e2f3-25cf-fcb3-c6cb",
-                                    "hidden": false,
-                                    "import": true,
-                                    "targetId": "f9da-852a-d7f0-92e9",
-                                    "type": "selectionEntryGroup"
-                                  }
-                                ]
-                              },
-                              {
-                                "name": "Astartes shield",
-                                "id": "66a0-e694-2bbc-7809",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "3f24-dcf8-4468-1702",
-                                "type": "selectionEntry",
-                                "constraints": [
-                                  {
-                                    "id": "22c6-3240-49b2-5f9d",
-                                    "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "type": "max",
-                                    "value": 1
-                                  }
-                                ]
+                                "targetId": "f9da-852a-d7f0-92e9",
+                                "type": "selectionEntryGroup"
                               }
                             ],
-                            "selectionEntries": [
+                            "infoLinks": [
                               {
-                                "name": "Combi-weapon",
-                                "id": "b493-f8bb-848f-64fe",
+                                "name": "Blast",
+                                "id": "f3b8-c0e4-9c7a-840b",
                                 "hidden": false,
-                                "import": true,
+                                "targetId": "6c1f-1cf7-ff25-c99e",
+                                "type": "rule"
+                              },
+                              {
+                                "name": "Melta",
+                                "id": "ad9d-14af-be4e-d1b1",
+                                "hidden": false,
+                                "targetId": "7cdb-fb99-44a9-8849",
+                                "type": "rule"
+                              },
+                              {
+                                "name": "Torrent",
+                                "id": "e185-3f90-e94a-d779",
+                                "hidden": false,
+                                "targetId": "5edf-d619-23e0-9b56",
+                                "type": "rule"
+                              }
+                            ],
+                            "profiles": [
+                              {
+                                "name": "➤ Combi-weapon (Damnatus)",
+                                "id": "e175-56dc-9e1b-3ee4",
+                                "hidden": false,
                                 "page": 29,
                                 "publicationId": "4115-3627-e608-39f6",
-                                "type": "upgrade",
-                                "constraints": [
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "characteristics": [
                                   {
-                                    "id": "e970-a0c7-3eca-958b",
-                                    "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "type": "max",
-                                    "value": 1
-                                  }
-                                ],
-                                "entryLinks": [
-                                  {
-                                    "name": "Weapon Modifications",
-                                    "id": "418c-613d-0100-733b",
-                                    "hidden": false,
-                                    "import": true,
-                                    "targetId": "f9da-852a-d7f0-92e9",
-                                    "type": "selectionEntryGroup"
-                                  }
-                                ],
-                                "infoLinks": [
-                                  {
-                                    "name": "Devastating Wounds",
-                                    "id": "f3b8-c0e4-9c7a-840b",
-                                    "hidden": false,
-                                    "targetId": "be1e-ac8e-1e2c-3528",
-                                    "type": "rule"
+                                    "name": "Range",
+                                    "$text": "12\"",
+                                    "typeId": "9896-9419-16a1-92fc"
                                   },
                                   {
-                                    "name": "Anti",
-                                    "id": "ad9d-14af-be4e-d1b1",
-                                    "hidden": false,
-                                    "targetId": "4111-82e3-9444-e942",
-                                    "type": "rule"
+                                    "name": "A",
+                                    "$text": "1",
+                                    "typeId": "3bb-c35f-f54-fb08"
                                   },
                                   {
-                                    "name": "Rapid Fire",
-                                    "id": "e185-3f90-e94a-d779",
-                                    "hidden": false,
-                                    "targetId": "c5c8-8b58-b8b6-7786",
-                                    "type": "rule"
-                                  }
-                                ],
-                                "profiles": [
+                                    "name": "BS",
+                                    "$text": "3+",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
                                   {
-                                    "name": "Combi-weapon",
-                                    "id": "e175-56dc-9e1b-3ee4",
-                                    "hidden": false,
-                                    "page": 29,
-                                    "publicationId": "4115-3627-e608-39f6",
-                                    "typeId": "f77d-b953-8fa4-b762",
-                                    "typeName": "Ranged Weapons",
-                                    "characteristics": [
-                                      {
-                                        "name": "Range",
-                                        "$text": "24\"",
-                                        "typeId": "9896-9419-16a1-92fc"
-                                      },
-                                      {
-                                        "name": "A",
-                                        "$text": "1",
-                                        "typeId": "3bb-c35f-f54-fb08"
-                                      },
-                                      {
-                                        "name": "BS",
-                                        "$text": "4+",
-                                        "typeId": "94d-8a98-cf90-183e"
-                                      },
-                                      {
-                                        "name": "S",
-                                        "$text": "4",
-                                        "typeId": "2229-f494-25db-c5d3"
-                                      },
-                                      {
-                                        "name": "AP",
-                                        "$text": "0",
-                                        "typeId": "9ead-8a10-520-de15"
-                                      },
-                                      {
-                                        "name": "D",
-                                        "$text": "1",
-                                        "typeId": "a354-c1c8-a745-f9e3"
-                                      },
-                                      {
-                                        "name": "Keywords",
-                                        "$text": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
-                                        "typeId": "7f1b-8591-2fcf-d01c"
-                                      }
-                                    ]
+                                    "name": "S",
+                                    "$text": "9",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "name": "AP",
+                                    "$text": "-3",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "name": "D",
+                                    "$text": "D3+2",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "$text": "Melta 2",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "➤ Combi-weapon (Infernus)",
+                                "id": "1a9f-3074-c17d-8095",
+                                "hidden": false,
+                                "page": 29,
+                                "publicationId": "4115-3627-e608-39f6",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "characteristics": [
+                                  {
+                                    "name": "Range",
+                                    "$text": "12\"",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "name": "A",
+                                    "$text": "3",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "name": "BS",
+                                    "$text": "-",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "name": "S",
+                                    "$text": "4",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "name": "AP",
+                                    "$text": "0",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "name": "D",
+                                    "$text": "1",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "$text": "Blast 1, Torrent",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "➤ Combi-weapon (Purgatus)",
+                                "id": "55ae-26bb-f13d-188b",
+                                "hidden": false,
+                                "page": 29,
+                                "publicationId": "4115-3627-e608-39f6",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "characteristics": [
+                                  {
+                                    "name": "Range",
+                                    "$text": "24\"",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "name": "A",
+                                    "$text": "2",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "name": "BS",
+                                    "$text": "3+",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "name": "S",
+                                    "$text": "7",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "name": "AP",
+                                    "$text": "-2",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "name": "D",
+                                    "$text": "2",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "$text": "\n",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ]
                               }
                             ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Power weapon",
+                        "id": "27be-a701-314e-15e2",
+                        "defaultSelectionEntryId": "c8e7-417e-dc82-04a9",
+                        "hidden": false,
+                        "constraints": [
+                          {
+                            "id": "1b80-dfb5-1b57-b05a",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
                           },
+                          {
+                            "id": "dc32-d400-a1af-1c62",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
+                        ],
+                        "entryLinks": [
                           {
                             "name": "Power weapon",
-                            "id": "27be-a701-314e-15e2",
-                            "defaultSelectionEntryId": "c8e7-417e-dc82-04a9",
+                            "id": "c8e7-417e-dc82-04a9",
                             "hidden": false,
+                            "import": true,
+                            "targetId": "f6ff-c78a-a5b6-1811",
+                            "type": "selectionEntry",
+                            "entryLinks": [
+                              {
+                                "name": "Weapon Modifications",
+                                "id": "4474-1fa5-91fe-171b",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "f9da-852a-d7f0-92e9",
+                                "type": "selectionEntryGroup"
+                              }
+                            ]
+                          }
+                        ],
+                        "selectionEntries": [
+                          {
+                            "name": "Xenophase blade",
+                            "id": "ec68-422a-e9e4-fe71",
+                            "hidden": false,
+                            "import": true,
+                            "page": 17,
+                            "publicationId": "4115-3627-e608-39f6",
+                            "type": "upgrade",
                             "constraints": [
                               {
-                                "id": "1b80-dfb5-1b57-b05a",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "dc32-d400-a1af-1c62",
+                                "id": "f551-140c-5632-2b8c",
                                 "field": "selections",
                                 "includeChildSelections": false,
                                 "scope": "parent",
@@ -40982,484 +40983,67 @@
                             ],
                             "entryLinks": [
                               {
-                                "name": "Power weapon",
-                                "id": "c8e7-417e-dc82-04a9",
+                                "name": "Weapon Modifications",
+                                "id": "4b10-97d8-728d-868a",
                                 "hidden": false,
                                 "import": true,
-                                "targetId": "f6ff-c78a-a5b6-1811",
-                                "type": "selectionEntry",
-                                "entryLinks": [
-                                  {
-                                    "name": "Weapon Modifications",
-                                    "id": "4474-1fa5-91fe-171b",
-                                    "hidden": false,
-                                    "import": true,
-                                    "targetId": "f9da-852a-d7f0-92e9",
-                                    "type": "selectionEntryGroup"
-                                  }
-                                ]
-                              },
-                              {
-                                "name": "Astartes shield",
-                                "id": "723c-f30e-5da1-4433",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "3f24-dcf8-4468-1702",
-                                "type": "selectionEntry",
-                                "constraints": [
-                                  {
-                                    "id": "25ac-0745-4349-182e",
-                                    "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "type": "max",
-                                    "value": 1
-                                  }
-                                ]
+                                "targetId": "f9da-852a-d7f0-92e9",
+                                "type": "selectionEntryGroup"
                               }
                             ],
-                            "selectionEntries": [
+                            "infoLinks": [
+                              {
+                                "name": "Devastating Wounds",
+                                "id": "87c3-ed36-3eb2-9a7d",
+                                "hidden": false,
+                                "targetId": "be1e-ac8e-1e2c-3528",
+                                "type": "rule"
+                              }
+                            ],
+                            "profiles": [
                               {
                                 "name": "Xenophase blade",
-                                "id": "ec68-422a-e9e4-fe71",
+                                "id": "9f6b-9aac-13d8-565e",
                                 "hidden": false,
-                                "import": true,
-                                "page": 17,
-                                "publicationId": "4115-3627-e608-39f6",
-                                "type": "upgrade",
-                                "constraints": [
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "characteristics": [
                                   {
-                                    "id": "f551-140c-5632-2b8c",
-                                    "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "type": "max",
-                                    "value": 1
-                                  }
-                                ],
-                                "entryLinks": [
+                                    "name": "Range",
+                                    "$text": "Melee",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
                                   {
-                                    "name": "Weapon Modifications",
-                                    "id": "4b10-97d8-728d-868a",
-                                    "hidden": false,
-                                    "import": true,
-                                    "targetId": "f9da-852a-d7f0-92e9",
-                                    "type": "selectionEntryGroup"
-                                  }
-                                ],
-                                "infoLinks": [
+                                    "name": "A",
+                                    "$text": "4",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
                                   {
-                                    "name": "Devastating Wounds",
-                                    "id": "87c3-ed36-3eb2-9a7d",
-                                    "hidden": false,
-                                    "targetId": "be1e-ac8e-1e2c-3528",
-                                    "type": "rule"
-                                  }
-                                ],
-                                "profiles": [
+                                    "name": "WS",
+                                    "$text": "3+",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
                                   {
-                                    "name": "Xenophase blade",
-                                    "id": "9f6b-9aac-13d8-565e",
-                                    "hidden": false,
-                                    "typeId": "8a40-4aaa-c780-9046",
-                                    "typeName": "Melee Weapons",
-                                    "characteristics": [
-                                      {
-                                        "name": "Range",
-                                        "$text": "Melee",
-                                        "typeId": "914c-b413-91e3-a132"
-                                      },
-                                      {
-                                        "name": "A",
-                                        "$text": "4",
-                                        "typeId": "2337-daa1-6682-b110"
-                                      },
-                                      {
-                                        "name": "WS",
-                                        "$text": "3+",
-                                        "typeId": "95d1-95f-45b4-11d6"
-                                      },
-                                      {
-                                        "name": "S",
-                                        "$text": "5",
-                                        "typeId": "ab33-d393-96ce-ccba"
-                                      },
-                                      {
-                                        "name": "AP",
-                                        "$text": "-2",
-                                        "typeId": "41a0-1301-112a-e2f2"
-                                      },
-                                      {
-                                        "name": "D",
-                                        "$text": "1",
-                                        "typeId": "3254-9fe6-d824-513e"
-                                      },
-                                      {
-                                        "name": "Keywords",
-                                        "$text": "Devastating Wounds",
-                                        "typeId": "893f-9000-ccf7-648e"
-                                      }
-                                    ]
+                                    "name": "S",
+                                    "$text": "5",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "name": "AP",
+                                    "$text": "-2",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "name": "D",
+                                    "$text": "1",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "$text": "Devastating Wounds",
+                                    "typeId": "893f-9000-ccf7-648e"
                                   }
                                 ]
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Deathwatch shotgun and close combat weapon",
-                        "id": "618d-3f67-a4f7-20f6",
-                        "hidden": false,
-                        "import": true,
-                        "type": "upgrade",
-                        "constraints": [
-                          {
-                            "id": "7a5d-a95b-8275-3ba9",
-                            "field": "selections",
-                            "includeChildSelections": false,
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "max",
-                            "value": 1
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "name": "Deathwatch shotgun",
-                            "id": "8239-a6b0-b297-0115",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "f8d2-8f54-db0a-79cf",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "6101-64dc-597b-e2ed",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              },
-                              {
-                                "id": "591c-80b4-f8fd-a578",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "ef94-0676-b73c-5e5c",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          },
-                          {
-                            "name": "Close combat weapon",
-                            "id": "e24a-b103-1d0a-abbd",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "d831-660c-e45b-6b30",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "c8f8-5872-a427-4a91",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "9743-0f10-7c6b-c5d2",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "848f-7225-3809-80da",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Frag cannon and close combat weapon",
-                        "id": "9f21-dfa9-4120-2498",
-                        "hidden": false,
-                        "import": true,
-                        "type": "upgrade",
-                        "constraints": [
-                          {
-                            "id": "8c22-5035-255a-9f4c",
-                            "field": "selections",
-                            "includeChildSelections": false,
-                            "scope": "parent",
-                            "shared": true,
-                            "type": "max",
-                            "value": 1
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "name": "Close combat weapon",
-                            "id": "f5f9-62d9-9cf0-95c7",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "d831-660c-e45b-6b30",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "1bc0-c950-75fe-694c",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "4086-3ab2-140f-9925",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "0514-05fa-fa01-1b6e",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          },
-                          {
-                            "name": "Frag cannon",
-                            "id": "91bc-a856-3aa6-8cf0",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "bfb1-8252-feb3-2cd9",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "eb22-9c21-13ed-c62c",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "36a2-6885-974f-cc34",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "6f90-d78c-e09b-4884",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Infernus heavy bolter and close combat weapon",
-                        "id": "2960-b388-5313-5eb8",
-                        "hidden": false,
-                        "import": true,
-                        "type": "upgrade",
-                        "entryLinks": [
-                          {
-                            "name": "Close combat weapon",
-                            "id": "52fb-405d-2336-717c",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "d831-660c-e45b-6b30",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "f061-6c15-f147-60fb",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "3a2c-1862-ce2f-9ed9",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "90dd-67de-de45-85c7",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          },
-                          {
-                            "name": "Infernus heavy bolter",
-                            "id": "c37d-80ee-17ee-b568",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "3e1b-5da1-e6d0-220f",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "b82d-da80-3432-c4b1",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "d3af-35dd-8302-4dd1",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "6d40-7157-20ea-4feb",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Stalker-pattern boltgun and close combat weapon",
-                        "id": "0b32-454c-ebdc-bff1",
-                        "hidden": false,
-                        "import": true,
-                        "type": "upgrade",
-                        "entryLinks": [
-                          {
-                            "name": "Close combat weapon",
-                            "id": "c93e-b132-1160-434b",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "d831-660c-e45b-6b30",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "b44b-a196-5594-5a10",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "c533-2ebf-22a0-f07e",
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "acb8-fd31-2bdd-4c52",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
-                              }
-                            ]
-                          },
-                          {
-                            "name": "Stalker-pattern boltgun",
-                            "id": "3a32-cbfe-be26-9f64",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "c5b3-535d-4e49-4c05",
-                            "type": "selectionEntry",
-                            "constraints": [
-                              {
-                                "id": "9f38-edea-e10b-19a4",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "min",
-                                "value": 1
-                              },
-                              {
-                                "id": "d1c2-6135-08ac-844e",
-                                "field": "selections",
-                                "includeChildSelections": false,
-                                "scope": "parent",
-                                "shared": true,
-                                "type": "max",
-                                "value": 1
-                              }
-                            ],
-                            "entryLinks": [
-                              {
-                                "name": "Weapon Modifications",
-                                "id": "e976-43b1-9727-1464",
-                                "hidden": false,
-                                "import": true,
-                                "targetId": "f9da-852a-d7f0-92e9",
-                                "type": "selectionEntryGroup"
                               }
                             ]
                           }
@@ -48490,7 +48074,7 @@
                 "id": "9bd9-0fd6-6e8e-c3b7",
                 "hidden": false,
                 "import": true,
-                "targetId": "4e7f-360f-88a6-5f62",
+                "targetId": "2cb9-cb94-0ddd-bde4",
                 "type": "selectionEntry",
                 "constraints": [
                   {
@@ -49709,7 +49293,7 @@
                 "id": "b553-6923-3382-4129",
                 "hidden": false,
                 "import": true,
-                "targetId": "4e7f-360f-88a6-5f62",
+                "targetId": "2cb9-cb94-0ddd-bde4",
                 "type": "selectionEntry",
                 "constraints": [
                   {
@@ -53150,7 +52734,7 @@
                                 "id": "7063-6f9f-2b0c-21f0",
                                 "hidden": false,
                                 "import": true,
-                                "targetId": "4e7f-360f-88a6-5f62",
+                                "targetId": "2cb9-cb94-0ddd-bde4",
                                 "type": "selectionEntry",
                                 "constraints": [
                                   {
@@ -53332,7 +52916,7 @@
                                 "id": "ccbd-4fba-4a50-d439",
                                 "hidden": false,
                                 "import": true,
-                                "targetId": "4e7f-360f-88a6-5f62",
+                                "targetId": "2cb9-cb94-0ddd-bde4",
                                 "type": "selectionEntry",
                                 "constraints": [
                                   {
@@ -54033,42 +53617,227 @@
                                     "type": "selectionEntryGroup"
                                   }
                                 ]
-                              },
+                              }
+                            ],
+                            "selectionEntries": [
                               {
                                 "name": "Infernus heavy bolter",
-                                "id": "c531-c64b-bfe9-aeb9",
+                                "id": "4da9-6348-5aa4-2c21",
+                                "collective": true,
                                 "hidden": false,
                                 "import": true,
-                                "targetId": "3e1b-5da1-e6d0-220f",
-                                "type": "selectionEntry",
+                                "page": 29,
+                                "publicationId": "4115-3627-e608-39f6",
+                                "type": "upgrade",
                                 "constraints": [
                                   {
-                                    "id": "c238-40db-a893-c477",
+                                    "id": "c22e-e0dd-9836-bb0d",
                                     "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
-                                    "shared": true,
-                                    "type": "min",
-                                    "value": 1
-                                  },
-                                  {
-                                    "id": "4e00-23d9-12a2-a7a8",
-                                    "field": "selections",
-                                    "includeChildSelections": false,
-                                    "scope": "parent",
+                                    "includeChildSelections": true,
+                                    "scope": "unit",
                                     "shared": true,
                                     "type": "max",
                                     "value": 1
                                   }
                                 ],
-                                "entryLinks": [
+                                "infoLinks": [
                                   {
-                                    "name": "Weapon Modifications",
-                                    "id": "1bb4-0c6a-d02b-c415",
+                                    "name": "Heavy",
+                                    "id": "42a4-a4fe-9486-0b19",
                                     "hidden": false,
-                                    "import": true,
-                                    "targetId": "f9da-852a-d7f0-92e9",
-                                    "type": "selectionEntryGroup"
+                                    "targetId": "1202-10a8-78e9-4c67",
+                                    "type": "rule"
+                                  },
+                                  {
+                                    "name": "Sustained Hits",
+                                    "id": "ab0a-d088-1a94-7748",
+                                    "hidden": false,
+                                    "targetId": "1897-c22c-9597-12b1",
+                                    "type": "rule"
+                                  },
+                                  {
+                                    "name": "Torrent",
+                                    "id": "1784-9f79-fae9-b2c6",
+                                    "hidden": false,
+                                    "targetId": "5edf-d619-23e0-9b56",
+                                    "type": "rule"
+                                  },
+                                  {
+                                    "name": "Ignores Cover",
+                                    "id": "1736-f9a3-92d6-3873",
+                                    "hidden": false,
+                                    "targetId": "4640-43e7-30b-215a",
+                                    "type": "rule"
+                                  }
+                                ],
+                                "modifiers": [
+                                  {
+                                    "field": "c22e-e0dd-9836-bb0d",
+                                    "type": "increment",
+                                    "value": 1,
+                                    "conditionGroups": [
+                                      {
+                                        "type": "or",
+                                        "conditionGroups": [
+                                          {
+                                            "type": "and",
+                                            "conditions": [
+                                              {
+                                                "childId": "model",
+                                                "field": "selections",
+                                                "includeChildSelections": true,
+                                                "scope": "unit",
+                                                "shared": true,
+                                                "type": "atLeast",
+                                                "value": 10
+                                              },
+                                              {
+                                                "childId": "1b81-a12a-8e8e-5dd4",
+                                                "field": "selections",
+                                                "includeChildSelections": true,
+                                                "scope": "ancestor",
+                                                "shared": true,
+                                                "type": "notInstanceOf",
+                                                "value": 1
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "conditions": [
+                                          {
+                                            "childId": "1b81-a12a-8e8e-5dd4",
+                                            "field": "selections",
+                                            "scope": "unit",
+                                            "shared": true,
+                                            "type": "instanceOf",
+                                            "value": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "field": "c22e-e0dd-9836-bb0d",
+                                    "type": "increment",
+                                    "value": 2,
+                                    "conditionGroups": [
+                                      {
+                                        "type": "and",
+                                        "conditions": [
+                                          {
+                                            "childId": "model",
+                                            "field": "selections",
+                                            "includeChildSelections": true,
+                                            "scope": "unit",
+                                            "shared": true,
+                                            "type": "atLeast",
+                                            "value": 10
+                                          },
+                                          {
+                                            "childId": "1b81-a12a-8e8e-5dd4",
+                                            "field": "selections",
+                                            "scope": "unit",
+                                            "shared": true,
+                                            "type": "instanceOf",
+                                            "value": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "profiles": [
+                                  {
+                                    "name": "➤ Infernus heavy bolter - heavy bolter",
+                                    "id": "595f-a6e1-5518-33fb",
+                                    "hidden": false,
+                                    "page": 29,
+                                    "publicationId": "4115-3627-e608-39f6",
+                                    "typeId": "f77d-b953-8fa4-b762",
+                                    "typeName": "Ranged Weapons",
+                                    "characteristics": [
+                                      {
+                                        "name": "Range",
+                                        "$text": "36\"",
+                                        "typeId": "9896-9419-16a1-92fc"
+                                      },
+                                      {
+                                        "name": "A",
+                                        "$text": "3",
+                                        "typeId": "3bb-c35f-f54-fb08"
+                                      },
+                                      {
+                                        "name": "BS",
+                                        "$text": "4+",
+                                        "typeId": "94d-8a98-cf90-183e"
+                                      },
+                                      {
+                                        "name": "S",
+                                        "$text": "5",
+                                        "typeId": "2229-f494-25db-c5d3"
+                                      },
+                                      {
+                                        "name": "AP",
+                                        "$text": "-1",
+                                        "typeId": "9ead-8a10-520-de15"
+                                      },
+                                      {
+                                        "name": "D",
+                                        "$text": "2",
+                                        "typeId": "a354-c1c8-a745-f9e3"
+                                      },
+                                      {
+                                        "name": "Keywords",
+                                        "$text": "Heavy, Sustained Hits 1",
+                                        "typeId": "7f1b-8591-2fcf-d01c"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "➤ Infernus heavy bolter - heavy flamer",
+                                    "id": "5ef0-83b6-300d-158c",
+                                    "hidden": false,
+                                    "page": 29,
+                                    "publicationId": "4115-3627-e608-39f6",
+                                    "typeId": "f77d-b953-8fa4-b762",
+                                    "typeName": "Ranged Weapons",
+                                    "characteristics": [
+                                      {
+                                        "name": "Range",
+                                        "$text": "12\"",
+                                        "typeId": "9896-9419-16a1-92fc"
+                                      },
+                                      {
+                                        "name": "A",
+                                        "$text": "D6",
+                                        "typeId": "3bb-c35f-f54-fb08"
+                                      },
+                                      {
+                                        "name": "BS",
+                                        "$text": "N/A",
+                                        "typeId": "94d-8a98-cf90-183e"
+                                      },
+                                      {
+                                        "name": "S",
+                                        "$text": "5",
+                                        "typeId": "2229-f494-25db-c5d3"
+                                      },
+                                      {
+                                        "name": "AP",
+                                        "$text": "-1",
+                                        "typeId": "9ead-8a10-520-de15"
+                                      },
+                                      {
+                                        "name": "D",
+                                        "$text": "1",
+                                        "typeId": "a354-c1c8-a745-f9e3"
+                                      },
+                                      {
+                                        "name": "Keywords",
+                                        "$text": "Ignores Cover, Torrent",
+                                        "typeId": "7f1b-8591-2fcf-d01c"
+                                      }
+                                    ]
                                   }
                                 ]
                               }
@@ -58751,22 +58520,13 @@
         ]
       },
       {
-        "name": "Astartes shield",
+        "name": "Storm Shield",
         "id": "3f24-dcf8-4468-1702",
         "collective": true,
         "hidden": false,
         "import": true,
         "type": "upgrade",
         "constraints": [
-          {
-            "id": "11f5-6266-9c35-5248",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 2
-          },
           {
             "id": "b506-b1f3-7d7f-f7f2",
             "field": "selections",
@@ -58779,22 +58539,6 @@
         ],
         "modifiers": [
           {
-            "field": "11f5-6266-9c35-5248",
-            "type": "increment",
-            "value": 2,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "0744-61ce-619d-ffe1",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
-          },
-          {
             "affects": "profiles.Unit",
             "field": "55a7-5b54-c60d-11dc",
             "scope": "model",
@@ -58803,15 +58547,15 @@
           },
           {
             "affects": "profiles.Unit",
-            "field": "name",
+            "field": "annotation",
             "scope": "model",
-            "type": "append",
-            "value": "w/ Astartes shield"
+            "type": "set",
+            "value": "Storm shield"
           }
         ],
         "profiles": [
           {
-            "name": "Astartes shield",
+            "name": "Storm Shield",
             "id": "b9fb-ffc4-b282-9c51",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -58819,7 +58563,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "The bearer has a 4+ invulnerable save.",
+                "$text": "This model has a 4+ InSv.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -58895,7 +58639,7 @@
         "name": "Boltgun",
         "id": "4e7f-360f-88a6-5f62",
         "collective": true,
-        "comment": "Deathwatch",
+        "comment": "S5",
         "hidden": false,
         "import": true,
         "page": 11,
@@ -58910,6 +58654,15 @@
             "shared": true,
             "type": "max",
             "value": 1
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Rapid Fire",
+            "id": "2cc1-a196-2829-8d37",
+            "hidden": false,
+            "targetId": "c5c8-8b58-b8b6-7786",
+            "type": "rule"
           }
         ],
         "profiles": [
@@ -58937,12 +58690,12 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
                 "name": "AP",
-                "$text": "0",
+                "$text": "-1",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -58952,6 +58705,7 @@
               },
               {
                 "name": "Keywords",
+                "$text": "Rapid Fire 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -59381,23 +59135,11 @@
         "name": "Infernus heavy bolter",
         "id": "3e1b-5da1-e6d0-220f",
         "collective": true,
-        "comment": "Armoury",
         "hidden": false,
         "import": true,
         "page": 29,
         "publicationId": "4115-3627-e608-39f6",
         "type": "upgrade",
-        "constraints": [
-          {
-            "id": "5083-9f38-9545-f5cc",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 1
-          }
-        ],
         "infoLinks": [
           {
             "name": "Heavy",
@@ -59421,92 +59163,23 @@
             "type": "rule"
           },
           {
-            "name": "Ignores Cover",
+            "name": "Rapid Fire",
             "id": "6f48-39c2-44ec-ce55",
             "hidden": false,
-            "targetId": "4640-43e7-30b-215a",
+            "targetId": "c5c8-8b58-b8b6-7786",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "5083-9f38-9545-f5cc",
-            "type": "increment",
-            "value": 1,
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "childId": "model",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "unit",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 10
-                      },
-                      {
-                        "childId": "1b81-a12a-8e8e-5dd4",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "conditions": [
-                  {
-                    "childId": "1b81-a12a-8e8e-5dd4",
-                    "field": "selections",
-                    "scope": "unit",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           },
           {
-            "field": "5083-9f38-9545-f5cc",
-            "type": "increment",
-            "value": 2,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "model",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "unit",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 10
-                  },
-                  {
-                    "childId": "1b81-a12a-8e8e-5dd4",
-                    "field": "selections",
-                    "scope": "unit",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
+            "name": "Blast",
+            "id": "ba29-222b-a6e9-32fa",
+            "hidden": false,
+            "targetId": "6c1f-1cf7-ff25-c99e",
+            "type": "rule"
           }
         ],
         "profiles": [
           {
-            "name": "➤ Infernus heavy bolter - heavy bolter",
+            "name": "➤ Infernus heavy bolter (Bolt)",
             "id": "0fe0-a6b1-ebdf-8f61",
             "hidden": false,
             "page": 29,
@@ -59546,13 +59219,13 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Heavy, Sustained Hits 1",
+                "$text": "Heavy, Rapid Fire 2, Sustained Hits 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
           },
           {
-            "name": "➤ Infernus heavy bolter - heavy flamer",
+            "name": "➤ Infernus heavy bolter (Infernus)",
             "id": "e148-2b57-b60d-5ebd",
             "hidden": false,
             "page": 29,
@@ -59567,12 +59240,12 @@
               },
               {
                 "name": "A",
-                "$text": "D6",
+                "$text": "3",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
                 "name": "BS",
-                "$text": "N/A",
+                "$text": "-",
                 "typeId": "94d-8a98-cf90-183e"
               },
               {
@@ -59592,27 +59265,8 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Ignores cover, Torrent",
+                "$text": "Blast 1, Torrent",
                 "typeId": "7f1b-8591-2fcf-d01c"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "3bb-c35f-f54-fb08",
-                "join": "",
-                "type": "append",
-                "value": "+0",
-                "conditions": [
-                  {
-                    "childId": "2801-9f1c-645d-cb3d",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -62789,17 +62443,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [
-          {
-            "id": "c3b8-761c-144f-ea31",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 2
-          }
-        ],
         "infoLinks": [
           {
             "name": "Assault",
@@ -62807,24 +62450,6 @@
             "hidden": false,
             "targetId": "fc8a-8c24-bae9-cc1c",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "c3b8-761c-144f-ea31",
-            "type": "increment",
-            "value": 2,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "unit",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
           }
         ],
         "profiles": [
@@ -62857,7 +62482,7 @@
               },
               {
                 "name": "AP",
-                "$text": "0",
+                "$text": "-1",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -62875,7 +62500,7 @@
         ]
       },
       {
-        "name": "Deathwatch thunder hammer",
+        "name": "Heavy thunder hammer",
         "id": "e4fa-9381-662f-49f4",
         "collective": true,
         "hidden": false,
@@ -62883,17 +62508,6 @@
         "page": 13,
         "publicationId": "4115-3627-e608-39f6",
         "type": "upgrade",
-        "constraints": [
-          {
-            "id": "00fc-7500-9412-2ec7",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 2
-          }
-        ],
         "infoLinks": [
           {
             "name": "Devastating Wounds",
@@ -62903,27 +62517,9 @@
             "type": "rule"
           }
         ],
-        "modifiers": [
-          {
-            "field": "00fc-7500-9412-2ec7",
-            "type": "increment",
-            "value": 2,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "unit",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
-          }
-        ],
         "profiles": [
           {
-            "name": "Deathwatch thunder hammer",
+            "name": "Heavy thunder hammer",
             "id": "18eb-f469-e05d-d213",
             "hidden": false,
             "page": 13,
@@ -62986,17 +62582,6 @@
             "targetId": "e993-e086-6de1-12af"
           }
         ],
-        "constraints": [
-          {
-            "id": "abc2-b5ad-7045-a17d",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 1
-          }
-        ],
         "infoLinks": [
           {
             "name": "Blast",
@@ -63018,24 +62603,13 @@
             "hidden": false,
             "targetId": "c5c8-8b58-b8b6-7786",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
+          },
           {
-            "field": "abc2-b5ad-7045-a17d",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "unit",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
+            "name": "Lethal Hits",
+            "id": "964d-5d27-46c8-cb9a",
+            "hidden": false,
+            "targetId": "d1d1-611e-5191-1095",
+            "type": "rule"
           }
         ],
         "profiles": [
@@ -63055,7 +62629,7 @@
               },
               {
                 "name": "A",
-                "$text": "D3",
+                "$text": "2",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -63080,7 +62654,7 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Blast, Heavy, Rapid Fire D3",
+                "$text": "Blast 1, Heavy, Lethal Hits, Rapid Fire 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -63094,17 +62668,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [
-          {
-            "id": "2976-c2e1-54da-124e",
-            "field": "selections",
-            "includeChildSelections": true,
-            "scope": "unit",
-            "shared": true,
-            "type": "max",
-            "value": 1
-          }
-        ],
         "infoLinks": [
           {
             "name": "Heavy",
@@ -63119,24 +62682,6 @@
             "hidden": false,
             "targetId": "9143-31ae-e0a6-6007",
             "type": "rule"
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "2976-c2e1-54da-124e",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "unit",
-                "shared": true,
-                "type": "atLeast",
-                "value": 10
-              }
-            ]
           }
         ],
         "profiles": [
@@ -63164,7 +62709,7 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
@@ -64170,11 +63715,11 @@
         ],
         "entryLinks": [
           {
-            "name": "Close combat weapon",
+            "name": "Knives and Fists",
             "id": "71f2-f856-b046-d9fb",
             "hidden": false,
             "import": true,
-            "targetId": "d831-660c-e45b-6b30",
+            "targetId": "4e5d-ae6d-316c-3465",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -64206,83 +63751,25 @@
             "type": "selectionEntry"
           }
         ],
-        "modifiers": [
-          {
-            "field": "name",
-            "type": "set",
-            "value": "Deathwatch Veteran w/ combat knife",
-            "conditions": [
-              {
-                "childId": "d2a2-f2ef-c279-93e4",
-                "field": "selections",
-                "scope": "050d-797a-bb9a-2e8b",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
+        "infoLinks": [
           {
             "name": "Deathwatch Veteran",
-            "id": "0806-270d-0be3-45ad",
+            "id": "8925-20db-58b7-5ed0",
             "hidden": false,
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "characteristics": [
-              {
-                "name": "M",
-                "$text": "6\"",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "name": "T",
-                "$text": "4",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "name": "Sv",
-                "$text": "3+",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "name": "W",
-                "$text": "2",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "name": "LD",
-                "$text": "6+",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "name": "OC",
-                "$text": "2",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "$text": "",
-                "typeId": "55a7-5b54-c60d-11dc"
-              },
-              {
-                "name": "Base",
-                "$text": "32mm",
-                "typeId": "nr-base-size"
-              }
-            ]
+            "targetId": "ec36-4160-f23b-de52",
+            "type": "profile"
           }
         ],
-        "selectionEntryGroups": [
+        "selectionEntries": [
           {
-            "name": "Exchange carbine",
-            "id": "3a1c-4f3d-3010-e969",
-            "defaultSelectionEntryId": "542e-e8cb-cf58-e32b",
+            "name": "Deathwatch marksman bolt carbine",
+            "id": "542e-e8cb-cf58-e32b",
             "hidden": false,
+            "import": true,
+            "type": "upgrade",
             "constraints": [
               {
-                "id": "8142-8d22-e686-2d43",
+                "id": "3ba3-a75b-a6e7-6a6e-min",
                 "field": "selections",
                 "includeChildSelections": false,
                 "scope": "parent",
@@ -64291,7 +63778,7 @@
                 "value": 1
               },
               {
-                "id": "d391-9a88-889f-d872",
+                "id": "3ba3-a75b-a6e7-6a6e-max",
                 "field": "selections",
                 "includeChildSelections": false,
                 "scope": "parent",
@@ -64300,135 +63787,64 @@
                 "value": 1
               }
             ],
-            "selectionEntries": [
+            "infoLinks": [
               {
-                "name": "Deathwatch marksman bolt carbine",
-                "id": "542e-e8cb-cf58-e32b",
+                "name": "Heavy",
+                "id": "6a76-2a55-9db5-70c1",
                 "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "infoLinks": [
-                  {
-                    "name": "Heavy",
-                    "id": "6a76-2a55-9db5-70c1",
-                    "hidden": false,
-                    "targetId": "1202-10a8-78e9-4c67",
-                    "type": "rule"
-                  },
-                  {
-                    "name": "Lethal Hits",
-                    "id": "36bf-1622-35c1-81dc",
-                    "hidden": false,
-                    "targetId": "d1d1-611e-5191-1095",
-                    "type": "rule"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Deathwatch marksman bolt carbine",
-                    "id": "17ef-9b38-6f0b-c397",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "24\"",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "2",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "5",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-1",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "1",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "name": "Keywords",
-                        "$text": "Heavy, Lethal Hits",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ]
-                  }
-                ]
+                "targetId": "1202-10a8-78e9-4c67",
+                "type": "rule"
               },
               {
-                "name": "Combat knife",
-                "id": "d2a2-f2ef-c279-93e4",
+                "name": "Lethal Hits",
+                "id": "36bf-1622-35c1-81dc",
                 "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "infoLinks": [
+                "targetId": "d1d1-611e-5191-1095",
+                "type": "rule"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Deathwatch marksman bolt carbine",
+                "id": "17ef-9b38-6f0b-c397",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
                   {
-                    "name": "Precision",
-                    "id": "3fc3-a5dd-5b17-9757",
-                    "hidden": false,
-                    "targetId": "9143-31ae-e0a6-6007",
-                    "type": "rule"
-                  }
-                ],
-                "profiles": [
+                    "name": "Range",
+                    "$text": "24\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
                   {
-                    "name": "Combat knife",
-                    "id": "d945-19d5-cae6-187a",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "Melee",
-                        "typeId": "914c-b413-91e3-a132"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "4",
-                        "typeId": "2337-daa1-6682-b110"
-                      },
-                      {
-                        "name": "WS",
-                        "$text": "3+",
-                        "typeId": "95d1-95f-45b4-11d6"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "4",
-                        "typeId": "ab33-d393-96ce-ccba"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-1",
-                        "typeId": "41a0-1301-112a-e2f2"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "1",
-                        "typeId": "3254-9fe6-d824-513e"
-                      },
-                      {
-                        "name": "Keywords",
-                        "$text": "Precision",
-                        "typeId": "893f-9000-ccf7-648e"
-                      }
-                    ]
+                    "name": "A",
+                    "$text": "2",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "3+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "5",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-1",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "1",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Heavy, Lethal Hits",
+                    "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
               }
@@ -64465,10 +63881,10 @@
         ],
         "infoLinks": [
           {
-            "name": "Pistol",
+            "name": "Close-quarters",
             "id": "157e-4958-9ac5-1dd5",
             "hidden": false,
-            "targetId": "8bf7-8812-923d-29e4",
+            "targetId": "5238-5ad4-52f7-6eb4",
             "type": "rule"
           },
           {
@@ -64511,7 +63927,7 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
@@ -64526,7 +63942,7 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Pistol, Precision, Lethal Hits",
+                "$text": "Close-quarters, Lethal Hits, Precision",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -64579,6 +63995,43 @@
             ]
           }
         ],
+        "infoLinks": [
+          {
+            "name": "Deathwatch Veteran",
+            "id": "137e-7c32-1d12-8c52",
+            "hidden": false,
+            "targetId": "ec36-4160-f23b-de52",
+            "type": "profile",
+            "modifierGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "b2b6-a3c3-f77c-d8b7",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "df47-6883-78e7-d725",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "annotation",
+                    "type": "append",
+                    "value": "Storm Shield"
+                  },
+                  {
+                    "field": "55a7-5b54-c60d-11dc",
+                    "type": "set",
+                    "value": "4+"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "modifiers": [
           {
             "field": "name",
@@ -64593,57 +64046,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Deathwatch Veteran",
-            "id": "49e5-36f6-373f-3c05",
-            "hidden": false,
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "characteristics": [
-              {
-                "name": "M",
-                "$text": "6\"",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "name": "T",
-                "$text": "4",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "name": "Sv",
-                "$text": "3+",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "name": "W",
-                "$text": "2",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "name": "LD",
-                "$text": "6+",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "name": "OC",
-                "$text": "2",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "$text": "",
-                "typeId": "55a7-5b54-c60d-11dc"
-              },
-              {
-                "name": "Base",
-                "$text": "32mm",
-                "typeId": "nr-base-size"
               }
             ]
           }
@@ -64676,7 +64078,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Power weapon and Astartes shield",
+                "name": "Power weapon and Storm shield",
                 "id": "b2b6-a3c3-f77c-d8b7",
                 "hidden": false,
                 "import": true,
@@ -64693,7 +64095,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Astartes shield",
+                    "name": "Storm shield",
                     "id": "89c9-a8d2-7367-a7f3",
                     "hidden": false,
                     "import": true,
@@ -64720,7 +64122,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "Astartes shield",
+                        "name": "Storm shield",
                         "id": "753d-95fd-a67f-7d15",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -64728,7 +64130,7 @@
                         "characteristics": [
                           {
                             "name": "Description",
-                            "$text": "The bearer has a 4+ invulnerable save.",
+                            "$text": "This model has a 4+ InSv.",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ]
@@ -64806,7 +64208,7 @@
       {
         "name": "Power weapon",
         "id": "c0f6-f71c-269e-d033",
-        "comment": "Decimus Kill Team only",
+        "comment": "Aquila Kill Team only",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -64874,7 +64276,7 @@
               },
               {
                 "name": "D",
-                "$text": "2",
+                "$text": "1",
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
@@ -64932,11 +64334,11 @@
             ]
           },
           {
-            "name": "Close combat weapon",
+            "name": "Knives and Fists",
             "id": "2219-d7c4-7900-bf6b",
             "hidden": false,
             "import": true,
-            "targetId": "d831-660c-e45b-6b30",
+            "targetId": "4e5d-ae6d-316c-3465",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -64960,6 +64362,15 @@
             ]
           }
         ],
+        "infoLinks": [
+          {
+            "name": "Deathwatch Veteran",
+            "id": "aef4-b142-0d2f-bbe2",
+            "hidden": false,
+            "targetId": "ec36-4160-f23b-de52",
+            "type": "profile"
+          }
+        ],
         "modifiers": [
           {
             "field": "name",
@@ -64973,57 +64384,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Deathwatch Veteran",
-            "id": "25cb-01c6-7d70-9b49",
-            "hidden": false,
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "characteristics": [
-              {
-                "name": "M",
-                "$text": "6\"",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "name": "T",
-                "$text": "4",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "name": "Sv",
-                "$text": "3+",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "name": "W",
-                "$text": "2",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "name": "LD",
-                "$text": "6+",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "name": "OC",
-                "$text": "2",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "$text": "",
-                "typeId": "55a7-5b54-c60d-11dc"
-              },
-              {
-                "name": "Base",
-                "$text": "32mm",
-                "typeId": "nr-base-size"
               }
             ]
           }
@@ -65052,16 +64412,6 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Plasma incinerator",
-                "id": "159e-7f4d-5f85-685d",
-                "hidden": false,
-                "import": true,
-                "targetId": "313c-0c8f-db17-c947",
-                "type": "selectionEntry"
               }
             ],
             "selectionEntries": [
@@ -65140,6 +64490,129 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Plasma incinerator",
+                "id": "c839-f647-afdf-5151",
+                "collective": true,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "infoLinks": [
+                  {
+                    "name": "Assault",
+                    "id": "e036-19ba-eca8-15cd",
+                    "hidden": false,
+                    "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Rapid Fire",
+                    "id": "ee5a-a792-0c8e-29ef",
+                    "hidden": false,
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Hazardous",
+                    "id": "ea6a-01eb-0e21-1fe0",
+                    "hidden": false,
+                    "targetId": "8367-374c-f87-c627",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "➤ Plasma incinerator - Standard",
+                    "id": "6ea3-80b3-2bf0-deb9",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "24\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "2",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "7",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Assault, Rapid Fire 1",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Plasma incinerator - Supercharge",
+                    "id": "2bc6-7e65-7a25-6c46",
+                    "hidden": false,
+                    "page": 23,
+                    "publicationId": "4115-3627-e608-39f6",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "24\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "2",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "8",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-3",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Assault, Hazardous, Rapid Fire 1",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -65191,11 +64664,11 @@
             ]
           },
           {
-            "name": "Close combat weapon",
+            "name": "Knives and Fists",
             "id": "4eb1-3bc9-469d-b2b4",
             "hidden": false,
             "import": true,
-            "targetId": "d831-660c-e45b-6b30",
+            "targetId": "4e5d-ae6d-316c-3465",
             "type": "selectionEntry",
             "constraints": [
               {
@@ -65380,7 +64853,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "D3",
+                        "$text": "2",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -65405,27 +64878,8 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Blast, Heavy, Lethal Hits, Rapid Fire D3",
+                        "$text": "Blast 1, Heavy, Lethal Hits, Rapid Fire 1",
                         "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "3bb-c35f-f54-fb08",
-                        "join": "",
-                        "type": "append",
-                        "value": "+0",
-                        "conditions": [
-                          {
-                            "childId": "2801-9f1c-645d-cb3d",
-                            "field": "selections",
-                            "includeChildSelections": true,
-                            "scope": "self",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
-                          }
-                        ]
                       }
                     ]
                   }
@@ -65535,7 +64989,7 @@
                     ]
                   },
                   {
-                    "name": "Astartes grenade launcher",
+                    "name": "Grenade Launcher",
                     "id": "79f9-e88e-f676-4646",
                     "hidden": false,
                     "import": true,
@@ -65571,7 +65025,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "➤ Astartes grenade launcher - frag",
+                        "name": "➤ Grenade Launcher (Frag)",
                         "id": "f916-3803-9e80-855c",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -65584,7 +65038,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "D3",
+                            "$text": "4",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -65599,7 +65053,7 @@
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -65609,32 +65063,13 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Blast",
+                            "$text": "Blast 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "modifiers": [
-                          {
-                            "field": "3bb-c35f-f54-fb08",
-                            "join": "",
-                            "type": "append",
-                            "value": "+0",
-                            "conditions": [
-                              {
-                                "childId": "2801-9f1c-645d-cb3d",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "self",
-                                "shared": true,
-                                "type": "atLeast",
-                                "value": 1
-                              }
-                            ]
                           }
                         ]
                       },
                       {
-                        "name": "➤ Astartes grenade launcher - krak",
+                        "name": "➤ Grenade Launcher (Krak)",
                         "id": "d278-eb45-05da-c5c0",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -65657,7 +65092,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "9",
+                            "$text": "10",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
@@ -65667,11 +65102,12 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D3",
+                            "$text": "3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
                             "name": "Keywords",
+                            "$text": "Rapid Fire 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -65705,16 +65141,30 @@
                     "type": "rule"
                   },
                   {
-                    "name": "Ignores Cover",
+                    "name": "Heavy",
                     "id": "ba0e-c8ee-4eb7-67a0",
                     "hidden": false,
-                    "targetId": "4640-43e7-30b-215a",
+                    "targetId": "1202-10a8-78e9-4c67",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Rapid Fire",
+                    "id": "a1e2-63de-8383-42f4",
+                    "hidden": false,
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Blast",
+                    "id": "09e0-a756-1207-c9f0",
+                    "hidden": false,
+                    "targetId": "6c1f-1cf7-ff25-c99e",
                     "type": "rule"
                   }
                 ],
                 "profiles": [
                   {
-                    "name": "➤ Infernus heavy bolter - heavy bolter",
+                    "name": "➤ Infernus heavy bolter (Bolt)",
                     "id": "8fd1-4a0c-8303-8023",
                     "hidden": false,
                     "page": 29,
@@ -65754,13 +65204,13 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Sustained Hits 1",
+                        "$text": "Heavy, Rapid Fire 2, Sustained Hits 1",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
                   },
                   {
-                    "name": "➤ Infernus heavy bolter - heavy flamer",
+                    "name": "➤ Infernus heavy bolter (Infernus)",
                     "id": "dae9-7978-542e-6ce3",
                     "hidden": false,
                     "page": 29,
@@ -65775,12 +65225,12 @@
                       },
                       {
                         "name": "A",
-                        "$text": "D6",
+                        "$text": "3",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
                         "name": "BS",
-                        "$text": "N/A",
+                        "$text": "-",
                         "typeId": "94d-8a98-cf90-183e"
                       },
                       {
@@ -65800,27 +65250,8 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Ignores cover, Torrent",
+                        "$text": "Blast 1, Torrent",
                         "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "3bb-c35f-f54-fb08",
-                        "join": "",
-                        "type": "append",
-                        "value": "+0",
-                        "conditions": [
-                          {
-                            "childId": "2801-9f1c-645d-cb3d",
-                            "field": "selections",
-                            "includeChildSelections": true,
-                            "scope": "self",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
-                          }
-                        ]
                       }
                     ]
                   }
@@ -65859,44 +65290,6 @@
         ],
         "entryLinks": [
           {
-            "name": "Plasma pistol",
-            "id": "1b3d-bef6-3ab1-18fa",
-            "hidden": false,
-            "import": true,
-            "targetId": "6621-5cb3-3938-22b2",
-            "type": "selectionEntry",
-            "constraints": [
-              {
-                "id": "af68-ac52-3d4d-0e45",
-                "field": "selections",
-                "includeChildSelections": false,
-                "scope": "parent",
-                "shared": true,
-                "type": "min",
-                "value": 1
-              },
-              {
-                "id": "d24c-aa46-bc5e-3f12",
-                "field": "selections",
-                "includeChildSelections": false,
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Weapon Modifications",
-                "id": "fea3-5414-2b0f-0802",
-                "hidden": false,
-                "import": true,
-                "targetId": "f9da-852a-d7f0-92e9",
-                "type": "selectionEntryGroup"
-              }
-            ]
-          },
-          {
             "name": "Power weapon",
             "id": "df2f-feb2-e08e-b0ce",
             "hidden": false,
@@ -65930,7 +65323,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -65962,6 +65355,148 @@
                 "name": "Base",
                 "$text": "32mm",
                 "typeId": "nr-base-size"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Plasma pistol",
+            "id": "836d-658b-1c36-5fd3",
+            "collective": true,
+            "hidden": false,
+            "import": true,
+            "page": 29,
+            "publicationId": "4115-3627-e608-39f6",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "52db-11d8-5745-0344-min",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "52db-11d8-5745-0344-max",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Hazardous",
+                "id": "675a-7c46-eb84-a7e0",
+                "hidden": false,
+                "targetId": "8367-374c-f87-c627",
+                "type": "rule"
+              },
+              {
+                "name": "Close-quarters",
+                "id": "a29b-8c59-07a9-c726",
+                "hidden": false,
+                "targetId": "5238-5ad4-52f7-6eb4",
+                "type": "rule"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "➤ Plasma pistol - Standard",
+                "id": "fc23-c8e1-da41-4b9f",
+                "hidden": false,
+                "page": 29,
+                "publicationId": "4115-3627-e608-39f6",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "12\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "1",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "3+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "7",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-2",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "1",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Close-quarters",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
+              },
+              {
+                "name": "➤ Plasma pistol - Supercharge",
+                "id": "0f4c-2701-4199-a35d",
+                "hidden": false,
+                "page": 29,
+                "publicationId": "4115-3627-e608-39f6",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "12\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "1",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "3+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "8",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-3",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "2",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Close-quarters, Hazardous",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
               }
             ]
           }
@@ -66429,21 +65964,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the ^^**Imperium^^** or ^^**Chaos^^** keywords, you can re-roll the Hit roll instead.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Attached Unit",
-            "id": "f3c2-d90e-028f-d356",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "If a ^^**Character^^** unit from your army can be attached to a ^^**Deathwatch Kill Team^^** unit, it can be attached to this unit instead.",
+                "$text": "This unit's attacks can:\n- Re-roll hit rolls of 1.\n- Or: If the target of those attacks does not have IMPERIUM/CHAOS, re-roll hit rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -66894,6 +66415,15 @@
                         "type": "selectionEntry"
                       }
                     ],
+                    "infoLinks": [
+                      {
+                        "name": "Deathwatch Veteran",
+                        "id": "9f7d-c654-6d0b-8f09",
+                        "hidden": false,
+                        "targetId": "ec36-4160-f23b-de52",
+                        "type": "profile"
+                      }
+                    ],
                     "selectionEntries": [
                       {
                         "name": "Xenophase blade",
@@ -66989,7 +66519,7 @@
         "name": "Bolt pistol",
         "id": "ecff-abf8-a4b0-7882",
         "collective": true,
-        "comment": "Decimus Kill Team",
+        "comment": "S5",
         "hidden": false,
         "import": true,
         "page": 29,
@@ -66997,17 +66527,10 @@
         "type": "upgrade",
         "infoLinks": [
           {
-            "name": "Pistol",
+            "name": "Close-quarters",
             "id": "818d-bcb2-c0f0-3cc4",
             "hidden": false,
-            "targetId": "8bf7-8812-923d-29e4",
-            "type": "rule"
-          },
-          {
-            "name": "Lethal Hits",
-            "id": "088f-8216-3e3a-c456",
-            "hidden": false,
-            "targetId": "d1d1-611e-5191-1095",
+            "targetId": "5238-5ad4-52f7-6eb4",
             "type": "rule"
           }
         ],
@@ -67038,12 +66561,12 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "2229-f494-25db-c5d3"
               },
               {
                 "name": "AP",
-                "$text": "0",
+                "$text": "-1",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -67053,7 +66576,7 @@
               },
               {
                 "name": "Keywords",
-                "$text": "Pistol, Lethal Hits",
+                "$text": "Close-quarters",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -69962,6 +69485,147 @@
               {
                 "name": "Keywords",
                 "$text": "Rapid Fire 2",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Knives and Fists",
+        "id": "4e5d-ae6d-316c-3465",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "4681-e346-021c-f583-min",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "4681-e346-021c-f583-max",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Knives and Fists",
+            "id": "d915-429b-fd8d-327c",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {
+                "name": "Range",
+                "$text": "Melee",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "name": "A",
+                "$text": "3",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "name": "WS",
+                "$text": "3+",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "name": "S",
+                "$text": "5",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "name": "AP",
+                "$text": "0",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "$text": "",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "id": "2cb9-cb94-0ddd-bde4",
+        "collective": true,
+        "comment": "Deathwatch",
+        "hidden": false,
+        "import": true,
+        "page": 11,
+        "publicationId": "4115-3627-e608-39f6",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "f8c8-dfec-061a-7771",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Boltgun",
+            "id": "a002-2e86-5858-30bd",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {
+                "name": "Range",
+                "$text": "24\"",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "name": "A",
+                "$text": "2",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "name": "BS",
+                "$text": "3+",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "name": "S",
+                "$text": "4",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "name": "AP",
+                "$text": "0",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "name": "Keywords",
+                "$text": "\n",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
