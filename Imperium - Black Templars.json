@@ -2222,7 +2222,7 @@
                       },
                       {
                         "name": "Base",
-                        "$text": "32mm",
+                        "$text": "40mm",
                         "typeId": "nr-base-size"
                       }
                     ]

@@ -33540,6 +33540,39 @@
             "shared": true,
             "type": "max",
             "value": 3
+          },
+          {
+            "id": "20dd-f24b-17f6-28ef",
+            "childId": "any",
+            "field": "f759-1bc4-cb3a-f0d2",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "message": "An Attached Unit can only take 1 Enhancement.",
+            "scope": "root-entry",
+            "shared": true,
+            "traverseAssociationGroup": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6f8b-1025-0d14-2497",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "Leader",
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "154b-4bd5-16e0-6b36",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "Support",
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 1
           }
         ],
         "costs": [
@@ -35174,6 +35207,15 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "categoryLinks": [
+                          {
+                            "name": "Torrent Weapon",
+                            "id": "4162-3729-aa9f-9259",
+                            "hidden": false,
+                            "primary": false,
+                            "targetId": "064a-0470-60eb-e3ef"
+                          }
+                        ],
                         "constraints": [
                           {
                             "id": "6c2f-4b6d-a6ef-0118",
@@ -35600,6 +35642,15 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "categoryLinks": [
+                          {
+                            "name": "Torrent Weapon",
+                            "id": "4ee0-1e9a-15e4-4488",
+                            "hidden": false,
+                            "primary": false,
+                            "targetId": "064a-0470-60eb-e3ef"
+                          }
+                        ],
                         "constraints": [
                           {
                             "id": "12a8-e105-85a4-57bf",
@@ -59396,6 +59447,15 @@
                     "import": true,
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Ignores Cover",
+                    "id": "8b08-1e2f-8a06-8c8a",
+                    "hidden": false,
+                    "targetId": "4640-43e7-30b-215a",
+                    "type": "rule"
                   }
                 ]
               },
@@ -96571,28 +96631,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
-            "modifiers": [
-              {
-                "affects": "entries.group.recursive.profiles.Unit",
-                "field": "55a7-5b54-c60d-11dc",
-                "type": "set",
-                "value": "5+ vs Ranged"
-              }
-            ]
           }
         ],
         "modifiers": [
@@ -99026,28 +99064,6 @@
                     "value": 1
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "and",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ],
-            "modifiers": [
-              {
-                "affects": "entries.group.recursive.profiles.Unit",
-                "field": "55a7-5b54-c60d-11dc",
-                "type": "set",
-                "value": "5+ vs Ranged"
               }
             ]
           }
@@ -151204,6 +151220,25 @@
                 "$text": "Blast 2",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "type": "append",
+                "value": "Ignores Cover",
+                "conditions": [
+                  {
+                    "childId": "ca80-dc11-448e-c805",
+                    "childName": "Storm Speeder Hailstrike",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -172837,121 +172872,23 @@
                     ]
                   }
                 ],
-                "modifiers": [
+                "profiles": [
                   {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
+                    "name": "War-tempered Artifice",
+                    "id": "81be-a540-7410-a9b2",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
                       {
-                        "id": "7735-d059-9dd6-8850",
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-1fb1-015a-b02f",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-2a11-c917-f621",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-2bed-c0f4-7351",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-34ee-3e09-dec1",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-5755-e319-387b",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-8303-99e0-4eca",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-873a-91a3-09db",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-9fcc-2114-81a4",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-b34e-74ec-e85a",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-bc34-0648-b621",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-c53c-f4de-d70e",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-c606-1b0c-5197",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
+                        "name": "Description",
+                        "$text": "Adeptus Astartes model only. This model’s melee attacks have:\n\n\n▪ +1S.\n▪ +1D.",
+                        "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
-                  },
+                  }
+                ],
+                "modifiers": [
                   {
                     "conditionGroups": [
                       {
@@ -172994,22 +172931,6 @@
                     "type": "set",
                     "value": true,
                     "comment": "Only an unlocked enhancement shows outside its detachment (Forgefather's Seekers Enhancements)"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "War-tempered Artifice",
-                    "id": "81be-a540-7410-a9b2",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "Adeptus Astartes model only. This model’s melee attacks have:\n\n\n▪ +1S.\n▪ +1D.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
                   }
                 ]
               },
@@ -188865,7 +188786,7 @@
                 "modifiers": [
                   {
                     "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
-                    "field": "893f-9000-ccf7-648e",
+                    "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "parent",
                     "skipIfPresent": "Lethal Hits",
@@ -190313,23 +190234,120 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
+                "modifiers": [
                   {
-                    "name": "Spearpoint War Leader",
-                    "id": "e9aa-b8de-1dee-06a7",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
                       {
-                        "name": "Description",
-                        "$text": "Tacticus model only. This unit has Scouts 6\"",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "childId": "5179-8ede-45e3-49a2",
+                        "childName": "Tacticus",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1fb1-015a-b02f",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2a11-c917-f621",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2bed-c0f4-7351",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-34ee-3e09-dec1",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5755-e319-387b",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8303-99e0-4eca",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-873a-91a3-09db",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9fcc-2114-81a4",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-b34e-74ec-e85a",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-bc34-0648-b621",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c53c-f4de-d70e",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c606-1b0c-5197",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
                       }
                     ]
-                  }
-                ],
-                "modifiers": [
+                  },
                   {
                     "conditions": [
                       {
@@ -190358,6 +190376,22 @@
                     "type": "set",
                     "value": true,
                     "comment": "Only an unlocked enhancement shows outside its detachment (Tacticus Attack Force Enhancements)"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Spearpoint War Leader",
+                    "id": "e9aa-b8de-1dee-06a7",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Tacticus model only. This unit has Scouts 6\"",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ]
               }
@@ -192290,6 +192324,15 @@
                     "value": 0
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "name": "Scouts 5\"",
+                    "id": "9dc8-c0d2-2729-8910",
+                    "hidden": false,
+                    "targetId": "b4d7-ba95-ed79-bafe",
+                    "type": "rule"
+                  }
+                ],
                 "modifiers": [
                   {
                     "field": "hidden",
@@ -192444,7 +192487,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Gravis model only. This unit had Scouts 6\"",
+                        "$text": "Gravis model only. This unit had Scouts 5\"",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -197608,7 +197651,7 @@
                     "value": "5e10-6d62-2624-80a8"
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "affects": "self.entries.recursive.profiles.Unit",
                     "field": "d29d-cf75-fc2d-34a4",
                     "join": ", ",
                     "scope": "parent",

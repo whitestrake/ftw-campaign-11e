@@ -1952,6 +1952,13 @@
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
             "type": "rule"
+          },
+          {
+            "name": "Transhuman Strategist",
+            "id": "fb6d-15be-b722-45e5",
+            "hidden": false,
+            "targetId": "c6cc-c38c-dfe6-dbb8",
+            "type": "rule"
           }
         ],
         "modifiers": [
@@ -6583,6 +6590,13 @@
             "id": "9ce8-597b-228c-febb",
             "primary": false,
             "targetId": "b927-8eeb-7cc3-8dec"
+          },
+          {
+            "name": "Speeder",
+            "id": "5c37-076d-c4f0-c029",
+            "hidden": false,
+            "primary": false,
+            "targetId": "966c-5300-a13d-f524"
           }
         ],
         "constraints": [
