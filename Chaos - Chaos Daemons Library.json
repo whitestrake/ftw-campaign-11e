@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -55463,7 +55463,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Psychic",
+                    "$text": "Hazardous, Psychic",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
