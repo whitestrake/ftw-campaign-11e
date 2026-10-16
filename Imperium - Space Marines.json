@@ -70122,7 +70122,7 @@
                                   },
                                   {
                                     "name": "A",
-                                    "$text": "3",
+                                    "$text": "4",
                                     "typeId": "3bb-c35f-f54-fb08"
                                   },
                                   {
@@ -149429,6 +149429,26 @@
                 "$text": "Rapid Fire 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries",
+                "field": "3bb-c35f-f54-fb08",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "caed-a62d-2318-dda1",
+                    "childName": "Death Company Marines",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           },
           {
@@ -151224,6 +151244,7 @@
             "modifiers": [
               {
                 "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
                 "type": "append",
                 "value": "Ignores Cover",
                 "conditions": [
