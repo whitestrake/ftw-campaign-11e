@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 13,
+    "revision": 14,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1453,6 +1453,20 @@
             "name": "Base",
             "$text": "40mm",
             "typeId": "nr-base-size"
+          }
+        ]
+      },
+      {
+        "name": "Death Totem",
+        "id": "a661-be27-a2d2-caa7",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This unit's melee attacks can re-roll **hit rolls** of 1.",
+            "typeId": "9b8f-694b-e5e-b573"
           }
         ]
       }
@@ -4615,7 +4629,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -4659,7 +4673,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of the first battle round, you select up to one enemy ^^**Character/Monster/Vehicle**^^ unit to be this unit's slayer's oath:\n\n- This unit's attacks that target this unit's slayer's oath can ignore modifiers to your unit's:\n- BS and WS.\n- Hit rolls.",
+                "$text": "At the start of the first battle round, you select up to one enemy ^^**Character/Monster/Vehicle**^^ unit to be this unit's **slayer's oath**:\n\n- This unit's attacks that target this unit's **slayer's oath** can ignore modifiers to your unit's:\n- BS and WS.\n- Hit rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -15871,7 +15885,7 @@
                         "id": "5a23-b62b-b8dc-d0ac",
                         "hidden": false,
                         "import": true,
-                        "targetId": "2fb0-97d5-262d-b992",
+                        "targetId": "eb61-5cd0-5242-74cc",
                         "type": "selectionEntry",
                         "constraints": [
                           {
@@ -16108,7 +16122,7 @@
                     "id": "b6f2-98d2-c0a1-7012",
                     "hidden": false,
                     "import": true,
-                    "targetId": "ac72-81fa-ea32-15fe",
+                    "targetId": "eb61-5cd0-5242-74cc",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -16807,7 +16821,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "The bearer has a Wounds characteristic of 4.",
+                "$text": "This model has +1 W.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -18186,27 +18200,18 @@
                 ],
                 "infoLinks": [
                   {
+                    "name": "Death Totem",
+                    "id": "eb74-2bd1-0ecb-7a6a",
+                    "hidden": false,
+                    "targetId": "a661-be27-a2d2-caa7",
+                    "type": "profile"
+                  },
+                  {
                     "name": "Wulfen",
                     "id": "e496-fd57-1bfb-c9f5",
                     "hidden": false,
                     "targetId": "37b7-5de8-9df6-352e",
                     "type": "profile"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Death Totem",
-                    "id": "a661-be27-a2d2-caa7",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "This unit's melee attacks can re-roll hit rolls of 1.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
                   }
                 ]
               }
@@ -19972,6 +19977,15 @@
                 "import": true,
                 "sortIndex": 2,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "e2f4-4d8c-244f-9582",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "7e7b-ed78-7dd1-6320",
@@ -20135,6 +20149,15 @@
                 "import": true,
                 "sortIndex": 3,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "e941-4f06-d287-0fdd",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "7e7b-ed78-7dd1-6320",
@@ -20207,7 +20230,7 @@
                     "id": "3341-a855-c37f-301d",
                     "hidden": false,
                     "import": true,
-                    "targetId": "beac-9df8-7247-c8ab",
+                    "targetId": "4e7f-360f-88a6-5f62",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -20291,6 +20314,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "6e7b-8afd-d579-4d01",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "7e7b-ed78-7dd1-6320",
@@ -20461,7 +20493,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "The bearer has a 4+ invulnerable save.",
+                "$text": "This model has a 4+ InSv.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -26648,26 +26680,8 @@
                 ],
                 "conditions": [
                   {
-                    "childId": "5624-6cb8-fa73-779e",
-                    "childName": "Blood Claws",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "447f-4fc0-7630-a9f7",
-                    "childName": "Grey Hunters",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "9b96-72d9-2828-f182",
-                    "childName": "Wolf Guard Headtakers",
+                    "childId": "200a-c333-3440-f3ca",
+                    "childName": "Long Fangs",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -29042,26 +29056,8 @@
                 ],
                 "conditions": [
                   {
-                    "childId": "5624-6cb8-fa73-779e",
-                    "childName": "Blood Claws",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "447f-4fc0-7630-a9f7",
-                    "childName": "Grey Hunters",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "9b96-72d9-2828-f182",
-                    "childName": "Wolf Guard Headtakers",
+                    "childId": "200a-c333-3440-f3ca",
+                    "childName": "Long Fangs",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -31048,7 +31044,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
+                "$text": "While this model is within 3\" of a friendly ^^**Space Wolves Vehicle**^^ unit, this model has **Lone Operative**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -31062,7 +31058,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, select one ranged weapon equipped by that model to have the [RAPID FIRE 1] ability. Each model can only be selected for this ability or Blessing of the Omnissiah ability once per turn.",
+                "$text": "In your Movement phase, at the start or end of this unit's move, select up to one friendly Space Wolves Vehicle model within 3\" of this model:\n- That ^^**Vehicle**^^ model **heals** D3 wounds.\n- That ^^**Vehicle**^^ model’s attacks can ignore modifiers to **hit rolls** and **wound rolls** until the start of your next Movement phase.\n\nYou cannot select the same ^^**Vehicle**^^ model for this ability more than once per phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -31090,7 +31086,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the wound roll.",
+                "$text": "This model's attacks that target an enemy unit engaged with a friendly ^^**Space Wolves Vehicle**^^ can re-roll wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -39019,22 +39015,13 @@
                     "hidden": false,
                     "targetId": "4d37-d7fc-0aab-1345",
                     "type": "profile"
-                  }
-                ],
-                "profiles": [
+                  },
                   {
                     "name": "Death Totem",
-                    "id": "970c-3a08-c8df-0557",
+                    "id": "31dc-eca1-0bf6-4018",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "Each time the bearer makes a melee attack, re-roll a hit roll of 1.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
+                    "targetId": "a661-be27-a2d2-caa7",
+                    "type": "profile"
                   }
                 ]
               },
@@ -42935,7 +42922,7 @@
               },
               {
                 "name": "S",
-                "$text": "5",
+                "$text": "8",
                 "typeId": "ab33-d393-96ce-ccba"
               },
               {

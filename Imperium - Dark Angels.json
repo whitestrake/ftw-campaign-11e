@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 8,
+    "revision": 9,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1087,6 +1087,17 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4e0-4cf8-e8b5-726",
+                    "childName": "Terminator Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -2623,13 +2634,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Psychic Hood",
-            "id": "cab8-fb88-9e2f-363e",
-            "hidden": false,
-            "targetId": "116b-b23c-4ea4-30ed",
-            "type": "profile"
-          },
-          {
             "name": "Combat Doctrines",
             "id": "b624-4c53-c98f-376d",
             "hidden": false,
@@ -2771,6 +2775,20 @@
                 "name": "Descriptions",
                 "$text": "When an enemy unit targets this unit, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n\n- On a 1, this unit is battle-shocked.\n- Attacks that target this unit have -1 to hit rolls until the end of the phase.",
                 "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Psychic Hood (Ezekiel)",
+            "id": "69c2-11d4-7d1e-5346",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds.",
+                "typeId": "9b8f-694b-e5e-b573"
               }
             ]
           }
@@ -5513,24 +5531,6 @@
                 "import": true,
                 "targetId": "a879-624d-42ab-2b43",
                 "type": "selectionEntry"
-              },
-              {
-                "name": "Twin heavy bolter",
-                "id": "69db-958d-3081-1c54",
-                "hidden": false,
-                "import": true,
-                "targetId": "d107-1e89-9d3f-c9c7",
-                "type": "selectionEntry",
-                "entryLinks": [
-                  {
-                    "name": "Weapon Modifications",
-                    "id": "5ab1-3f8d-3d97-fc6e",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f9da-852a-d7f0-92e9",
-                    "type": "selectionEntryGroup"
-                  }
-                ]
               }
             ],
             "selectionEntries": [
@@ -5632,13 +5632,105 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Avenger mega bolter",
+                "id": "4c0b-95dd-62ef-dc02",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "f2f1-5c12-db46-49b7-min",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "f2f1-5c12-db46-49b7-max",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "1ace-2543-a82f-2054",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Sustained Hits",
+                    "id": "c60c-fb5f-af46-f56d",
+                    "hidden": false,
+                    "targetId": "1897-c22c-9597-12b1",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Avenger mega bolter",
+                    "id": "8692-a94f-2cf1-eeda",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "10",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "5",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-1",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Sustained Hits 1",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "selectionEntryGroups": [
               {
                 "name": "Main Weapon",
                 "id": "3e1a-7875-611e-5b3d",
-                "defaultSelectionEntryId": "4c0b-95dd-62ef-dc02",
+                "defaultSelectionEntryId": "69db-958d-3081-1c54",
                 "hidden": false,
                 "constraints": [
                   {
@@ -5658,89 +5750,27 @@
                     "value": 1
                   }
                 ],
-                "selectionEntries": [
+                "entryLinks": [
                   {
-                    "name": "Avenger mega bolter",
-                    "id": "4c0b-95dd-62ef-dc02",
+                    "name": "Twin heavy bolter",
+                    "id": "69db-958d-3081-1c54",
                     "hidden": false,
                     "import": true,
-                    "type": "upgrade",
-                    "constraints": [
-                      {
-                        "id": "c4a3-1075-f47-1889",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
+                    "targetId": "d107-1e89-9d3f-c9c7",
+                    "type": "selectionEntry",
                     "entryLinks": [
                       {
                         "name": "Weapon Modifications",
-                        "id": "1ace-2543-a82f-2054",
+                        "id": "5ab1-3f8d-3d97-fc6e",
                         "hidden": false,
                         "import": true,
                         "targetId": "f9da-852a-d7f0-92e9",
                         "type": "selectionEntryGroup"
                       }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Sustained Hits",
-                        "id": "c60c-fb5f-af46-f56d",
-                        "hidden": false,
-                        "targetId": "1897-c22c-9597-12b1",
-                        "type": "rule"
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Avenger mega bolter",
-                        "id": "8692-a94f-2cf1-eeda",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "36\"",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "10",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "name": "BS",
-                            "$text": "3+",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "5",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-1",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "2",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "name": "Keywords",
-                            "$text": "Sustained Hits 1",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ]
-                      }
                     ]
-                  },
+                  }
+                ],
+                "selectionEntries": [
                   {
                     "name": "Nephilim lascannons",
                     "id": "c0e3-e130-a578-3fe3",

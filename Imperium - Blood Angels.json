@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 6,
+    "revision": 7,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -9781,6 +9781,16 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "entryLinks": [
+          {
+            "name": "Weapon Modifications",
+            "id": "011b-f597-8cc1-cede",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "infoLinks": [
           {
             "name": "Twin-linked",
@@ -9843,6 +9853,16 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "entryLinks": [
+          {
+            "name": "Weapon Modifications",
+            "id": "a5f0-bcfe-8ac1-9f40",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "infoLinks": [
           {
             "name": "Twin-linked",
@@ -12515,6 +12535,13 @@
                 ],
                 "entryLinks": [
                   {
+                    "name": "Encarmine Weapon",
+                    "id": "f692-a013-963c-f5d8",
+                    "hidden": false,
+                    "targetId": "ea88-e1ef-7a7f-533d",
+                    "type": "selectionEntry"
+                  },
+                  {
                     "name": "Terminator Honours upgrade",
                     "id": "d232-3cbe-01fa-7a47",
                     "hidden": false,
@@ -12610,88 +12637,6 @@
                   }
                 ],
                 "selectionEntries": [
-                  {
-                    "name": "Encarmine Weapon",
-                    "id": "ea88-e1ef-7a7f-533d",
-                    "hidden": false,
-                    "import": true,
-                    "type": "upgrade",
-                    "constraints": [
-                      {
-                        "id": "c505-183c-bd92-afb2-min",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "c505-183c-bd92-afb2-max",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Lance",
-                        "id": "aa2f-ca13-ba4f-f13a",
-                        "hidden": false,
-                        "targetId": "2ebc-abdf-8129-6c57",
-                        "type": "rule"
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Encarmine Weapon",
-                        "id": "3981-32e4-157b-6ece",
-                        "hidden": false,
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "Melee",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "4",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "name": "WS",
-                            "$text": "2+",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "6",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "2",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "name": "Keywords",
-                            "$text": "Lance",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ]
-                      }
-                    ]
-                  },
                   {
                     "name": "Angelus Boltgun",
                     "id": "f64-f4db-cee7-c077",
@@ -12865,6 +12810,14 @@
                         "type": "selectionEntryGroup"
                       }
                     ]
+                  },
+                  {
+                    "name": "Encarmine Weapon",
+                    "id": "32da-239a-5374-e95d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "ea88-e1ef-7a7f-533d",
+                    "type": "selectionEntry"
                   }
                 ],
                 "modifiers": [
@@ -12948,90 +12901,6 @@
                         "name": "Base",
                         "$text": "",
                         "typeId": "nr-base-size"
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Encarmine Weapon",
-                    "id": "4af6-5525-f86d-d15d",
-                    "hidden": false,
-                    "import": true,
-                    "type": "upgrade",
-                    "constraints": [
-                      {
-                        "id": "dff2-835c-6674-55ee-min",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "dff2-835c-6674-55ee-max",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Lance",
-                        "id": "8cf0-9a0c-907f-d547",
-                        "hidden": false,
-                        "targetId": "2ebc-abdf-8129-6c57",
-                        "type": "rule"
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Encarmine Weapon",
-                        "id": "744a-bde9-7e7d-2664",
-                        "hidden": false,
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "Melee",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "4",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "name": "WS",
-                            "$text": "2+",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "6",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "2",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "name": "Keywords",
-                            "$text": "Lance",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ]
                       }
                     ]
                   }
@@ -23374,6 +23243,98 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Encarmine Weapon",
+        "id": "ea88-e1ef-7a7f-533d",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "c505-183c-bd92-afb2-min",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "c505-183c-bd92-afb2-max",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Weapon Modifications",
+            "id": "129e-c57d-211a-c6c6",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Lance",
+            "id": "aa2f-ca13-ba4f-f13a",
+            "hidden": false,
+            "targetId": "2ebc-abdf-8129-6c57",
+            "type": "rule"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Encarmine Weapon",
+            "id": "3981-32e4-157b-6ece",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {
+                "name": "Range",
+                "$text": "Melee",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "name": "A",
+                "$text": "4",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "name": "WS",
+                "$text": "2+",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "name": "S",
+                "$text": "6",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "name": "AP",
+                "$text": "-2",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "$text": "Lance",
+                "typeId": "893f-9000-ccf7-648e"
               }
             ]
           }

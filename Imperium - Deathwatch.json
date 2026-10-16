@@ -13818,7 +13818,27 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "efbd-2915-b637-83f8",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "3499-8dac-40fb-682e-min",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "3499-8dac-40fb-682e-max",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
