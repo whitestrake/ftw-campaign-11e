@@ -2110,7 +2110,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2.",
+                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4416,7 +4416,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "2",
+                                "$text": "3",
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
