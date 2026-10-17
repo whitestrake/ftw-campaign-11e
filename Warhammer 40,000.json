@@ -2150,7 +2150,7 @@
         "name": "Army Roster",
         "id": "bb9d-299a-ed60-2d8a",
         "hidden": false,
-        "readme": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
+        "readme": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
         "categoryLinks": [
           {
             "name": "Configuration",
@@ -3202,7 +3202,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -3219,7 +3219,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "#Adeptus Custodes will not be updated with the points from MFM v1.6 until at least 17th October when their Codex is released.\n\n\n#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -9230,35 +9230,6 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Blade Imperator",
-                    "id": "c4a1-2cd0-21b0-5be9",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-2b91-7205-d11b",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
                     "name": "Inspirational Exemplar",
                     "id": "c4a1-0e87-04f5-039b",
                     "hidden": false,
@@ -9288,12 +9259,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Martial Philosopher",
-                    "id": "c4a1-dfeb-927d-9a4c",
+                    "name": "Shroud of the Hidden Blade",
+                    "id": "c4a1-f788-43f2-d708",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-d475-118c-c2aa",
+                        "id": "c4a1-3c7f-300e-9154",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -9317,12 +9288,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Veiled Blade",
-                    "id": "c4a1-a6a4-8287-f014",
+                    "name": "Superior Creation",
+                    "id": "c4a1-7d96-00f3-4500",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-d2fc-5907-77e5",
+                        "id": "c4a1-f556-ac62-ed5a",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -20849,6 +20820,102 @@
                 ]
               },
               {
+                "name": "Grav-Assault Force",
+                "id": "c4a1-1de2-e65a-16e2",
+                "hidden": false,
+                "collapsible": true,
+                "flatten": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-577b-e0f3-8934",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1,
+                    "message": "Unlocked enhancements must come from different detachments."
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Only for armies that can take this detachment",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "1f19-6509-d906-ca10",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Anti-Gravitic Mobility",
+                    "id": "c4a1-e542-79d2-aa6f",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-6f6b-00c1-d5e7",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Combat Deployment",
+                    "id": "c4a1-dbc4-65d4-e3ee",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-3ccf-e123-9f96",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Gravis Linebreaker Force",
                 "id": "c4a1-ad7d-7ea1-3826",
                 "hidden": false,
@@ -21606,6 +21673,160 @@
                     "constraints": [
                       {
                         "id": "c4a1-2008-3ced-7d6c",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guardians of the Throne",
+                "id": "c4a1-b93e-01e7-cfc3",
+                "hidden": false,
+                "collapsible": true,
+                "flatten": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-5654-2d2a-2627",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1,
+                    "message": "Unlocked enhancements must come from different detachments."
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Only for armies that can take this detachment",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "1f19-6509-d906-ca10",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Bane of Abominations",
+                    "id": "c4a1-0d16-50fd-5ebd",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-acef-51f7-7289",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Castellan's Mark",
+                    "id": "c4a1-bab0-e8f9-d96b",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-3bb7-4194-34a7",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Eagle's Eye",
+                    "id": "c4a1-8de3-c998-c9cc",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-665b-4e13-82e5",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Emperor's Light",
+                    "id": "c4a1-d2c7-8d27-7896",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-452e-3b6b-8517",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -25745,12 +25966,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Admonimortis",
-                    "id": "c4a1-33c8-ed1f-9fd4",
+                    "name": "Leonine Ferocity",
+                    "id": "c4a1-e3fa-2c3b-650f",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-a7c4-91b8-1dfd",
+                        "id": "c4a1-d0d3-61a3-042e",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -25774,70 +25995,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Fierce Conqueror",
-                    "id": "c4a1-5e3f-f301-4ebf",
+                    "name": "Lightning Descent",
+                    "id": "c4a1-e014-eef4-9723",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-7ce6-4bc7-db6b",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Praesidius",
-                    "id": "c4a1-9e1e-b00c-1104",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-e45a-838f-8bc4",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Superior Creation",
-                    "id": "c4a1-0def-5b41-65d3",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-199a-d2d7-6c29",
+                        "id": "c4a1-46ac-bdd2-3229",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -27391,12 +27554,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Auramite Sarcophagus",
-                    "id": "c4a1-2868-12db-d65a",
+                    "name": "Augury Uplink",
+                    "id": "c4a1-f7f3-242f-9609",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-098f-8c17-174f",
+                        "id": "c4a1-8be6-0ae1-12de",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -27420,12 +27583,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Interred Expertise",
-                    "id": "c4a1-d12a-c74d-5687",
+                    "name": "Memento Moritoi",
+                    "id": "c4a1-ee59-1ba4-f632",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-07c9-4a8e-5e18",
+                        "id": "c4a1-f163-a582-594e",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -28199,41 +28362,12 @@
                   {
                     "type": "upgrade",
                     "import": true,
-                    "name": "Enhanced Voidsheen Cloak",
-                    "id": "c4a1-4e44-24bc-978c",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-9400-09ba-a199",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
                     "name": "Huntress' Eye",
-                    "id": "c4a1-9d07-ea3c-a589",
+                    "id": "c4a1-3106-7234-d136",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-4c37-bc35-850c",
+                        "id": "c4a1-4afa-7a73-28da",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -28258,40 +28392,11 @@
                     "type": "upgrade",
                     "import": true,
                     "name": "Oblivion Knight",
-                    "id": "c4a1-cd24-be68-2bb7",
+                    "id": "c4a1-7161-1918-1400",
                     "hidden": false,
                     "constraints": [
                       {
-                        "id": "c4a1-5ad1-66aa-d1e0",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Raptor Blade",
-                    "id": "c4a1-d774-2355-b214",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-f424-51c4-26e6",
+                        "id": "c4a1-319d-eb6f-2040",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -33984,160 +34089,6 @@
                 ]
               },
               {
-                "name": "Shield Host",
-                "id": "c4a1-7659-7631-ced9",
-                "hidden": false,
-                "collapsible": true,
-                "flatten": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-833e-b3f3-7279",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1,
-                    "message": "Unlocked enhancements must come from different detachments."
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Only for armies that can take this detachment",
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "1f19-6509-d906-ca10",
-                        "field": "selections",
-                        "scope": "primary-catalogue",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Auric Mantle",
-                    "id": "c4a1-6d3a-51e5-674e",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-6562-397c-7b3b",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Castellan's Mark",
-                    "id": "c4a1-c93c-8bd1-ab89",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-8010-7fdc-0f15",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "From the Hall of Armouries",
-                    "id": "c4a1-a13e-4f38-229f",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-9c18-baf2-5c09",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Panoptispex",
-                    "id": "c4a1-07e9-f4f8-9098",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-b098-39da-b68a",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Shoota Boyz",
                 "id": "c4a1-2569-9d5f-03c1",
                 "hidden": false,
@@ -34365,102 +34316,6 @@
                     "constraints": [
                       {
                         "id": "c4a1-9c8b-b476-2ebf",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Silent Hunters",
-                "id": "c4a1-4228-ef7d-0aa4",
-                "hidden": false,
-                "collapsible": true,
-                "flatten": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-293f-d935-81e1",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1,
-                    "message": "Unlocked enhancements must come from different detachments."
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Only for armies that can take this detachment",
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "1f19-6509-d906-ca10",
-                        "field": "selections",
-                        "scope": "primary-catalogue",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Encircling Hunter",
-                    "id": "c4a1-60b4-c28d-146f",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-bc00-ee60-c9d3",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Psyk-out Grenades",
-                    "id": "c4a1-9acd-1185-1559",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-2d3c-70bb-49e6",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -34998,160 +34853,6 @@
                     "constraints": [
                       {
                         "id": "c4a1-4f0e-17d9-7af7",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Solar Spearhead",
-                "id": "c4a1-3793-1466-7129",
-                "hidden": false,
-                "collapsible": true,
-                "flatten": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-8002-af9f-edb7",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1,
-                    "message": "Unlocked enhancements must come from different detachments."
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Only for armies that can take this detachment",
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "1f19-6509-d906-ca10",
-                        "field": "selections",
-                        "scope": "primary-catalogue",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Adamantine Talisman",
-                    "id": "c4a1-d9ea-d79d-610a",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-d2c8-3a2d-c3a1",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Augury Uplink",
-                    "id": "c4a1-5e98-ed4c-9abb",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-fba1-b814-ecae",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Honoured Fallen (Aura)",
-                    "id": "c4a1-b31d-d22f-1cce",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-8152-5832-2cf5",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Veteran of the Kataphraktoi",
-                    "id": "c4a1-3179-bcd4-f413",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-9cd7-743a-6a50",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
@@ -37651,160 +37352,6 @@
                 ]
               },
               {
-                "name": "Talons of the Emperor",
-                "id": "c4a1-e831-728b-2fbb",
-                "hidden": false,
-                "collapsible": true,
-                "flatten": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-d092-d438-d924",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1,
-                    "message": "Unlocked enhancements must come from different detachments."
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Only for armies that can take this detachment",
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "1f19-6509-d906-ca10",
-                        "field": "selections",
-                        "scope": "primary-catalogue",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Aegis Projector",
-                    "id": "c4a1-7668-6e9a-908e",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-025a-faaf-5690",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Champion of the Imperium",
-                    "id": "c4a1-dc2a-e5f2-2b0e",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-de46-6237-5053",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Gift of Terran Artifice",
-                    "id": "c4a1-e31c-2c33-d190",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-dd82-2ec2-9868",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Radiant Mantle",
-                    "id": "c4a1-3304-aca0-ee10",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-bf65-d8b8-dffc",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Talons of the Norn Queen",
                 "id": "c4a1-e0e1-be7f-42da",
                 "hidden": false,
@@ -38062,102 +37609,6 @@
                     "constraints": [
                       {
                         "id": "c4a1-4e4f-5997-b89a",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tharanatoi Hammerblow",
-                "id": "c4a1-3ae5-011f-5124",
-                "hidden": false,
-                "collapsible": true,
-                "flatten": false,
-                "constraints": [
-                  {
-                    "id": "c4a1-49d0-1984-f10d",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1,
-                    "message": "Unlocked enhancements must come from different detachments."
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Only for armies that can take this detachment",
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "1f19-6509-d906-ca10",
-                        "field": "selections",
-                        "scope": "primary-catalogue",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Efficient Aggression",
-                    "id": "c4a1-ca0f-13b2-ff26",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-8be1-7219-0ae8",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancement Unlocks",
-                        "typeId": "c4a1-5eed-3000-0060",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Mnemo-locked Shrine Cipher",
-                    "id": "c4a1-22f5-1541-d289",
-                    "hidden": false,
-                    "constraints": [
-                      {
-                        "id": "c4a1-8b18-3665-f79e",
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
