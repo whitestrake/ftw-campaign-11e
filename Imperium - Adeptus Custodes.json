@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -917,7 +917,7 @@
             ]
           },
           {
-            "name": "Martial Ka'tahs",
+            "name": "Rendax",
             "id": "4873-0eff-94d4-509f",
             "hidden": false,
             "typeId": "1035-7e68-261a-1e2d",
@@ -3192,8 +3192,8 @@
                     "value": 1
                   },
                   {
-                    "childId": "48b1-935f-d394-5370",
-                    "childName": "Sagittarum Custodians",
+                    "childId": "ef86-875c-d111-78f6",
+                    "childName": "Sentinel Guard Sodality",
                     "field": "selections",
                     "queryFromSelf": false,
                     "scope": "self",
@@ -4574,12 +4574,12 @@
                 "characteristics": [
                   {
                     "name": "M",
-                    "$text": "6\"",
+                    "$text": "8\"",
                     "typeId": "e703-ecb6-5ce7-aec1"
                   },
                   {
                     "name": "T",
-                    "$text": "6",
+                    "$text": "7",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -4589,17 +4589,17 @@
                   },
                   {
                     "name": "W",
-                    "$text": "3",
+                    "$text": "5",
                     "typeId": "750a-a2ec-90d3-21fe"
                   },
                   {
                     "name": "LD",
-                    "$text": "6+",
+                    "$text": "5+",
                     "typeId": "58d2-b879-49c7-43bc"
                   },
                   {
                     "name": "OC",
-                    "$text": "2",
+                    "$text": "3",
                     "typeId": "bef7-942a-1a23-59f8"
                   },
                   {
@@ -5383,12 +5383,12 @@
                 "characteristics": [
                   {
                     "name": "M",
-                    "$text": "6\"",
+                    "$text": "8\"",
                     "typeId": "e703-ecb6-5ce7-aec1"
                   },
                   {
                     "name": "T",
-                    "$text": "6",
+                    "$text": "7",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -5398,7 +5398,7 @@
                   },
                   {
                     "name": "W",
-                    "$text": "3",
+                    "$text": "5",
                     "typeId": "750a-a2ec-90d3-21fe"
                   },
                   {
@@ -5408,7 +5408,7 @@
                   },
                   {
                     "name": "OC",
-                    "$text": "2",
+                    "$text": "3",
                     "typeId": "bef7-942a-1a23-59f8"
                   },
                   {
@@ -5481,15 +5481,15 @@
         "type": "model",
         "associations": [
           {
-            "name": "Leading",
+            "name": "Supporting",
             "id": "bd66-13e6-7e0c-af5a",
             "action": "group",
             "childId": "unit",
             "childName": "unit",
             "includeChildSelections": true,
-            "label": "Leader",
+            "label": "Supported By",
             "max": 1,
-            "min": 0,
+            "min": 1,
             "scope": "force",
             "sortIndex": 4,
             "conditionGroups": [
@@ -5731,10 +5731,10 @@
             "type": "profile"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "cbe3-0a7b-ffd7-5d29",
             "hidden": false,
-            "targetId": "b4dd-3e1f-41cb-218f",
+            "targetId": "3342-2180-9c5d-925f",
             "type": "rule"
           },
           {
@@ -6027,7 +6027,7 @@
             ]
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "101b-4770-32be-d3a2",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -10192,6 +10192,13 @@
             "hidden": false,
             "targetId": "faec-8b1b-5a21-0087",
             "type": "rule"
+          },
+          {
+            "name": "Feel No Pain 5+",
+            "id": "3355-d222-7973-a6d7",
+            "hidden": false,
+            "targetId": "5e10-6d62-2624-80a8",
+            "type": "rule"
           }
         ],
         "profiles": [
@@ -10281,9 +10288,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "id": "6ce7-db1f-e8d-7489",
-                "$text": "Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase:\n■ This model's Watcher's Axe melee weapon has an Attacks characteristic of 12.\n■ This model has a 2+ invulnerable save.",
-                "hidden": false,
+                "$text": "At the start of any phase, you can select one of the following to take effect until the end of the phase:\n- This model’s Watcher’s Axe weapon has +3 A.\n- This model has 3+ InSv.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -12154,13 +12159,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Martial Ka'tah",
-            "id": "08dc-2f40-b618-1cd9",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
-          {
             "name": "Deadly Demise",
             "id": "b037-45da-d349-af6",
             "hidden": false,
@@ -13127,6 +13125,15 @@
             "sortIndex": 1,
             "targetId": "dffe-91f2-f156-0566",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "9a5d-891f-4f9c-3f5e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "a43b-fe98-3d93-435d",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -13491,7 +13498,7 @@
             "defaultSelectionEntryId": "6e14-a825-faf0-b220",
             "hidden": false,
             "import": true,
-            "sortIndex": 2,
+            "sortIndex": 3,
             "constraints": [
               {
                 "id": "1a1e-b432-be95-44c4",
@@ -14670,6 +14677,13 @@
             "hidden": false,
             "targetId": "8ef2-30ad-3fc1-f7e4",
             "type": "rule"
+          },
+          {
+            "name": "Daughters of the Abyss",
+            "id": "a40a-a3ee-d39f-9bce",
+            "hidden": false,
+            "targetId": "20d7-959d-9ddd-0c14",
+            "type": "rule"
           }
         ],
         "modifierGroups": [
@@ -14987,7 +15001,7 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 3
+                    "value": 4
                   },
                   {
                     "id": "ed50-7395-653b-9212",
@@ -14998,7 +15012,7 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 9
+                    "value": 10
                   }
                 ],
                 "costs": [
@@ -16676,6 +16690,15 @@
             "sortIndex": 1,
             "targetId": "dffe-91f2-f156-0566",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "564b-47cb-fd41-adc9",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "a43b-fe98-3d93-435d",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -16985,6 +17008,7 @@
             "collective": false,
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "type": "model",
             "constraints": [
               {
@@ -17028,7 +17052,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "6",
+                    "$text": "8",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -17038,12 +17062,12 @@
                   },
                   {
                     "name": "W",
-                    "$text": "4",
+                    "$text": "9",
                     "typeId": "750a-a2ec-90d3-21fe"
                   },
                   {
                     "name": "LD",
-                    "$text": "6+",
+                    "$text": "5+",
                     "typeId": "58d2-b879-49c7-43bc"
                   },
                   {
@@ -17633,6 +17657,15 @@
             "sortIndex": 1,
             "targetId": "dffe-91f2-f156-0566",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "872f-fbfc-769b-e69d",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "a43b-fe98-3d93-435d",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -17956,6 +17989,7 @@
             "collective": false,
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "type": "model",
             "constraints": [
               {
@@ -20768,13 +20802,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Martial Ka'tah",
-            "id": "afaf-6f6f-5626-dc1f",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
-          {
             "name": "Deadly Demise",
             "id": "f6fc-4db5-18b6-ef46",
             "hidden": false,
@@ -22162,7 +22189,7 @@
                               },
                               {
                                 "name": "WS",
-                                "$text": "3+",
+                                "$text": "2+",
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
@@ -22809,13 +22836,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Martial Ka'tah",
-            "id": "074d-7652-084a-bcf7",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
-          {
             "name": "Deadly Demise",
             "id": "30bd-917b-b4cb-790c",
             "hidden": false,
@@ -23300,7 +23320,27 @@
                 "import": true,
                 "sortIndex": 2,
                 "targetId": "2693-63bf-611f-37fe",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "2085-927f-2db0-7f94-min",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "2085-927f-2db0-7f94-max",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "selectionEntryGroups": [
@@ -23470,13 +23510,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Martial Ka'tah",
-            "id": "1179-f287-0409-be6f",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
           {
             "name": "Deadly Demise",
             "id": "feb9-98d5-9281-ee2a",
@@ -24333,13 +24366,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Martial Ka'tah",
-            "id": "759d-dcb9-ffc4-b854",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
           {
             "name": "Deadly Demise",
             "id": "8c31-5865-edc9-ea0a",
@@ -30345,7 +30371,7 @@
               },
               {
                 "name": "A",
-                "$text": "4",
+                "$text": "3",
                 "typeId": "2337-daa1-6682-b110"
               },
               {
@@ -31730,7 +31756,7 @@
         ],
         "profiles": [
           {
-            "name": "Dread Foe",
+            "name": "Reap a Terrible Tally",
             "id": "6536-90dc-a12d-cbb2",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -31738,7 +31764,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This unit's melee attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP.",
+                "$text": "This unit’s attacks that target an Infantry unit can:\n- Re‑roll hit rolls of 1.\n- Re‑roll wound rolls of 1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -32231,6 +32257,15 @@
             "sortIndex": 1,
             "targetId": "dffe-91f2-f156-0566",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "66db-c774-badf-d09f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "a43b-fe98-3d93-435d",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -32572,6 +32607,7 @@
             "collective": false,
             "hidden": false,
             "import": true,
+            "sortIndex": 2,
             "type": "model",
             "constraints": [
               {
@@ -33288,13 +33324,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Martial Ka'tah",
-            "id": "fda7-5ee0-8766-dda7",
-            "hidden": false,
-            "targetId": "e348-7090-3aff-ee2c",
-            "type": "rule"
-          },
           {
             "name": "Deadly Demise",
             "id": "ea70-d961-1726-8adb",
@@ -34039,51 +34068,57 @@
             "characteristics": [
               {
                 "name": "Range",
-                "id": "95e-8d2a-d2b6-ce04",
                 "$text": "Melee",
-                "hidden": false,
                 "typeId": "914c-b413-91e3-a132"
               },
               {
                 "name": "A",
-                "id": "37bf-c707-6f20-b0a4",
                 "$text": "3",
-                "hidden": false,
                 "typeId": "2337-daa1-6682-b110"
               },
               {
                 "name": "WS",
-                "id": "7443-828a-6af8-be5b",
-                "$text": "2+",
-                "hidden": false,
+                "$text": "3+",
                 "typeId": "95d1-95f-45b4-11d6"
               },
               {
                 "name": "S",
-                "id": "aa92-aa56-6de7-2b77",
                 "$text": "3",
-                "hidden": false,
                 "typeId": "ab33-d393-96ce-ccba"
               },
               {
                 "name": "AP",
-                "id": "f793-8a63-90ea-56b8",
                 "$text": "0",
-                "hidden": false,
                 "typeId": "41a0-1301-112a-e2f2"
               },
               {
                 "name": "D",
-                "id": "3717-2906-af77-faef",
                 "$text": "1",
-                "hidden": false,
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
                 "name": "Keywords",
-                "id": "4379-e65b-8165-5114",
-                "hidden": false,
+                "$text": "",
                 "typeId": "893f-9000-ccf7-648e"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "95d1-95f-45b4-11d6",
+                "type": "set",
+                "value": "2+",
+                "conditions": [
+                  {
+                    "childId": "bdc7-75fc-ca0b-cb27",
+                    "childName": "Knight-Centura",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -37613,11 +37648,31 @@
                             "value": 1
                           },
                           {
-                            "childId": "cd6a-aae4-acca-d3ac",
-                            "childName": "Solar Watch",
+                            "childId": "dbe4-0a6f-4eb5-5f06",
+                            "childName": "Honoured Companions",
                             "field": "selections",
                             "includeChildSelections": true,
                             "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-59f5-4771-4a55",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5382-9dfa-185b",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
                             "shared": true,
                             "type": "lessThan",
                             "value": 1
@@ -37776,6 +37831,82 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "cac3-71d1-ea4b-795d",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "dbe4-0a6f-4eb5-5f06",
+                                "childName": "Honoured Companions",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-5382-9dfa-185b",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [],
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "eea5-aeaf-bbf0-d5ee",
+                                    "childName": "Faction: Adeptus Custodes",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-6b14-3233-f655",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Honoured Companions Enhancements)"
                   }
                 ],
                 "profiles": [
@@ -37920,6 +38051,82 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "cac3-71d1-ea4b-795d",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "dbe4-0a6f-4eb5-5f06",
+                                "childName": "Honoured Companions",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-59f5-4771-4a55",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [],
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "eea5-aeaf-bbf0-d5ee",
+                                    "childName": "Faction: Adeptus Custodes",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "c4a1-6b14-3233-f655",
+                                    "field": "selections",
+                                    "scope": "ancestor",
+                                    "shared": true,
+                                    "type": "notInstanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "comment": "Only an unlocked enhancement shows outside its detachment (Honoured Companions Enhancements)"
                   }
                 ],
                 "profiles": [

@@ -23274,6 +23274,102 @@
                 ]
               },
               {
+                "name": "Honoured Companions",
+                "id": "c4a1-2053-7c07-b3cb",
+                "hidden": false,
+                "collapsible": true,
+                "flatten": false,
+                "constraints": [
+                  {
+                    "id": "c4a1-8e40-68a2-95e2",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1,
+                    "message": "Unlocked enhancements must come from different detachments."
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Only for armies that can take this detachment",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "1f19-6509-d906-ca10",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Arae-shrike",
+                    "id": "c4a1-5382-9dfa-185b",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-290f-4d2a-7f39",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Celeritous Sentries",
+                    "id": "c4a1-59f5-4771-4a55",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "c4a1-a415-792c-10d5",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancement Unlocks",
+                        "typeId": "c4a1-5eed-3000-0060",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Host of Ascension",
                 "id": "c4a1-3703-9141-cab3",
                 "hidden": false,
