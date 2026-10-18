@@ -133579,6 +133579,13 @@
                     "hidden": false,
                     "primary": false,
                     "targetId": "9bb1-7b6c-326a-da2c"
+                  },
+                  {
+                    "name": "Character",
+                    "id": "7922-5cfe-1c85-a87f",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "9cfd-1c32-585f-7d5c"
                   }
                 ],
                 "constraints": [
@@ -133707,6 +133714,14 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "name": "Enhancements",
+                    "id": "864f-e223-c737-fdad",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9e5d-de4c-c5d1-1d3e",
+                    "type": "selectionEntryGroup"
                   }
                 ],
                 "profiles": [
@@ -155693,7 +155708,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -162373,7 +162387,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -168578,7 +168591,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -187768,7 +187780,6 @@
                 ],
                 "modifiers": [
                   {
-                    "affects": "self.entries",
                     "field": "hidden",
                     "type": "set",
                     "value": true,
@@ -188801,7 +188812,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -193969,7 +193979,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -194678,123 +194687,230 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "and",
-                        "conditions": [
+                        "type": "or",
+                        "conditions": [],
+                        "conditionGroups": [
                           {
-                            "childId": "9cfd-1c32-585f-7d5c",
-                            "childName": "Character",
-                            "field": "selections",
-                            "includeChildSelections": true,
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "9cfd-1c32-585f-7d5c",
+                                "childName": "Character",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-1fb1-015a-b02f",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-2a11-c917-f621",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-2bed-c0f4-7351",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-34ee-3e09-dec1",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-5755-e319-387b",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-8303-99e0-4eca",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-873a-91a3-09db",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-9fcc-2114-81a4",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-b34e-74ec-e85a",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-bc34-0648-b621",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-c53c-f4de-d70e",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-c606-1b0c-5197",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
                           },
                           {
-                            "childId": "cf47-a0d7-7207-29dc",
-                            "childName": "Infantry",
-                            "field": "selections",
-                            "includeChildSelections": true,
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-1fb1-015a-b02f",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-2a11-c917-f621",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-2bed-c0f4-7351",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-34ee-3e09-dec1",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-5755-e319-387b",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-8303-99e0-4eca",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-873a-91a3-09db",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-9fcc-2114-81a4",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-b34e-74ec-e85a",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-bc34-0648-b621",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-c53c-f4de-d70e",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
-                          },
-                          {
-                            "childId": "c4a1-c606-1b0c-5197",
-                            "field": "selections",
-                            "scope": "ancestor",
-                            "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "cf47-a0d7-7207-29dc",
+                                "childName": "Infantry",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-1fb1-015a-b02f",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-2a11-c917-f621",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-2bed-c0f4-7351",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-34ee-3e09-dec1",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-5755-e319-387b",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-8303-99e0-4eca",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-873a-91a3-09db",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-9fcc-2114-81a4",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-b34e-74ec-e85a",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-bc34-0648-b621",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-c53c-f4de-d70e",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "c4a1-c606-1b0c-5197",
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "notInstanceOf",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }

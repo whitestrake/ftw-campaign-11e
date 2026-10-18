@@ -9898,17 +9898,17 @@
             "type": "model",
             "categoryLinks": [
               {
-                "name": "Character",
-                "id": "3c4a-c9d9-c8c1-2b7b",
-                "hidden": false,
-                "primary": false,
-                "targetId": "9cfd-1c32-585f-7d5c"
-              },
-              {
                 "name": "Ravenwing",
                 "id": "8a39-41ce-65fe-038c",
                 "primary": false,
                 "targetId": "e9c7-1590-1bda-bf7f"
+              },
+              {
+                "name": "Character",
+                "id": "cb7e-23b5-879a-640e",
+                "hidden": false,
+                "primary": false,
+                "targetId": "9cfd-1c32-585f-7d5c"
               }
             ],
             "constraints": [
