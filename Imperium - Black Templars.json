@@ -4291,6 +4291,23 @@
                                 ]
                               }
                             ]
+                          },
+                          {
+                            "field": "error",
+                            "type": "add",
+                            "value": "Max 2 {this} per 4 models",
+                            "conditions": [
+                              {
+                                "childId": "9dc6-6ad8-818e-db2e",
+                                "childName": "Hand flamer",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "206c-6b4d-4aaa-7e79",
+                                "shared": true,
+                                "type": "greaterThan",
+                                "value": 4
+                              }
+                            ]
                           }
                         ]
                       }

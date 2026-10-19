@@ -12022,7 +12022,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, DESOLATION SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD",
+                "$text": "This model can be attached to the following units: \nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]

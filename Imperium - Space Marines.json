@@ -30512,24 +30512,41 @@
             "affects": "self.entries",
             "field": "error",
             "type": "add",
-            "value": "All models must replace their Vanguard Veteran Weapon and Bolt pistol",
+            "value": "All models must replace their Heavy Bolt Pistols with Combat Shields",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "3b8f-1cb7-3c6e-4455",
+                        "childName": "Heavy Bolt Pistol",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "25c2-104f-fa0c-809e",
+                        "childName": "Plasma pistol",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
-                    "childId": "6854-cb18-b20b-42f4",
-                    "childName": "Master-crafted Power Weapon",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "9e9c-bf4d-2d40-be82",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "d466-dd6c-f7bd-6fea",
-                    "childName": "Vanguard Veteran Weapon",
+                    "childId": "6c69-8684-8f59-b2bb",
+                    "childName": "Combat Shield",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "9e9c-bf4d-2d40-be82",
@@ -93653,6 +93670,15 @@
                     "shared": true,
                     "type": "instanceOf",
                     "value": 1
+                  },
+                  {
+                    "childId": "c54b-f947-7ccb-745",
+                    "childName": "Scout Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -96773,6 +96799,15 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "893f-9000-ccf7-648e",
+            "join": ", ",
+            "scope": "parent",
+            "skipIfPresent": "Lance",
+            "type": "append",
+            "value": "Lance"
           }
         ],
         "profiles": [
@@ -97644,6 +97679,15 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "893f-9000-ccf7-648e",
+            "join": ", ",
+            "scope": "parent",
+            "skipIfPresent": "Lance",
+            "type": "append",
+            "value": "Lance"
           }
         ],
         "profiles": [
@@ -98412,6 +98456,15 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "893f-9000-ccf7-648e",
+            "join": ", ",
+            "scope": "parent",
+            "skipIfPresent": "Lance",
+            "type": "append",
+            "value": "Lance"
           }
         ],
         "profiles": [
@@ -99208,6 +99261,15 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "893f-9000-ccf7-648e",
+            "join": ", ",
+            "scope": "parent",
+            "skipIfPresent": "Lance",
+            "type": "append",
+            "value": "Lance"
           }
         ],
         "profiles": [
@@ -156462,23 +156524,34 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Standard of the Emperor Ascendant",
-                    "id": "f52e-c2ae-4dd1-8964",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase. ",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ],
                 "modifiers": [
+                  {
+                    "affects": "self.entries.recursive.profiles.Unit",
+                    "field": "bef7-942a-1a23-59f8",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Lance",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.recursive.profiles.Unit",
+                    "field": "58d2-b879-49c7-43bc",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Lance",
+                    "type": "decrement",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.recursive.rules",
+                    "field": "add-info",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Lance",
+                    "type": "add",
+                    "value": "5e10-6d62-2624-80a8"
+                  },
                   {
                     "conditionGroups": [
                       {
@@ -156521,6 +156594,22 @@
                     "type": "set",
                     "value": true,
                     "comment": "Only an unlocked enhancement shows outside its detachment (Gladius Task Force Enhancements)"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Standard of the Emperor Ascendant",
+                    "id": "f52e-c2ae-4dd1-8964",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase. ",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
                   }
                 ]
               }
