@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -29930,6 +29930,7 @@
               {
                 "affects": "self.entries.recursive.profiles.Unit",
                 "field": "55a7-5b54-c60d-11dc",
+                "position": 2,
                 "type": "decrement",
                 "value": 2,
                 "conditions": [
@@ -29944,13 +29945,6 @@
                     "value": 1
                   }
                 ]
-              },
-              {
-                "affects": "self.entries.recursive.profiles.Unit",
-                "arg": "*",
-                "field": "55a7-5b54-c60d-11dc",
-                "type": "replace",
-                "value": ""
               }
             ]
           },
@@ -38466,7 +38460,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound.",
+                "$text": "In your Movement phase, when this unit ends a normal move, select up to one enemy unit this unit moved over during that move and roll six D6:\n\n\n- For each 4+, that unit suffers 1 mortal wound.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -38666,12 +38660,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
+                        "$text": "-1",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -38683,6 +38677,78 @@
                         "name": "Keywords",
                         "$text": "Rapid Fire 6, Twin-Linked",
                         "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Auspex array",
+                "id": "feb2-612b-1953-a82b",
+                "hidden": false,
+                "import": true,
+                "page": 19,
+                "publicationId": "4115-3627-e608-39f6",
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "841d-538f-5762-5f97",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "4447-8d4e-3e81-b9e7-min",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "4447-8d4e-3e81-b9e7-max",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Ignores Cover",
+                    "id": "661d-002a-4d35-4749",
+                    "hidden": false,
+                    "targetId": "4640-43e7-30b-215a",
+                    "type": "rule"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "scope": "parent",
+                    "type": "append",
+                    "value": "Ignores Cover"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Auspex Array",
+                    "id": "d65f-02cb-036a-f6b3",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.",
+                        "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
                   }
@@ -38746,10 +38812,10 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Devastating Wounds",
+                        "name": "Sustained Hits",
                         "id": "4d17-b5e4-52c4-9c7b",
                         "hidden": false,
-                        "targetId": "be1e-ac8e-1e2c-3528",
+                        "targetId": "1897-c22c-9597-12b1",
                         "type": "rule"
                       },
                       {
@@ -38792,7 +38858,7 @@
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-2",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -38802,7 +38868,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Devastating Wounds, Twin-Linked",
+                            "$text": "Sustained Hits 1, Twin-Linked",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -38883,7 +38949,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+1",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -39002,7 +39068,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6+1",
+                                "$text": "4",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -39027,7 +39093,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Blast",
+                                "$text": "Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -39137,115 +39203,6 @@
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wargear",
-                "id": "3775-8817-2178-e1ca",
-                "hidden": false,
-                "page": 20,
-                "publicationId": "4115-3627-e608-39f6",
-                "constraints": [
-                  {
-                    "id": "cd42-e9c7-0275-1b2a",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Auspex array",
-                    "id": "feb2-612b-1953-a82b",
-                    "hidden": false,
-                    "import": true,
-                    "page": 19,
-                    "publicationId": "4115-3627-e608-39f6",
-                    "type": "upgrade",
-                    "constraints": [
-                      {
-                        "id": "841d-538f-5762-5f97",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Ignores Cover",
-                        "id": "661d-002a-4d35-4749",
-                        "hidden": false,
-                        "targetId": "4640-43e7-30b-215a",
-                        "type": "rule"
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Auspex Array",
-                        "id": "d65f-02cb-036a-f6b3",
-                        "hidden": false,
-                        "typeId": "9cc3-6d83-4dd3-9b64",
-                        "typeName": "Abilities",
-                        "characteristics": [
-                          {
-                            "name": "Description",
-                            "$text": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.",
-                            "typeId": "9b8f-694b-e5e-b573"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Infernum halo-launcher",
-                    "id": "88ad-d328-02dc-598b",
-                    "hidden": false,
-                    "import": true,
-                    "page": 19,
-                    "publicationId": "4115-3627-e608-39f6",
-                    "type": "upgrade",
-                    "categoryLinks": [
-                      {
-                        "name": "Smoke",
-                        "id": "693d-dbd4-5897-1921",
-                        "hidden": false,
-                        "primary": false,
-                        "targetId": "6df-937-16bc-8c1a"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "id": "fe74-9018-f4d6-c760",
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "name": "Infernum Halo-launcher",
-                        "id": "ebc9-d057-a4d2-2301",
-                        "hidden": false,
-                        "page": 19,
-                        "publicationId": "4115-3627-e608-39f6",
-                        "typeId": "9cc3-6d83-4dd3-9b64",
-                        "typeName": "Abilities",
-                        "characteristics": [
-                          {
-                            "name": "Description",
-                            "$text": "The bearer has the SMOKE keyword.",
-                            "typeId": "9b8f-694b-e5e-b573"
                           }
                         ]
                       }
