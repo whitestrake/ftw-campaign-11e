@@ -25210,16 +25210,9 @@
                 "id": "a36b-bb22-1a15-2a48",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 4,
+                "sortIndex": 3,
                 "type": "upgrade",
                 "categoryLinks": [
-                  {
-                    "name": "Priority Assets",
-                    "id": "a7ec-fd51-9de4-b30e",
-                    "hidden": false,
-                    "primary": false,
-                    "targetId": "0936-9767-1cc7-52ae"
-                  },
                   {
                     "name": "Purge the Foe",
                     "id": "7fc2-e21d-60e6-73de",
@@ -25295,7 +25288,7 @@
                 "id": "3b75-a700-050c-06f5",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 5,
+                "sortIndex": 6,
                 "type": "upgrade",
                 "categoryLinks": [
                   {
@@ -25373,7 +25366,7 @@
                 "id": "1bb5-5aba-6c8f-7afc",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 6,
+                "sortIndex": 7,
                 "type": "upgrade",
                 "categoryLinks": [
                   {
@@ -25543,7 +25536,7 @@
                 "id": "dbe4-0a6f-4eb5-5f06",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 3,
+                "sortIndex": 5,
                 "type": "upgrade",
                 "categoryLinks": [
                   {
@@ -25621,7 +25614,7 @@
                 "id": "ccb7-6823-6a97-7c19",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 7,
+                "sortIndex": 4,
                 "type": "upgrade",
                 "categoryLinks": [
                   {

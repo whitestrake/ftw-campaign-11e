@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -96804,7 +96804,6 @@
             "affects": "self.entries.group.recursive.profiles.Melee Weapons",
             "field": "893f-9000-ccf7-648e",
             "join": ", ",
-            "scope": "parent",
             "skipIfPresent": "Lance",
             "type": "append",
             "value": "Lance"
@@ -97684,7 +97683,6 @@
             "affects": "self.entries.group.recursive.profiles.Melee Weapons",
             "field": "893f-9000-ccf7-648e",
             "join": ", ",
-            "scope": "parent",
             "skipIfPresent": "Lance",
             "type": "append",
             "value": "Lance"
@@ -98461,7 +98459,6 @@
             "affects": "self.entries.group.recursive.profiles.Melee Weapons",
             "field": "893f-9000-ccf7-648e",
             "join": ", ",
-            "scope": "parent",
             "skipIfPresent": "Lance",
             "type": "append",
             "value": "Lance"

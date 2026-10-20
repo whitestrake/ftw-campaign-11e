@@ -7553,23 +7553,6 @@
                 ]
               }
             ]
-          },
-          {
-            "field": "warning",
-            "type": "add",
-            "value": "The points are not incorrect for this, the MFM says per Multi-melta. this tank comes with 2 by default. Each one costs 10 points. Do not report this as an error, it will not be fixed. Check the box to remove this error and confirm you have read this. ",
-            "conditions": [
-              {
-                "childId": "664e-e178-ab57-901c",
-                "childName": "Clear Warning",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "parent",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              }
-            ]
           }
         ],
         "profiles": [
@@ -7633,26 +7616,6 @@
                 "name": "Description",
                 "$text": "This unit’s ranged attacks that target a unit within 12\" of this unit have +1 S.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          }
-        ],
-        "selectionEntries": [
-          {
-            "name": "Clear Warning",
-            "id": "664e-e178-ab57-901c",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
-              {
-                "id": "e2f6-559c-d143-2d91",
-                "field": "selections",
-                "includeChildSelections": false,
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
               }
             ]
           }
