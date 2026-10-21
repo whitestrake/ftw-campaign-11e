@@ -104291,7 +104291,7 @@
         ],
         "entryLinks": [
           {
-            "name": "Detachments",
+            "name": "Detachment",
             "id": "128c-b8b7-52f5-b487",
             "hidden": false,
             "import": true,
@@ -133025,7 +133025,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "■ Trigger: When an eligible unit from your army is selected to fight.\n■ Effect: Until the end of the phase, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".",
+                "$text": "- **TRIGGER**: When an eligible unit from your army ends a **charge move**.\n- **EFFECT**: Until the end of the turn, each time a model in that unit makes a **pile‑in** or **consolidation move**, it can move up to 6\" instead of up to 3\".",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
