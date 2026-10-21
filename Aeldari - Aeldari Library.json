@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -152992,7 +152992,7 @@
         ]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "7466-16bc-8db6-814",
         "defaultSelectionEntryId": "none",
         "hidden": false,
