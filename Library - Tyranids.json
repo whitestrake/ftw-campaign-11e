@@ -32424,7 +32424,7 @@
               {
                 "name": "Feed the Swarm",
                 "id": "0442-1dce-2f22-5bbc",
-                "description": "n your Command phase, each **HARVESTER** unit from your army can Regenerate one friendly **TYRANIDS** unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\n▪ One model in that unit regains up to D3+1 lost wounds.\n▪ One destroyed **INFANTRY** model (excluding **CHARACTERS**) is returned to that unit with its full wounds remaining. If that unit is an **ENDLESS MULTITUDE** unit, up to 3 destroyed models are returned instead.",
+                "description": "In your Command phase, each **HARVESTER** unit from your army can Regenerate one friendly **TYRANIDS** unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\n▪ One model in that unit regains up to D3+1 lost wounds.\n▪ One destroyed **INFANTRY** model (excluding **CHARACTERS**) is returned to that unit with its full wounds remaining. If that unit is an **ENDLESS MULTITUDE** unit, up to 3 destroyed models are returned instead.",
                 "hidden": false
               }
             ]
