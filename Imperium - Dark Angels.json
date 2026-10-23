@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 9,
+    "revision": 10,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -8417,6 +8417,15 @@
                 "page": 31,
                 "sortIndex": 1,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "eeef-3bb8-0778-6380",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "fff6-7df7-38c2-2c9b",
@@ -8581,6 +8590,15 @@
                 "import": true,
                 "sortIndex": 2,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "185d-a27f-3051-1ae8",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "ace-8c04-ae93-b15e",
@@ -8777,6 +8795,15 @@
                 "page": 31,
                 "sortIndex": 3,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "20e2-aee0-68ed-cc62",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "d874-d20e-83a7-d9cf",
@@ -9070,7 +9097,7 @@
           {
             "name": "Mounted",
             "id": "2ec0-34cd-5ef1-bb73",
-            "primary": true,
+            "primary": false,
             "targetId": "14a0-40c9-2748-ae6e"
           },
           {
@@ -9115,6 +9142,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e33d-891d-33aa-e9bf"
+          },
+          {
+            "name": "Character",
+            "id": "384d-8cca-1410-06a4",
+            "hidden": false,
+            "primary": true,
+            "targetId": "9cfd-1c32-585f-7d5c"
           }
         ],
         "constraints": [
@@ -9251,13 +9285,28 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Enhancements",
-            "id": "65e7-89fb-c223-523b",
+            "name": "Hardened Wargear: Toughness",
+            "id": "c4a1-2593-ac4a-b436",
             "hidden": false,
             "import": true,
-            "sortIndex": 5,
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "type": "selectionEntryGroup"
+            "targetId": "c4a1-5eed-3100-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hardened Wargear: Save",
+            "id": "c4a1-fb43-1524-2e26",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-5eed-3200-0000",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Campaign Enhancement Slot",
+            "id": "c4a1-0163-5eb5-2fd5",
+            "hidden": false,
+            "import": true,
+            "targetId": "c4a1-bc34-0648-b621",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -9540,6 +9589,15 @@
             "publicationId": "3931-1b04-c00e-afad",
             "sortIndex": 2,
             "type": "model",
+            "categoryLinks": [
+              {
+                "name": "Mounted",
+                "id": "aa09-33f5-535b-f02b",
+                "hidden": false,
+                "primary": false,
+                "targetId": "14a0-40c9-2748-ae6e"
+              }
+            ],
             "constraints": [
               {
                 "id": "958f-4673-8838-2c20",
@@ -9683,6 +9741,15 @@
             "publicationId": "3931-1b04-c00e-afad",
             "sortIndex": 3,
             "type": "model",
+            "categoryLinks": [
+              {
+                "name": "Mounted",
+                "id": "7667-c398-9759-0f60",
+                "hidden": false,
+                "primary": false,
+                "targetId": "14a0-40c9-2748-ae6e"
+              }
+            ],
             "constraints": [
               {
                 "id": "f83-3811-d5eb-9b7b",
@@ -9909,6 +9976,13 @@
                 "hidden": false,
                 "primary": false,
                 "targetId": "9cfd-1c32-585f-7d5c"
+              },
+              {
+                "name": "Mounted",
+                "id": "1b8a-f396-85f4-a0fa",
+                "hidden": false,
+                "primary": false,
+                "targetId": "14a0-40c9-2748-ae6e"
               }
             ],
             "constraints": [
@@ -9942,7 +10016,7 @@
               {
                 "name": "Enhancements",
                 "id": "131c-8a56-d003-b9a9",
-                "hidden": true,
+                "hidden": false,
                 "import": true,
                 "sortIndex": 2,
                 "targetId": "9e5d-de4c-c5d1-1d3e",

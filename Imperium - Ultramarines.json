@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 7,
+    "revision": 8,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -8270,12 +8270,6 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Tacticus",
-            "id": "490b-2a6d-9c17-1102",
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Faction: Ultramarines",
             "id": "7ccf-3269-1dc5-2655",
             "primary": false,
@@ -8292,6 +8286,13 @@
             "id": "20f2-d8ca-e355-da7e",
             "primary": false,
             "targetId": "6e7-40c-58d9-e402"
+          },
+          {
+            "name": "Tacticus",
+            "id": "79ad-ea1d-e4aa-8210",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [
@@ -11852,13 +11853,6 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "Tacticus",
-            "id": "f66c-dddf-6038-2253",
-            "hidden": false,
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Faction: Adeptus Astartes",
             "id": "dd7b-afb4-3ee5-04af",
             "hidden": false,
@@ -11885,6 +11879,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "7dcd-7f61-69a7-0294"
+          },
+          {
+            "name": "Tacticus",
+            "id": "1336-334f-ca1c-4606",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [

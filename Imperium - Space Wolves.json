@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 14,
+    "revision": 15,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -40091,13 +40091,6 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Tacticus",
-            "id": "7561-b395-a4bb-8e06",
-            "hidden": false,
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Wolf Guard",
             "id": "da8e-c673-3810-c99f",
             "hidden": false,
@@ -40110,6 +40103,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "3693-ed60-582f-a663"
+          },
+          {
+            "name": "Tacticus",
+            "id": "2618-1c2b-452b-9d9a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "entryLinks": [
@@ -42472,13 +42472,6 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Tacticus",
-            "id": "ed62-6a21-bb6a-586b",
-            "hidden": false,
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Wolf Guard",
             "id": "ac79-dfaf-107c-12c0",
             "hidden": false,
@@ -42491,6 +42484,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "3693-ed60-582f-a663"
+          },
+          {
+            "name": "Tacticus",
+            "id": "5468-d91f-2b38-a723",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "entryLinks": [

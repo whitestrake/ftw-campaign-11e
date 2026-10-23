@@ -9,7 +9,7 @@
     "gameSystemRevision": 1,
     "library": false,
     "readme": "",
-    "revision": 23,
+    "revision": 24,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1006,7 +1006,7 @@
           },
           {
             "name": "Base",
-            "$text": "32mm",
+            "$text": "28.5mm",
             "typeId": "nr-base-size"
           }
         ]

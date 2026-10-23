@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 21,
+    "revision": 22,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1243,16 +1243,6 @@
         "hidden": false
       },
       {
-        "name": "Fortis Kill Team",
-        "id": "94a4-4c41-84a4-d038",
-        "hidden": false
-      },
-      {
-        "name": "Indomitor Kill Team",
-        "id": "2546-062b-7236-7fa3",
-        "hidden": false
-      },
-      {
         "name": "Kill Team Cassius",
         "id": "ca02-4767-b068-1ccf",
         "hidden": false
@@ -1260,11 +1250,6 @@
       {
         "name": "Proteus Kill Team",
         "id": "1b81-a12a-8e8e-5dd4",
-        "hidden": false
-      },
-      {
-        "name": "Spectrus Kill Team",
-        "id": "2b33-05a8-bf42-72f9",
         "hidden": false
       },
       {
@@ -1316,18 +1301,8 @@
         ]
       },
       {
-        "name": "Tacticus",
-        "id": "6c22-f7e3-6731-b974",
-        "hidden": false
-      },
-      {
         "name": "Aquila Kill Team",
         "id": "6596-ebf9-88dc-59dc",
-        "hidden": false
-      },
-      {
-        "name": "Gravis",
-        "id": "1864-62f4-2094-8a39",
         "hidden": false
       },
       {
@@ -38066,18 +38041,11 @@
             "targetId": "ab1c-1334-d1cc-08df"
           },
           {
-            "name": "Deathwatch",
-            "id": "337b-5086-5cb5-9569",
+            "name": "Smoke",
+            "id": "c9f6-4c83-d4b0-6d69",
             "hidden": false,
             "primary": false,
-            "targetId": "357e-615e-5313-2ac2"
-          },
-          {
-            "name": "Frame",
-            "id": "62c1-4af6-b43b-056b",
-            "hidden": false,
-            "primary": false,
-            "targetId": "b927-8eeb-7cc3-8dec"
+            "targetId": "6df-937-16bc-8c1a"
           }
         ],
         "constraints": [
@@ -39238,13 +39206,6 @@
             "targetId": "e338-111e-d0c6-b687"
           },
           {
-            "name": "Grenades",
-            "id": "b5ea-f973-e0c5-26d2",
-            "hidden": false,
-            "primary": false,
-            "targetId": "5a61-81ac-eb7c-a87e"
-          },
-          {
             "name": "Imperium",
             "id": "54ef-869e-8cc1-4d1d",
             "hidden": false,
@@ -39273,18 +39234,18 @@
             "targetId": "ab1c-1334-d1cc-08df"
           },
           {
-            "name": "Deathwatch",
-            "id": "664f-e83e-a435-bdaf",
-            "hidden": false,
-            "primary": false,
-            "targetId": "357e-615e-5313-2ac2"
-          },
-          {
             "name": "Kill Team",
             "id": "b047-7bb6-b633-aa63",
             "hidden": false,
             "primary": false,
             "targetId": "81b0-a893-4fb7-c298"
+          },
+          {
+            "name": "Explosives",
+            "id": "161b-0a54-c398-55ec",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
           }
         ],
         "constraints": [
@@ -57203,13 +57164,6 @@
             "targetId": "5128-90b-e4a5-dcbd"
           },
           {
-            "name": "Deathwatch",
-            "id": "0c77-5005-fdf6-c53d",
-            "hidden": false,
-            "primary": false,
-            "targetId": "357e-615e-5313-2ac2"
-          },
-          {
             "name": "Watch Captain Artemis",
             "id": "8c85-c8c0-010c-516a",
             "hidden": false,
@@ -57229,6 +57183,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "1556-9b56-fba6-4370"
+          },
+          {
+            "name": "Captain",
+            "id": "0605-c88a-5396-9e53",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2d7f-1892-2fd0-e29c"
           }
         ],
         "constraints": [
@@ -57293,18 +57254,11 @@
             "type": "rule"
           },
           {
-            "name": "Feel No Pain",
+            "name": "Feel No Pain 6+",
             "id": "5067-bff4-679a-465f",
             "hidden": false,
-            "targetId": "9bf4-280f-bbe2-6fbb",
-            "type": "rule",
-            "modifiers": [
-              {
-                "field": "name",
-                "type": "append",
-                "value": "6+"
-              }
-            ]
+            "targetId": "676c-ecb5-d24d-3540",
+            "type": "rule"
           }
         ],
         "modifiers": [
@@ -57329,20 +57283,9 @@
             "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
             "field": "7f1b-8591-2fcf-d01c",
             "join": ", ",
-            "skipIfPresent": "Lethal Hits",
+            "skipIfPresent": "Sustained Hits",
             "type": "append",
-            "value": "Lethal Hits",
-            "conditions": [
-              {
-                "childId": "any",
-                "field": "associations",
-                "includeChildSelections": false,
-                "scope": "self",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
+            "value": "Sustained Hits 1"
           }
         ],
         "profiles": [
@@ -57357,7 +57300,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+                "$text": "This unit's attacks have [Sustained Hits 1].",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -57378,7 +57321,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -57424,7 +57367,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining.",
+                "$text": "At the end of a phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged with 3 wounds remaining.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -57520,12 +57463,12 @@
                   },
                   {
                     "name": "A",
-                    "$text": "D6",
+                    "$text": "3",
                     "typeId": "3bb-c35f-f54-fb08"
                   },
                   {
                     "name": "BS",
-                    "$text": "N/A",
+                    "$text": "-",
                     "typeId": "94d-8a98-cf90-183e"
                   },
                   {
@@ -57605,7 +57548,7 @@
                   },
                   {
                     "name": "S",
-                    "$text": "5",
+                    "$text": "6",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
                   {
@@ -57620,6 +57563,7 @@
                   },
                   {
                     "name": "Keywords",
+                    "$text": "",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ]
@@ -57772,20 +57716,6 @@
             "targetId": "cf47-a0d7-7207-29dc"
           },
           {
-            "name": "Captain",
-            "id": "867b-e65c-39e7-8d4a",
-            "hidden": false,
-            "primary": false,
-            "targetId": "2d7f-1892-2fd0-e29c"
-          },
-          {
-            "name": "Grenades",
-            "id": "ca40-e1c2-c7d2-ac2b",
-            "hidden": false,
-            "primary": false,
-            "targetId": "5a61-81ac-eb7c-a87e"
-          },
-          {
             "name": "Imperium",
             "id": "cd9e-b3b9-6629-4039",
             "hidden": false,
@@ -57807,13 +57737,6 @@
             "targetId": "428f-8c3b-d212-3eab"
           },
           {
-            "name": "Deathwatch",
-            "id": "ac9a-c6bc-5cf6-829e",
-            "hidden": false,
-            "primary": false,
-            "targetId": "357e-615e-5313-2ac2"
-          },
-          {
             "name": "Ordo Xenos",
             "id": "7c47-284d-4d60-af0d",
             "hidden": false,
@@ -57826,6 +57749,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "1556-9b56-fba6-4370"
+          },
+          {
+            "name": "Explosives",
+            "id": "cb2b-d197-afca-a425",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
           }
         ],
         "constraints": [
@@ -58176,7 +58106,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -58212,7 +58142,7 @@
             ]
           },
           {
-            "name": "Strategic Knowledge",
+            "name": "Strategic Acumen",
             "id": "bb75-0aef-e9ae-3fb6",
             "hidden": false,
             "page": 7,
@@ -58222,13 +58152,13 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+                "$text": "n your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
           },
           {
-            "name": "Rites of Battle",
+            "name": "Watch Master",
             "id": "08a0-d7b9-c806-9a9c",
             "hidden": false,
             "page": 7,
@@ -58238,7 +58168,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+                "$text": "This model’s attacks that target a Character unit can:\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -58255,6 +58185,20 @@
               {
                 "name": "Description",
                 "$text": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM, DEATHWATCH TERMINATOR SQUAD, FORTIS KILL TEAM, INDOMITOR KILL TEAM, PROTEUS KILL TEAM, SPECTRUS KILL TEAM",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Purgatus Quarry",
+            "id": "777e-1462-71e3-4788",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll **wound rolls** of 1.\n- Each time this unit’s **hunted** is **destroyed**, select up to one enemy unit to be this unit’s **hunted**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -58346,7 +58290,7 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
@@ -58361,6 +58305,7 @@
                       },
                       {
                         "name": "Keywords",
+                        "$text": "",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -58401,46 +58346,13 @@
                       },
                       {
                         "name": "D",
-                        "$text": "D3",
+                        "$text": "2",
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
                         "name": "Keywords",
                         "$text": "Lance",
                         "typeId": "893f-9000-ccf7-648e"
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "type": "append",
-                        "value": "+0",
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "childId": "584b-5fa7-a3c3-942e",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "self",
-                                "shared": true,
-                                "type": "atLeast",
-                                "value": 1
-                              },
-                              {
-                                "childId": "3238-43bc-70a5-b132",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "root-entry",
-                                "shared": true,
-                                "type": "atLeast",
-                                "value": 1
-                              }
-                            ]
-                          }
-                        ]
                       }
                     ]
                   }
@@ -63664,10 +63576,10 @@
         "categoryLinks": [
           {
             "name": "Tacticus",
-            "id": "9d69-6d59-956e-265a",
+            "id": "c0de-10c6-4e67-1e41",
             "hidden": false,
             "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "entryLinks": [
@@ -63916,10 +63828,10 @@
         "categoryLinks": [
           {
             "name": "Tacticus",
-            "id": "f609-27c3-99f3-2e18",
+            "id": "97d8-f3e2-5369-582b",
             "hidden": false,
             "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "entryLinks": [
@@ -64255,10 +64167,10 @@
         "categoryLinks": [
           {
             "name": "Tacticus",
-            "id": "90b3-841b-eeaa-782e",
+            "id": "bd76-fa12-577b-3d73",
             "hidden": false,
             "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "entryLinks": [
@@ -64585,10 +64497,10 @@
         "categoryLinks": [
           {
             "name": "Gravis",
-            "id": "743a-3a40-540b-41c4",
+            "id": "e711-be29-a9f1-15b5",
             "hidden": false,
             "primary": false,
-            "targetId": "1864-62f4-2094-8a39"
+            "targetId": "81f0-f40e-c36c-5a30"
           }
         ],
         "entryLinks": [
@@ -65481,13 +65393,6 @@
             "targetId": "e338-111e-d0c6-b687"
           },
           {
-            "name": "Grenades",
-            "id": "3472-4360-4aab-2d78",
-            "hidden": false,
-            "primary": false,
-            "targetId": "5a61-81ac-eb7c-a87e"
-          },
-          {
             "name": "Imperium",
             "id": "8823-9d19-6e33-026f",
             "hidden": false,
@@ -65500,13 +65405,6 @@
             "hidden": false,
             "primary": false,
             "targetId": "5128-90b-e4a5-dcbd"
-          },
-          {
-            "name": "Deathwatch",
-            "id": "5805-9af5-4fe8-8942",
-            "hidden": false,
-            "primary": false,
-            "targetId": "357e-615e-5313-2ac2"
           },
           {
             "name": "Aquila Kill Team",
@@ -65528,6 +65426,34 @@
             "hidden": false,
             "primary": false,
             "targetId": "ab1c-1334-d1cc-08df"
+          },
+          {
+            "name": "Explosives",
+            "id": "3c1e-2231-1809-06d9",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
+          },
+          {
+            "name": "Gravis",
+            "id": "0d9b-865d-ffbc-261d",
+            "hidden": false,
+            "primary": false,
+            "targetId": "81f0-f40e-c36c-5a30"
+          },
+          {
+            "name": "Tacticus",
+            "id": "cf84-dda4-39bd-b738",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
+          },
+          {
+            "name": "Kill Team",
+            "id": "aad9-32ec-6f71-3b54",
+            "hidden": false,
+            "primary": false,
+            "targetId": "81b0-a893-4fb7-c298"
           }
         ],
         "constraints": [
@@ -66023,10 +65949,10 @@
                     "categoryLinks": [
                       {
                         "name": "Tacticus",
-                        "id": "6b0a-c4de-3c21-1c20",
+                        "id": "f6ff-2746-41db-3e2d",
                         "hidden": false,
                         "primary": false,
-                        "targetId": "6c22-f7e3-6731-b974"
+                        "targetId": "5179-8ede-45e3-49a2"
                       }
                     ]
                   },
@@ -66336,10 +66262,10 @@
                     "categoryLinks": [
                       {
                         "name": "Tacticus",
-                        "id": "4e3c-9863-e88e-c639",
+                        "id": "880e-dee5-f4e6-78eb",
                         "hidden": false,
                         "primary": false,
-                        "targetId": "6c22-f7e3-6731-b974"
+                        "targetId": "5179-8ede-45e3-49a2"
                       }
                     ],
                     "constraints": [

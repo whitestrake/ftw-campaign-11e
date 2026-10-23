@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 17,
+    "revision": 18,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -1940,6 +1940,36 @@
         "name": "Plasma",
         "id": "cb29-f4bb-ff15-6b11",
         "hidden": false
+      },
+      {
+        "name": "Allies: Deathwatch",
+        "id": "8886-848f-a0f9-1e19",
+        "hidden": false
+      },
+      {
+        "name": "Gravis",
+        "id": "81f0-f40e-c36c-5a30",
+        "hidden": false
+      },
+      {
+        "name": "Tacticus",
+        "id": "5179-8ede-45e3-49a2",
+        "hidden": false
+      },
+      {
+        "name": "Fortis Kill Team",
+        "id": "94a4-4c41-84a4-d038",
+        "hidden": false
+      },
+      {
+        "name": "Indomitor Kill Team",
+        "id": "2546-062b-7236-7fa3",
+        "hidden": false
+      },
+      {
+        "name": "Spectrus Kill Team",
+        "id": "2b33-05a8-bf42-72f9",
+        "hidden": false
       }
     ],
     "costTypes": [
@@ -2399,6 +2429,12 @@
             "id": "d30c-1ea7-4805-b4be",
             "hidden": false,
             "targetId": "9988-6b5e-660e-d973"
+          },
+          {
+            "name": "Allies: Deathwatch",
+            "id": "281e-8dfd-6a10-d24b",
+            "hidden": false,
+            "targetId": "8886-848f-a0f9-1e19"
           }
         ],
         "constraints": [
@@ -2956,6 +2992,12 @@
             "id": "0b08-32da-55ba-d541",
             "hidden": false,
             "targetId": "9988-6b5e-660e-d973"
+          },
+          {
+            "name": "Allies: Deathwatch",
+            "id": "8f04-18c9-df5a-d189",
+            "hidden": false,
+            "targetId": "8886-848f-a0f9-1e19"
           }
         ],
         "constraints": [

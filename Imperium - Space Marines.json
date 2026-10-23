@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 21,
+    "revision": 22,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -41,11 +41,6 @@
       }
     ],
     "categoryEntries": [
-      {
-        "name": "Tacticus",
-        "id": "5179-8ede-45e3-49a2",
-        "hidden": false
-      },
       {
         "name": "Bladeguard Veteran Squad",
         "id": "930d-2875-125b-a65e",
@@ -104,11 +99,6 @@
       {
         "name": "Heavy Intercessor Squad",
         "id": "bc4b-906d-3e8b-fc45",
-        "hidden": false
-      },
-      {
-        "name": "Gravis",
-        "id": "81f0-f40e-c36c-5a30",
         "hidden": false
       },
       {
@@ -906,11 +896,6 @@
         "hidden": false
       },
       {
-        "name": "Indomitor Kill Team",
-        "id": "6acb-612b-3fe6-9061",
-        "hidden": false
-      },
-      {
         "name": "Faction: Blood Ravens",
         "id": "773a-1f03-ed2b-0e5d",
         "hidden": false
@@ -1008,17 +993,6 @@
       {
         "name": "Deathwatch Terminator Squad",
         "id": "8311-8645-4ce3-8b3",
-        "hidden": false
-      },
-      {
-        "name": "Spectrus Kill Team",
-        "id": "2de5-9b49-eb99-3e9f",
-        "comment": "Deathwatch",
-        "hidden": false
-      },
-      {
-        "name": "Fortis Kill Team",
-        "id": "a2bb-b582-9f57-27f5",
         "hidden": false
       },
       {
@@ -11411,19 +11385,8 @@
                     "value": 1
                   },
                   {
-                    "childId": "6acb-612b-3fe6-9061",
-                    "childName": "Indomitor Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
                     "childId": "2546-062b-7236-7fa3",
                     "childName": "Indomitor Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -13340,17 +13303,6 @@
                   {
                     "childId": "2b33-05a8-bf42-72f9",
                     "childName": "Spectrus Kill Team",
-                    "comment": "Agents",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "2de5-9b49-eb99-3e9f",
-                    "childName": "Spectrus Kill Team",
-                    "comment": "Deathwatch",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -30773,10 +30725,10 @@
           },
           {
             "name": "Tacticus",
-            "id": "9b0c-9e96-1d2b-79d3",
+            "id": "c2b7-3ab3-dda2-6cfd",
             "hidden": false,
             "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [
@@ -89915,7 +89867,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -90020,17 +89971,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 4,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 10,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -92062,17 +92002,6 @@
                   {
                     "childId": "2b33-05a8-bf42-72f9",
                     "childName": "Spectrus Kill Team",
-                    "comment": "Agents",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "2de5-9b49-eb99-3e9f",
-                    "childName": "Spectrus Kill Team",
-                    "comment": "Deathwatch",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -93117,7 +93046,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -93202,17 +93130,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 15,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 8,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -94368,17 +94285,6 @@
                   {
                     "childId": "2b33-05a8-bf42-72f9",
                     "childName": "Spectrus Kill Team",
-                    "comment": "Agents",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "2de5-9b49-eb99-3e9f",
-                    "childName": "Spectrus Kill Team",
-                    "comment": "Deathwatch",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -97008,7 +96914,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -97093,17 +96998,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 18,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 10,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -100297,7 +100191,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -100342,17 +100235,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 2,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 8,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -103649,17 +103531,6 @@
                     "value": 1
                   },
                   {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 9,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
                     "childId": "34d3-f5b3-ca63-4597",
                     "childName": "Hellblaster Squad",
                     "field": "selections",
@@ -103752,7 +103623,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -104536,17 +104406,6 @@
                   {
                     "childId": "2546-062b-7236-7fa3",
                     "childName": "Indomitor Kill Team",
-                    "comment": "Agents",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "6acb-612b-3fe6-9061",
-                    "childName": "Indomitor Kill Team",
-                    "comment": "Deathwatch",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -105247,7 +105106,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -105342,17 +105200,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 14,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 7,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -109531,15 +109378,6 @@
                     "value": 1
                   },
                   {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
                     "field": "selections",
@@ -110559,7 +110397,6 @@
                   {
                     "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
-                    "comment": "Agents",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -110664,17 +110501,6 @@
                     "scope": "self",
                     "shared": true,
                     "sortIndex": 18,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a2bb-b582-9f57-27f5",
-                    "childName": "Fortis Kill Team",
-                    "comment": "Deathwatch",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "sortIndex": 10,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -139793,17 +139619,17 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Tacticus",
-            "id": "8226-8305-3c7e-8c6f",
-            "hidden": false,
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Ferren Areios",
             "id": "74dc-91ea-2670-607d",
             "primary": false,
             "targetId": "091f-c1c6-7108-a175"
+          },
+          {
+            "name": "Tacticus",
+            "id": "7338-b24d-c22b-97fb",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [
@@ -142435,12 +142261,6 @@
             "targetId": "13bf-2bee-3ae0-b414"
           },
           {
-            "name": "Tacticus",
-            "id": "48a1-687c-1ec8-ee0d",
-            "primary": false,
-            "targetId": "6c22-f7e3-6731-b974"
-          },
-          {
             "name": "Faction: Adeptus Astartes",
             "id": "ed42-a6dc-002a-b24f",
             "primary": false,
@@ -142458,6 +142278,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e2bc-fc0c-1099-3e75"
+          },
+          {
+            "name": "Tacticus",
+            "id": "e88a-ab7e-a99c-8e64",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [
@@ -151540,6 +151367,15 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
+                "categoryLinks": [
+                  {
+                    "name": "Mounted",
+                    "id": "edf6-1dc3-74e6-55ac",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "14a0-40c9-2748-ae6e"
+                  }
+                ],
                 "constraints": [
                   {
                     "id": "d0eb-0328-4656-7ce5",
@@ -153300,6 +153136,22 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -154321,6 +154173,39 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "e21f-8e64-c5d-7df0",
+            "conditions": [
+              {
+                "childId": "470a-6daa-9014-12df",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
               }
             ]
           }
@@ -155632,6 +155517,22 @@
                 "scope": "force",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
                 "value": 1
               }
             ]
@@ -157461,6 +157362,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e33d-891d-33aa-e9bf"
+          },
+          {
+            "name": "Gravis",
+            "id": "8ba3-709f-beb5-3cb5",
+            "hidden": false,
+            "primary": false,
+            "targetId": "81f0-f40e-c36c-5a30"
           }
         ],
         "constraints": [
@@ -157568,7 +157476,7 @@
             "id": "274f-5738-7d89-dc5e",
             "hidden": false,
             "import": true,
-            "sortIndex": 3,
+            "sortIndex": 2,
             "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
@@ -157817,6 +157725,22 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -157825,7 +157749,7 @@
             "id": "27aa-0757-7a11-2050",
             "defaultSelectionEntryId": "dc49-0e3b-208b-c2ad",
             "hidden": false,
-            "sortIndex": 2,
+            "sortIndex": 3,
             "constraints": [
               {
                 "id": "07d4-8f31-6fe2-c816-min",
@@ -159390,12 +159314,6 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Fortis Kill Team",
-            "id": "5c0-51e7-95a9-bfb9",
-            "primary": false,
-            "targetId": "a2bb-b582-9f57-27f5"
-          },
-          {
             "name": "Faction: Adeptus Astartes",
             "id": "5156-1413-318e-d9be",
             "hidden": false,
@@ -159429,6 +159347,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e33d-891d-33aa-e9bf"
+          },
+          {
+            "name": "Fortis Kill Team",
+            "id": "77fe-867d-cb28-d740",
+            "hidden": false,
+            "primary": false,
+            "targetId": "94a4-4c41-84a4-d038"
           }
         ],
         "constraints": [
@@ -159800,6 +159725,22 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
               }
             ]
           }
@@ -162042,12 +161983,6 @@
             "targetId": "aff3-d6a3-2a95-9dc"
           },
           {
-            "name": "Indomitor Kill Team",
-            "id": "c96c-ed1-afd6-907",
-            "primary": false,
-            "targetId": "6acb-612b-3fe6-9061"
-          },
-          {
             "name": "Gravis",
             "id": "301b-b4d3-4949-1e15",
             "primary": false,
@@ -162072,6 +162007,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "81b0-a893-4fb7-c298"
+          },
+          {
+            "name": "Indomitor Kill Team",
+            "id": "e909-8505-c1d6-936c",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2546-062b-7236-7fa3"
           }
         ],
         "constraints": [
@@ -162179,7 +162121,7 @@
             "id": "df58-867e-655e-be55",
             "hidden": false,
             "import": true,
-            "sortIndex": 3,
+            "sortIndex": 2,
             "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
@@ -162445,6 +162387,22 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -162471,7 +162429,7 @@
             "id": "cecf-b6a2-6407-628a",
             "defaultSelectionEntryId": "84f7-2150-fe04-4f8b",
             "hidden": false,
-            "sortIndex": 2,
+            "sortIndex": 3,
             "constraints": [
               {
                 "id": "f87f-741f-4665-5417-min",
@@ -164091,12 +164049,6 @@
             "targetId": "6df-937-16bc-8c1a"
           },
           {
-            "name": "Spectrus Kill Team",
-            "id": "22b4-be42-58ca-3bce",
-            "primary": false,
-            "targetId": "2de5-9b49-eb99-3e9f"
-          },
-          {
             "name": "Kill Team",
             "id": "51d0-993a-5319-3542",
             "hidden": false,
@@ -164130,6 +164082,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "e33d-891d-33aa-e9bf"
+          },
+          {
+            "name": "Spectrus Kill Team",
+            "id": "af8a-74ba-fa23-9e36",
+            "hidden": false,
+            "primary": false,
+            "targetId": "2b33-05a8-bf42-72f9"
           }
         ],
         "constraints": [
@@ -164522,6 +164481,22 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
               }
             ]
           }
@@ -166892,6 +166867,22 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -168081,7 +168072,7 @@
                     "value": 1
                   },
                   {
-                    "childId": "a2bb-b582-9f57-27f5",
+                    "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
                     "field": "selections",
                     "scope": "self",
@@ -168331,6 +168322,24 @@
                 "field": "add-info",
                 "type": "add",
                 "value": "1897-c22c-9597-12b1"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
               }
             ]
           }
@@ -168678,7 +168687,7 @@
                     "value": 1
                   },
                   {
-                    "childId": "a2bb-b582-9f57-27f5",
+                    "childId": "94a4-4c41-84a4-d038",
                     "childName": "Fortis Kill Team",
                     "field": "selections",
                     "scope": "self",
@@ -169145,6 +169154,22 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "8886-848f-a0f9-1e19",
+            "conditions": [
+              {
+                "childId": "f89b-84e0-6e3b-f1e2",
+                "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -169588,38 +169613,146 @@
           {
             "conditionGroups": [
               {
-                "type": "and",
-                "conditions": [
+                "type": "or",
+                "conditionGroups": [
                   {
-                    "childId": "cac3-71d1-ea4b-795d",
-                    "field": "forces",
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "5eb6-4ed2-6aca-c7f1",
+                        "childName": "Deathwatch Support",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-f58e-5376-5834",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
-                    "childId": "5eb6-4ed2-6aca-c7f1",
-                    "childName": "Deathwatch Support",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "c4a1-f58e-5376-5834",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-1fb1-015a-b02f",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-2bed-c0f4-7351",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-34ee-3e09-dec1",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-5755-e319-387b",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-8303-99e0-4eca",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-873a-91a3-09db",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-9fcc-2114-81a4",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-b34e-74ec-e85a",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-bc34-0648-b621",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c53c-f4de-d70e",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c4a1-c606-1b0c-5197",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
-                ]
+                ],
+                "conditions": []
               }
             ],
             "field": "hidden",
@@ -216212,38 +216345,146 @@
                 "value": true,
                 "conditionGroups": [
                   {
-                    "type": "and",
-                    "conditions": [
+                    "type": "or",
+                    "conditionGroups": [
                       {
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "field": "forces",
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "field": "forces",
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "5eb6-4ed2-6aca-c7f1",
+                            "childName": "Deathwatch Support",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-f58e-5376-5834",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
                       },
                       {
-                        "childId": "5eb6-4ed2-6aca-c7f1",
-                        "childName": "Deathwatch Support",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "force",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c4a1-f58e-5376-5834",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "lessThan",
-                        "value": 1
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "childName": "Character",
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-1fb1-015a-b02f",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-2bed-c0f4-7351",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-34ee-3e09-dec1",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-5755-e319-387b",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-8303-99e0-4eca",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-873a-91a3-09db",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-9fcc-2114-81a4",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-b34e-74ec-e85a",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-bc34-0648-b621",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c53c-f4de-d70e",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c4a1-c606-1b0c-5197",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          }
+                        ]
                       }
-                    ]
+                    ],
+                    "conditions": []
                   }
                 ]
               }
