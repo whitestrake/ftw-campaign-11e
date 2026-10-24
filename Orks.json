@@ -1450,7 +1450,7 @@
           },
           {
             "name": "Base",
-            "$text": "Hull",
+            "$text": "150mm",
             "typeId": "nr-base-size"
           }
         ]
@@ -15694,7 +15694,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**",
+                "$text": "This model can be attached to the following unit:\n- **WARBIKERS**\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -50792,7 +50792,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "",
+                                "$text": "3",
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {

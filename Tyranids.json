@@ -33155,7 +33155,7 @@
               },
               {
                 "name": "Base",
-                "$text": "50mm",
+                "$text": "60mm",
                 "typeId": "nr-base-size"
               }
             ]

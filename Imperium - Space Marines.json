@@ -91088,6 +91088,16 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "entryLinks": [
+                          {
+                            "name": "Weapon Upgrades",
+                            "id": "de6d-4f79-8b35-e14b",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "8cf2-a48c-58d2-cb4e",
+                            "type": "selectionEntryGroup"
+                          }
+                        ],
                         "profiles": [
                           {
                             "name": "Master-crafted bolter",

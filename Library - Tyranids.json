@@ -992,6 +992,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -1961,6 +1976,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -2480,6 +2510,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -3065,6 +3112,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -3950,6 +4012,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -5172,6 +5249,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -5704,6 +5796,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -6641,6 +6748,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -7278,6 +7400,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -8192,6 +8329,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -9040,6 +9192,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -9780,6 +9947,21 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -10587,6 +10769,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -11380,6 +11577,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -12803,6 +13015,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -13686,6 +13913,21 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -14429,6 +14671,21 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "lessThan",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -15707,6 +15964,23 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "747a-c6a9-6f4f-7f09",
+            "conditions": [
+              {
+                "childId": "3bdf-a114-5035-c6ac",
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }

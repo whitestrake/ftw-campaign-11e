@@ -1970,6 +1970,11 @@
         "name": "Spectrus Kill Team",
         "id": "2b33-05a8-bf42-72f9",
         "hidden": false
+      },
+      {
+        "name": "Allies: Tyranids",
+        "id": "747a-c6a9-6f4f-7f09",
+        "hidden": false
       }
     ],
     "costTypes": [
@@ -2371,6 +2376,12 @@
             "targetId": "1160-70ae-a862-b1a8"
           },
           {
+            "name": "Allies: Adeptus Titanicus",
+            "id": "d30c-1ea7-4805-b4be",
+            "hidden": false,
+            "targetId": "9988-6b5e-660e-d973"
+          },
+          {
             "name": "Allies: Astra Militarum",
             "id": "58e9-03a9-8da7-f45b",
             "hidden": false,
@@ -2381,6 +2392,12 @@
             "id": "748a-f332-43fb-8218",
             "hidden": false,
             "targetId": "8dd6-af11-abd3-55f1"
+          },
+          {
+            "name": "Allies: Deathwatch",
+            "id": "281e-8dfd-6a10-d24b",
+            "hidden": false,
+            "targetId": "8886-848f-a0f9-1e19"
           },
           {
             "name": "Allies: Heretic Astartes",
@@ -2413,6 +2430,12 @@
             "targetId": "24fa-8caf-cd68-31fb"
           },
           {
+            "name": "Allies: Tyranids",
+            "id": "2a70-f48a-2223-f633",
+            "hidden": false,
+            "targetId": "747a-c6a9-6f4f-7f09"
+          },
+          {
             "name": "Allies: Unaligned Forces",
             "id": "ea72-49d5-9b60-d6cf",
             "hidden": false,
@@ -2423,18 +2446,6 @@
             "id": "3761-5a4e-79e0-3c18",
             "hidden": false,
             "targetId": "eef1-be80-500a-edfc"
-          },
-          {
-            "name": "Allies: Adeptus Titanicus",
-            "id": "d30c-1ea7-4805-b4be",
-            "hidden": false,
-            "targetId": "9988-6b5e-660e-d973"
-          },
-          {
-            "name": "Allies: Deathwatch",
-            "id": "281e-8dfd-6a10-d24b",
-            "hidden": false,
-            "targetId": "8886-848f-a0f9-1e19"
           }
         ],
         "constraints": [
@@ -2934,6 +2945,12 @@
             "targetId": "5b15-724e-2eeb-8cb7"
           },
           {
+            "name": "Allies: Adeptus Titanicus",
+            "id": "0b08-32da-55ba-d541",
+            "hidden": false,
+            "targetId": "9988-6b5e-660e-d973"
+          },
+          {
             "name": "Allies: Astra Militarum",
             "id": "ba9f-9f8a-b77f-14e6",
             "hidden": false,
@@ -2944,6 +2961,12 @@
             "id": "5037-1e14-c070-cfcd",
             "hidden": false,
             "targetId": "8dd6-af11-abd3-55f1"
+          },
+          {
+            "name": "Allies: Deathwatch",
+            "id": "8f04-18c9-df5a-d189",
+            "hidden": false,
+            "targetId": "8886-848f-a0f9-1e19"
           },
           {
             "name": "Allies: Heretic Astartes",
@@ -2976,6 +2999,12 @@
             "targetId": "24fa-8caf-cd68-31fb"
           },
           {
+            "name": "Allies: Tyranids",
+            "id": "93b1-3632-04ed-841c",
+            "hidden": false,
+            "targetId": "747a-c6a9-6f4f-7f09"
+          },
+          {
             "name": "Allies: Unaligned Forces",
             "id": "6830-ae83-9843-426d",
             "hidden": false,
@@ -2986,18 +3015,6 @@
             "id": "14de-c9cb-628a-6881",
             "hidden": false,
             "targetId": "eef1-be80-500a-edfc"
-          },
-          {
-            "name": "Allies: Adeptus Titanicus",
-            "id": "0b08-32da-55ba-d541",
-            "hidden": false,
-            "targetId": "9988-6b5e-660e-d973"
-          },
-          {
-            "name": "Allies: Deathwatch",
-            "id": "8f04-18c9-df5a-d189",
-            "hidden": false,
-            "targetId": "8886-848f-a0f9-1e19"
           }
         ],
         "constraints": [
