@@ -9859,13 +9859,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Damaged: 1-5 Wounds Remaining",
-            "id": "7232-b839-6063-53b3",
-            "hidden": false,
-            "targetId": "1aac-b083-4318-f750",
-            "type": "profile"
-          },
-          {
             "name": "Deadly Demise",
             "id": "46e0-ac64-330d-a61b",
             "hidden": false,

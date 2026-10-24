@@ -13837,7 +13837,7 @@
               },
               {
                 "name": "T",
-                "$text": "5",
+                "$text": "4",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -15353,6 +15353,26 @@
                 "name": "Keywords",
                 "$text": "Rapid Fire 2",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
+                "type": "append",
+                "value": "Assault",
+                "conditions": [
+                  {
+                    "childId": "6305-2974-3890-6ba0",
+                    "childName": "Baal Predator",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -36960,25 +36980,6 @@
             ]
           },
           {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "f797-f718-df7d-8545",
-                "childName": "Darnath Lysander",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 40,
@@ -46607,6 +46608,26 @@
                 "name": "Keywords",
                 "$text": "One Shot",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
+                "type": "append",
+                "value": "Assault",
+                "conditions": [
+                  {
+                    "childId": "6305-2974-3890-6ba0",
+                    "childName": "Baal Predator",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -109632,10 +109653,10 @@
         ],
         "infoLinks": [
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "ce13-3e00-844b-87b8",
             "hidden": false,
-            "targetId": "b4dd-3e1f-41cb-218f",
+            "targetId": "3342-2180-9c5d-925f",
             "type": "rule"
           },
           {
@@ -112215,11 +112236,11 @@
             "sortIndex": 2,
             "entryLinks": [
               {
-                "name": "Armoured hull",
+                "name": "Armoured Hull",
                 "id": "6423-b48-7c89-ffd7",
                 "hidden": false,
                 "import": true,
-                "targetId": "3fc0-1753-fefb-89b5",
+                "targetId": "3b59-048c-5410-33fe",
                 "type": "selectionEntry",
                 "entryLinks": [
                   {
@@ -112426,7 +112447,7 @@
                     "id": "ea7c-8a6f-3243-c2ae",
                     "hidden": false,
                     "import": true,
-                    "targetId": "f1a6-b394-5bc5-a3cb",
+                    "targetId": "d107-1e89-9d3f-c9c7",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {
@@ -112444,7 +112465,7 @@
                     "id": "857e-b816-c55c-c19d",
                     "hidden": false,
                     "import": true,
-                    "targetId": "c36c-6247-f673-fe00",
+                    "targetId": "e008-470a-83cb-c5e6",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {
@@ -112539,7 +112560,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "2",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -112559,11 +112580,12 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
                                 "name": "Keywords",
+                                "$text": "",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -112684,7 +112706,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Blast",
+                                "$text": "Blast 2",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -112703,7 +112725,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -112728,7 +112750,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Blast, Hazardous",
+                                "$text": "Blast 2, Hazardous",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -181713,7 +181735,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "ADEPTUS ASTARTES INFANTRY model only. This unit can re‑roll advance rolls and countercharge rolls.",
+                        "$text": "ADEPTUS ASTARTES INFANTRY model only. This unit can re‑roll charge rolls",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -183416,7 +183438,7 @@
                 ]
               },
               {
-                "name": "Troubling Visions",
+                "name": "Unto Death",
                 "id": "9b02-0492-ab9f-c2cd",
                 "hidden": false,
                 "import": true,
@@ -183487,7 +183509,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Troubling Visions",
+                    "name": "Unto Death",
                     "id": "84df-770d-abd1-82fb",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -209760,7 +209782,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Gravis model only. This unit had Scouts 5\"",
+                        "$text": "Gravis model only. This unit has Scouts 5\"",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]

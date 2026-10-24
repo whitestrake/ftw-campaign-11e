@@ -1433,6 +1433,15 @@
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
                   }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Assault",
+                    "id": "f47a-7d0f-5319-801f",
+                    "hidden": false,
+                    "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule"
+                  }
                 ]
               },
               {
@@ -1460,6 +1469,15 @@
                     "import": true,
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Assault",
+                    "id": "372f-81e6-b1c8-0c36",
+                    "hidden": false,
+                    "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule"
                   }
                 ]
               }
@@ -13723,6 +13741,13 @@
             "id": "e25b-8fb1-48d9-8415",
             "primary": false,
             "targetId": "62ac-ef42-27b4-ae7"
+          },
+          {
+            "name": "Tacticus",
+            "id": "77a2-e6ed-70d0-9afd",
+            "hidden": false,
+            "primary": false,
+            "targetId": "5179-8ede-45e3-49a2"
           }
         ],
         "constraints": [

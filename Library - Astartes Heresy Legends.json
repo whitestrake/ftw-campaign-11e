@@ -21617,7 +21617,7 @@
         "id": "d298-eb55-5779-f90e",
         "hidden": false,
         "import": true,
-        "type": "model",
+        "type": "unit",
         "categoryLinks": [
           {
             "name": "Faction: Adeptus Astartes",
@@ -21652,11 +21652,6 @@
         ],
         "costs": [
           {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 30
-          },
-          {
             "name": "Crusade Points",
             "typeId": "b03b-c239-15a5-da55",
             "value": 0
@@ -21679,6 +21674,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -21778,64 +21783,133 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "Wargear",
-            "id": "d901-b201-cb70-3197",
-            "defaultSelectionEntryId": "8106-4848-82fb-ac14",
+            "name": "Tarantula Sentry Battery",
+            "id": "e3ae-2a2d-ae71-fac4",
             "hidden": false,
-            "constraints": [
+            "selectionEntries": [
               {
-                "id": "80c2-c2b4-e6f7-8e45",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "min",
-                "value": 1
-              },
-              {
-                "id": "bf8b-5549-cf2a-23f5",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Twin heavy bolter",
-                "id": "8106-4848-82fb-ac14",
+                "name": "Tarantula Sentry Battery",
+                "id": "e303-c5be-19e1-1ee4",
                 "hidden": false,
                 "import": true,
-                "targetId": "f1a6-b394-5bc5-a3cb",
-                "type": "selectionEntry",
-                "entryLinks": [
+                "type": "model",
+                "constraints": [
                   {
-                    "name": "Weapon Modifications",
-                    "id": "c30a-d2ac-ce40-1b81",
-                    "flatten": false,
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f9da-852a-d7f0-92e9",
-                    "type": "selectionEntryGroup"
+                    "id": "d0cc-07bb-7458-e967",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
                   }
-                ]
-              },
-              {
-                "name": "Twin lascannon",
-                "id": "4e39-d17d-8a5b-f86a",
-                "hidden": false,
-                "import": true,
-                "targetId": "c36c-6247-f673-fe00",
-                "type": "selectionEntry",
-                "entryLinks": [
+                ],
+                "costs": [
                   {
-                    "name": "Weapon Modifications",
-                    "id": "743f-47b7-03c2-441b",
-                    "flatten": false,
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Wargear",
+                    "id": "d901-b201-cb70-3197",
+                    "defaultSelectionEntryId": "8106-4848-82fb-ac14",
                     "hidden": false,
-                    "import": true,
-                    "targetId": "f9da-852a-d7f0-92e9",
-                    "type": "selectionEntryGroup"
+                    "constraints": [
+                      {
+                        "id": "80c2-c2b4-e6f7-8e45",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "bf8b-5549-cf2a-23f5",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Twin heavy bolter",
+                        "id": "8106-4848-82fb-ac14",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "f1a6-b394-5bc5-a3cb",
+                        "type": "selectionEntry",
+                        "entryLinks": [
+                          {
+                            "name": "Weapon Modifications",
+                            "id": "c30a-d2ac-ce40-1b81",
+                            "flatten": false,
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "f9da-852a-d7f0-92e9",
+                            "type": "selectionEntryGroup"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Twin lascannon",
+                        "id": "4e39-d17d-8a5b-f86a",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "c36c-6247-f673-fe00",
+                        "type": "selectionEntry",
+                        "entryLinks": [
+                          {
+                            "name": "Weapon Modifications",
+                            "id": "743f-47b7-03c2-441b",
+                            "flatten": false,
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "f9da-852a-d7f0-92e9",
+                            "type": "selectionEntryGroup"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
