@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -14340,7 +14340,7 @@
               },
               {
                 "name": "Base",
-                "$text": "50mm",
+                "$text": "40mm",
                 "typeId": "nr-base-size"
               }
             ]
