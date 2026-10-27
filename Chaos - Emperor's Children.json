@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 31,
     "library": false,
-    "revision": 14,
+    "revision": 15,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -584,6 +584,38 @@
             "primary": false,
             "targetId": "4c25-d2f3-36bb-8067"
           }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "3c9e-2156-254e-66e8",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -601,6 +633,38 @@
             "primary": false,
             "targetId": "4c25-d2f3-36bb-8067"
           }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "3c9e-2156-254e-66e8",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -617,6 +681,38 @@
             "hidden": false,
             "primary": false,
             "targetId": "4c25-d2f3-36bb-8067"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "3c9e-2156-254e-66e8",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -12645,6 +12741,7 @@
                     "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
                     "type": "append",
                     "value": "Sustained Hits 1"
                   },
@@ -12653,6 +12750,7 @@
                     "field": "893f-9000-ccf7-648e",
                     "join": ", ",
                     "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
                     "type": "append",
                     "value": "Sustained Hits 1"
                   }
@@ -22225,13 +22323,6 @@
             "targetId": "b2a9-ede5-7a83-4da8"
           },
           {
-            "name": "Seekers",
-            "id": "d704-86d0-5651-d1e3",
-            "hidden": false,
-            "primary": false,
-            "targetId": "15d7-63fa-2466-d392"
-          },
-          {
             "name": "Summoned",
             "id": "4bdc-2b8b-ea43-7246",
             "hidden": false,
@@ -22244,6 +22335,13 @@
             "hidden": false,
             "primary": false,
             "targetId": "4c25-d2f3-36bb-8067"
+          },
+          {
+            "name": "Seekers",
+            "id": "2855-a34a-02c4-f3eb",
+            "hidden": false,
+            "primary": false,
+            "targetId": "46c8-ca2f-9529-3686"
           }
         ],
         "constraints": [
