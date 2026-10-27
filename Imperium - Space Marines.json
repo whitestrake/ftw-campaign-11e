@@ -78584,33 +78584,14 @@
                     "type": "selectionEntryGroup"
                   }
                 ]
-              }
-            ],
-            "selectionEntries": [
+              },
               {
                 "name": "Godhammer Lascannon",
-                "id": "7c56-d514-6af0-22da",
+                "id": "277e-a23e-4c1f-e93c",
                 "hidden": false,
                 "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {
-                    "id": "1e44-2603-af6c-2d01",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "min",
-                    "value": 2
-                  },
-                  {
-                    "id": "d9a2-2d4e-76bf-c4f8",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 2
-                  }
-                ],
+                "targetId": "3fd3-6ae-e4fe-c09b",
+                "type": "selectionEntry",
                 "entryLinks": [
                   {
                     "name": "Weapon Modifications",
@@ -78619,52 +78600,6 @@
                     "import": true,
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Godhammer Lascannon",
-                    "id": "f8ef-356a-222-f593",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "48\"",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "2",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "12",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-3",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "D3+3",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "name": "Keywords",
-                        "$text": "",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ]
                   }
                 ]
               }
@@ -83125,7 +83060,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -112523,7 +112458,7 @@
                 "id": "828b-bc4e-425f-7b5e",
                 "hidden": false,
                 "import": true,
-                "targetId": "7eb4-c21c-d0a2-39df",
+                "targetId": "eb61-5cd0-5242-74cc",
                 "type": "selectionEntry",
                 "constraints": [
                   {
@@ -112694,7 +112629,7 @@
                     "id": "857e-b816-c55c-c19d",
                     "hidden": false,
                     "import": true,
-                    "targetId": "e008-470a-83cb-c5e6",
+                    "targetId": "2d53-dff4-e01f-bef4",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {
@@ -114933,14 +114868,14 @@
         ]
       },
       {
-        "name": "Godhammer Lascannons",
+        "name": "Godhammer Lascannon",
         "id": "3fd3-6ae-e4fe-c09b",
         "hidden": false,
         "import": true,
         "type": "upgrade",
         "profiles": [
           {
-            "name": "Godhammer Lascannons",
+            "name": "Godhammer Lascannon",
             "id": "5185-ef4a-7f2c-9bc5",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -114973,11 +114908,12 @@
               },
               {
                 "name": "D",
-                "$text": "D6+1",
+                "$text": "D3+3",
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
                 "name": "Keywords",
+                "$text": "",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
             ]
@@ -123333,7 +123269,7 @@
                 "id": "837f-9ff6-8d98-b9b4",
                 "hidden": false,
                 "import": true,
-                "targetId": "395-4b75-b9b2-7a5c",
+                "targetId": "da38-da4f-dc42-7758",
                 "type": "selectionEntry",
                 "constraints": [
                   {
@@ -133319,25 +133255,6 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "childName": "1. Incursion (1000 Point limit)",
                 "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a4c3-fdb-4d12-e303",
-                "childName": "Kayvaan Shrike",
-                "field": "selections",
-                "includeChildForces": true,
                 "includeChildSelections": true,
                 "scope": "force",
                 "shared": true,
@@ -150463,26 +150380,6 @@
                 "name": "Keywords",
                 "$text": "Rapid Fire 1",
                 "typeId": "7f1b-8591-2fcf-d01c"
-              }
-            ],
-            "modifiers": [
-              {
-                "affects": "self.entries",
-                "field": "3bb-c35f-f54-fb08",
-                "type": "increment",
-                "value": 1,
-                "conditions": [
-                  {
-                    "childId": "caed-a62d-2318-dda1",
-                    "childName": "Death Company Marines",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "ancestor",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
               }
             ]
           },
@@ -203595,6 +203492,15 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "field": "2337-daa1-6682-b110",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                    "type": "increment",
+                    "value": 2
                   },
                   {
                     "conditionGroups": [

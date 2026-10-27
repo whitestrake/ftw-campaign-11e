@@ -21296,69 +21296,6 @@
                         "value": 1
                       }
                     ]
-                  },
-                  {
-                    "name": "Grenade Launcher",
-                    "id": "1432-09d1-3a7f-7484",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "ef0a-b1da-8926-b298",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {
-                        "id": "b6a5-4b41-3240-392e-min",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "min",
-                        "value": 1
-                      },
-                      {
-                        "id": "b6a5-4b41-3240-392e-max",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "max",
-                        "value": 1
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "error",
-                        "type": "add",
-                        "value": "Max 1 {this} per 5 models",
-                        "conditionGroups": [
-                          {
-                            "type": "and",
-                            "conditions": [
-                              {
-                                "id": "aeb1-5e06-81d4-2ed7",
-                                "childId": "edee-48a2-1e8a-2539",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "3825-ac3a-75ec-fa0d",
-                                "shared": true,
-                                "type": "lessThan",
-                                "value": 10
-                              },
-                              {
-                                "id": "e99c-e62e-4f2d-beb1",
-                                "childId": "ef0a-b1da-8926-b298",
-                                "childName": "Grenade Launcher",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "3825-ac3a-75ec-fa0d",
-                                "shared": true,
-                                "type": "greaterThan",
-                                "value": 1
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -21431,6 +21368,140 @@
                             "name": "Keywords",
                             "$text": "",
                             "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Grenade Launcher",
+                    "id": "3cbc-483f-ed77-5493",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "73a5-885a-52ec-0a0a",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "ee56-c5a9-a20d-3608",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Rapid Fire",
+                        "id": "5769-74da-0715-4117",
+                        "hidden": false,
+                        "targetId": "c5c8-8b58-b8b6-7786",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Blast",
+                        "id": "26e6-2c91-d6e9-7470",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Grenade Launcher - Krak",
+                        "id": "f2fc-28c7-e9e7-8d30",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "24\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "3+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "10",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "3",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Rapid Fire 1",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Grenade Launcher - Frag",
+                        "id": "6511-b033-4dbf-82ca",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "24\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "4",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "3+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "4",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast 1",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
                       }

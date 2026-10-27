@@ -9556,7 +9556,7 @@
             ]
           },
           {
-            "affects": "group.recursive.profiles.Unit",
+            "affects": "self.entries.group.recursive.profiles.Unit",
             "field": "bef7-942a-1a23-59f8",
             "type": "increment",
             "value": 1

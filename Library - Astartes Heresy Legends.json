@@ -18622,7 +18622,7 @@
       {
         "name": "Fellblade [Legends]",
         "id": "585d-722b-4304-2f63",
-        "hidden": false,
+        "hidden": true,
         "import": true,
         "type": "model",
         "categoryLinks": [
