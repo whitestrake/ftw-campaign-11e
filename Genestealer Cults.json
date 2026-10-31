@@ -30626,7 +30626,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model. Enemy units cannot target this unit with **snap shooting** attacks.",
+                "$text": "Enemy units cannot target this unit with **snap shooting** attacks.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
