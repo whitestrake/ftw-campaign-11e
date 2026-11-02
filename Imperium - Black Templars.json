@@ -11302,7 +11302,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Astartes chainsword",
+                    "name": "Chainsword",
                     "id": "f1f5-e3fc-9bd1-c5a9",
                     "hidden": false,
                     "import": true,
@@ -11337,7 +11337,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "Astartes Chainsword",
+                        "name": "Chainsword",
                         "id": "894a-1434-3d9-9df6",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -11360,7 +11360,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {

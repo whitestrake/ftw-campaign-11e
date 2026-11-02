@@ -34017,11 +34017,11 @@
                         ]
                       },
                       {
-                        "name": "Astartes Chainsword",
+                        "name": "Chainsword",
                         "id": "464b-51e7-0c71-6895",
                         "hidden": false,
                         "import": true,
-                        "targetId": "f241-f2ab-c2bd-cf0e",
+                        "targetId": "da18-5b5d-832e-5ebc",
                         "type": "selectionEntry",
                         "entryLinks": [
                           {
@@ -78592,6 +78592,26 @@
                 "import": true,
                 "targetId": "3fd3-6ae-e4fe-c09b",
                 "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "14e8-d9e2-891f-ae62",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "9a8e-47ee-aa51-c11c",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 2
+                  }
+                ],
                 "entryLinks": [
                   {
                     "name": "Weapon Modifications",
@@ -101276,7 +101296,7 @@
       {
         "name": "Astartes Servitors [Legends]",
         "id": "74c4-82d0-4c98-2fa8",
-        "hidden": false,
+        "hidden": true,
         "import": true,
         "type": "unit",
         "categoryLinks": [
@@ -104497,7 +104517,7 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "3\"",
+                        "$text": "Melee",
                         "typeId": "914c-b413-91e3-a132"
                       },
                       {
@@ -110688,6 +110708,15 @@
                     "sortIndex": 18,
                     "type": "instanceOf",
                     "value": 1
+                  },
+                  {
+                    "childId": "f014-c078-e513-cc1b",
+                    "childName": "Desolation Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -112467,6 +112496,15 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "77ff-634f-dbf2-3556",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
                     "value": 1
                   }
                 ],
@@ -198545,6 +198583,14 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "field": "893f-9000-ccf7-648e",
+                    "join": ", ",
+                    "scope": "parent",
+                    "type": "append",
+                    "value": "Lance"
                   },
                   {
                     "conditionGroups": [
