@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -19228,6 +19228,24 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Daemon Lord",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "2229-f494-25db-c5d3",
+                "type": "increment",
+                "value": 1
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "annotation",
+                "type": "set",
+                "value": "Daemon Lord of Tzeentch"
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -30187,6 +30205,24 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Daemon Lord",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "field": "d29d-cf75-fc2d-34a4",
+                "type": "increment",
+                "value": 1
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Unit",
+                "field": "annotation",
+                "type": "set",
+                "value": "Daemon Lord of Nurgle"
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -39660,6 +39696,24 @@
                     "value": 50
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Daemon Lord",
+            "type": "and",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                "field": "41a0-1301-112a-e2f2",
+                "type": "decrement",
+                "value": 1
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                "field": "annotation",
+                "type": "set",
+                "value": "Daemon Lord of Slaanesh"
               }
             ]
           }
@@ -64218,6 +64272,13 @@
                     ]
                   }
                 ]
+              },
+              {
+                "affects": "group",
+                "field": "add-info",
+                "scope": "parent",
+                "type": "add",
+                "value": "699c-55ed-7fee-65ab"
               }
             ],
             "profiles": [
