@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 28,
+    "revision": 29,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -49183,7 +49183,7 @@
                   {
                     "field": "name",
                     "type": "set",
-                    "value": "Tomb Crawler w/ dimensional isolator",
+                    "value": "Tomb Crawler w/ transdimensional isolator",
                     "conditions": [
                       {
                         "childId": "f70b-7187-4cf7-b9de",
@@ -49377,7 +49377,7 @@
                         ]
                       },
                       {
-                        "name": "Dimensional isolator",
+                        "name": "Transdimensional isolator",
                         "id": "f70b-7187-4cf7-b9de",
                         "hidden": false,
                         "import": true,
@@ -49394,7 +49394,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Dimensional isolator",
+                            "name": "Transdimensional isolator",
                             "id": "6d34-39a2-a02b-9ae4",
                             "hidden": false,
                             "typeId": "f77d-b953-8fa4-b762",
