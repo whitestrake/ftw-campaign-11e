@@ -248,10 +248,10 @@
           },
           {
             "name": "Campaign Enhancement Slot",
-            "id": "c4a1-2bc3-3348-2f29",
+            "id": "c4a1-b16b-0ad4-f367",
             "hidden": false,
             "import": true,
-            "targetId": "c4a1-2bed-c0f4-7351",
+            "targetId": "c4a1-872d-5aa8-25f8",
             "type": "selectionEntry"
           }
         ],
@@ -728,10 +728,10 @@
           },
           {
             "name": "Campaign Enhancement Slot",
-            "id": "c4a1-69fe-4bbb-2d4b",
+            "id": "c4a1-3980-1900-9559",
             "hidden": false,
             "import": true,
-            "targetId": "c4a1-2bed-c0f4-7351",
+            "targetId": "c4a1-872d-5aa8-25f8",
             "type": "selectionEntry"
           }
         ],
@@ -1274,10 +1274,10 @@
           },
           {
             "name": "Campaign Enhancement Slot",
-            "id": "c4a1-8261-9a97-a369",
+            "id": "c4a1-c091-4992-544a",
             "hidden": false,
             "import": true,
-            "targetId": "c4a1-2bed-c0f4-7351",
+            "targetId": "c4a1-872d-5aa8-25f8",
             "type": "selectionEntry"
           }
         ],
@@ -1642,7 +1642,7 @@
             "shared": true,
             "type": "max",
             "value": 1,
-            "id": "c4a1-ecd7-3127-6198"
+            "id": "c4a1-5645-9971-3516"
           },
           {
             "field": "c4a1-5eed-3000-0040",
@@ -1653,7 +1653,7 @@
             "type": "max",
             "value": 1,
             "message": "Only one Campaign Enhancement Slot can be used in the army.",
-            "id": "c4a1-1cca-d251-d691"
+            "id": "c4a1-55c8-328b-074f"
           }
         ],
         "costs": [
@@ -1698,21 +1698,21 @@
             "name": "Campaign Enhancement Slot",
             "hidden": false,
             "description": "A spare Enhancement slot bought with campaign tokens. The enhancement in it is paid for as normal, but it does not count towards the army’s Enhancement limit and ignores the usual restrictions on which **^^Character^^** can take it, including **^^Epic Heroes^^** and characters that already have an Enhancement. Each Enhancement is still limited to one per army.",
-            "id": "c4a1-9caf-518c-dd66"
+            "id": "c4a1-a71b-9e22-2717"
           }
         ],
-        "id": "c4a1-2bed-c0f4-7351",
+        "id": "c4a1-872d-5aa8-25f8",
         "entryLinks": [
           {
             "name": "Enhancements",
-            "id": "c4a1-dddc-e11b-8b2c",
+            "id": "c4a1-535c-f5a5-acea",
             "hidden": false,
             "import": true,
-            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "targetId": "c3c8-4ca0-ec6e-6686",
             "type": "selectionEntryGroup",
             "constraints": [
               {
-                "id": "c4a1-0eb6-bab9-894c",
+                "id": "c4a1-5b9e-e875-b7c6",
                 "field": "selections",
                 "includeChildSelections": true,
                 "scope": "self",

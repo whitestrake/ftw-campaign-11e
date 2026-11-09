@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -22527,6 +22527,92 @@
                 "name": "Description",
                 "$text": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Armoured Feet",
+            "id": "fe64-de62-6b62-d1da",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "65a5-0688-76bc-32aa-min",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "65a5-0688-76bc-32aa-max",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Weapon Modifications",
+                "id": "ae1a-5b60-2b76-8709",
+                "flatten": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f9da-852a-d7f0-92e9",
+                "type": "selectionEntryGroup"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Armoured Feet",
+                "id": "3b9e-f8af-6182-6856",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "Melee",
+                    "typeId": "914c-b413-91e3-a132"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "5",
+                    "typeId": "2337-daa1-6682-b110"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "3+",
+                    "typeId": "95d1-95f-45b4-11d6"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "6",
+                    "typeId": "ab33-d393-96ce-ccba"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "0",
+                    "typeId": "41a0-1301-112a-e2f2"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "1",
+                    "typeId": "3254-9fe6-d824-513e"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "",
+                    "typeId": "893f-9000-ccf7-648e"
+                  }
+                ]
               }
             ]
           }
