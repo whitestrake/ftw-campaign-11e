@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 7,
+    "revision": 8,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -21294,6 +21294,40 @@
                         "shared": true,
                         "type": "max",
                         "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "error",
+                    "type": "add",
+                    "value": "Max 1 grenade launcher per 5 models",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "model",
+                            "childName": "model",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 10
+                          },
+                          {
+                            "childId": "7866-1e19-381c-9c5e",
+                            "childName": "Death Company Marine w/ Bolt Rifle and Grenade Launcher",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   }
