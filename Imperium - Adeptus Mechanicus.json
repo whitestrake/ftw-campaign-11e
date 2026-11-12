@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -367,6 +367,11 @@
             "value": 1
           }
         ]
+      },
+      {
+        "name": "Halo Override",
+        "id": "8785-cfd8-891e-be2f",
+        "hidden": false
       }
     ],
     "entryLinks": [
@@ -45199,6 +45204,20 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "group",
+                "field": "add-info",
+                "scope": "parent",
+                "type": "add",
+                "value": "c05d-f4c3-f091-4938"
+              },
+              {
+                "affects": "group",
+                "field": "add-info",
+                "scope": "parent",
+                "type": "add",
+                "value": "08fb-4cb5-36fb-d638"
               }
             ],
             "profiles": [
@@ -45799,6 +45818,13 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "group",
+                "field": "add-info",
+                "scope": "parent",
+                "type": "add",
+                "value": "bec5-4288-34a6-ccfa"
               }
             ],
             "profiles": [
@@ -45949,6 +45975,22 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "scope": "parent",
+                "skipIfPresent": "Sustained Hits",
+                "type": "append",
+                "value": "Sustained Hits 1"
+              },
+              {
+                "affects": "group",
+                "field": "add-info",
+                "scope": "parent",
+                "type": "add",
+                "value": "1897-c22c-9597-12b1"
               }
             ],
             "profiles": [
@@ -46099,6 +46141,24 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "scope": "parent",
+                "skipIfPresent": "Anti-Infantry",
+                "type": "append",
+                "value": "Anti-Infantry 2+"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "scope": "parent",
+                "skipIfPresent": "Anti-Monster",
+                "type": "append",
+                "value": "Anti-Monster 4+"
               }
             ],
             "profiles": [
@@ -47640,7 +47700,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "Once per turn, at the start of your opponent’s Shooting phase, select one enemy Vehicle unit within 12\" of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.",
+                    "$text": "Once per turn, at the start of your opponent’s Shooting phase, select one enemy ^^**Vehicle**^^ unit within 12\" of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -48087,6 +48147,13 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "group",
+                "field": "category",
+                "scope": "parent",
+                "type": "add",
+                "value": "8785-cfd8-891e-be2f"
               }
             ],
             "profiles": [
@@ -48408,11 +48475,18 @@
                     "conditions": []
                   }
                 ]
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "9896-9419-16a1-92fc",
+                "scope": "parent",
+                "type": "increment",
+                "value": 6
               }
             ],
             "profiles": [
               {
-                "name": "Santified Ordnance",
+                "name": "Sanctified Ordnance",
                 "id": "1bb0-0d70-be66-2ea9",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
